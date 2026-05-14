@@ -1,0 +1,17 @@
+﻿Diagnostic,High green support,Low green support,Matched or model result
+MLD true-night local 2m P90 exceedance,4.4%,4.8%,Reference hot-exposure state
+DHD true-night local 2m P90 exceedance,20.7%,18.8%,Independent hot-night flag before DHD gating
+Extreme-DHD true-night local 2m P90 exceedance,25.6%,23.1%,Independent hot-night flag before DHD gating
+DHD green-refuge functional-failure rate,10.3%,8.4%,DHD-gated compound event
+Extreme-DHD green-refuge functional-failure rate,13.0%,10.3%,DHD-gated compound event
+DHD-minus-MLD true-hot-night probability,0.172,0.145,+0.0160 (95% CI 0.0124 to 0.0197)
+DHD-minus-MLD compound-failure probability,0.104,0.072,+0.0117 (95% CI 0.0092 to 0.0143)
+Failure given DHD true-hot night,55.8%,45.2%,+0.0277 (95% CI 0.0195 to 0.0358)
+DHD-minus-MLD core-ring anomaly shift,0.325 °C,0.154 °C,+0.070 °C (95% CI 0.053 to 0.088)
+Fixed-effect DHD × high-green-support term,not applicable,not applicable,Core-ring anomaly coefficient +0.0678 °C; anomalous-core-warming probability coefficient +0.0280.
+Matched compound-loss effect: original 10-20 km ring support,not applicable,not applicable,+0.0115 (95% CI 0.0090 to 0.0141); primary vegetation-support definition.
+Matched compound-loss effect: core vegetation support,not applicable,not applicable,+0.0193 (95% CI 0.0166 to 0.0219); support-based check.
+Matched compound-loss effect: mean core-ring support,not applicable,not applicable,+0.0126 (95% CI 0.0100 to 0.0151); support-based check.
+Matched compound-loss effect: core vegetation share,not applicable,not applicable,-0.0062 (95% CI -0.0086 to -0.0038); fractional core-share split is a boundary condition.
+Continuous compound-loss term: ring support,not applicable,not applicable,Ring-support coefficient +0.00905 per s.d. (P < 0.001) in the continuous vegetation-gradient model.
+Additional represented resident-8-day intervals from matched ring-support effect,not applicable,not applicable,5.0 billion additional represented resident-8-day intervals over 2003-2025.

@@ -1,0 +1,7 @@
+﻿Region or diagnostic,Summary
+Europe lagged pathway,Acute late-stage drying: VPD +6.31 and +6.70 percentile points at lag -1 and 0; soil moisture -3.59 to -6.98 percentile points from lag -2 to 0; core-ring anomaly +0.071 and +0.064 °C at lag -1 and 0
+Europe pressure-level confirmation,Z500 +15.7 gpm; T850 +0.55 °C; 500 hPa vertical velocity (omega) +0.0054 Pa s⁻¹; 700 hPa vertical velocity (omega) +0.0040 Pa s⁻¹; soil moisture -0.0095 m³ m⁻³; precipitation -0.35 mm
+Eastern and South-Eastern Asia lagged pathway,Longer preconditioning: VPD +5.09 at lag -4; soil moisture -4.33 at lag -4 and -6.89 by lag 0; true-night 2m air hotter from lag -4 through lag 0
+Eastern and South-Eastern Asia pressure-level confirmation,"Z500 +6.85 gpm; T850 +0.28 °C; weaker pooled subsidence, wind and soil-moisture contrasts at lag 0"
+Eastern and South-Eastern Asia pathway decomposition,"Soil memory predicts hotter true nights (β = 0.64, P = 0.018); hotter true nights predict anomalous core warming (β = 0.49, P = 0.023)"
+Counterfactual reset decomposition,"Resetting soil memory reduces predicted excess failure in Eastern and South-Eastern Asia by 0.0138 absolute, or 26.3%; European resets are small and uncertain"

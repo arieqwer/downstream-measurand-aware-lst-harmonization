@@ -1,0 +1,15 @@
+﻿Diagnostic,Result,Interpretation
+All matched pairs,+0.0117 compound-loss effect (95% CI 0.0092 to 0.0143),Primary matched high-minus-low green-support penalty
+Night-valid fraction screen,"+0.0142 (95% CI 0.0109 to 0.0175); 1,654 pairs",Penalty persists when both cities have night-valid fraction ≥0.75
+Pixel-support screen,"+0.0116 (95% CI 0.0089 to 0.0144); 2,403 pairs",Penalty persists after excluding the lowest 10% of pixel support
+Ring built-share proxy screen,"+0.0113 (95% CI 0.0084 to 0.0142); 2,230 pairs",Penalty persists after excluding the highest 10% of ring built-share proxy values
+Sampling-imbalance screen,"+0.0132 (95% CI 0.0103 to 0.0160); 2,304 pairs",Penalty persists after excluding the strongest DHD-MLD sampling imbalances
+Combined artifact screen,"+0.0139 (95% CI 0.0098 to 0.0180); 1,156 pairs",Penalty persists under the strictest MODIS sampling and composition screen
+Local 2m P95 threshold,+0.0550 high-minus-low functional-failure share among DHD hot intervals,Conditional functional-failure signal survives a more extreme local threshold
+Local 2m P90 plus ≥25 °C / ≥26 °C,+0.0497 / +0.0474 high-minus-low functional-failure share,Hybrid threshold brackets published hot-night cutoffs while retaining local acclimatization
+Absolute ≥25 °C / ≥26 °C / ≥28 °C thresholds,+0.0440 / +0.0420 / +0.0560 high-minus-low functional-failure share,Absolute thresholds are supportive but geographically selective; 26 °C is an intermediate screen between published 25 °C and 28 °C hot-night cutoffs
+Wet-bulb P90 threshold,+0.0564 high-minus-low functional-failure share,Humid-heat percentile threshold preserves the conditional signal
+Post-stratified maximum concurrent burden,271.3 million versus 241.0 million represented-panel residents,Post-stratification supports the recent population scale
+Post-stratified mean annual population exposed at least once,975.5 million versus 802.6 million represented-panel residents,Post-stratification supports the scale of annual at-least-once exposure.
+Alternative 5-15 km ring,+0.0129 compound-loss effect (95% CI 0.0099 to 0.0159); +0.075 °C gradient shift (95% CI 0.058 to 0.092),Penalty persists when the peri-urban comparison ring is moved inward
+Alternative 20-30 km ring,+0.0102 compound-loss effect (95% CI 0.0074 to 0.0130); +0.073 °C gradient shift (95% CI 0.052 to 0.094),Penalty persists when the peri-urban comparison ring is moved outward

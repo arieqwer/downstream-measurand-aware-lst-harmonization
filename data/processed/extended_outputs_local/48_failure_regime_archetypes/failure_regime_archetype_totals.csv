@@ -1,0 +1,3 @@
+archetype_id,archetype_label,n_events,mean_frac_failure,europe_share,east_asia_share
+1,persistent_dry_hot_humid,13,0.08042084223968016,0.3076923076923077,0.6923076923076923
+2,mixed_failure_pathway,29,0.0676091041451486,0.4482758620689655,0.5517241379310345

@@ -1,0 +1,5 @@
+model,outcome,n_obs,pseudo_r2_mcfadden,auc
+top5_failure_baseline_prevalence,top5_failure,1058,0.8662159228088888,0.9973352669264932
+top5_failure_proxy_regime_augmented,top5_failure,1058,0.8804428853171311,0.9980966192332095
+top10_failure_baseline_prevalence,top10_failure,1058,0.8387083171215978,0.9956496749643253
+top10_failure_proxy_regime_augmented,top10_failure,1058,0.8540672402169829,0.9963235294117647

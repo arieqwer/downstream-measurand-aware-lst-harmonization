@@ -1,0 +1,10 @@
+﻿Diagnostic,Value,Interpretation
+City-level pseudo-R²: base versus augmented built-form model,0.477 versus 0.506,Built form modestly increases city-level model fit
+Event-level AUC: base versus augmented built-form model,0.595 versus 0.615,Built form modestly increases event-level classification
+High-failure minus low-failure built-surface fraction,+0.057,Failure-prone high-green-support cities are more built
+High-failure minus low-failure green cover,-0.052,Failure-prone high-green-support cities have lower green-cover context
+Predicted failure probability: water-supported high-retention profile,0.563,Thermal retention remains high risk even when water supported
+Predicted failure probability: water-limited high-retention profile,0.571,Thermal retention remains high risk when water limited
+Eastern and South-Eastern Asia true-night air contrast,+0.327 °C,Failure weeks are hotter overnight
+Eastern and South-Eastern Asia true-night skin-temperature contrast,+0.376 °C,Surface skin remains hotter during failure weeks
+Eastern and South-Eastern Asia 10m wind contrast,-0.072 m s⁻¹,Weak regional wind signal

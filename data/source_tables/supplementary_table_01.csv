@@ -1,0 +1,11 @@
+﻿Item,Value
+Harmonized urban-center metadata records,"11,422"
+2025 quality-control criterion,Core and 10-20 km ring each required valid estimates for ≥50% of 2025 8-day intervals; each valid estimate required ≥5 valid 1-km MODIS LST pixels in the GHSL built-surface mask and ≥5 valid 1-km MODIS LST pixels in the MODIS NDVI vegetation mask.
+Retained after 2025 screen,"5,690"
+Full-period corrected panel,"5,541"
+High-green-support primary group,"2,771"
+Low-green-support comparator group,"2,770"
+MLD definition,soil-moisture percentile ≥70 and VPD percentile ≤30
+DHD definition,soil-moisture percentile ≤20 and VPD percentile ≥80
+Extreme-DHD definition,soil-moisture percentile ≤10 and VPD percentile ≥90
+True-night window and threshold,22:00-06:00 local solar time; city-specific 2m-air-temperature P90

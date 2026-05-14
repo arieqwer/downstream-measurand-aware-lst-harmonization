@@ -1,0 +1,33 @@
+definition,metric,outcome,coef_per_sd_green,std_err_hc3,p_value,n_obs,r_squared
+10-20 km ring vegetation support (original grouping variable),ring_veg_support_original,compound_failure_loss_dhd_minus_mld,0.009050074605826668,0.0008924198525585508,3.631736134330883e-24,5435,0.24865265132279457
+10-20 km ring vegetation support (original grouping variable),ring_veg_support_original,p_failure_given_hot_dhd,0.017010643006072496,0.002757799774522915,6.907452720782131e-10,5435,0.2741798027648905
+10-20 km ring vegetation support (original grouping variable),ring_veg_support_original,gradient_shift_dhd_minus_mld,0.028026535531239457,0.005277466354147618,1.0926232981671431e-07,5435,0.14716468389861181
+10-20 km ring vegetation support (original grouping variable),ring_veg_support_original,p_compound_failure_dhd,0.006635602350941454,0.0008221580857231348,6.97494236449971e-16,5435,0.30617952696463846
+core vegetation support,core_veg_support,compound_failure_loss_dhd_minus_mld,0.002584113923878899,0.0008751940945471324,0.003150915157201831,5435,0.232717905364749
+core vegetation support,core_veg_support,p_failure_given_hot_dhd,-5.343782857141974e-05,0.002461388445516138,0.9826789350402612,5435,0.2684710289404614
+core vegetation support,core_veg_support,gradient_shift_dhd_minus_mld,-0.01921402522269947,0.006078014909529586,0.0015710242699631287,5435,0.14443132452856833
+core vegetation support,core_veg_support,p_compound_failure_dhd,0.0019170222083958995,0.0007557049954644847,0.011189208343078794,5435,0.2970061363410045
+mean core-ring vegetation support,mean_core_ring_veg_support,compound_failure_loss_dhd_minus_mld,0.008293174552216788,0.0010973254132097435,4.1049381470088755e-14,5435,0.2445419307221317
+mean core-ring vegetation support,mean_core_ring_veg_support,p_failure_given_hot_dhd,0.013769142444131995,0.0029998038524580717,4.432157401679058e-06,5435,0.2718616699033376
+mean core-ring vegetation support,mean_core_ring_veg_support,gradient_shift_dhd_minus_mld,0.015601829613556701,0.00597935389206962,0.00907320318212566,5435,0.14372407175771784
+mean core-ring vegetation support,mean_core_ring_veg_support,p_compound_failure_dhd,0.006088904774290869,0.0009299302194494032,5.842965912288987e-11,5435,0.30382910269067087
+core-minus-ring vegetation-support contrast,core_minus_ring_veg_support,compound_failure_loss_dhd_minus_mld,-0.008144113738370692,0.0008194762104662487,2.839272423690275e-23,5435,0.24814811306367468
+core-minus-ring vegetation-support contrast,core_minus_ring_veg_support,p_failure_given_hot_dhd,-0.017629916696221774,0.002539937342817189,3.891044514987268e-12,5435,0.2758212584299037
+core-minus-ring vegetation-support contrast,core_minus_ring_veg_support,gradient_shift_dhd_minus_mld,-0.0380912081844553,0.004600673655120829,1.237091902530612e-16,5435,0.152974115102409
+core-minus-ring vegetation-support contrast,core_minus_ring_veg_support,p_compound_failure_dhd,-0.005960786010401624,0.000755212357016257,2.9533696405346522e-15,5435,0.30585446752489087
+core vegetation share,core_veg_share,compound_failure_loss_dhd_minus_mld,0.0034480543961459137,0.0009577166502324324,0.00031786665256263797,5435,0.2337558281130896
+core vegetation share,core_veg_share,p_failure_given_hot_dhd,-0.01766705131319376,0.0031743624490571764,2.6133704109351602e-08,5435,0.2741836475588738
+core vegetation share,core_veg_share,gradient_shift_dhd_minus_mld,-0.053687176908321074,0.005334078895193288,7.893652056087814e-24,5435,0.1586678840739495
+core vegetation share,core_veg_share,p_compound_failure_dhd,0.002844758849193458,0.0008801848233700854,0.0012292632294978593,5435,0.29794316734701887
+10-20 km ring vegetation share,ring10_20_veg_share,compound_failure_loss_dhd_minus_mld,0.008382950228803553,0.0006952189734901449,1.7600561153593034e-33,5435,0.2501444683440638
+10-20 km ring vegetation share,ring10_20_veg_share,p_failure_given_hot_dhd,0.031222126707422415,0.0023935697591882243,6.86015452193284e-39,5435,0.292828523988266
+10-20 km ring vegetation share,ring10_20_veg_share,gradient_shift_dhd_minus_mld,0.10825511366751121,0.005001561733299208,6.8836640279219e-104,5435,0.23279055070782462
+10-20 km ring vegetation share,ring10_20_veg_share,p_compound_failure_dhd,0.0075459808505434775,0.0006324264994688974,8.081573961551616e-33,5435,0.3125129642608091
+mean core-ring vegetation share,mean_core_ring_veg_share,compound_failure_loss_dhd_minus_mld,0.007791286448596144,0.0008726320718074265,4.3186417831197973e-19,5435,0.2437968489282235
+mean core-ring vegetation share,mean_core_ring_veg_share,p_failure_given_hot_dhd,0.006094617994161886,0.002976112617001303,0.04057516797219112,5435,0.2691808300324776
+mean core-ring vegetation share,mean_core_ring_veg_share,gradient_shift_dhd_minus_mld,0.026818766046932365,0.005327813541488416,4.81031208433435e-07,5435,0.1466238617630653
+mean core-ring vegetation share,mean_core_ring_veg_share,p_compound_failure_dhd,0.006818757403725003,0.0007984114299491073,1.3375158264248162e-17,5435,0.3064065921267023
+core-minus-ring vegetation contrast,core_minus_ring_veg_share,compound_failure_loss_dhd_minus_mld,-0.0028059616648452744,0.0008695404753536477,0.0012511831316748111,5435,0.23324386512542628
+core-minus-ring vegetation contrast,core_minus_ring_veg_share,p_failure_given_hot_dhd,-0.03509832889442413,0.0028091048939632947,8.000918178364887e-36,5435,0.2949983681507362
+core-minus-ring vegetation contrast,core_minus_ring_veg_share,gradient_shift_dhd_minus_mld,-0.11558010158231556,0.004817348658727584,3.332408802401343e-127,5435,0.23119810258284423
+core-minus-ring vegetation contrast,core_minus_ring_veg_share,p_compound_failure_dhd,-0.0027350766902426472,0.0007984427924666993,0.0006136380822608828,5435,0.2980914299678201

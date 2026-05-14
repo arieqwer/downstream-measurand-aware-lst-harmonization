@@ -1,0 +1,3 @@
+profile,n_obs,observed_failure_share,population_weighted_failure_share,adjusted_predicted_failure_probability,model_logit_low_water_coef,model_low_water_p_value
+high_water_support,20887,0.44630631493273326,0.5039206013415614,0.41487659678398114,0.44724274696094796,4.767622679396534e-99
+low_water_support,20940,0.554297994269341,0.6211466725738365,0.5258272662575737,0.44724274696094796,4.767622679396534e-99

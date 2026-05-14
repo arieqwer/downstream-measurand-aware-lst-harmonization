@@ -1,0 +1,11 @@
+﻿Diagnostic,High green support,Low green support,Interpretation
+2021-2025 mean concurrent exposure,37.0 million,10.1 million,Concurrent exposure within the retained city panel.
+2021-2025 maximum concurrent exposure,241.0 million,53.0 million,Concurrent exposure within the retained city panel.
+2021-2025 mean annual population exposed at least once,802.6 million,241.6 million,Concurrent exposure within the retained city panel.
+P90 and maximum synchronization slopes,not applicable,not applicable,Circular-shift null: empirical one-sided P = 0.003984 for both upper-tail slopes.
+Region-block circular-shift null,not applicable,not applicable,Region-preserving circular-shift null: P90 P = 0.003992; maximum P = 0.005988.
+DHD-hot-timing-preserving conditional null,not applicable,not applicable,"DHD-hot-timing-preserving conditional null: P90 P = 0.910; maximum P = 0.001996, so only the maximum trend exceeds dry-hot-timing expectations."
+True-night 2m P90 failure share among DHD hot intervals,50.3%,44.7%,Primary true-night heat definition.
+Wet-bulb P90 failure share among DHD hot intervals,47.0%,41.3%,Failure excess persists under this humid-heat definition.
+Humidex P90 failure share among DHD hot intervals,48.1%,42.6%,Failure excess persists under this humid-heat definition.
+Heat index P90 failure share among DHD hot intervals,49.6%,43.9%,Failure excess persists under this humid-heat definition.

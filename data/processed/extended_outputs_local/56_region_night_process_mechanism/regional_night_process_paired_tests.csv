@@ -1,0 +1,15 @@
+region,metric,interpretation,mean_event_minus_control,median_event_minus_control,std_event_minus_control,n_events,n_positive,n_negative,ttest_pvalue,wilcoxon_pvalue
+Eastern and South-Eastern Asia,t2m_true_night_c,hotter_true_night_air,0.32721947766452514,0.3979467066679909,0.6268719632659046,25,17,8,0.01535528018162262,0.02027493715286255
+Eastern and South-Eastern Asia,d2m_true_night_c,higher_true_night_dewpoint,0.30545183618862565,0.27754779384224193,0.748257866416561,25,16,9,0.05238605710088364,0.055070459842681885
+Eastern and South-Eastern Asia,dewpoint_dep_true_night_c,higher_if_drier_near_surface_air,0.021767641475900153,-0.004147538193281175,0.21419896892336276,25,11,14,0.6160096952134444,0.7111607789993286
+Eastern and South-Eastern Asia,rh_true_night_pct,lower_if_drier_near_surface_air,-0.12033597575546309,-0.12753262878531757,0.9859066987067787,25,12,13,0.5474117704684378,0.7711594104766846
+Eastern and South-Eastern Asia,wind10_true_night_ms,lower_if_weaker_ventilation,-0.07226241852889519,-0.2657609336673712,0.8640783894313863,25,11,14,0.6795572130860918,0.6528410911560059
+Eastern and South-Eastern Asia,skt_true_night_c,hotter_surface_skin,0.3755242685250639,0.42874351272158506,0.6056792626357534,25,18,7,0.004887220875588975,0.008822321891784668
+Eastern and South-Eastern Asia,skin_air_gap_true_night_c,higher_if_stronger_surface_heat_release,0.04830479086053884,0.07622413933758665,0.23503143639820032,25,15,10,0.3143729036659556,0.33878785371780396
+Europe,t2m_true_night_c,hotter_true_night_air,0.27574368351387335,0.27574368351387335,,1,1,0,,1.0
+Europe,d2m_true_night_c,higher_true_night_dewpoint,0.7425415691810464,0.7425415691810464,,1,1,0,,1.0
+Europe,dewpoint_dep_true_night_c,higher_if_drier_near_surface_air,-0.4667978856671824,-0.4667978856671824,,1,0,1,,1.0
+Europe,rh_true_night_pct,lower_if_drier_near_surface_air,2.328512781373007,2.328512781373007,,1,1,0,,1.0
+Europe,wind10_true_night_ms,lower_if_weaker_ventilation,0.10097275470214839,0.10097275470214839,,1,1,0,,1.0
+Europe,skt_true_night_c,hotter_surface_skin,0.6046370996258901,0.6046370996258901,,1,1,0,,1.0
+Europe,skin_air_gap_true_night_c,higher_if_stronger_surface_heat_release,0.32889341611202344,0.32889341611202344,,1,1,0,,1.0

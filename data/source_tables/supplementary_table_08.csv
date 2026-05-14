@@ -1,0 +1,11 @@
+﻿Diagnostic,Value,Interpretation
+TerraClimate water-support coverage,"2,768 high-green-support cities across 2003-2025",Independent water-balance proxy
+AH4GUC anthropogenic-heat coverage,955 dense high-green-support cities,Independent anthropogenic-heat proxy for covered subset
+Water-support coefficient,"-0.059 probability units per s.d., P = 0.000118",More water-supported green cities have lower functional-failure probability
+Anthropogenic-heat coefficient in covered subset,"+0.017 probability units per s.d., P = 0.0077",Higher anthropogenic heat is associated with higher failure probability
+Ventilation-obstruction coefficient in covered subset,"+0.045 probability units per s.d., P = 0.0025",More obstructed form is associated with higher failure probability
+"High-water, low-obstruction profile",Predicted failure probability 0.403,Lowest-risk profile in the scenario screen
+"Low-water, high-obstruction profile",Predicted failure probability 0.577,Highest-risk profile in the scenario screen
+Onset water-support-ratio contrast at event time 0,"-0.00935, P = 1.18 × 10⁻¹²",Failure intervals have lower independent water support than matched intact controls
+Onset climatic water-deficit contrast at event time 0,"+1.963 mm, P = 4.10 × 10⁻¹⁹",Failure intervals have higher independent water deficit
+Water-obstruction moderation,Statistically detectable but less stable,Kept as supplementary process support

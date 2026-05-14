@@ -1,0 +1,15 @@
+group,metric,interpretation,mean_failure_minus_intact,median_failure_minus_intact,std_failure_minus_intact,n_cities,n_positive,n_negative,ttest_pvalue,wilcoxon_pvalue
+all_high_veg_cities,core_tb_day_anom,daytime built warming in the core,0.38273356097481454,0.3651591910730398,1.2994412137599864,2759,1728,1031,7.71621699595167e-52,1.24408785335768e-52
+all_high_veg_cities,core_tb_night_anom,nighttime built warming in the core,1.1703308271494774,0.9825549217008839,1.2737875704556778,2760,2401,359,0.0,0.0
+all_high_veg_cities,core_tv_day_anom,daytime vegetation warming in the core,0.380034600084523,0.364341554805825,1.2734346090477162,2760,1730,1030,3.9038945240558024e-53,2.4392843048977705e-53
+all_high_veg_cities,core_tv_night_anom,nighttime vegetation warming in the core,1.0626080823129225,0.8908935994304479,1.24247617058121,2760,2347,413,0.0,0.0
+all_high_veg_cities,core_dT_day_anom,weaker daytime vegetation thermal advantage within the core,-0.0003840986364112204,0.0018176992497610615,0.18736292863577517,2752,1393,1359,0.9143658270094337,0.539703693317577
+all_high_veg_cities,core_dT_night_anom,weaker nighttime vegetation thermal advantage within the core,-0.11175611284562513,-0.08288608227834207,0.15291987599934273,2753,476,2277,4.021403680248184e-258,3.590172394514883e-286
+all_high_veg_cities,core_minus_ring_tv_day_anom,daytime vegetation warming in the core relative to the ring,0.11833439607736465,0.09760662788684818,0.6339950824652284,2760,1603,1157,2.4538912053984035e-22,1.0927251474733144e-22
+all_high_veg_cities,core_minus_ring_tv_night_anom,nighttime vegetation warming in the core relative to the ring,0.9394263878084177,0.8424986883345565,0.6062285484967317,2760,2717,43,0.0,0.0
+all_high_veg_cities,core_minus_ring_dT_day_anom,weaker daytime core vegetation advantage relative to the ring,-0.014927601836685317,-0.012655901868750177,0.43190641427117465,2749,1331,1418,0.07007623920572431,0.03947281063299102
+all_high_veg_cities,core_minus_ring_dT_night_anom,weaker nighttime core vegetation advantage relative to the ring,-0.3151831235547852,-0.2513307485752341,0.3686769768396532,2751,383,2368,0.0,0.0
+all_high_veg_cities,core_tv_day_anom_lag1,lagged daytime vegetation warming in the core,0.012069163880306464,-0.006647388951597222,1.1591282698903576,2751,1369,1382,0.5850252464861994,0.8215584013253339
+all_high_veg_cities,core_tv_night_anom_lag1,lagged nighttime vegetation warming in the core,-0.022177537672535986,-0.01812146733003156,0.9505538409892884,2750,1340,1410,0.22124685300656408,0.2179570190074437
+all_high_veg_cities,core_dT_day_anom_lag1,lagged weakening of daytime vegetation thermal advantage within the core,0.0005866627561983338,0.0008902245175997775,0.185532299301765,2736,1380,1356,0.8686439155722832,0.5958389784977159
+all_high_veg_cities,core_dT_night_anom_lag1,lagged weakening of nighttime vegetation thermal advantage within the core,0.0009035577323406887,0.0025250770184092643,0.12547926942502455,2730,1411,1319,0.7067675450995095,0.2477411478235536

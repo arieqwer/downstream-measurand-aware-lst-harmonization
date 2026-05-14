@@ -1,0 +1,5 @@
+definition,quantity,net_sum,positive_only_sum,negative_only_sum,n_pairs
+10-20 km ring vegetation support (original grouping variable),extra_compound_failure_city_intervals,3385.393429711018,9084.94663577763,-5699.553206066612,2769
+10-20 km ring vegetation support (original grouping variable),extra_compound_failure_person_intervals,5029736033.53801,8557279470.147398,-3527543436.6093874,2769
+10-20 km ring vegetation support (original grouping variable),extra_failure_given_hot_city_intervals,1560.0311094058366,6276.902419528413,-4716.871310122577,2769
+10-20 km ring vegetation support (original grouping variable),extra_failure_given_hot_person_intervals,2849265967.239402,5302462808.367861,-2453196841.128459,2769

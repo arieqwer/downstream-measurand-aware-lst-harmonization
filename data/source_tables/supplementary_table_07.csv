@@ -1,0 +1,9 @@
+﻿Diagnostic,Estimate,Interpretation
+Nighttime core vegetation anomaly: failure minus intact refuge,+1.063 °C,Vegetated urban-core surfaces are substantially hotter during failure intervals
+Nighttime core-minus-ring vegetation anomaly: failure minus intact refuge,+0.939 °C,Vegetated core surfaces warm relative to peri-urban vegetation
+Nighttime within-core vegetation-minus-built contrast,-0.112 °C,The local vegetation-versus-built contrast persists while vegetation itself warms
+Onset increase in true-night 2m air temperature,+1.443 °C,Failure begins during substantially hotter true nights
+Onset increase in nighttime core built-surface anomaly,+2.035 °C,Built surfaces enter a much hotter nocturnal state
+Onset increase in nighttime core vegetation anomaly,+1.955 °C,Vegetated surfaces also warm strongly at onset
+Air-only versus full surface-anomaly onset decomposition R²,0.001 versus 0.639,Surface-associated onset accounts for most of the target increase
+Core-minus-ring nighttime vegetation coefficient in full onset model,"+0.895, P < 0.001",Vegetation-surface warming is the largest decomposition term
