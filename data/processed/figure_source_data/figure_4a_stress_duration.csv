@@ -1,0 +1,5 @@
+model,outcome,term,estimate,std_error_cluster_city,ci95_low,ci95_high,t_stat,p_value,n_obs,n_cities,n_times,p_value_holm_within_model,label
+dhd_duration_differential_decay_1e4_h,differential_decay_1e4_h,duration_excess_capped,-0.0717723649733158,0.0101305882359915,-0.0916283179158593,-0.0519164120307724,-7.084718409373889,1.3932731252715646e-12,252322,2769,1057,4.179819375814694e-12,"Each additional
+DHD interval"
+dhd_duration_differential_decay_1e4_h,differential_decay_1e4_h,duration_x_storage,-0.0519066264337786,0.0094388208768226,-0.070406715352351,-0.0334065375152062,-5.499270206645943,3.813663480397261e-08,252322,2769,1057,7.627326960794524e-08,"Duration × built-form
+storage proxy"

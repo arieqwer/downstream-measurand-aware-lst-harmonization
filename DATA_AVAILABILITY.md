@@ -1,9 +1,9 @@
-# Data availability
+# Data and code availability
 
-This repository contains processed source tables sufficient to reproduce the display items, source tables, and key numerical results.
+This repository archives the processed source tables, parameter files, and scripts needed to regenerate all figures, supplementary-table source files, and principal numerical summaries.
 
-Large upstream files are not included because they are unnecessary for figure/table reproduction and exceed practical GitHub repository limits. Excluded files include raw Google Earth Engine exports, ERA5/ERA5-Land downloads, full city-by-interval remote-sensing panels, and other large intermediate panels.
+The analysis-ready city-interval panel is approximately 1.2 GB and is not tracked in GitHub. It can be provided to editors and reviewers through an access-controlled archive. The two additional large inputs used only for stress-history and alternative-ring reruns are handled in the same way. Their expected paths and roles are documented in `data/README.md`.
 
-The upstream datasets are publicly available from their original providers, including global urban metadata, MODIS land-surface temperature/vegetation products, ERA5 and ERA5-Land meteorological products, TerraClimate hydroclimatic products, anthropogenic-heat products, and urban-form datasets. Users who wish to rerun the full raw-data pipeline should obtain those source products from the original providers and follow the processing choices described in the associated publication.
+Upstream observations remain available from their original providers. They include GHS-UCDB R2024A, GHS-BUILT-S R2023A, Terra MOD11A2 and MOD13A2 Collection 6.1, ERA5 and ERA5-Land, TerraClimate, global local-climate-zone data, and AH4GUC. Provider-specific licensing and attribution requirements continue to apply.
 
-The processed files in `data/processed/extended_outputs_local/` are the source data for the display items. The `data/source_tables/` directory contains source tables as CSV files.
+No raw Earth-observation exports or rendered figure files are stored in this repository.

@@ -1,48 +1,51 @@
-# Urban green-refuge reliability during dry hot nights
+# Hydroclimatic controls on urban core-ring thermal decay
 
-This repository is a curated reproducibility package for a *Nature Cities* submission. It is intentionally not the full working directory. It contains processed source data and scripts needed to regenerate the display items, source tables, and key reported numerical results from processed data.
+This private reproducibility package contains the compact processed outputs and code needed to regenerate every main and supplementary display item, export the eight supplementary-table source files, and verify the principal numerical results.
 
-## What is included
+The analysis evaluates how paired daytime-to-nighttime land-surface-temperature decay differs between urban cores and 10-20 km rings under moist-low-demand, dry-high-demand, and extreme dry-high-demand states. It also tests built-form heat storage, long-term water support, stress duration, post-stress memory, and secondary cross-city concurrence.
 
-- `data/processed/metadata/`: compact city metadata and retained-panel summaries used by the plotting scripts.
-- `data/processed/extended_outputs_local/`: processed analysis summaries used as source data for figures, tables, and key results.
-- `data/source_tables/`: source tables as CSV files.
-- `scripts/`: scripts that regenerate display items, source tables, and a key-results check from the processed data.
+## Contents
 
-## What is excluded
+- `data/processed/analysis_outputs/`: final model summaries and sensitivity outputs.
+- `data/processed/figure_source_data/`: compact city/state and plotting source tables.
+- `data/processed/city_covariates.csv`: city-level matching and vegetation-support variables.
+- `data/processed/urban_form_covariates.csv`: built-form and external-process covariates.
+- `scripts/make_upgrade_figures.py`: generates Figures 1-4.
+- `scripts/make_upgrade_supplementary_figures.py`: generates Figures S1-S5.
+- `scripts/export_supplementary_tables.py`: exports source data for Tables S1-S8.
+- `scripts/validate_key_results.py`: checks the headline estimates against archived outputs.
+- `scripts/analysis/`: transparent analysis code for rerunning the principal models when the access-controlled interval panels are available.
 
-Raw satellite/climate products and large upstream intermediate panels are excluded. These include Google Earth Engine exports, ERA5/ERA5-Land extraction products, full MODIS/urban panel files, and multi-GB analysis panels. Those files are not required to reproduce the display items and source tables from the processed source data included here.
+Rendered figures are intentionally excluded. Generated files are written under the ignored `outputs/` directory.
 
-The excluded upstream products come from public or third-party data providers and should be obtained from their original sources under the corresponding licenses.
+## Reproduce displays and tables
 
-## Reproduce the figures and tables
-
-Create a Python environment using either `requirements.txt` or `environment.yml`, then run:
+Python 3.10 or newer is recommended. Create an environment with `requirements.txt` or `environment.yml`, then run:
 
 ```bash
-python scripts/make_main_and_selected_supplementary_figures.py
-python scripts/make_figure_5_reliability_pathway.py
-python scripts/make_supplementary_figures_s1_s2.py
-python scripts/make_supplementary_figure_s7_robustness.py
-python scripts/export_supplementary_tables.py
-python scripts/validate_key_results.py
+bash scripts/run_all.sh
 ```
 
-Generated files are written to:
+Outputs are written to:
 
-- `outputs/figures/main/`
-- `outputs/figures/supplementary/`
-- `outputs/tables/`
+```text
+outputs/figures/main/
+outputs/figures/supplementary/
+outputs/tables/
+```
 
-## Script-to-output map
+The display-item workflow uses only the compact files committed here. The principal analysis scripts additionally require the access-controlled files described in `data/README.md`.
 
-- `make_main_and_selected_supplementary_figures.py`: display items generated from the processed analysis summaries.
-- `make_figure_5_reliability_pathway.py`: main Figure 5 from the reliability-pathway source tables.
-- `make_supplementary_figures_s1_s2.py`: additional display items.
-- `make_supplementary_figure_s7_robustness.py`: robustness display item.
-- `export_supplementary_tables.py`: source tables as Markdown tables.
-- `validate_key_results.py`: prints key numerical findings from processed source tables.
+## Key definitions
 
-## Notes for review and reuse
+- **Dry-high-demand (DHD):** low root-zone soil-moisture percentile and high vapor-pressure-deficit percentile.
+- **True-night heat:** city-specific 2 m air-temperature exceedance during 22:00-06:00 local solar time.
+- **Apparent thermal decay:** logarithmic daytime-to-nighttime LST ratio divided by the nominal 12 h Terra overpass separation.
+- **Differential apparent decay:** apparent decay in the urban core minus apparent decay in its ring. Positive values indicate faster apparent core decay; negative values indicate slower apparent core decay.
+- **Severe day/night inversion:** daytime core-minus-ring anomaly below -0.25 degrees C and nighttime anomaly above +0.25 degrees C.
 
-Population quantities are represented-panel burdens, not global population-at-risk estimates. Counterfactual pathway summaries are association-based standardizations under fitted models and are not intervention simulations.
+The apparent-decay metric is an endpoint diagnostic from paired MOD11A2 composites, not a continuously observed cooling-rate curve. Population quantities are static-weight represented-panel counts, not estimates of unique people or global population at risk.
+
+## License
+
+Code is released under the MIT License. Processed outputs retain any attribution or reuse constraints imposed by their upstream data providers.

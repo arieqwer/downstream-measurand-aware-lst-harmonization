@@ -1,61 +1,60 @@
-from __future__ import annotations
-
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-EXT = REPO_ROOT / "data" / "processed" / "extended_outputs_local"
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = ROOT / "data/processed/analysis_outputs"
 
 
-def pct(x: float) -> str:
-    return f"{100 * x:.1f}%"
+def close(actual: float, expected: float, atol: float = 5e-6) -> None:
+    if not np.isclose(float(actual), expected, atol=atol, rtol=0):
+        raise AssertionError(f"Expected {expected}, found {actual}")
 
 
 def main() -> None:
-    state = pd.read_csv(EXT / "23_true_night_green_refuge_failure" / "true_night_green_refuge_state_summary.csv")
-    high = state[state["veg_group"].eq("high_veg")].set_index("state")
-    low = state[state["veg_group"].eq("low_veg")].set_index("state")
-    rel = pd.read_csv(EXT / "25_true_night_reliability_index" / "true_night_reliability_group_summary.csv").set_index("veg_group")
-    matched = pd.read_csv(EXT / "26_matched_high_low_veg_controls" / "high_low_veg_matched_pair_effects.csv").set_index("outcome")
-    exposure = pd.read_csv(EXT / "23_true_night_green_refuge_failure" / "true_night_green_refuge_exposure_period_summary.csv")
-    exp_row = exposure[
-        exposure["metric"].eq("true_failure_local_t2m_p90")
-        & exposure["veg_group"].eq("high_veg")
-        & exposure["period"].eq("2021-2025")
-    ].iloc[0]
-    ame = pd.read_csv(EXT / "72_green_refuge_reliability_pathway" / "green_refuge_pathway_average_marginal_effects.csv")
-    resets = pd.read_csv(EXT / "72_green_refuge_reliability_pathway" / "green_refuge_pathway_counterfactual_resets.csv")
+    state = pd.read_csv(SOURCE / "differential_thermal_decay_state_summary.csv")
+    state = state[
+        state["weighting"].eq("city")
+        & state["sample"].eq("all_intervals")
+        & state["high_green"].eq(1)
+    ]
+    values = state.set_index("analysis_state")["mean_differential_decay_1e4_h"]
+    close(values["mld"], 0.7562507214)
+    close(values["dhd"], -0.1169999051)
+    close(values["extreme_dhd"], -0.2804215420)
 
-    print("Core-ring built-surface anomaly, high-green support")
-    print(f"  MLD: {high.loc['MLD', 'mean_core_minus_ring_tb_night_anom']:.3f} °C")
-    print(f"  DHD: {high.loc['DHD', 'mean_core_minus_ring_tb_night_anom']:.3f} °C")
-    print(f"  Extreme DHD: {high.loc['extreme_DHD', 'mean_core_minus_ring_tb_night_anom']:.3f} °C")
-    print()
-    print("True-night local P90 and failure rates")
-    print(f"  High-green DHD true-night hot exposure: {pct(high.loc['DHD', 'frac_true_health_local_t2m_p90'])}")
-    print(f"  High-green DHD failure rate: {pct(high.loc['DHD', 'frac_true_failure_local_t2m_p90'])}")
-    print(f"  High-green failure given DHD hot: {pct(rel.loc['high_veg', 'p_failure_given_hot_dhd_pop_weighted_mean'])}")
-    print(f"  Low-green failure given DHD hot: {pct(rel.loc['low_veg', 'p_failure_given_hot_dhd_pop_weighted_mean'])}")
-    print()
-    print("Matched high-minus-low effects")
-    print(f"  Compound reliability loss: {matched.loc['compound_failure_loss_dhd_minus_mld', 'mean_high_minus_matched_low']:.4f}")
-    print(f"  95% CI: {matched.loc['compound_failure_loss_dhd_minus_mld', 'ci95_low']:.4f} to {matched.loc['compound_failure_loss_dhd_minus_mld', 'ci95_high']:.4f}")
-    print()
-    print("Population scale, high-green support, 2021-2025")
-    print(f"  Mean concurrent represented exposure: {exp_row['mean_concurrent_exposed_population'] / 1e6:.1f} million")
-    print(f"  Maximum concurrent represented exposure: {exp_row['max_concurrent_exposed_population'] / 1e6:.1f} million")
-    print()
-    print("Reliability-pathway average marginal effects")
-    for row in ame.itertuples(index=False):
-        print(f"  {row.variable}: {row.average_marginal_effect_probability_points_per_1sd:.4f} probability units per 1 s.d.")
-    print()
-    print("Association-based standardization scale")
-    for row in resets.itertuples(index=False):
-        print(f"  {row.reset}: {row.represented_resident_8day_intervals / 1e9:.2f} billion represented resident-8-day intervals")
+    terms = pd.read_csv(SOURCE / "differential_thermal_decay_twfe_terms.csv").set_index("term")
+    close(terms.loc["dhd_x_high_green", "estimate"], -0.3009647810)
+    close(terms.loc["extreme_x_high_green", "estimate"], -0.4331774467)
+
+    quartiles = pd.read_csv(SOURCE / "differential_thermal_decay_storage_quartiles.csv")
+    quartiles = quartiles[quartiles["contrast"].eq("dhd_minus_mld")].set_index("storage_quartile")
+    close(quartiles.loc["Q1 lowest", "mean_differential_decay_shift_1e4_h"], -0.1478935283)
+    close(quartiles.loc["Q4 highest", "mean_differential_decay_shift_1e4_h"], -1.3747573446)
+
+    water = pd.read_csv(SOURCE / "differential_decay_water_support_heterogeneity.csv")
+    water = water[water["term"].eq("dhd_x_built_form_storage_score")].set_index("water_support_tertile")
+    close(water.loc["Low", "estimate"], -0.7557346219)
+    close(water.loc["High", "estimate"], -0.2813310540)
+
+    memory = pd.read_csv(SOURCE / "stress_memory_twfe_terms.csv")
+    duration = memory[memory["model"].eq("dhd_duration_differential_decay_1e4_h")].set_index("term")
+    close(duration.loc["duration_excess_capped", "estimate"], -0.0717723650)
+    close(duration.loc["duration_x_storage", "estimate"], -0.0519066264)
+
+    concurrence = pd.read_csv(SOURCE / "corrected_inversion_concurrence_summary.csv").set_index("inversion_threshold_c")
+    close(concurrence.loc[0.25, "maximum_concurrent_represented_population"], 101683614.2393, 0.01)
+    nulls = pd.read_csv(SOURCE / "severe_inversion_timing_null_summary.csv")
+    strict = nulls[
+        nulls["null_name"].eq("DHD and true-night-heat timing preserved")
+        & nulls["statistic"].eq("max_population")
+    ].iloc[0]
+    close(strict["empirical_p_one_sided"], 0.0598802395)
+
+    print("Key-result validation passed.")
 
 
 if __name__ == "__main__":
     main()
-
