@@ -12,7 +12,7 @@ The scripts under `scripts/analysis/` expect the following files under the git-i
 
 | File | Role |
 | --- | --- |
-| `valid_city_interval_panel.parquet` | Complete-case city-by-8-day panel used for principal decay, distributional, transition, duration, memory, and concurrence models |
+| `valid_city_interval_panel.parquet` | Complete-case city-by-8-day panel used for principal decay, distributional, transition, duration, post-stress, and concurrence models |
 | `dhd_stress_history_panel.parquet` | DHD indicator history used to construct run length and post-stress lag variables |
 | `alt_ring_gradient_panel.parquet` | Alternative 5-15 km, 10-20 km, and 20-30 km ring sensitivity panel |
 
@@ -21,6 +21,6 @@ These files are excluded from GitHub because of size and can be supplied through
 ## Provenance notes
 
 - MOD11A2 Collection 6.1 daytime and nighttime 8-day LST composites provide paired endpoints. The original extraction retained native valid LST pixels and did not apply additional `QC_Day` or `QC_Night` bit filtering.
-- GHS-BUILT-S values greater than 0.20 square metres of built surface per 100 m source cell define built presence before aggregation to MODIS support pixels; this is not a 20% built-fraction threshold.
+- GHS-BUILT-S values greater than 0.20 square meters of built surface per 100 m source cell define built presence before aggregation to MODIS support pixels. The criterion is a built-presence threshold.
 - A MOD13A2 NDVI threshold greater than 0.30 defines vegetation-associated support.
-- Missing core/ring thermal outcomes are excluded under the complete-case rule and are never coded as non-events.
+- City-intervals with missing core–ring thermal outcomes are excluded before continuous outcomes and event indicators are constructed.

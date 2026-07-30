@@ -1,8 +1,8 @@
-# Hydroclimatic controls on urban core-ring thermal decay
+# Global urban core–ring apparent day-to-night LST decay
 
 This private reproducibility package contains the compact processed outputs and code needed to regenerate every main and supplementary display item, export the eight supplementary-table source files, and verify the principal numerical results.
 
-The analysis evaluates how paired daytime-to-nighttime land-surface-temperature decay differs between urban cores and 10-20 km rings under moist-low-demand, dry-high-demand, and extreme dry-high-demand states. It also tests built-form heat storage, long-term water support, stress duration, post-stress memory, and secondary cross-city concurrence.
+The analysis evaluates how paired daytime-to-nighttime land-surface-temperature (LST) decay differs between urban cores and 10–20 km rings under moist–low-demand, dry–high-demand, and extreme dry–high-demand states. It also tests morphology-based heat retention, long-term water support, stress duration, post-stress inversion persistence, and secondary cross-city concurrence.
 
 ## Contents
 
@@ -40,11 +40,11 @@ The display-item workflow uses only the compact files committed here. The princi
 
 - **Dry-high-demand (DHD):** low root-zone soil-moisture percentile and high vapor-pressure-deficit percentile.
 - **True-night heat:** city-specific 2 m air-temperature exceedance during 22:00-06:00 local solar time.
-- **Apparent thermal decay:** logarithmic daytime-to-nighttime LST ratio divided by the nominal 12 h Terra overpass separation.
-- **Differential apparent decay:** apparent decay in the urban core minus apparent decay in its ring. Positive values indicate faster apparent core decay; negative values indicate slower apparent core decay.
-- **Severe day/night inversion:** daytime core-minus-ring anomaly below -0.25 degrees C and nighttime anomaly above +0.25 degrees C.
+- **Apparent day-to-night LST decay rate:** logarithmic daytime-to-nighttime LST ratio divided by the nominal 12 h Terra overpass separation.
+- **Core-minus-ring decay-rate differential:** apparent decay in the urban core minus apparent decay in its ring. Positive values indicate a larger apparent core LST decrease; negative values indicate a smaller apparent core decrease.
+- **Severe day-to-night inversion:** daytime core-minus-ring anomaly below −0.25 °C and nighttime anomaly above +0.25 °C.
 
-The apparent-decay metric is an endpoint diagnostic from paired MOD11A2 composites, not a continuously observed cooling-rate curve. Population quantities are static-weight represented-panel counts, not estimates of unique people or global population at risk.
+The apparent-decay metric is an endpoint diagnostic from paired MOD11A2 composites. Population quantities are static-weight represented-panel counts for individual 8-day intervals.
 
 ## License
 

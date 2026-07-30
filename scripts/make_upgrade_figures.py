@@ -62,9 +62,6 @@ def setup() -> None:
 def clean_axis(ax: plt.Axes, grid: Optional[str] = None) -> None:
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
-    if grid:
-        ax.grid(axis=grid, color="#D9E0E3", lw=0.6, alpha=0.8)
-        ax.set_axisbelow(True)
 
 
 def label_panel(ax: plt.Axes, label: str, x: float = -0.12, y: float = 1.05) -> None:
@@ -115,7 +112,15 @@ def figure1(summary: pd.DataFrame) -> None:
     ax_map.set_yticks(np.arange(-60, 76, 15))
     ax_map.set_xlabel("Longitude")
     ax_map.set_ylabel("Latitude")
-    ax_map.legend(loc="lower left", frameon=False, ncol=2, handletextpad=0.4, columnspacing=1.2)
+    ax_map.legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, 1.13),
+        frameon=False,
+        ncol=2,
+        handletextpad=0.5,
+        columnspacing=1.5,
+        markerscale=3.8,
+    )
     clean_axis(ax_map)
     label_panel(ax_map, "a", -0.06, 1.03)
 
@@ -123,17 +128,17 @@ def figure1(summary: pd.DataFrame) -> None:
     label_panel(ax_method, "b", -0.07, 1.03)
     box_kw = dict(boxstyle="round,pad=0.02,rounding_size=0.025", ec=GRAY, lw=1.0)
     boxes = [
-        (0.03, 0.66, 0.39, 0.21, "MODIS daytime\nbuilt-associated LST", "#F7DFC3"),
-        (0.56, 0.66, 0.39, 0.21, "MODIS nighttime\nbuilt-associated LST", "#D8E8F3"),
-        (0.10, 0.23, 0.78, 0.25, "Core-minus-ring apparent thermal decay\n$r_u=\\ln(T_{day,K}/T_{night,K})/12\\,h$     $\\Delta r=r_{core}-r_{ring}$", "#DCECE2"),
+        (0.03, 0.68, 0.42, 0.20, "MODIS daytime\nbuilt-associated LST", "#F7DFC3"),
+        (0.55, 0.68, 0.42, 0.20, "MODIS nighttime\nbuilt-associated LST", "#D8E8F3"),
+        (0.04, 0.17, 0.92, 0.31, "Apparent day-to-night LST decay rate\n$r_u=\\ln(T_{day,u,K}/T_{night,u,K})/12\\,h$\nCore-minus-ring differential: $\\Delta r=r_{core}-r_{ring}$", "#DCECE2"),
     ]
     for x, y, w, h, text, face in boxes:
         patch = FancyBboxPatch((x, y), w, h, transform=ax_method.transAxes, fc=face, **box_kw)
         ax_method.add_patch(patch)
         ax_method.text(x + w / 2, y + h / 2, text, transform=ax_method.transAxes, ha="center", va="center", fontsize=8.2)
-    ax_method.add_patch(FancyArrowPatch((0.23, 0.64), (0.35, 0.49), transform=ax_method.transAxes, arrowstyle="-|>", mutation_scale=10, lw=1.0, color=GRAY))
-    ax_method.add_patch(FancyArrowPatch((0.76, 0.64), (0.64, 0.49), transform=ax_method.transAxes, arrowstyle="-|>", mutation_scale=10, lw=1.0, color=GRAY))
-    ax_method.text(0.49, 0.08, "Positive Δr: core surface decays faster than ring", transform=ax_method.transAxes, ha="center", va="center", fontsize=7.7, color=GRAY)
+    ax_method.add_patch(FancyArrowPatch((0.24, 0.66), (0.24, 0.50), transform=ax_method.transAxes, arrowstyle="-|>", mutation_scale=10, lw=1.0, color=GRAY))
+    ax_method.add_patch(FancyArrowPatch((0.76, 0.66), (0.76, 0.50), transform=ax_method.transAxes, arrowstyle="-|>", mutation_scale=10, lw=1.0, color=GRAY))
+    ax_method.text(0.50, 0.06, "Positive Δr: larger apparent LST decrease in the core", transform=ax_method.transAxes, ha="center", va="center", fontsize=7.7, color=GRAY)
 
     label_panel(ax_state, "c", -0.16, 1.03)
     state = summary[(summary["high_green"].eq(1))].set_index("analysis_state").loc[list(STATE_LABELS)]
@@ -143,7 +148,7 @@ def figure1(summary: pd.DataFrame) -> None:
     ax_state.bar(x, means, yerr=errors, color=[STATE_COLORS[s] for s in STATE_LABELS], width=0.66, capsize=3, edgecolor="white", linewidth=0.8)
     ax_state.axhline(0, color=INK, lw=0.9)
     ax_state.set_xticks(x, [STATE_LABELS[s] for s in STATE_LABELS])
-    ax_state.set_ylabel("Core − ring apparent thermal decay\n" + r"($10^{-4}$ h$^{-1}$)")
+    ax_state.set_ylabel("Core-minus-ring decay-rate differential\n" + r"($10^{-4}$ h$^{-1}$)")
     ax_state.set_ylim(-0.55, 1.05)
     ax_state.set_yticks(np.arange(-0.5, 1.01, 0.25))
     clean_axis(ax_state, "y")
@@ -209,11 +214,10 @@ def figure2(summary: pd.DataFrame) -> None:
         capsize=3,
         lw=1.2,
     )
-    ax_quant.axvline(0, color=INK, lw=0.8)
     ax_quant.set_yticks(yq, [f"Q{int(q * 100)}" for q in quant["quantile"]])
     ax_quant.set_xlabel("Matched high-minus-low DHD–MLD shift (°C)")
     ax_quant.set_ylabel("Nighttime anomaly quantile")
-    ax_quant.set_xlim(-0.005, 0.14)
+    ax_quant.set_xlim(0, 0.14)
     clean_axis(ax_quant, "x")
     label_panel(ax_quant, "c")
 
@@ -237,12 +241,11 @@ def figure2(summary: pd.DataFrame) -> None:
             capsize=3,
             label=label,
         )
-    ax_transition.axhline(0, color=INK, lw=0.8)
     ax_transition.set_xticks([0.1, 0.25, 0.5])
-    ax_transition.set_xlabel("Day/night inversion threshold (°C)")
+    ax_transition.set_xlabel("Day-to-night inversion threshold (°C)")
     ax_transition.set_ylabel("Matched high-minus-low probability shift")
-    ax_transition.set_ylim(-0.002, 0.052)
-    ax_transition.legend(frameon=False, loc="upper left")
+    ax_transition.set_ylim(0, 0.052)
+    ax_transition.legend(frameon=False, loc="lower left", bbox_to_anchor=(0.0, 1.02), ncol=2)
     clean_axis(ax_transition, "y")
     label_panel(ax_transition, "d")
 
@@ -265,7 +268,6 @@ def figure3() -> None:
     ax_load.barh(load["label"], load["pc1_loading"], color=GREEN)
     ax_load.set_xlabel("PC1 loading")
     ax_load.set_xlim(0, 0.70)
-    ax_load.text(0.98, 0.05, f"Variance explained: {load['pc1_variance_explained'].iloc[0] * 100:.1f}%", transform=ax_load.transAxes, ha="right", va="bottom", fontsize=8, color=GRAY)
     clean_axis(ax_load, "x")
     label_panel(ax_load, "a")
 
@@ -278,12 +280,11 @@ def figure3() -> None:
         subset = quart[quart["contrast"].eq(contrast)].set_index("storage_quartile").loc[order]
         x = np.arange(4)
         ax_quart.errorbar(x, subset["mean_differential_decay_shift_1e4_h"], yerr=1.96 * subset["standard_error"], marker=marker, color=color, lw=1.6, capsize=3, label=label)
-    ax_quart.axhline(0, color=INK, lw=0.8)
     ax_quart.set_xticks(np.arange(4), ["Q1\nlowest", "Q2", "Q3", "Q4\nhighest"])
-    ax_quart.set_xlabel("Built-form storage-proxy quartile")
-    ax_quart.set_ylabel(r"Stress-minus-MLD decay shift ($10^{-4}$ h$^{-1}$)")
+    ax_quart.set_xlabel("Morphology-based heat-retention quartile")
+    ax_quart.set_ylabel(r"Stress-minus-MLD decay-rate shift ($10^{-4}$ h$^{-1}$)")
     ax_quart.set_ylim(-1.9, 0.15)
-    ax_quart.legend(frameon=False, loc="lower left")
+    ax_quart.legend(frameon=False, loc="upper right")
     clean_axis(ax_quart, "y")
     label_panel(ax_quart, "b")
 
@@ -306,10 +307,9 @@ def figure3() -> None:
             capsize=3,
             label=label,
         )
-    ax_water.axhline(0, color=INK, lw=0.8)
     ax_water.set_xticks(np.arange(3), ["Low", "Intermediate", "High"])
     ax_water.set_xlabel("Long-term water-support tertile")
-    ax_water.set_ylabel("Built-form effect on decay\n" + r"($10^{-4}$ h$^{-1}$ per SD)")
+    ax_water.set_ylabel("Heat-retention interaction on Δr\n" + r"($10^{-4}$ h$^{-1}$ per SD)")
     ax_water.set_ylim(-1.12, 0.03)
     ax_water.legend(frameon=False, loc="upper right")
     clean_axis(ax_water, "y")
@@ -317,7 +317,7 @@ def figure3() -> None:
 
     terms = pd.read_csv(OUT / "differential_thermal_decay_twfe_terms.csv")
     selectors = [
-        ("built_form_storage_score", "Built-form\nstorage proxy"),
+        ("built_form_storage_score", "Morphology-based\nheat retention"),
         ("z_ventilation_obstruction_index", "Ventilation\nobstruction"),
         ("z_ahe_night_wm2", "Nighttime\nanthropogenic heat"),
     ]
@@ -343,11 +343,10 @@ def figure3() -> None:
             lw=1.2,
             label=state,
         )
-    ax_mod.axvline(0, color=INK, lw=0.8)
     ax_mod.set_yticks(ybase, [x[1] for x in selectors])
-    ax_mod.set_xlabel(r"Stress interaction ($10^{-4}$ h$^{-1}$ per SD)")
+    ax_mod.set_xlabel(r"Interaction on Δr ($10^{-4}$ h$^{-1}$ per SD)")
     ax_mod.set_xlim(-0.65, 0.03)
-    ax_mod.legend(frameon=False, loc="upper right")
+    ax_mod.legend(frameon=False, loc="upper right", handlelength=2.8)
     clean_axis(ax_mod, "x")
     label_panel(ax_mod, "d")
 
@@ -366,8 +365,8 @@ def figure4() -> None:
     duration = duration[duration["term"].isin(["duration_excess_capped", "duration_x_storage"])].copy()
     duration["label"] = duration["term"].map(
         {
-            "duration_excess_capped": "Each additional\nDHD interval",
-            "duration_x_storage": "Duration × built-form\nstorage proxy",
+            "duration_excess_capped": "Each additional DHD\ninterval (1–5)",
+            "duration_x_storage": "Duration × morphology-based\nheat retention",
         }
     )
     yd = np.arange(len(duration))[::-1]
@@ -380,12 +379,11 @@ def figure4() -> None:
         capsize=3,
         lw=1.3,
     )
-    ax_duration.axvline(0, color=INK, lw=0.8)
     ax_duration.set_yticks(yd, duration["label"])
-    ax_duration.set_xlabel(r"Differential-decay change ($10^{-4}$ h$^{-1}$)")
-    ax_duration.set_xlim(-0.11, 0.005)
+    ax_duration.set_xlabel(r"Decay-rate differential change ($10^{-4}$ h$^{-1}$)")
+    ax_duration.set_xlim(-0.11, 0)
     clean_axis(ax_duration, "x")
-    label_panel(ax_duration, "a")
+    label_panel(ax_duration, "a", -0.20, 1.09)
 
     post = memory[memory["model"].eq("post_dhd_memory_inversion_0p25")].copy()
     post = post[post["term"].str.fullmatch(r"post_dhd_lag[1-4]")].copy()
@@ -403,14 +401,14 @@ def figure4() -> None:
     )
     ax_memory.scatter(post.loc[significant, "lag"] * 8, post.loc[significant, "estimate"], color=RED, s=28, zorder=3, label="Holm-adjusted P < 0.05")
     ax_memory.scatter(post.loc[~significant, "lag"] * 8, post.loc[~significant, "estimate"], facecolor="white", edgecolor=RED, s=28, zorder=3, label="Not significant")
-    ax_memory.axhline(0, color=INK, lw=0.8)
     ax_memory.set_xticks([8, 16, 24, 32])
     ax_memory.set_xlabel("Time after DHD ended (days)")
     ax_memory.set_ylabel("Excess severe inversion probability")
-    ax_memory.set_ylim(-0.001, 0.0072)
+    ax_memory.set_ylim(-0.0003, 0.0072)
+    ax_memory.spines["bottom"].set_position(("data", 0))
     ax_memory.legend(frameon=False, loc="upper right", fontsize=7.2)
     clean_axis(ax_memory, "y")
-    label_panel(ax_memory, "b")
+    label_panel(ax_memory, "b", -0.18, 1.09)
 
     intervals = pd.read_csv(OUT / "corrected_inversion_concurrence_intervals.csv")
     severe = intervals[intervals["inversion_threshold_c"].eq(0.25)].copy()
@@ -440,7 +438,7 @@ def figure4() -> None:
     ax_sync.set_xlabel("Year")
     ax_sync.legend(frameon=False, loc="upper left", ncol=2)
     clean_axis(ax_sync, "y")
-    label_panel(ax_sync, "c", -0.06, 1.03)
+    label_panel(ax_sync, "c", -0.08, 1.06)
 
     save(fig, "Figure_4_stress_accumulation_memory_concurrence")
 

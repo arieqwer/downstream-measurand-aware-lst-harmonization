@@ -89,7 +89,7 @@ def supplementary_1() -> None:
     )
     ax_match.axvline(0, color=INK, lw=0.8)
     ax_match.set_yticks(ym, matched["label"])
-    ax_match.set_xlabel(r"Matched high-minus-low decay shift ($10^{-4}$ h$^{-1}$)")
+    ax_match.set_xlabel(r"Matched high-minus-low decay-rate shift ($10^{-4}$ h$^{-1}$)")
     ax_match.set_xlim(-0.26, 0.06)
     clean_axis(ax_match, "x")
     label_panel(ax_match, "c")
@@ -113,7 +113,7 @@ def supplementary_1() -> None:
     )
     ax_green.axvline(0, color=INK, lw=0.8)
     ax_green.set_yticks(yg, continuous["label"])
-    ax_green.set_xlabel(r"Vegetation-support interaction ($10^{-4}$ h$^{-1}$ SD$^{-1}$)")
+    ax_green.set_xlabel(r"Vegetation-support interaction ($10^{-4}$ h$^{-1}$ per SD)")
     clean_axis(ax_green, "x")
     label_panel(ax_green, "d")
 
@@ -144,7 +144,7 @@ def supplementary_2() -> None:
             )
         ax.axhline(0, color=INK, lw=0.8)
         ax.set_xticks(x, [STATE_LABELS[s] for s in STATE_LABELS])
-        ax.set_ylabel(r"Core − ring apparent decay ($10^{-4}$ h$^{-1}$)")
+        ax.set_ylabel(r"Core-minus-ring decay-rate differential ($10^{-4}$ h$^{-1}$)")
         ax.legend(frameon=False, loc="upper right", fontsize=7.2)
         clean_axis(ax, "y")
         label_panel(ax, panel)
@@ -158,9 +158,9 @@ def supplementary_2() -> None:
             "minimum_5_built_pixels": "≥5 built pixels",
             "minimum_10_built_pixels": "≥10 built pixels",
             "minimum_20_built_pixels": "≥20 built pixels",
-            "maximum_0.25_day_night_count_imbalance": "≤25% day/night imbalance",
-            "maximum_0.10_day_night_count_imbalance": "≤10% day/night imbalance",
-            "maximum_0.05_day_night_count_imbalance": "≤5% day/night imbalance",
+            "maximum_0.25_day_night_count_imbalance": "≤25% day-to-night imbalance",
+            "maximum_0.10_day_night_count_imbalance": "≤10% day-to-night imbalance",
+            "maximum_0.05_day_night_count_imbalance": "≤5% day-to-night imbalance",
         }
     )
     ys = np.arange(len(sampling))[::-1]
@@ -174,7 +174,7 @@ def supplementary_2() -> None:
     )
     ax_sampling.axvline(0, color=INK, lw=0.8)
     ax_sampling.set_yticks(ys, sampling["label"])
-    ax_sampling.set_xlabel(r"DHD × storage-proxy coefficient ($10^{-4}$ h$^{-1}$ per SD)")
+    ax_sampling.set_xlabel(r"DHD × heat-retention coefficient ($10^{-4}$ h$^{-1}$ per SD)")
     clean_axis(ax_sampling, "x")
     label_panel(ax_sampling, "c")
 
@@ -222,7 +222,7 @@ def supplementary_3() -> None:
         )
     ax_components.axvline(0, color=INK, lw=0.8)
     ax_components.set_yticks(base, list(comp_names.values()))
-    ax_components.set_xlabel(r"Stress interaction ($10^{-4}$ h$^{-1}$ per SD)")
+    ax_components.set_xlabel(r"Interaction on Δr ($10^{-4}$ h$^{-1}$ per SD)")
     ax_components.legend(frameon=False, loc="lower left")
     clean_axis(ax_components, "x")
     label_panel(ax_components, "a")
@@ -249,7 +249,7 @@ def supplementary_3() -> None:
     )
     ax_regions.axvline(0, color=INK, lw=0.8)
     ax_regions.set_yticks(yr, regions["label"])
-    ax_regions.set_xlabel(r"DHD × storage proxy ($10^{-4}$ h$^{-1}$ SD$^{-1}$)")
+    ax_regions.set_xlabel(r"DHD × heat-retention score ($10^{-4}$ h$^{-1}$ per SD)")
     clean_axis(ax_regions, "x")
     label_panel(ax_regions, "b")
 
@@ -265,7 +265,7 @@ def supplementary_3() -> None:
         )
     ax_period.axhline(0, color=INK, lw=0.8)
     ax_period.set_xticks(xp, ["2003–2013", "2014–2025"])
-    ax_period.set_ylabel(r"Storage-proxy interaction ($10^{-4}$ h$^{-1}$ per SD)")
+    ax_period.set_ylabel(r"Heat-retention interaction ($10^{-4}$ h$^{-1}$ per SD)")
     ax_period.legend(frameon=False, loc="lower left")
     clean_axis(ax_period, "y")
     label_panel(ax_period, "c")
@@ -278,9 +278,9 @@ def supplementary_3() -> None:
     ])].copy()
     selected["label"] = selected["term"].map(
         {
-            "dhd_x_built_form_storage_score": "DHD × built-form\nstorage proxy",
+            "dhd_x_built_form_storage_score": "DHD × morphology-based\nheat retention",
             "dhd_x_water_support": "DHD × water support",
-            "dhd_x_storage_x_water_support": "DHD × storage ×\nwater support",
+            "dhd_x_storage_x_water_support": "DHD × heat retention ×\nwater support",
         }
     )
     yc = np.arange(len(selected))[::-1]
@@ -304,7 +304,7 @@ def supplementary_4() -> None:
     terms = pd.read_csv(OUT / "stress_memory_twfe_terms.csv")
 
     duration_models = [
-        ("dhd_duration_differential_decay_1e4_h", "duration_excess_capped", "Differential decay", GREEN),
+        ("dhd_duration_differential_decay_1e4_h", "duration_excess_capped", "Decay-rate differential", GREEN),
         ("dhd_duration_raw_night_contrast", "duration_excess_capped", "Raw nighttime contrast", BLUE),
         ("dhd_duration_inversion_0p25", "duration_excess_capped", "Severe inversion", RED),
     ]
@@ -333,7 +333,7 @@ def supplementary_4() -> None:
     ax_recovery.axhline(0, color=INK, lw=0.8)
     ax_recovery.set_xticks([8, 16, 24, 32])
     ax_recovery.set_xlabel("Days after DHD ended")
-    ax_recovery.set_ylabel(r"Differential-decay rebound ($10^{-4}$ h$^{-1}$)")
+    ax_recovery.set_ylabel(r"Decay-rate differential change ($10^{-4}$ h$^{-1}$)")
     clean_axis(ax_recovery, "y")
     label_panel(ax_recovery, "b")
 
@@ -380,7 +380,7 @@ def supplementary_5() -> None:
 
     summary = pd.read_csv(OUT / "corrected_inversion_concurrence_summary.csv")
     ax_threshold.bar(summary["inversion_threshold_c"].astype(str), summary["maximum_concurrent_represented_population"] / 1e6, color=[BLUE, GREEN, ORANGE, RED])
-    ax_threshold.set_xlabel("Day/night inversion\nthreshold (°C)")
+    ax_threshold.set_xlabel("Day-to-night inversion\nthreshold (°C)")
     ax_threshold.set_ylabel("Maximum concurrent represented\npopulation (million)")
     clean_axis(ax_threshold, "y")
     label_panel(ax_threshold, "b")
@@ -403,7 +403,7 @@ def supplementary_5() -> None:
         label="Cities ever",
     )
     ax_counts.set_xticks(x, thresholds)
-    ax_counts.set_xlabel("Day/night inversion\nthreshold (°C)")
+    ax_counts.set_xlabel("Day-to-night inversion\nthreshold (°C)")
     ax_counts.set_ylabel("Count")
     ax_counts.legend(frameon=False, fontsize=6.8, loc="upper right")
     clean_axis(ax_counts, "y")
