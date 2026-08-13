@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-08-10T08:06:41.921081+00:00",
+  "frozen_before_goes18_expansion_outcome_extraction": true,
+  "satellite_to_extract": "GOES-18",
+  "source_population": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green",
+  "years": [
+    2025
+  ],
+  "western_longitude_max": -100.0,
+  "n_cities": 43,
+  "n_intervals": 10,
+  "n_city_events": 427,
+  "hashes": {
+    "protocol": "f826dce279ca3b68e4668038560093cdd34d0dd18c52f5b57b10911a472b9a10",
+    "cities": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376",
+    "events": "ec8041187a9830ab25e10c64fcd7312a474a8c3552beb2bd66eba49174c85da2",
+    "intervals": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+    "geometry": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00"
+  }
+}

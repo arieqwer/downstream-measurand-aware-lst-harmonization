@@ -1,0 +1,9 @@
+year,step8,time_id,start_date,analysis_role
+2019,1,3001,2019-06-01,calibration
+2019,2,3002,2019-07-17,calibration
+2020,3,3003,2020-06-01,calibration
+2020,4,3004,2020-07-17,calibration
+2021,5,3005,2021-06-01,validation
+2021,6,3006,2021-06-17,validation
+2021,7,3007,2021-07-03,validation
+2021,8,3008,2021-07-19,validation

@@ -1,51 +1,69 @@
-# Global urban core–ring apparent day-to-night LST decay
+# Downstream-measurand-aware LST harmonization
 
-This private reproducibility package contains the compact processed outputs and code needed to regenerate every main and supplementary display item, export the eight supplementary-table source files, and verify the principal numerical results.
+This is the private peer-review reproducibility repository for the *Geo-spatial Information Science* Original Manuscript **“Downstream-measurand-aware harmonization of multisensor land surface temperature”** by Shiyu Li and Shuanggen Jin.
 
-The analysis evaluates how paired daytime-to-nighttime land-surface-temperature (LST) decay differs between urban cores and 10–20 km rings under moist–low-demand, dry–high-demand, and extreme dry–high-demand states. It also tests morphology-based heat retention, long-term water support, stress duration, post-stress inversion persistence, and secondary cross-city concurrence.
+The study asks whether corrections that improve two component land-surface-temperature measurements also improve the spatial difference and temporal change used for inference. It uses frozen GOES-16/17/18/19 evaluation cohorts, exact mean-squared-error accounting, a measurand-specific correction selector, an uncertainty gate, and a deterministic covariance-regime stress test.
+
+## Reproducibility scope
+
+This repository contains frozen processed source tables, manifests, row-level prediction outputs, machine-readable supplementary data, and deterministic scripts needed to regenerate every main/SI figure, supplementary table, and reported numerical summary. It is not a raw-to-product reprocessing archive. Re-extraction and refitting from upstream satellite products require the larger internal analysis environment and are outside this reviewer package.
+
+Raw provider files are not redistributed. Upstream availability and licensing are summarized in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) and [DATA_LICENSES.md](DATA_LICENSES.md). Historical absolute paths retained inside frozen JSON manifests are non-operative provenance strings; the commands below use repository-relative paths.
 
 ## Contents
 
-- `data/processed/analysis_outputs/`: final model summaries and sensitivity outputs.
-- `data/processed/figure_source_data/`: compact city/state and plotting source tables.
-- `data/processed/city_covariates.csv`: city-level matching and vegetation-support variables.
-- `data/processed/urban_form_covariates.csv`: built-form and external-process covariates.
-- `scripts/make_upgrade_figures.py`: generates Figures 1-4.
-- `scripts/make_upgrade_supplementary_figures.py`: generates Figures S1-S5.
-- `scripts/export_supplementary_tables.py`: exports source data for Tables S1-S8.
-- `scripts/validate_key_results.py`: checks the headline estimates against archived outputs.
-- `scripts/analysis/`: transparent analysis code for rerunning the principal models when the access-controlled interval panels are available.
+- `02_EVIDENCE/`: frozen point estimates, bootstrap draws, replication evidence, simulation outputs, and submission-table sources.
+- `03_FIGURES/`: main figures and captions in submission and vector formats.
+- `04_PROTOCOLS/`: frozen protocols, manifests, and the package-local 94-city auxiliary lookup.
+- `05_CODE/scripts/`: deterministic builders and the independent reviewer validator.
+- `05_CODE/tests/`: tests for the reusable MSE-accounting module.
+- `data/` and `outputs/`: the 40-file processed-source closure required to rebuild the SI evidence tables and validate all reported five-cohort summaries.
+- `07_SUBMISSION/`: the deterministic machine-readable supplementary-data archive and its README.
+- `docs/`: claim-to-evidence mapping, terminology, and claim boundaries.
 
-Rendered figures are intentionally excluded. Generated files are written under the ignored `outputs/` directory.
+## Environment
 
-## Reproduce displays and tables
+Python 3.11 is recommended. Create an isolated environment and install the pinned review dependencies:
 
-Python 3.10 or newer is recommended. Create an environment with `requirements.txt` or `environment.yml`, then run:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r 05_CODE/requirements_goes.txt
+```
+
+## One-command reproduction
+
+From the repository root:
 
 ```bash
 bash scripts/run_all.sh
 ```
 
-Outputs are written to:
+That command rebuilds the SI evidence tables, deterministic covariance grid and figure, Figures 1 and 4, Figure 3, the machine-readable SI ZIP, and then runs the independent numeric validator and unit tests. Figure 2 is the covariance-regime stress-test figure.
 
-```text
-outputs/figures/main/
-outputs/figures/supplementary/
-outputs/tables/
+For a read-only numerical audit without rebuilding artifacts:
+
+```bash
+python 05_CODE/scripts/validate_reviewer_package.py
+python -m unittest discover -s 05_CODE/tests -p 'test_metric_aware_harmonization.py' -v
+shasum -a 256 -c SHA256SUMS.txt
 ```
 
-The display-item workflow uses only the compact files committed here. The principal analysis scripts additionally require the access-controlled files described in `data/README.md`.
+The validator independently reconstructs all 15 hourly RMSE rows and 10 hourly/transition MSE budgets from retained row-level predictions, verifies exact-identity closure, checks the 2026 uncertainty gate, audits both 5,000-draw crossed-bootstrap archives, and verifies the source-provenance manifest.
 
-## Key definitions
+## Main validated results
 
-- **Dry-high-demand (DHD):** low root-zone soil-moisture percentile and high vapor-pressure-deficit percentile.
-- **True-night heat:** city-specific 2 m air-temperature exceedance during 22:00-06:00 local solar time.
-- **Apparent day-to-night LST decay rate:** logarithmic daytime-to-nighttime LST ratio divided by the nominal 12 h Terra overpass separation.
-- **Core-minus-ring decay-rate differential:** apparent decay in the urban core minus apparent decay in its ring. Positive values indicate a larger apparent core LST decrease; negative values indicate a smaller apparent core decrease.
-- **Severe day-to-night inversion:** daytime core-minus-ring anomaly below −0.25 °C and nighttime anomaly above +0.25 °C.
+- Core and ring RMSE decreased by 29.3–60.0% across all five evaluation cohorts.
+- Core–ring contrast RMSE ranged from a 12.5% deterioration to an 11.3% improvement.
+- Positive covariance-loss penalties offset 94.6–113.6% of gross variance-plus-bias gains.
+- In the prospectively frozen 2026 holdout, the gate covered 529/588 transitions, certified 180/588 directions, and 174/180 certified directions agreed with the GOES-18 reference-platform sign.
+- The deterministic stress test enumerates 11,612,160 bounded configurations across 9,216 correlation cells.
 
-The apparent-decay metric is an endpoint diagnostic from paired MOD11A2 composites. Population quantities are static-weight represented-panel counts for individual 8-day intervals.
+GOES-18 is a consistency reference in the 2026 comparison, not ground truth; reference-sign agreement is not absolute LST accuracy.
 
-## License
+## Review access and citation
 
-Code is released under the MIT License. Processed outputs retain any attribution or reuse constraints imposed by their upstream data providers.
+The repository is private during peer review. The corresponding author can grant access to the handling editor or designated reviewers. A versioned public archive with a permanent identifier will be released upon acceptance. Citation metadata are in [CITATION.cff](CITATION.cff).
+
+Correspondence: Shuanggen Jin, `sgjin@hpu.edu.cn`.

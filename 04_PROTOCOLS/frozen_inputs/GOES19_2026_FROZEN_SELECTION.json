@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-08-10T08:23:26.181270+00:00",
+  "frozen_before_2026_outcome_extraction": true,
+  "satellite": "GOES-19",
+  "n_candidate_cities": 94,
+  "n_intervals": 8,
+  "period_start": "2026-06-01",
+  "period_end": "2026-08-03",
+  "hashes": {
+    "protocol": "57e777a101e1a7b3be50028a85c7f93e8dd58c549e022ab4e7cb3e2229a2aa2e",
+    "cities": "677625775e326333371f28fa0458129b89fb2291b4f3e90906086962268267f2",
+    "intervals": "b7529b742bb874e8ffdcb18716482e8f06b1a57d705e5dc21569c8cbaf78c3f5",
+    "geometry": "04b88cb319c8176ac7c25d6cacbfc5b50666fdd74bc595011876d3999bde9252"
+  }
+}

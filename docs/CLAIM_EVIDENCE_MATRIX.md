@@ -1,0 +1,27 @@
+# Claim-to-evidence matrix
+
+Use this matrix to keep every headline statement traceable. Fractions should be converted to percentages only at presentation time and rounded consistently.
+
+| ID | Permitted claim | Exact evidence | Primary source |
+|---|---|---|---|
+| C1 | Study data span 2019–2026; five out-of-sample evaluation cohorts cover 2021–2026 across three platform pairings. | Cohorts: 2021 GOES-17/16 external; 2022–2024 GOES-18/16 expansion; 2025 GOES-18/19 original; 2025 GOES-18/19 expansion; 2026 GOES-18/19 prospective. | `02_EVIDENCE/si_tables/fixed_interval_chronology.csv`; `02_EVIDENCE/tables/cross_sample_rmse_with_external.csv` |
+| C2 | Core and ring RMSE improved in every evaluation cohort. | Component RMSE reductions range from 0.292865 to 0.600450. | `02_EVIDENCE/tables/cross_sample_rmse_with_external.csv` |
+| C3 | Derived core-minus-ring performance was inconsistent. | Anomaly RMSE reduction ranges from -0.124815 to +0.113165; two point improvements and three no-gain/deterioration outcomes. | `02_EVIDENCE/tables/cross_sample_rmse_with_external.csv` |
+| C4 | The variance, differential-bias, and covariance terms account for the MSE change exactly; this accounting is not a physical-causal explanation. | Hourly covariance-loss penalty is positive in all five cohorts and offsets 94.63%–113.62% of gross variance plus bias gain. Maximum point-budget closure residual is 4.93e-16 K2. | `02_EVIDENCE/tables/exact_mse_budgets_with_external.csv`; `05_CODE/scripts/validate_reviewer_package.py` |
+| C5 | The prospectively frozen 2026 holdout produced large component improvements but no anomaly improvement. | Core RMSE reduction 60.04%; ring 56.12%; component-derived anomaly -0.47%. The frozen downstream selector retained the raw anomaly. | `02_EVIDENCE/tables/cross_sample_rmse_with_external.csv`; `02_EVIDENCE/tables/metric_aware_decision_audit.csv` |
+| C6 | In 2026, covariance loss almost exactly offset component-level gains. | Hourly variance gain +1.74298 K2; differential-bias gain +0.03022 K2; covariance penalty 1.77901 K2; net MSE gain -0.00581 K2. Bootstrap net-gain interval spans zero. | `02_EVIDENCE/tables/exact_mse_budgets_with_external.csv`; `02_EVIDENCE/tables/mse_budget_2026_bootstrap_summary.csv` |
+| C7 | The earlier GOES-17/16 pairing externally reproduced the measurement mechanism. | Untouched 2021 validation: 69 cities, four events, 2,571 hourly records, 246 transitions. All four frozen criteria passed. | `02_EVIDENCE/external_replication/external_replication_report.json` |
+| C8 | External 2021 component gains were precise, but downstream gain was uncertain. | Observed core reduction 53.8% (95% interval 46.5%–60.8%); observed ring reduction 54.2% (48.5%–60.0%); observed anomaly reduction 2.3% (-5.3%–9.3%). | `02_EVIDENCE/external_replication/validation_2021_exact_mse_budget.csv`; `02_EVIDENCE/external_replication/validation_2021_bootstrap_summary.csv` |
+| C9 | External 2021 covariance loss was large and consistently positive. | Variance gain +2.41658 K2; bias gain +0.02355 K2; covariance penalty 2.42154 K2; net gain +0.01860 K2. Covariance-penalty interval 1.992–2.895 K2. Raw error correlation 0.885; harmonized 0.554. | `02_EVIDENCE/external_replication/validation_2021_exact_mse_budget.csv`; `02_EVIDENCE/external_replication/validation_2021_bootstrap_summary.csv` |
+| C10 | Each 2021 event showed component improvement and a positive covariance-loss penalty. | Four of four event-specific audits passed; leave-one-event-out behavior was stable. | `02_EVIDENCE/external_replication/validation_2021_event_influence.csv`; `02_EVIDENCE/external_replication/external_replication_report.json` |
+| C11 | Transition harmonizability was also measurand dependent. | Across five cohorts, transition net MSE-gain fractions are +2.73%, +3.91%, -2.50%, +1.06%, and -3.70%. External 2021 derived-transition RMSE worsened 1.84%, with uncertainty spanning both signs. | `02_EVIDENCE/tables/exact_mse_budgets_with_external.csv`; `02_EVIDENCE/external_replication/validation_2021_bootstrap_summary.csv` |
+| C12 | The frozen action differs by measurement level. | Correct component core and ring; retain raw anomaly and transition; certify or abstain for transition direction. | `02_EVIDENCE/tables/metric_aware_decision_audit.csv` |
+| C13 | The 2026 gate supports selective reference-sign statements, not universal inference. | n=588; pooled coverage 89.97%; certified fraction 30.61%; agreement with the GOES-18 reference-platform sign among certified directions was 96.67%. Coverage: original 97.7%, expansion 78.7%. | `02_EVIDENCE/si_tables/uncertainty_gate_2026_by_cohort_event.csv`; `05_CODE/scripts/validate_reviewer_package.py` |
+| C14 | The implementation is reusable for linear measurands and passes its tests. | General `w'X` propagation, one-standard-error selection, sign certification; four tests pass. | `05_CODE/scripts/metric_aware_harmonization.py`; `05_CODE/tests/test_metric_aware_harmonization.py`; `04_PROTOCOLS/DOWNSTREAM_METRIC_FRAMEWORK_REPRODUCIBILITY.md` |
+
+## Statistical wording
+
+- Use “95% crossed city-event bootstrap interval,” not “confidence interval,” unless the inferential interpretation is carefully justified.
+- Use “point improvement” when a reduction is positive but its interval includes zero.
+- Use “uncertain” rather than “no effect” when an interval spans zero.
+- `K2` in machine-readable files should be typeset as `K²` in the manuscript.

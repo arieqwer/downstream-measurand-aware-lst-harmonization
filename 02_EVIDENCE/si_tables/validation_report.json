@@ -1,0 +1,105 @@
+{
+  "artifact_sha256": {
+    "02_EVIDENCE/si_tables/cohort_attrition_summary.csv": "85a4b36bdbf9697d0a71cedb726cd9d480c9b91c6f199e2187ebcc5c2cd1a948",
+    "02_EVIDENCE/si_tables/cohort_event_analysis_counts.csv": "34c101b4c79e6340bdc87eb8f26f75cef001ab277ef50c132cd12e39cee34be1",
+    "02_EVIDENCE/si_tables/external_hour_offsets_2019_2020.csv": "73a41a9b9174bc7f57d7f536e2348fdba655408b9ceff44b49644a536495e3f1",
+    "02_EVIDENCE/si_tables/fixed_city_candidate_metadata.csv": "bc682ab609298bf36ba4841693cb26895525e7ec085c3c87a0fbc1b170707378",
+    "02_EVIDENCE/si_tables/fixed_interval_chronology.csv": "ba96cdcc9a3f8ef9b00aa61bee3676977714ed590392ca79ad4be2d97c817b23",
+    "02_EVIDENCE/si_tables/model_selection_summary.csv": "1de247585987d64021fd95e3189ca36a7800b3c5dd9b09868c4617ff7bb9bdf1",
+    "02_EVIDENCE/si_tables/source_provenance_manifest.csv": "d5afa379cd3b1e775f72f2aa8a7be6529b24ed3e0f66f3ed6867fede7242b86a",
+    "02_EVIDENCE/si_tables/uncertainty_gate_2026_by_cohort_event.csv": "813b6595123557baf6db7675da7a01df08f9ba429b66d201829e59fd96e6ed5a",
+    "04_PROTOCOLS/frozen_inputs/AUXILIARY_UCDB_94_CITY_LOOKUP.csv": "eb5ad2cf9e8aca1e593343030b2c724559b73e64f36603785703f966c204c2e6",
+    "04_PROTOCOLS/frozen_inputs/GOES18_2022_2024_EXPANSION_FROZEN_SELECTION.json": "5ca2802ccd71b360d050694b673c556201b12078a8646e5fe38d78136378512d",
+    "04_PROTOCOLS/frozen_inputs/GOES18_2022_2024_ORIGINAL_FROZEN_SELECTION.json": "facf69784d1c8c06906ce23429a9f4c3991a435d2b0b73abcee88c4ec9d1b146",
+    "04_PROTOCOLS/frozen_inputs/GOES18_2025_EXPANSION_FROZEN_SELECTION.json": "4077fecc62cbf53c70ccaf02c871c8d4bc7f98e86a34802603587d4c211ae331",
+    "04_PROTOCOLS/frozen_inputs/GOES18_2025_ORIGINAL_FROZEN_SELECTION.json": "0e1a5421f2b8e8843b2a14ddee9bf157e07fa63169560fe286260bdb1b43938e",
+    "04_PROTOCOLS/frozen_inputs/GOES18_2026_FROZEN_SELECTION.json": "722d2b3785f1c6c66b04d7cdd0932edb8aa60ecf2eef0ecc9c70f9f94c2f70d1",
+    "04_PROTOCOLS/frozen_inputs/GOES19_2026_FROZEN_SELECTION.json": "d62e0a0f3c803b4c1e0ebbd23f540279d22d4e3b3ec69f784e96a8b83fab3878",
+    "04_PROTOCOLS/frozen_inputs/INITIAL_HARMONIZATION_FROZEN_MANIFEST.json": "014782fac5d5621259810810a4762b7b49a89155d5d46c992bde45f9902b2a8c",
+    "04_PROTOCOLS/frozen_inputs/METRIC_AWARE_HARMONIZATION_FROZEN_MANIFEST.json": "b13aa8b6197653289c945383da5568fb3b4e23f0ad016b4f928678d0b2b0d5e9"
+  },
+  "deterministic": true,
+  "eligibility_rules": {
+    "minimum_certified_sign_accuracy": 0.9,
+    "minimum_core_grid_pixels": 3,
+    "minimum_observed_hours_per_window": 2,
+    "minimum_ring_grid_pixels": 10,
+    "pooled_uncertainty_coverage_band": [
+      0.85,
+      0.95
+    ],
+    "transition_late_hours": [
+      4,
+      5,
+      6
+    ],
+    "transition_pre_hours": [
+      -3,
+      -2,
+      -1
+    ]
+  },
+  "frozen_manifest_payload_hash_checks": {
+    "2025_interval_hash": true,
+    "2026_interval_hash": true,
+    "combined_2026_city_hash": true,
+    "expansion_city_hash": true,
+    "external_city_hash": true,
+    "external_interval_hash": true,
+    "historical_interval_hash": true,
+    "original_city_hash": true
+  },
+  "random_seed": null,
+  "status": "pass",
+  "table_rows": {
+    "cohort_attrition_summary.csv": 8,
+    "cohort_event_analysis_counts.csv": 108,
+    "fixed_city_candidate_metadata.csv": 94,
+    "fixed_interval_chronology.csv": 57,
+    "model_selection_summary.csv": 20,
+    "source_provenance_manifest.csv": 36,
+    "uncertainty_gate_2026_by_cohort_event.csv": 11
+  },
+  "validated_stage_counts": {
+    "external_calibration_combined_2019_2020": {
+      "analyzed_cities": 69,
+      "eligible_transition_city_events": null,
+      "hourly_city_event_rows": 2533
+    },
+    "external_validation_combined_2021": {
+      "analyzed_cities": 69,
+      "eligible_transition_city_events": 246,
+      "hourly_city_event_rows": 2571
+    },
+    "initial_model_derivation_original_2022_2024": {
+      "analyzed_cities": 44,
+      "eligible_transition_city_events": 1352,
+      "hourly_city_event_rows": 13454
+    },
+    "initial_model_evaluation_expansion_2022_2024": {
+      "analyzed_cities": 31,
+      "eligible_transition_city_events": 886,
+      "hourly_city_event_rows": 9197
+    },
+    "initial_model_evaluation_expansion_2025": {
+      "analyzed_cities": 31,
+      "eligible_transition_city_events": 298,
+      "hourly_city_event_rows": 2963
+    },
+    "initial_model_evaluation_original_2025": {
+      "analyzed_cities": 44,
+      "eligible_transition_city_events": 435,
+      "hourly_city_event_rows": 4180
+    },
+    "metric_aware_calibration_combined_2025": {
+      "analyzed_cities": 75,
+      "eligible_transition_city_events": 733,
+      "hourly_city_event_rows": 7143
+    },
+    "metric_aware_validation_combined_2026": {
+      "analyzed_cities": 75,
+      "eligible_transition_city_events": 588,
+      "hourly_city_event_rows": 5744
+    }
+  }
+}

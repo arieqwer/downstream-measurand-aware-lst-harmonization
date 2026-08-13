@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-08-06T19:11:50.723300+00:00",
+  "frozen_before_goes18_2022_2024_outcome_inspection": true,
+  "satellite": "GOES-18",
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "western_longitude_max": -100.0,
+  "n_cities": 51,
+  "n_intervals": 31,
+  "hashes": {
+    "protocol": "b6a478eaf7273d71a840dba858b68a07edfc42a371e102c7dedeadba477e1567",
+    "cities": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219",
+    "events": "eca5d3e0fbe1ad448bda810e8d1dd11e4cc9c0000e2e25af777926f01c486b66",
+    "intervals": "bce78f94621e647a8e0a78e229da3ae3bc4d99e1ec22eaae5a2128becd44ae06",
+    "geometry": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05"
+  }
+}

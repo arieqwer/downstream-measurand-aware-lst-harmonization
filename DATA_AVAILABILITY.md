@@ -1,9 +1,7 @@
-# Data and code availability
+# Data availability
 
-This repository archives the processed source tables, parameter files, and scripts needed to regenerate all figures, supplementary-table source files, and principal numerical summaries.
+The processed source tables, parameter files, frozen manifests, row-level prediction outputs, and scripts needed to regenerate all figures, supplementary tables, and reported numerical summaries are preserved in this private review repository. The large analysis-ready city–interval panel can be provided to editors and reviewers through an access-controlled archive. A versioned public code-and-data archive with a permanent identifier will be released upon acceptance.
 
-The analysis-ready city-interval panel is approximately 1.2 GB and is not tracked in GitHub. It can be provided to editors and reviewers through an access-controlled archive. The two additional large inputs used only for stress-history and alternative-ring reruns are handled in the same way. Their expected paths and roles are documented in `data/README.md`.
+Raw GOES ABI land-surface-temperature files are publicly available from NOAA cloud archives under the `ABI-L2-LSTC` product prefix. GHS-UCDB R2024A is available from the European Commission Joint Research Centre at <https://doi.org/10.2905/JRC.05RDPR0>. NOAA GOES-R land-surface-temperature algorithm metadata are available at <https://doi.org/10.7289/V52R3PZ8>.
 
-Upstream observations remain available from their original providers. They include GHS-UCDB R2024A, GHS-BUILT-S R2023A, Terra MOD11A2 and MOD13A2 Collection 6.1, ERA5 and ERA5-Land, TerraClimate, global local-climate-zone data, and AH4GUC. Provider-specific licensing and attribution requirements continue to apply.
-
-No raw Earth-observation exports or rendered figure files are stored in this repository.
+No raw provider files are redistributed here. This package starts from frozen processed evidence and does not claim to reproduce raw-data extraction or every upstream model-fitting stage.

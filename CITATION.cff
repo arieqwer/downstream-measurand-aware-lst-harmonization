@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or evidence package, please cite the associated manuscript."
+title: "Downstream-measurand-aware harmonization of multisensor land surface temperature"
+type: software
+version: 0.1.0-review
+date-released: 2026-08-13
+authors:
+  - family-names: Li
+    given-names: Shiyu
+    affiliation: "Shanghai Astronomical Observatory, Chinese Academy of Sciences; University of Chinese Academy of Sciences"
+  - family-names: Jin
+    given-names: Shuanggen
+    affiliation: "Henan Polytechnic University"
+    email: sgjin@hpu.edu.cn
+repository-code: "https://github.com/arieqwer/downstream-measurand-aware-lst-harmonization"
+license: MIT
+keywords:
+  - multisensor harmonization
+  - land surface temperature
+  - error covariance
+  - derived measurand
+  - GOES-R
+  - uncertainty propagation

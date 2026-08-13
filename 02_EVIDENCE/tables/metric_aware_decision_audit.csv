@@ -1,0 +1,6 @@
+measurement_level,measurand,calibration_decision,operational_action,independent_2026_result,result_unit
+component,hourly urban-core LST,geometry_ridge,use component correction,0.6004498089987961,RMSE reduction fraction
+component,hourly surrounding-ring LST,hour_offset,use component correction,0.5612351859643298,RMSE reduction fraction
+spatial contrast,hourly core-minus-ring LST,raw,retain raw downstream metric,0.0,direct RMSE reduction fraction
+temporal transition,pre-to-post-sunset core-minus-ring transition,raw,retain raw downstream metric,0.0,direct RMSE reduction fraction
+directional inference,sign of core-minus-ring transition,frozen uncertainty gate,certify or abstain,0.9666666666666668,accuracy among certified signs
