@@ -410,7 +410,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     hierarchy.text(
         0.0,
         1.02,
-        "a  Measurement hierarchy and frozen actions",
+        "a  Measurement hierarchy and prespecified actions",
         transform=hierarchy.transAxes,
         ha="left",
         va="bottom",
@@ -429,7 +429,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     hierarchy.text(
         0.01,
         0.39,
-        "FROZEN OPERATIONAL ACTIONS",
+        "MEASURAND-LEVEL ACTIONS",
         transform=hierarchy.transAxes,
         color=COLORS["muted"],
         fontsize=6.2,
@@ -445,9 +445,9 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     ]
     actions = [
         ("selected component models\nUSE COMPONENT CORRECTION", "#DDEFF7", COLORS["core"]),
-        ("raw\nRETAIN RAW\nDOWNSTREAM METRIC", "#DDF1EA", COLORS["contrast"]),
-        ("raw\nRETAIN RAW\nDOWNSTREAM METRIC", "#F0E2EF", COLORS["prospective"]),
-        ("frozen uncertainty gate\nCERTIFY OR ABSTAIN", "#F0E2EF", COLORS["prospective"]),
+        ("raw selected\nRETAIN RAW\nCONTRAST", "#DDF1EA", COLORS["contrast"]),
+        ("raw selected\nRETAIN RAW\nTRANSITION", "#F0E2EF", COLORS["prospective"]),
+        ("empirical residual interval\nRESOLVE OR ABSTAIN", "#F0E2EF", COLORS["prospective"]),
     ]
     for x, (text, fill, edge), (action, action_fill, action_edge) in zip(
         box_x, measurands, actions
@@ -496,7 +496,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         [
             "External replication\nGOES-17 / GOES-16",
             "Initial transfer\nGOES-18/16 → GOES-18/19",
-            "Metric-aware test\nGOES-18 / GOES-19",
+            "Measurand-aware test\nGOES-18 / GOES-19",
         ],
     )
     timeline.set_xticks(np.arange(2019, 2027))
@@ -510,7 +510,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         label.set_horizontalalignment("right")
         label.set_fontweight("bold")
     timeline.set_title(
-        "b  Frozen calibration and evaluation chronology",
+        "b  Prespecified calibration and evaluation chronology",
         loc="left",
         fontweight="bold",
         pad=10,
@@ -806,7 +806,7 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
         "Expansion\ndiagnostic\nn=239",
     ]
     gate_metrics = ["coverage", "certified_fraction", "certified_sign_accuracy"]
-    gate_labels = ["Coverage", "Certified", "G18 sign agreement"]
+    gate_labels = ["Coverage", "Resolved", "G18 sign agreement"]
     gate_colors = [COLORS["core"], COLORS["ring"], COLORS["contrast"]]
     x = np.arange(3)
     width = 0.24
@@ -854,7 +854,7 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
     # Headroom separates the exact labels from the in-panel legend.
     ax_d.set_ylim(0, 124)
     ax_d.set_ylabel("Held-out transitions (%)")
-    ax_d.set_title("d  2026 gate transport", loc="left", fontweight="bold")
+    ax_d.set_title("d  2026 residual-interval transport", loc="left", fontweight="bold")
     ax_d.legend(
         loc="upper center",
         bbox_to_anchor=(0.5, 0.99),
@@ -897,9 +897,9 @@ def export_figure(fig: plt.Figure, stem: str) -> None:
 
 
 def write_captions() -> None:
-    figure1 = """**Figure 1. Downstream-measurand-aware harmonization workflow and frozen evaluation chronology.** **a,** The measurement hierarchy proceeds from urban-core and surrounding-ring land surface temperature components to the core-minus-ring spatial contrast, the pre-to-post-sunset temporal transition and its directional sign. Frozen operational actions are measurement-level specific: use the selected correction for each component; retain the raw downstream metric for spatial contrast and temporal transition; and apply the frozen uncertainty gate to certify the transition sign or abstain. **b,** Frozen stages spanning 2019 through 2026. The 2019–2020 GOES-17/16 observations supplied external calibration and the 2021 observations supplied historical external evaluation. The initial model was derived in the 2022–2024 GOES-18/16 original cohort while expansion cities supplied out-of-sample spatial evaluation, then evaluated in both cohorts on the 2025 GOES-18/19 observations. The same 2025 observations subsequently formed the combined calibration set for the metric-aware selector evaluated in the prospectively frozen 2026 GOES-18/19 holdout. Inside-block notation gives analysed cities (c) and fixed event intervals (e).
+    figure1 = """**Figure 1. Measurand-aware cross-platform harmonization workflow and evaluation chronology.** **a,** The measurement hierarchy proceeds from urban-core and surrounding-ring land surface temperature components to the core-minus-ring spatial contrast, the pre-to-post-sunset temporal transition and its directional sign. Prespecified actions are measurement-level specific: use the selected correction for each component; retain the raw contrast and transition when selected by calibration; and apply the empirical residual interval to resolve the transition sign or abstain. **b,** Calibration and evaluation stages spanning 2019 through 2026. The 2019–2020 GOES-17/16 observations supplied external calibration and the 2021 observations supplied historical external evaluation. The initial model was derived in the 2022–2024 GOES-18/16 original cohort while expansion cities supplied out-of-sample spatial evaluation, then evaluated in both cohorts on the 2025 GOES-18/19 observations. The same 2025 observations subsequently formed the combined calibration set for the measurand-aware selector evaluated in the prospective 2026 GOES-18/19 holdout. Inside-block notation gives analyzed cities (c) and fixed event intervals (e).
 """
-    figure4 = """**Figure 4. Historical external replication and prospective holdout diagnostics.** **a,** Observed 2021 hourly RMSE reductions for urban core, surrounding ring and their core-minus-ring contrast; horizontal bars are 95% crossed city–event bootstrap intervals from 5,000 draws. The historical external evaluation contained 2,571 city–event–hour records from 69 cities and four fixed events. **b,** Observed event-specific reductions for the same three measurands. Event labels give interval start date and retained hourly record count; no event-specific uncertainty interval is implied. **c,** Observed prospectively frozen 2026 hourly MSE-budget terms with 95% crossed-bootstrap intervals. The covariance-loss penalty is plotted as its negative contribution, so the four displayed point terms close as $G_D=G_{variance}+G_{bias}-P_{covariance}$. The net-gain interval spans zero. **d,** Coverage, certified fraction and agreement with the reference-platform GOES-18 sign among certified directions for the pooled combined holdout and the pre-existing original and expansion cohorts. Bar labels give exact percentages and integer numerators/denominators. The pooled combined row ($n=588$ transitions) was the formal frozen decision scope; original and expansion rows are transport diagnostics.
+    figure4 = """**Figure 4. Historical external replication and prospective holdout diagnostics.** **a,** Observed 2021 hourly RMSE reductions for urban core, surrounding ring and their core-minus-ring contrast; horizontal bars are 95% crossed city–event bootstrap intervals from 5,000 draws. The historical external evaluation contained 2,571 city–event–hour records from 69 cities and four fixed events. **b,** Observed event-specific reductions for the same three measurands. Event labels give interval start date and retained hourly record count; no event-specific uncertainty interval is implied. **c,** Observed prospective 2026 hourly MSE-budget terms with 95% crossed-bootstrap intervals. The covariance-loss penalty is plotted as its negative contribution, so the four displayed point terms close as $G_D=G_{variance}+G_{bias}-P_{covariance}$. The net-gain interval spans zero. **d,** Coverage, directionally resolved fraction and agreement with the reference-platform GOES-18 sign among resolved directions for the pooled combined holdout and the pre-existing original and expansion cohorts. Bar labels give exact percentages and integer numerators/denominators. The pooled combined row ($n=588$ transitions) was the formal prespecified decision scope; original and expansion rows are transport diagnostics.
 """
     (FIGURES / "figure1_workflow_timeline_caption.md").write_text(
         figure1, encoding="utf-8"

@@ -1,6 +1,6 @@
-# Downstream-measurand-aware LST harmonization
+# Measurand-aware GOES LST harmonization
 
-This is the private peer-review reproducibility repository for the *Geo-spatial Information Science* Original Manuscript **“Downstream-measurand-aware harmonization of multisensor land surface temperature”** by Shiyu Li and Shuanggen Jin.
+This is the private peer-review reproducibility repository for the *Remote Sensing* article **“Measurand-Aware Validation of Cross-Platform GOES Land Surface Temperature Harmonization”** by Shiyu Li and Shuanggen Jin.
 
 The study asks whether corrections that improve two component land-surface-temperature measurements also improve the spatial difference and temporal change used for inference. It uses frozen GOES-16/17/18/19 evaluation cohorts, exact mean-squared-error accounting, a measurand-specific correction selector, an uncertainty gate, and a deterministic covariance-regime stress test.
 
@@ -57,7 +57,7 @@ The validator independently reconstructs all 15 hourly RMSE rows and 10 hourly/t
 - Core and ring RMSE decreased by 29.3–60.0% across all five evaluation cohorts.
 - Core–ring contrast RMSE ranged from a 12.5% deterioration to an 11.3% improvement.
 - Positive covariance-loss penalties offset 94.6–113.6% of gross variance-plus-bias gains.
-- In the prospectively frozen 2026 holdout, the gate covered 529/588 transitions, certified 180/588 directions, and 174/180 certified directions agreed with the GOES-18 reference-platform sign.
+- In the prospective 2026 holdout, the residual-interval rule covered 529/588 transitions, directionally resolved 180/588 cases, and 174/180 resolved directions agreed with the GOES-18 reference-platform sign.
 - The deterministic stress test enumerates 11,612,160 bounded configurations across 9,216 correlation cells.
 
 GOES-18 is a consistency reference in the 2026 comparison, not ground truth; reference-sign agreement is not absolute LST accuracy.

@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OUTPUT = ROOT / "07_SUBMISSION" / "GSIS_supplementary_data.zip"
+OUTPUT = ROOT / "07_SUBMISSION" / "Remote_Sensing_supplementary_data.zip"
 
 MEMBERS = [
     "07_SUBMISSION/supplementary_data_README.md",

@@ -1087,41 +1087,41 @@ L 548.39952 417.044207
     <text style="fill: #ffffff; font: 700 5.5px 'DejaVu Sans'" transform="translate(535.01139 364.719495) rotate(-90)">78/84</text>
    </g>
    <g id="text_77">
-    <text style="font: 700 9px 'DejaVu Sans'; text-anchor: start" x="367.975375" y="241.386608" transform="rotate(-0 367.975375 241.386608)">d  2026 gate transport</text>
+    <text style="font: 700 9px 'DejaVu Sans'; text-anchor: start" x="367.975375" y="241.386608" transform="rotate(-0 367.975375 241.386608)">d  2026 residual-interval transport</text>
    </g>
    <g id="legend_2">
     <g id="patch_23">
-     <path d="M 378.392604 259.042247 
-L 384.992604 259.042247 
-L 384.992604 254.842247 
-L 378.392604 254.842247 
+     <path d="M 377.66276 259.042247 
+L 384.26276 259.042247 
+L 384.26276 254.842247 
+L 377.66276 254.842247 
 z
 " style="fill: #0072b2; stroke: #202020; stroke-width: 0.55; stroke-linejoin: miter"/>
     </g>
     <g id="text_78">
-     <text style="font: 6px 'DejaVu Sans'; text-anchor: start" x="389.792604" y="259.042247" transform="rotate(-0 389.792604 259.042247)">Coverage</text>
+     <text style="font: 6px 'DejaVu Sans'; text-anchor: start" x="389.06276" y="259.042247" transform="rotate(-0 389.06276 259.042247)">Coverage</text>
     </g>
     <g id="patch_24">
-     <path d="M 423.341041 259.042247 
-L 429.941041 259.042247 
-L 429.941041 254.842247 
-L 423.341041 254.842247 
+     <path d="M 422.611197 259.042247 
+L 429.211197 259.042247 
+L 429.211197 254.842247 
+L 422.611197 254.842247 
 z
 " style="fill: #e69f00; stroke: #202020; stroke-width: 0.55; stroke-linejoin: miter"/>
     </g>
     <g id="text_79">
-     <text style="font: 6px 'DejaVu Sans'; text-anchor: start" x="434.741041" y="259.042247" transform="rotate(-0 434.741041 259.042247)">Certified</text>
+     <text style="font: 6px 'DejaVu Sans'; text-anchor: start" x="434.011197" y="259.042247" transform="rotate(-0 434.011197 259.042247)">Resolved</text>
     </g>
     <g id="patch_25">
-     <path d="M 465.188229 259.042247 
-L 471.788229 259.042247 
-L 471.788229 254.842247 
-L 465.188229 254.842247 
+     <path d="M 465.918072 259.042247 
+L 472.518072 259.042247 
+L 472.518072 254.842247 
+L 465.918072 254.842247 
 z
 " style="fill: #009e73; stroke: #202020; stroke-width: 0.55; stroke-linejoin: miter"/>
     </g>
     <g id="text_80">
-     <text style="font: 6px 'DejaVu Sans'; text-anchor: start" x="476.588229" y="259.042247" transform="rotate(-0 476.588229 259.042247)">G18 sign agreement</text>
+     <text style="font: 6px 'DejaVu Sans'; text-anchor: start" x="477.318072" y="259.042247" transform="rotate(-0 477.318072 259.042247)">G18 sign agreement</text>
     </g>
    </g>
   </g>

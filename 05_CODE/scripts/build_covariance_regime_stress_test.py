@@ -427,7 +427,7 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
     axes[1].text(
         maximum * 0.05,
         maximum * 0.91,
-        "downstream damage",
+        "increased downstream MSE",
         color="#8b1a1a",
         fontsize=7,
     )
@@ -476,7 +476,7 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
 
 
 def write_caption() -> None:
-    caption = """**Deterministic covariance-regime stress test and empirical cohort positions.** **a,** The heat map gives the fraction of a bounded, equally weighted parameter grid for which component harmonization improves the core-minus-ring measurand ($G_D>0$). Raw and harmonized core/ring residual correlations range from 0 to 0.95; raw core-to-ring residual-standard-deviation ratios range from 0.85 to 1.25; harmonized-to-raw component residual-standard-deviation ratios range from 0.45 to 0.95; and the differential-bias-squared gain standardized by mean raw component variance ranges from -0.15 to 0.15. Blue circles denote empirical cohorts with positive downstream MSE gain; red crosses denote cohorts with negative gain. The diagonal indicates unchanged residual correlation. **b,** Empirical covariance-loss penalty against gross component-variance plus differential-bias gain. The diagonal is the exact $G_D=0$ boundary; points below it improve the downstream measurand and points above it damage the measurand. The stress test is an exact enumeration of the MSE identity, uses no random sampling or new satellite observations, and is analytically separate from the frozen empirical evaluations.
+    caption = """**Deterministic covariance-regime stress test and empirical cohort positions.** **a,** The heat map gives the descriptive fraction of a bounded, equally weighted parameter grid for which component harmonization improves the core-minus-ring measurand ($G_D>0$); these fractions are not probabilities. Raw and harmonized core/ring residual correlations range from 0 to 0.95; raw core-to-ring residual-standard-deviation ratios range from 0.85 to 1.25; harmonized-to-raw component residual-standard-deviation ratios range from 0.45 to 0.95; and the differential-bias-squared gain standardized by mean raw component variance ranges from -0.15 to 0.15. Blue circles denote empirical cohorts with positive downstream MSE gain; red crosses denote cohorts with negative gain. The diagonal indicates unchanged residual correlation. **b,** Empirical covariance-loss penalty against gross component-variance plus differential-bias gain. The diagonal is the exact $G_D=0$ boundary; points below it improve downstream agreement and points above it increase downstream MSE. The stress test is an exact enumeration of the MSE identity, uses no random sampling or new satellite observations, and is analytically separate from the empirical evaluations.
 """
     (FIGURES / "covariance_regime_stress_test_caption.md").write_text(
         caption, encoding="utf-8"

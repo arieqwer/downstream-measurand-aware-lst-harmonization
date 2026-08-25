@@ -11,10 +11,10 @@ Use these forms consistently.
 | core-minus-ring contrast (`D=C-R`) | Spatial downstream measurand. Use “contrast,” not “anomaly,” when precision matters. |
 | pre-to-post-sunset transition (`T=D_post-D_pre`) | Temporal downstream measurand. |
 | component-wise correction | Separate correction of `C` and `R`. |
-| component-derived contrast | `D` calculated after correcting `C` and `R`. |
+| component-harmonized contrast | `D` calculated after separately harmonizing `C` and `R`. |
 | direct downstream correction | Correction selected against loss for `D` or `T`. |
 | raw retention | No correction applied to the downstream metric. |
-| directional abstention | Direction not certified when its uncertainty interval contains zero. |
+| directional abstention | Direction not resolved when its empirical residual interval contains zero. |
 | consistency reference | The comparison platform; never call it truth or ground truth. |
 | covariance-loss penalty | `2[Cov_raw(e_c,e_r)-Cov_harm(e_c,e_r)]`; positive values reduce downstream gain. |
 | crossed city-event bootstrap | Cities and events resampled independently and their multiplicities combined. |

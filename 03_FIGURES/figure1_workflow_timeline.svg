@@ -204,13 +204,13 @@ z
 " clip-path="url(#pacb6a381e0)" style="fill: #666666; stroke: #666666; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <text style="font: 700 9px 'DejaVu Sans'; text-anchor: start" x="101.057187" y="14.038594" transform="rotate(-0 101.057187 14.038594)">a  Measurement hierarchy and frozen actions</text>
+    <text style="font: 700 9px 'DejaVu Sans'; text-anchor: start" x="101.057187" y="14.038594" transform="rotate(-0 101.057187 14.038594)">a  Measurement hierarchy and prespecified actions</text>
    </g>
    <g id="text_2">
     <text style="fill: #666666; font: 700 6.2px 'DejaVu Sans'; text-anchor: start" x="105.530611" y="31.03396" transform="rotate(-0 105.530611 31.03396)">SCIENTIFIC MEASURANDS</text>
    </g>
    <g id="text_3">
-    <text style="fill: #666666; font: 700 6.2px 'DejaVu Sans'; text-anchor: start" x="105.530611" y="95.010632" transform="rotate(-0 105.530611 95.010632)">FROZEN OPERATIONAL ACTIONS</text>
+    <text style="fill: #666666; font: 700 6.2px 'DejaVu Sans'; text-anchor: start" x="105.530611" y="95.010632" transform="rotate(-0 105.530611 95.010632)">MEASURAND-LEVEL ACTIONS</text>
    </g>
    <g id="text_4">
     <text style="fill: #202020; font: 6.5px 'DejaVu Sans'" transform="translate(126.740735 51.8851)">Component LST</text>
@@ -244,9 +244,9 @@ z
     </g>
    </g>
    <g id="text_7">
-    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(258.904069 115.748067)">raw</text>
+    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(245.513373 115.748067)">raw selected</text>
     <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(246.113053 122.354776)">RETAIN RAW</text>
-    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(230.339311 128.961486)">DOWNSTREAM METRIC</text>
+    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(248.321865 128.961486)">CONTRAST</text>
    </g>
    <g id="text_8">
     <text style="fill: #202020; font: 6.5px 'DejaVu Sans'" transform="translate(344.776706 55.199998)">Temporal transition</text>
@@ -260,9 +260,9 @@ z
     </g>
    </g>
    <g id="text_9">
-    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(370.739652 115.748067)">raw</text>
+    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(357.348956 115.748067)">raw selected</text>
     <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(357.948636 122.354776)">RETAIN RAW</text>
-    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(342.174894 128.961486)">DOWNSTREAM METRIC</text>
+    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(358.269909 128.961486)">TRANSITION</text>
    </g>
    <g id="text_10">
     <text style="fill: #202020; font: 6.5px 'DejaVu Sans'" transform="translate(457.020063 55.524389)">Transition direction</text>
@@ -275,8 +275,8 @@ z
     </g>
    </g>
    <g id="text_11">
-    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(453.313079 119.051421)">frozen uncertainty gate</text>
-    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(457.299266 125.658131)">CERTIFY OR ABSTAIN</text>
+    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(449.536157 119.051421)">empirical residual interval</text>
+    <text style="fill: #202020; font: 5.9px 'DejaVu Sans'" transform="translate(455.91968 125.658131)">RESOLVE OR ABSTAIN</text>
    </g>
    <g id="text_12">
     <text style="fill: #666666; font: 5.8px 'DejaVu Sans'; text-anchor: middle" x="208.643018" y="53.034965" transform="rotate(-0 208.643018 53.034965)">derive</text>
@@ -442,7 +442,7 @@ L 495.933444 166.773043
     <g id="ytick_3">
      <g id="line2d_19"/>
      <g id="text_25">
-      <text style="font: 700 6px 'DejaVu Sans'" transform="translate(35.95125 329.582755)">Metric-aware test</text>
+      <text style="font: 700 6px 'DejaVu Sans'" transform="translate(19.926563 329.582755)">Measurand-aware test</text>
       <text style="font: 700 6px 'DejaVu Sans'" transform="translate(31.118437 336.301443)">GOES-18 / GOES-19</text>
      </g>
     </g>
@@ -581,7 +581,7 @@ z
     <text style="fill: #666666; font: 5.1px 'DejaVu Sans'" transform="translate(444.206558 302.856313)">source</text>
    </g>
    <g id="text_34">
-    <text style="font: 700 9px 'DejaVu Sans'; text-anchor: start" x="101.057187" y="156.773043" transform="rotate(-0 101.057187 156.773043)">b  Frozen calibration and evaluation chronology</text>
+    <text style="font: 700 9px 'DejaVu Sans'; text-anchor: start" x="101.057187" y="156.773043" transform="rotate(-0 101.057187 156.773043)">b  Prespecified calibration and evaluation chronology</text>
    </g>
    <g id="legend_1">
     <g id="patch_30">

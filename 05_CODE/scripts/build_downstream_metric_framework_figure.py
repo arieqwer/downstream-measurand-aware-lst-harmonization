@@ -223,7 +223,7 @@ def main() -> None:
         0.07,
         0.27,
         0.14,
-        "No validated gain\nRetain raw\nmeasurand",
+        "No justified gain\nRetain raw\nmeasurand",
         "#F4F4F4",
         "#888888",
         6.5,
@@ -236,7 +236,7 @@ def main() -> None:
         0.31,
         0.29,
         0.10,
-        "Frozen interval gate\nfor transition sign",
+        "Empirical residual interval\nfor transition sign",
         "#F7F3FA",
         "#7A5AA6",
         6.8,
@@ -247,7 +247,7 @@ def main() -> None:
         0.07,
         0.13,
         0.14,
-        "Excludes 0\nCertify sign",
+        "Excludes 0\nResolve sign",
         "#EEF8F4",
         "#6A9E86",
         6.6,
@@ -385,7 +385,7 @@ def main() -> None:
     ax_d.set_ylim(-0.65, 0.65)
     ax_d.set_yticks([])
     ax_d.set_xlabel("Held-out 2026 city-event transitions")
-    ax_d.set_title("Uncertainty propagation permits selective inference", loc="left")
+    ax_d.set_title("Residual interval permits selective inference", loc="left")
     ax_d.legend(frameon=False, loc="upper center", ncol=3)
     ax_d.text(
         0.02,
@@ -399,7 +399,7 @@ def main() -> None:
     ax_d.text(
         0.98,
         0.12,
-        f"{combined['certified_fraction']*100:.1f}% certified\n"
+        f"{combined['certified_fraction']*100:.1f}% resolved\n"
         f"{combined['certified_sign_accuracy']*100:.1f}% agreement\n"
         "with GOES-18 sign",
         transform=ax_d.transAxes,
@@ -437,8 +437,8 @@ def main() -> None:
         "**Figure 3. Cross-cohort component gains, downstream non-transfer, and "
         "selective inference.** **a,** Measurement hierarchy and distinct "
         "measurand-level actions. Out-of-sample loss selects correction or raw "
-        "retention for each measurand; the frozen uncertainty gate separately "
-        "certifies the transition sign or abstains. **b,** Out-of-sample RMSE "
+        "retention for each measurand; the empirical residual interval separately "
+        "resolves the transition sign or abstains. **b,** Out-of-sample RMSE "
         "reductions across three platform pairings and five evaluation cohorts. "
         "Core and ring agreement improved in "
         "every evaluation cohort, whereas core-minus-ring performance was "
@@ -446,9 +446,9 @@ def main() -> None:
         "Exact hourly MSE decomposition. Positive component variance and "
         "differential-bias gains are offset by loss of beneficial core-ring error "
         "covariance; diamonds show the resulting net downstream gain. **d,** The "
-        "frozen 2026 uncertainty gate attained 90.0% coverage and certified 30.6% of "
+        "prespecified 2026 residual interval attained 90.0% coverage and resolved 30.6% of "
         "588 transition directions, with 96.7% agreement with the GOES-18 sign "
-        "among certified directions."
+        "among resolved directions."
     )
     (OUT / "downstream_metric_framework_synthesis_caption.md").write_text(
         caption, encoding="utf-8"

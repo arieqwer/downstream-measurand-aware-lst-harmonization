@@ -1,6 +1,6 @@
 # Machine-readable supplementary data
 
-This 25-member archive accompanies “Downstream-measurand-aware harmonization of multisensor land surface temperature.” Table S12 of the Supplementary Information assigns Supplementary Data labels S1–S15 to the 15 numbered machine-readable artifacts and lists their roles and dimensions. The other ten members are archive-support files: two READMEs, two unnumbered summary/audit CSVs (`cohort_attrition_summary.csv` and `metric_aware_decision_audit.csv`), and six simulation provenance, validation, and source files under `02_EVIDENCE/simulation/`.
+This 25-member archive accompanies “Measurand-Aware Validation of Cross-Platform GOES Land Surface Temperature Harmonization.” Table S12 of the Supplementary Materials assigns Supplementary Data labels S1–S15 to the 15 numbered machine-readable artifacts and lists their roles and dimensions. The other ten members are archive-support files: two READMEs, two unnumbered summary/audit CSVs (`cohort_attrition_summary.csv` and `metric_aware_decision_audit.csv`), and six simulation provenance, validation, and source files under `02_EVIDENCE/simulation/`.
 
 Contents include:
 
