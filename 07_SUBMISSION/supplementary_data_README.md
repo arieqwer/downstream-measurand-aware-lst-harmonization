@@ -8,7 +8,7 @@ Contents include:
 - cohort/event attrition and full model-selection tables;
 - observed cross-cohort RMSE and exact MSE-accounting tables;
 - 2021 external-replication bootstrap and influence summaries;
-- 2026 crossed-bootstrap and uncertainty-gate outputs;
+- 2026 crossed-bootstrap and residual-interval outputs;
 - deterministic covariance-regime stress-test outputs;
 - source-provenance and validation reports.
 

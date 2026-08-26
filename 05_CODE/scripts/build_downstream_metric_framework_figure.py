@@ -109,7 +109,7 @@ def load_rmse() -> pd.DataFrame:
     }
     observed_pairs = set(zip(frame["sample"], frame["component"]))
     if observed_pairs != expected_pairs or len(frame) != len(expected_pairs):
-        raise ValueError("Figure 3 RMSE source does not contain the expected 15 rows")
+        raise ValueError("Figure 2 RMSE source does not contain the expected 15 rows")
     frame["sample"] = pd.Categorical(frame["sample"], SAMPLE_ORDER, ordered=True)
     return frame.sort_values(["sample", "component"])
 
@@ -121,9 +121,9 @@ def load_budgets() -> pd.DataFrame:
         or set(frame["sample"]) != set(SAMPLE_ORDER)
         or not frame["scope"].eq("hourly").all()
     ):
-        raise ValueError("Figure 3 budget source does not contain five hourly cohorts")
+        raise ValueError("Figure 2 budget source does not contain five hourly cohorts")
     if frame["budget_closure_residual_k2"].abs().max() > 1e-10:
-        raise ValueError("Figure 3 budget source fails the 1e-10 K^2 closure gate")
+        raise ValueError("Figure 2 budget source fails the 1e-10 K^2 closure check")
     frame["sample"] = pd.Categorical(frame["sample"], SAMPLE_ORDER, ordered=True)
     return frame.sort_values("sample")
 
@@ -134,7 +134,7 @@ def load_uncertainty() -> pd.DataFrame:
     frame = frame.rename(columns={"scope_label": "cohort", "n_transitions": "n"})
     combined = frame[frame["cohort"].eq("combined")]
     if len(combined) != 1:
-        raise ValueError("Figure 3 uncertainty source lacks one combined cohort row")
+        raise ValueError("Figure 2 uncertainty source lacks one combined cohort row")
     observed = combined.iloc[0]
     counts = (
         int(observed["n"]),
@@ -142,7 +142,7 @@ def load_uncertainty() -> pd.DataFrame:
         int(observed["n_certified_correct"]),
     )
     if counts != (588, 180, 174):
-        raise ValueError(f"Unexpected combined uncertainty-gate counts: {counts}")
+        raise ValueError(f"Unexpected combined residual-interval counts: {counts}")
     return frame
 
 
@@ -434,20 +434,21 @@ def main() -> None:
     plt.close(figure)
 
     caption = (
-        "**Figure 3. Cross-cohort component gains, downstream non-transfer, and "
+        "**Figure 2. Cross-cohort component gains, downstream non-transfer, and "
         "selective inference.** **a,** Measurement hierarchy and distinct "
         "measurand-level actions. Out-of-sample loss selects correction or raw "
         "retention for each measurand; the empirical residual interval separately "
-        "resolves the transition sign or abstains. **b,** Out-of-sample RMSE "
+        "resolves the transition sign or abstains. **b,** Out-of-sample "
+        "root-mean-squared error (RMSE) "
         "reductions across three platform pairings and five evaluation cohorts. "
-        "Core and ring agreement improved in "
+        "Core and ring land surface temperature (LST) agreement improved in "
         "every evaluation cohort, whereas core-minus-ring performance was "
         "inconsistent. **c,** "
-        "Exact hourly MSE decomposition. Positive component variance and "
+        "Exact hourly mean-squared-error (MSE) decomposition. Positive component variance and "
         "differential-bias gains are offset by loss of beneficial core-ring error "
         "covariance; diamonds show the resulting net downstream gain. **d,** The "
-        "prespecified 2026 residual interval attained 90.0% coverage and resolved 30.6% of "
-        "588 transition directions, with 96.7% agreement with the GOES-18 sign "
+        "prespecified 2026 residual interval attained 90.0% coverage and directionally resolved 30.6% of "
+        "588 transitions, with 96.7% agreement with the GOES-18 sign "
         "among resolved directions."
     )
     (OUT / "downstream_metric_framework_synthesis_caption.md").write_text(
