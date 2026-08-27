@@ -401,10 +401,13 @@ def timeline_block(
 
 
 def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
-    fig = plt.figure(figsize=(7.6, 5.15), constrained_layout=True)
-    grid = fig.add_gridspec(2, 1, height_ratios=[0.95, 1.45])
-    hierarchy = fig.add_subplot(grid[0, 0])
-    timeline = fig.add_subplot(grid[1, 0])
+    # Give the hierarchy its own full-width axes. Sharing a constrained-layout
+    # column with the timeline previously reserved the timeline's wide y-label
+    # margin above panel a, compressing the hierarchy and clipping the padded
+    # edge of its first rounded box.
+    fig = plt.figure(figsize=(7.8, 5.25))
+    hierarchy = fig.add_axes([0.035, 0.625, 0.945, 0.335])
+    timeline = fig.add_axes([0.205, 0.075, 0.765, 0.445])
 
     hierarchy.set_axis_off()
     hierarchy.text(
@@ -420,23 +423,24 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     hierarchy.text(
         0.01,
         0.90,
-        "SCIENTIFIC MEASURANDS",
+        "Scientific measurands",
         transform=hierarchy.transAxes,
         color=COLORS["muted"],
         fontsize=6.2,
         fontweight="bold",
     )
     hierarchy.text(
-        0.01,
+        0.245,
         0.39,
-        "MEASURAND-LEVEL ACTIONS",
+        "Measurand-level actions",
         transform=hierarchy.transAxes,
         color=COLORS["muted"],
         fontsize=6.2,
         fontweight="bold",
+        ha="center",
     )
 
-    box_x = [0.01, 0.26, 0.51, 0.76]
+    box_x = [0.015, 0.27, 0.525, 0.78]
     measurands = [
         ("Component LST\n$C$ urban core\n$R$ surrounding ring", "#EAF4FA", COLORS["core"]),
         ("Spatial contrast\n$D = C - R$", "#EAF7F2", COLORS["contrast"]),
@@ -444,10 +448,10 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         ("Transition direction\n$\\operatorname{sign}(T)$", "#F3EDF5", COLORS["prospective"]),
     ]
     actions = [
-        ("selected component models\nUSE COMPONENT CORRECTION", "#DDEFF7", COLORS["core"]),
-        ("raw selected\nRETAIN RAW\nCONTRAST", "#DDF1EA", COLORS["contrast"]),
-        ("raw selected\nRETAIN RAW\nTRANSITION", "#F0E2EF", COLORS["prospective"]),
-        ("empirical residual interval\nRESOLVE OR ABSTAIN", "#F0E2EF", COLORS["prospective"]),
+        ("Selected component models\nUse component correction", "#DDEFF7", COLORS["core"]),
+        ("Raw selected\nRetain raw contrast", "#DDF1EA", COLORS["contrast"]),
+        ("Raw selected\nRetain raw transition", "#F0E2EF", COLORS["prospective"]),
+        ("Empirical residual interval\nResolve or abstain", "#F0E2EF", COLORS["prospective"]),
     ]
     for x, (text, fill, edge), (action, action_fill, action_edge) in zip(
         box_x, measurands, actions
@@ -455,8 +459,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         rounded_box(
             hierarchy,
             x,
-            0.57,
-            0.21,
+            0.59,
+            0.205,
             0.24,
             fill,
             edge,
@@ -466,21 +470,21 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         rounded_box(
             hierarchy,
             x,
-            0.07,
-            0.21,
-            0.23,
+            0.025,
+            0.205,
+            0.205,
             action_fill,
             action_edge,
             action,
-            fontsize=5.9,
+            fontsize=5.8,
         )
-        axes_arrow(hierarchy, (x + 0.105, 0.565), (x + 0.105, 0.305))
+        axes_arrow(hierarchy, (x + 0.1025, 0.585), (x + 0.1025, 0.235))
 
     for left, right in zip(box_x[:-1], box_x[1:]):
-        axes_arrow(hierarchy, (left + 0.211, 0.69), (right - 0.002, 0.69))
+        axes_arrow(hierarchy, (left + 0.208, 0.70), (right - 0.004, 0.70))
         hierarchy.text(
-            (left + 0.211 + right) / 2,
-            0.715,
+            (left + 0.205 + right) / 2,
+            0.735,
             "derive",
             transform=hierarchy.transAxes,
             ha="center",
@@ -501,7 +505,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline.set_xticks(np.arange(2019, 2027))
     timeline.set_xticklabels([str(year) for year in range(2019, 2027)])
-    timeline.grid(axis="x", color=COLORS["grid"], linewidth=0.6, zorder=0)
+    timeline.grid(False)
     timeline.spines[["left", "right", "top"]].set_visible(False)
     timeline.spines["bottom"].set_color(COLORS["muted"])
     timeline.tick_params(axis="x", length=3, color=COLORS["muted"])
@@ -523,7 +527,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         2.76,
         0.48,
         COLORS["calibration"],
-        "CALIBRATION\n69 c | 4 e",
+        "Calibration\n69 c | 4 e",
         fontsize=6.0,
     )
     timeline_block(
@@ -533,7 +537,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         2.76,
         0.48,
         COLORS["historical"],
-        "HIST. EVAL.\n69 c | 4 e",
+        "Hist. eval.\n69 c | 4 e",
         fontsize=5.7,
     )
     timeline.annotate(
@@ -550,7 +554,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         2.00,
         0.31,
         COLORS["calibration"],
-        "ORIGINAL DERIVATION\n44 c | 31 e",
+        "Original derivation\n44 c | 31 e",
         fontsize=5.6,
     )
     timeline_block(
@@ -560,7 +564,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         1.62,
         0.31,
         COLORS["evaluation"],
-        "EXPANSION EVALUATION\n31 c | 31 e",
+        "Expansion evaluation\n31 c | 31 e",
         textcolor="white",
         fontsize=5.6,
     )
@@ -571,7 +575,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         1.62,
         0.69,
         COLORS["evaluation"],
-        "OOS EVALUATION\n75 c | 10 e",
+        "OOS evaluation\n75 c | 10 e",
         textcolor="white",
         fontsize=5.6,
     )
@@ -589,7 +593,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         0.56,
         0.50,
         COLORS["calibration"],
-        "CALIBRATION\n75 c | 10 e",
+        "Calibration\n75 c | 10 e",
         fontsize=5.6,
     )
     timeline_block(
@@ -599,7 +603,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         0.56,
         0.50,
         COLORS["prospective"],
-        "HOLDOUT\n75 c | 8 e",
+        "Holdout\n75 c | 8 e",
         textcolor="white",
         fontsize=5.6,
     )
@@ -893,13 +897,21 @@ def export_figure(fig: plt.Figure, stem: str) -> None:
             facecolor="white",
             metadata=metadata,
         )
+        if extension == "svg":
+            # Matplotlib writes harmless trailing spaces in multiline path data.
+            # Normalize them so regenerated artifacts remain clean under Git QA.
+            svg_text = path.read_text(encoding="utf-8")
+            path.write_text(
+                "\n".join(line.rstrip() for line in svg_text.splitlines()) + "\n",
+                encoding="utf-8",
+            )
     plt.close(fig)
 
 
 def write_captions() -> None:
-    figure1 = """**Figure 1. Measurand-aware cross-platform harmonization workflow and evaluation chronology.** **a,** The measurement hierarchy proceeds from urban-core and surrounding-ring land surface temperature (LST) components to the core-minus-ring spatial contrast, the pre-to-post-sunset temporal transition and its directional sign. Prespecified actions are measurement-level specific: use the selected correction for each component; retain the raw contrast and transition when selected by calibration; and apply the empirical residual interval to resolve the transition sign or abstain. **b,** Calibration and evaluation stages spanning 2019 through 2026. The 2019–2020 GOES-17/16 observations supplied external calibration and the 2021 observations supplied historical external evaluation. The initial model was derived in the 2022–2024 GOES-18/16 original cohort while expansion cities supplied out-of-sample spatial evaluation, then evaluated in both cohorts on the 2025 GOES-18/19 observations. The same 2025 observations subsequently formed the combined calibration set for the measurand-aware selector evaluated in the prospective 2026 GOES-18/19 holdout. Inside-block notation gives analyzed cities (c) and fixed event intervals (e).
+    figure1 = """**Figure 1. Measurand-aware cross-platform harmonization workflow and evaluation chronology.** **(a)** The measurement hierarchy proceeds from urban-core and surrounding-ring land surface temperature (LST) components to the core-minus-ring spatial contrast and the pre-to-post-sunset transition. Out-of-sample loss supports correction or raw retention at each measurement level; a separate empirically calibrated residual interval resolves a transition direction or abstains. **(b)** Calibration and evaluation stages across GOES-17/16, GOES-18/16, and GOES-18/19, where the first platform is the inter-platform consistency reference and the second is the mapped source. The 2021 stage is an outcome-blind historical external replication; models and actions for the prospective 2026 holdout were prespecified from 2025 calibration.
 """
-    figure4 = """**Figure 4. Historical external replication and prospective holdout diagnostics.** **a,** Observed 2021 hourly root-mean-squared error (RMSE) reductions for urban core, surrounding ring and their core-minus-ring contrast; horizontal bars are 95% crossed city–event bootstrap intervals from 5,000 draws. The historical external evaluation contained 2,571 city–event–hour records from 69 cities and four fixed events. **b,** Observed event-specific reductions for the same three measurands. Event labels give interval start date and retained hourly record count; no event-specific uncertainty interval is implied. **c,** Observed prospective 2026 hourly mean-squared-error (MSE) budget terms with 95% crossed-bootstrap intervals. The covariance-loss penalty is plotted as its negative contribution, so the four displayed point terms close as $G_D=G_{variance}+G_{bias}-P_{covariance}$. The net-gain interval spans zero. **d,** Coverage, directionally resolved fraction and agreement with the reference-platform GOES-18 sign among resolved directions for the pooled combined holdout and the pre-existing original and expansion cohorts. Bar labels give exact percentages and integer numerators/denominators. The pooled combined row ($n=588$ transitions) was the formal prespecified decision scope; original and expansion rows are transport diagnostics.
+    figure4 = """**Figure 4. Historical external replication and prospective holdout diagnostics.** **(a)** Observed 2021 hourly root-mean-squared error (RMSE) reductions for urban-core, surrounding-ring, and core–ring contrast; bars are 95% crossed city–event bootstrap intervals from 5,000 draws. The external evaluation contained 2,571 records from 69 cities and four fixed events. **(b)** Observed event-specific reductions; labels give interval start date and retained record count, and no event-specific uncertainty interval is implied. **(c)** Observed prospective 2026 hourly mean-squared-error (MSE) budget terms with 95% crossed-bootstrap intervals; the covariance-loss penalty is plotted as its negative contribution, and the net-gain interval spans zero. **(d)** Coverage, directionally resolved fraction, and agreement with the GOES-18 reference-platform sign among resolved directions. The pooled combined holdout was the formal prespecified decision scope; original and expansion rows are transport diagnostics.
 """
     (FIGURES / "figure1_workflow_timeline_caption.md").write_text(
         figure1, encoding="utf-8"

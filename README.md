@@ -2,7 +2,7 @@
 
 This is the private peer-review reproducibility repository for the *Remote Sensing* article **“Measurand-Aware Validation of Cross-Platform GOES Land Surface Temperature Harmonization”** by Shiyu Li and Shuanggen Jin.
 
-The study asks whether corrections that improve two component land-surface-temperature measurements also improve the spatial difference and temporal change used for inference. It uses frozen GOES-16/17/18/19 evaluation cohorts, exact mean-squared-error accounting, a measurand-specific correction selector, an uncertainty gate, and a deterministic covariance-regime stress test.
+The study asks whether corrections that improve two component land-surface-temperature measurements also improve the spatial difference and temporal change used for inference. It uses frozen GOES-16/17/18/19 evaluation cohorts, exact mean-squared-error decomposition, a measurand-specific correction selector, a residual-interval rule, and a deterministic covariance-regime stress test.
 
 ## Reproducibility scope
 
@@ -16,7 +16,7 @@ Raw provider files are not redistributed. Upstream availability and licensing ar
 - `03_FIGURES/`: main figures and captions in submission and vector formats.
 - `04_PROTOCOLS/`: frozen protocols, manifests, and the package-local 94-city auxiliary lookup.
 - `05_CODE/scripts/`: deterministic builders and the independent reviewer validator.
-- `05_CODE/tests/`: tests for the reusable MSE-accounting module.
+- `05_CODE/tests/`: tests for the reusable MSE-decomposition module.
 - `data/` and `outputs/`: the 40-file processed-source closure required to rebuild the SI evidence tables and validate all reported five-cohort summaries.
 - `07_SUBMISSION/`: the deterministic machine-readable supplementary-data archive and its README.
 - `docs/`: claim-to-evidence mapping, terminology, and claim boundaries.
@@ -40,7 +40,7 @@ From the repository root:
 bash scripts/run_all.sh
 ```
 
-That command rebuilds the SI evidence tables, deterministic covariance grid and figure, Figures 1 and 4, Figure 3, the machine-readable SI ZIP, and then runs the independent numeric validator and unit tests. Figure 2 is the covariance-regime stress-test figure.
+That command rebuilds the SI evidence tables, deterministic covariance grid, Figures 1–4, the machine-readable SI ZIP, and then runs the independent numeric validator and unit tests. Figure 2 is the cross-cohort synthesis, and Figure 3 is the covariance-regime stress test.
 
 For a read-only numerical audit without rebuilding artifacts:
 
@@ -50,7 +50,7 @@ python -m unittest discover -s 05_CODE/tests -p 'test_metric_aware_harmonization
 shasum -a 256 -c SHA256SUMS.txt
 ```
 
-The validator independently reconstructs all 15 hourly RMSE rows and 10 hourly/transition MSE budgets from retained row-level predictions, verifies exact-identity closure, checks the 2026 uncertainty gate, audits both 5,000-draw crossed-bootstrap archives, and verifies the source-provenance manifest.
+The validator independently reconstructs all 15 hourly RMSE rows and 10 hourly/transition MSE budgets from retained row-level predictions, verifies exact-identity closure, checks the 2026 residual-interval results, audits both 5,000-draw crossed-bootstrap archives, and verifies the source-provenance manifest.
 
 ## Main validated results
 

@@ -4,7 +4,7 @@
 This script deliberately does not import the analysis pipeline.  It rebuilds the
 five-cohort hourly and transition diagnostics from the retained row-level
 prediction files, verifies the exact downstream MSE identity, audits the 2026
-uncertainty gate, checks both saved crossed-bootstrap archives, and validates
+residual-interval results, checks both saved crossed-bootstrap archives, and validates
 all source-manifest hashes that can be resolved locally.
 
 Examples

@@ -6,7 +6,7 @@ Contents include:
 
 - fixed 94-city candidate metadata and 57-interval chronology;
 - cohort/event attrition and full model-selection tables;
-- observed cross-cohort RMSE and exact MSE-accounting tables;
+- observed cross-cohort RMSE and exact MSE-decomposition tables;
 - 2021 external-replication bootstrap and influence summaries;
 - 2026 crossed-bootstrap and residual-interval outputs;
 - deterministic covariance-regime stress-test outputs;

@@ -4,7 +4,7 @@
 
 - Harmonization success is measurand dependent.
 - Stronger agreement for component products does not guarantee stronger agreement for their derived spatial contrast or temporal transition.
-- For a linear derived measurand, exact MSE accounting can identify whether component variance and differential-bias gains exceed loss of beneficial error covariance.
+- For a linear derived measurand, exact MSE decomposition can identify whether component variance and differential-bias gains exceed loss of beneficial error covariance.
 - Frozen out-of-sample validation can support different actions at different measurement levels: correct, retain raw, or abstain.
 - The same covariance-loss mechanism appears across the tested GOES platform replacements and evaluation cohorts.
 - Urban core–ring LST provides a concrete geospatial demonstration of the general workflow.
