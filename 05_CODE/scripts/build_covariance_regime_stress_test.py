@@ -8,6 +8,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from matplotlib.lines import Line2D
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -313,6 +314,19 @@ def short_label(sample: str) -> str:
     return labels[sample]
 
 
+def panel_label(axis: plt.Axes, label: str) -> None:
+    axis.text(
+        -0.11,
+        1.12,
+        label,
+        transform=axis.transAxes,
+        ha="left",
+        va="top",
+        fontsize=11,
+        fontweight="bold",
+    )
+
+
 def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
     plt.rcParams.update(
         {
@@ -329,7 +343,14 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
             "svg.hashsalt": "gsis-covariance-regime-v1",
         }
     )
-    fig, axes = plt.subplots(1, 2, figsize=(7.4, 3.35), constrained_layout=True)
+    fig, axes = plt.subplots(1, 2, figsize=(8.2, 3.45))
+    fig.subplots_adjust(
+        left=0.08,
+        right=0.96,
+        bottom=0.18,
+        top=0.95,
+        wspace=0.52,
+    )
 
     matrix = regimes.pivot(
         index="rho_harmonized",
@@ -351,38 +372,104 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
         matrix.index,
         matrix.to_numpy(),
         levels=[0.01, 0.5, 0.99],
-        colors=["white", "#f2f2f2", "white"],
-        linewidths=[0.65, 1.0, 0.65],
-        linestyles=["--", "-", "--"],
+        colors=["#171717", "#171717", "#171717"],
+        linewidths=[0.9, 1.15, 0.9],
+        linestyles=["-", "-", "-"],
     )
     axes[0].clabel(
         contour,
         fmt={0.01: "1%", 0.5: "50%", 0.99: "99%"},
         inline=True,
-        fontsize=6.5,
+        fontsize=6.6,
+        colors="#171717",
     )
     for row in empirical.itertuples(index=False):
         improved = row.net_downstream_mse_gain_k2 > 0
-        axes[0].scatter(
-            row.rho_raw,
-            row.rho_harmonized,
-            s=32,
-            marker="o" if improved else "X",
-            facecolor="#2166ac" if improved else "#b2182b",
-            edgecolor="#111111",
-            linewidth=0.7,
-            zorder=4,
-        )
-    axes[0].set(
-        xlim=(0, 0.95),
-        ylim=(0, 0.95),
-        xlabel=r"Raw core–ring residual correlation, $\rho_{raw}$",
-        ylabel=r"Harmonized residual correlation, $\rho_{harm}$",
-        title="a  Bounded covariance-regime stress test",
+        if improved:
+            axes[0].scatter(
+                row.rho_raw,
+                row.rho_harmonized,
+                s=34,
+                marker="o",
+                facecolor="#2166AC",
+                edgecolor="none",
+                linewidth=0,
+                zorder=4,
+            )
+        else:
+            axes[0].scatter(
+                row.rho_raw,
+                row.rho_harmonized,
+                s=42,
+                marker="x",
+                color="#B2182B",
+                linewidth=1.5,
+                zorder=4,
+            )
+    terminal_ticks = [0.0, 0.2, 0.4, 0.6, 0.8, 0.95]
+    axes[0].set_xlim(0, 0.95)
+    axes[0].set_ylim(0, 0.95)
+    axes[0].set_xticks(terminal_ticks, ["0", "0.2", "0.4", "0.6", "0.8", "0.95"])
+    axes[0].set_yticks(terminal_ticks, ["0", "0.2", "0.4", "0.6", "0.8", "0.95"])
+    axes[0].set_xlabel(r"Raw core–ring residual correlation, $\rho_{\mathrm{raw}}$")
+    axes[0].set_ylabel(r"Harmonized residual correlation, $\rho_{\mathrm{harm}}$")
+    axes[0].plot(
+        [0, 0.95],
+        [0, 0.95],
+        color="#303030",
+        lw=0.75,
+        linestyle="--",
+        zorder=3,
     )
-    axes[0].plot([0, 0.95], [0, 0.95], color="#404040", lw=0.55, alpha=0.6)
+    axes[0].text(
+        0.18,
+        0.205,
+        "unchanged residual correlation",
+        rotation=45,
+        rotation_mode="anchor",
+        fontsize=6.2,
+        color="#303030",
+        ha="left",
+        va="bottom",
+        bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.72, "pad": 1.0},
+        zorder=5,
+    )
+    axes[0].legend(
+        handles=[
+            Line2D(
+                [0],
+                [0],
+                marker="o",
+                linestyle="none",
+                markerfacecolor="#2166AC",
+                markeredgecolor="none",
+                markersize=5,
+                label=r"Empirical $G_D>0$",
+            ),
+            Line2D(
+                [0],
+                [0],
+                marker="x",
+                linestyle="none",
+                color="#B2182B",
+                markeredgewidth=1.4,
+                markersize=5.5,
+                label=r"Empirical $G_D<0$",
+            ),
+        ],
+        loc="upper left",
+        bbox_to_anchor=(0.015, 0.985),
+        frameon=True,
+        facecolor="white",
+        edgecolor="none",
+        framealpha=0.78,
+        borderpad=0.3,
+        handletextpad=0.4,
+        fontsize=6.3,
+    )
+    panel_label(axes[0], "a")
     colorbar = fig.colorbar(image, ax=axes[0], pad=0.015, fraction=0.048)
-    colorbar.set_label(r"Fraction with downstream gain ($G_D>0$)")
+    colorbar.set_label(r"Deterministic proportion with $G_D>0$")
 
     maximum = float(
         max(
@@ -407,15 +494,27 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
     }
     for row in empirical.itertuples(index=False):
         improved = row.net_downstream_mse_gain_k2 > 0
-        axes[1].scatter(
-            row.gross_variance_bias_gain_k2,
-            row.covariance_loss_penalty_k2,
-            s=40,
-            color="#2166ac" if improved else "#b2182b",
-            edgecolor="#202020",
-            linewidth=0.7,
-            zorder=3,
-        )
+        if improved:
+            axes[1].scatter(
+                row.gross_variance_bias_gain_k2,
+                row.covariance_loss_penalty_k2,
+                s=38,
+                marker="o",
+                color="#2166AC",
+                edgecolor="none",
+                linewidth=0,
+                zorder=3,
+            )
+        else:
+            axes[1].scatter(
+                row.gross_variance_bias_gain_k2,
+                row.covariance_loss_penalty_k2,
+                s=46,
+                marker="x",
+                color="#B2182B",
+                linewidth=1.6,
+                zorder=3,
+            )
         axes[1].annotate(
             short_label(row.sample),
             (row.gross_variance_bias_gain_k2, row.covariance_loss_penalty_k2),
@@ -444,8 +543,8 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
         aspect="equal",
         xlabel=r"Variance + differential-bias gain (K$^2$)",
         ylabel=r"Covariance-loss penalty (K$^2$)",
-        title="b  Exact positions of the five evaluation cohorts",
     )
+    panel_label(axes[1], "b")
     for axis in axes:
         axis.spines[["top", "right"]].set_visible(False)
         axis.tick_params(direction="out", length=3, width=0.7)
@@ -472,11 +571,17 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
             bbox_inches="tight",
             metadata=metadata,
         )
+        if extension == "svg":
+            svg_text = path.read_text(encoding="utf-8")
+            path.write_text(
+                "\n".join(line.rstrip() for line in svg_text.splitlines()) + "\n",
+                encoding="utf-8",
+            )
     plt.close(fig)
 
 
 def write_caption() -> None:
-    caption = r"""**Figure 3. Deterministic covariance-regime stress test and empirical cohort positions.** \(G_D\) is raw-minus-component-harmonized downstream mean-squared-error (MSE) gain, and \(G_D>0\) indicates improved downstream agreement. **(a)** Deterministic proportion of the bounded parameter grid for which \(G_D>0\). Raw and harmonized core/ring residual correlations range from 0 to 0.95; component residual-scale ratios and differential-bias gains are enumerated exactly. Blue circles denote empirical cohorts with positive downstream MSE gain and red crosses denote negative gain. **(b)** Empirical covariance-loss penalty against gross component-variance plus differential-bias gain. The diagonal is the exact \(G_D=0\) boundary; points below it improve downstream agreement and points above it increase downstream MSE. The test is a deterministic enumeration, not a probability model, and uses no random sampling or new satellite observations.
+    caption = r"""**Figure 3. Deterministic covariance-regime stress test and empirical cohort positions.** \(G_D\) is raw-minus-component-harmonized downstream mean-squared-error (MSE) gain, and \(G_D>0\) indicates improved downstream agreement. **(a)** Deterministic proportion of the bounded parameter grid for which \(G_D>0\). Raw and harmonized core/ring residual correlations range from 0 to 0.95; component residual-scale ratios and differential-bias gains are enumerated exactly. Dark contours mark deterministic proportions of 1%, 50%, and 99%, and the dashed identity line marks unchanged residual correlation, \(\rho_{\mathrm{harm}}=\rho_{\mathrm{raw}}\). Filled blue circles denote empirical cohorts with positive downstream MSE gain and red crosses denote negative gain. **(b)** Empirical covariance-loss penalty against gross component-variance plus differential-bias gain. The diagonal is the exact \(G_D=0\) boundary; points below it improve downstream agreement and points above it increase downstream MSE. The test is a deterministic enumeration, not a probability model, and uses no random sampling or new satellite observations.
 """
     (FIGURES / "covariance_regime_stress_test_caption.md").write_text(
         caption, encoding="utf-8"

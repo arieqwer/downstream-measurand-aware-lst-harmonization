@@ -14,6 +14,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from matplotlib.lines import Line2D
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Patch, Rectangle
 
 
@@ -410,16 +411,10 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     timeline = fig.add_axes([0.205, 0.075, 0.765, 0.445])
 
     hierarchy.set_axis_off()
-    hierarchy.text(
-        0.0,
-        1.02,
-        "a  Measurement hierarchy and prespecified actions",
-        transform=hierarchy.transAxes,
-        ha="left",
-        va="bottom",
-        fontsize=9,
-        fontweight="bold",
-    )
+    # Panel labels share an absolute left margin even though the chronology
+    # axes reserve additional space for its long row labels.
+    fig.text(0.015, 0.975, "a", ha="left", va="top", fontsize=11, fontweight="bold")
+    fig.text(0.015, 0.545, "b", ha="left", va="top", fontsize=11, fontweight="bold")
     hierarchy.text(
         0.01,
         0.90,
@@ -444,14 +439,22 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     measurands = [
         ("Component LST\n$C$ urban core\n$R$ surrounding ring", "#EAF4FA", COLORS["core"]),
         ("Spatial contrast\n$D = C - R$", "#EAF7F2", COLORS["contrast"]),
-        ("Temporal transition\n$T = D_{post} - D_{pre}$", "#F3EDF5", COLORS["prospective"]),
+        (
+            r"Temporal transition" "\n" r"$T = D_{\mathrm{post}} - D_{\mathrm{pre}}$",
+            "#F3EDF5",
+            COLORS["prospective"],
+        ),
         ("Transition direction\n$\\operatorname{sign}(T)$", "#F3EDF5", COLORS["prospective"]),
     ]
     actions = [
         ("Selected component models\nUse component correction", "#DDEFF7", COLORS["core"]),
         ("Raw selected\nRetain raw contrast", "#DDF1EA", COLORS["contrast"]),
         ("Raw selected\nRetain raw transition", "#F0E2EF", COLORS["prospective"]),
-        ("Empirical residual interval\nResolve or abstain", "#F0E2EF", COLORS["prospective"]),
+        (
+            "Empirical residual interval\nSupport sign or abstain",
+            "#F0E2EF",
+            COLORS["prospective"],
+        ),
     ]
     for x, (text, fill, edge), (action, action_fill, action_edge) in zip(
         box_x, measurands, actions
@@ -513,13 +516,6 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     for label in timeline.get_yticklabels():
         label.set_horizontalalignment("right")
         label.set_fontweight("bold")
-    timeline.set_title(
-        "b  Prespecified calibration and evaluation chronology",
-        loc="left",
-        fontweight="bold",
-        pad=10,
-    )
-
     timeline_block(
         timeline,
         2019.0,
@@ -654,6 +650,38 @@ def clean_axis(ax: plt.Axes) -> None:
     ax.tick_params(direction="out", length=3, width=0.7)
 
 
+def panel_label(ax: plt.Axes, label: str) -> None:
+    ax.text(
+        -0.11,
+        1.12,
+        label,
+        transform=ax.transAxes,
+        ha="left",
+        va="top",
+        fontsize=11,
+        fontweight="bold",
+    )
+
+
+def component_legend_handles() -> list[Line2D]:
+    return [
+        Line2D(
+            [0],
+            [0],
+            marker="o",
+            linestyle="none",
+            markerfacecolor=color,
+            markeredgecolor="none",
+            markersize=5,
+            label=label,
+        )
+        for label, color in zip(
+            ["Core", "Ring", "Core−ring contrast"],
+            [COLORS["core"], COLORS["ring"], COLORS["contrast"]],
+        )
+    ]
+
+
 def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
     fig, axes = plt.subplots(2, 2, figsize=(7.6, 6.2), constrained_layout=True)
     ax_a, ax_b, ax_c, ax_d = axes.ravel()
@@ -684,17 +712,36 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
             elinewidth=1.6,
             capsize=3.5,
             markersize=5.5,
-            markeredgecolor=COLORS["ink"],
-            markeredgewidth=0.5,
+            markeredgecolor="none",
+            markeredgewidth=0,
             zorder=3,
         )
-        ax_a.text(point + 2.2, yi, f"{point:.1f}%", va="center", fontsize=6.8)
+        ax_a.annotate(
+            f"{point:.1f}%",
+            (point, yi),
+            xytext=(5, -9),
+            textcoords="offset points",
+            ha="left",
+            va="top",
+            fontsize=6.8,
+        )
     ax_a.axvline(0, color=COLORS["ink"], linewidth=0.8)
     ax_a.set_yticks(y, labels)
     ax_a.invert_yaxis()
     ax_a.set_xlim(-10, 68)
     ax_a.set_xlabel("Observed RMSE reduction (%)")
-    ax_a.set_title("a  2021 external replication", loc="left", fontweight="bold")
+    ax_a.legend(
+        handles=component_legend_handles(),
+        loc="upper right",
+        bbox_to_anchor=(1.0, 1.08),
+        frameon=False,
+        ncol=3,
+        handletextpad=0.3,
+        columnspacing=0.8,
+        borderaxespad=0,
+        fontsize=6.2,
+    )
+    panel_label(ax_a, "a")
     clean_axis(ax_a)
 
     events = data["single_events"].copy()
@@ -708,8 +755,8 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
             base_y + offsets[component],
             s=27,
             color=color,
-            edgecolor=COLORS["ink"],
-            linewidth=0.45,
+            edgecolor="none",
+            linewidth=0,
             label=label,
             zorder=3,
         )
@@ -720,19 +767,21 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
     ]
     ax_b.set_yticks(base_y, event_labels)
     ax_b.invert_yaxis()
-    ax_b.set_xlim(-4, 64)
+    ax_b.set_xlim(0, 64)
+    ax_b.margins(x=0)
     ax_b.set_xlabel("Event-specific RMSE reduction (%)")
-    ax_b.set_title("b  Four fixed 2021 validation events", loc="left", fontweight="bold")
     ax_b.legend(
-        loc="lower center",
-        bbox_to_anchor=(0.5, -0.24),
+        handles=component_legend_handles(),
+        loc="upper right",
+        bbox_to_anchor=(1.0, 1.08),
         frameon=False,
         ncol=3,
-        borderaxespad=0.3,
-        handletextpad=0.4,
-        columnspacing=0.9,
-        fontsize=6.3,
+        borderaxespad=0,
+        handletextpad=0.3,
+        columnspacing=0.8,
+        fontsize=6.2,
     )
+    panel_label(ax_b, "b")
     clean_axis(ax_b)
 
     mse_point = data["mse_point"].iloc[0]
@@ -746,7 +795,7 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
     term_labels = [
         "Component-variance gain",
         "Differential-bias gain",
-        "− Covariance-loss penalty",
+        "Covariance-loss penalty",
         "Net downstream gain",
     ]
     term_colors = [COLORS["variance"], COLORS["bias"], COLORS["covariance"], COLORS["net"]]
@@ -775,7 +824,10 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
         ]
     )
     term_y = np.arange(4)
-    for yi, point, low, high, color in zip(term_y, points, lows, highs, term_colors):
+    for yi, point, low, high, color, metric_name in zip(
+        term_y, points, lows, highs, term_colors, metric_names
+    ):
+        marker_size = 3.4 if metric_name == "net_downstream_mse_gain_k2" else 5.0
         ax_c.errorbar(
             point,
             yi,
@@ -785,20 +837,26 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
             ecolor=color,
             elinewidth=1.6,
             capsize=3.5,
-            markersize=5.5,
-            markeredgecolor=COLORS["ink"],
-            markeredgewidth=0.5,
+            markersize=marker_size,
+            markeredgecolor="none",
+            markeredgewidth=0,
             zorder=3,
         )
-        # Keep all values on the interior side of the left margin; the negative
-        # penalty would otherwise collide with its long y-axis term label.
-        ax_c.text(point + 0.10, yi, f"{point:+.3f}", ha="left", va="center", fontsize=6.7)
+        ax_c.annotate(
+            f"{point:+.3f}".replace("-", "−"),
+            (point, yi),
+            xytext=(5, -9),
+            textcoords="offset points",
+            ha="left",
+            va="top",
+            fontsize=6.7,
+        )
     ax_c.axvline(0, color=COLORS["ink"], linewidth=0.8)
     ax_c.set_yticks(term_y, term_labels)
     ax_c.invert_yaxis()
     ax_c.set_xlim(-2.25, 2.40)
     ax_c.set_xlabel("Observed contribution to MSE gain (K²)")
-    ax_c.set_title("c  2026 hourly MSE budget", loc="left", fontweight="bold")
+    panel_label(ax_c, "c")
     clean_axis(ax_c)
 
     gate = data["gate_cohorts"].set_index("scope_label").loc[
@@ -810,7 +868,7 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
         "Expansion\ndiagnostic\nn=239",
     ]
     gate_metrics = ["coverage", "certified_fraction", "certified_sign_accuracy"]
-    gate_labels = ["Coverage", "Resolved", "G18 sign agreement"]
+    gate_labels = ["Coverage", "Sign supported", "G18 sign agreement"]
     gate_colors = [COLORS["core"], COLORS["ring"], COLORS["contrast"]]
     x = np.arange(3)
     width = 0.24
@@ -822,8 +880,8 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
             values,
             width=width * 0.92,
             color=color,
-            edgecolor=COLORS["ink"],
-            linewidth=0.55,
+            edgecolor="none",
+            linewidth=0,
             label=label,
             zorder=2,
         )
@@ -855,20 +913,21 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
                 fontweight="bold",
             )
     ax_d.set_xticks(x, cohort_labels)
-    # Headroom separates the exact labels from the in-panel legend.
-    ax_d.set_ylim(0, 124)
+    ax_d.set_ylim(0, 120)
+    ax_d.set_yticks(np.arange(0, 121, 20))
+    ax_d.margins(y=0)
     ax_d.set_ylabel("Held-out transitions (%)")
-    ax_d.set_title("d  2026 residual-interval transport", loc="left", fontweight="bold")
     ax_d.legend(
-        loc="upper center",
-        bbox_to_anchor=(0.5, 0.99),
+        loc="upper right",
+        bbox_to_anchor=(1.0, 1.08),
         frameon=False,
         ncol=3,
         columnspacing=0.8,
         handlelength=1.1,
         fontsize=6.0,
+        borderaxespad=0,
     )
-    ax_d.grid(axis="y", color=COLORS["grid"], linewidth=0.55, zorder=0)
+    panel_label(ax_d, "d")
     clean_axis(ax_d)
     return fig
 
@@ -898,8 +957,6 @@ def export_figure(fig: plt.Figure, stem: str) -> None:
             metadata=metadata,
         )
         if extension == "svg":
-            # Matplotlib writes harmless trailing spaces in multiline path data.
-            # Normalize them so regenerated artifacts remain clean under Git QA.
             svg_text = path.read_text(encoding="utf-8")
             path.write_text(
                 "\n".join(line.rstrip() for line in svg_text.splitlines()) + "\n",
@@ -909,9 +966,9 @@ def export_figure(fig: plt.Figure, stem: str) -> None:
 
 
 def write_captions() -> None:
-    figure1 = """**Figure 1. Measurand-aware cross-platform harmonization workflow and evaluation chronology.** **(a)** The measurement hierarchy proceeds from urban-core and surrounding-ring land surface temperature (LST) components to the core-minus-ring spatial contrast and the pre-to-post-sunset transition. Out-of-sample loss supports correction or raw retention at each measurement level; a separate empirically calibrated residual interval resolves a transition direction or abstains. **(b)** Calibration and evaluation stages across GOES-17/16, GOES-18/16, and GOES-18/19, where the first platform is the inter-platform consistency reference and the second is the mapped source. The 2021 stage is an outcome-blind historical external replication; models and actions for the prospective 2026 holdout were prespecified from 2025 calibration.
+    figure1 = r"""**Figure 1. Measurand-aware cross-platform harmonization workflow and evaluation chronology.** **(a)** The measurement hierarchy proceeds from urban-core and surrounding-ring land surface temperature (LST) components to the core-minus-ring spatial contrast and the pre-to-post-sunset transition, \(T=D_{\mathrm{post}}-D_{\mathrm{pre}}\). Out-of-sample loss supports correction or raw retention at each measurement level; a separate empirically calibrated residual interval supports a positive or negative transition sign when it excludes zero and otherwise abstains. **(b)** Calibration and evaluation stages across GOES-17/16, GOES-18/16, and GOES-18/19, where the first platform is the inter-platform consistency reference and the second is the mapped source. The 2021 stage is an outcome-blind historical external replication; models and actions for the prospective 2026 holdout were prespecified from 2025 calibration.
 """
-    figure4 = """**Figure 4. Historical external replication and prospective holdout diagnostics.** **(a)** Observed 2021 hourly root-mean-squared error (RMSE) reductions for urban-core, surrounding-ring, and core–ring contrast; bars are 95% crossed city–event bootstrap intervals from 5,000 draws. The external evaluation contained 2,571 records from 69 cities and four fixed events. **(b)** Observed event-specific reductions; labels give interval start date and retained record count, and no event-specific uncertainty interval is implied. **(c)** Observed prospective 2026 hourly mean-squared-error (MSE) budget terms with 95% crossed-bootstrap intervals; the covariance-loss penalty is plotted as its negative contribution, and the net-gain interval spans zero. **(d)** Coverage, directionally resolved fraction, and agreement with the GOES-18 reference-platform sign among resolved directions. The pooled combined holdout was the formal prespecified decision scope; original and expansion rows are transport diagnostics.
+    figure4 = """**Figure 4. Historical external replication and prospective holdout diagnostics.** **(a)** Observed 2021 hourly root-mean-squared error (RMSE) reductions for urban-core, surrounding-ring, and core–ring contrast; bars are 95% crossed city–event bootstrap intervals from 5,000 draws. The external evaluation contained 2,571 records from 69 cities and four fixed events. **(b)** Observed event-specific reductions; labels give interval start date and retained record count, and no event-specific uncertainty interval is implied. **(c)** Observed prospective 2026 hourly mean-squared-error (MSE) decomposition terms with 95% crossed-bootstrap intervals; the net-gain interval spans zero. The covariance-loss penalty is plotted on the negative x-axis because it subtracts from downstream MSE gain. **(d)** Coverage, fraction for which the interval excluded zero, and agreement of supported signs with the GOES-18 reference-platform sign. The pooled combined holdout was the formal prespecified decision scope; original and expansion rows are transport diagnostics.
 """
     (FIGURES / "figure1_workflow_timeline_caption.md").write_text(
         figure1, encoding="utf-8"

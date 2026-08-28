@@ -41,13 +41,14 @@ COLORS = {
 
 def panel_label(axis: plt.Axes, label: str) -> None:
     axis.text(
-        -0.12,
-        1.04,
+        -0.11,
+        1.035,
         label,
         transform=axis.transAxes,
         fontsize=11,
         fontweight="bold",
         va="top",
+        ha="left",
     )
 
 
@@ -162,44 +163,50 @@ def main() -> None:
             "svg.hashsalt": "gsis-downstream-framework-v1",
         }
     )
-    figure, axes = plt.subplots(2, 2, figsize=(10.2, 7.2))
+    # The extra canvas width provides dedicated space for the legends in
+    # panels b and c without changing their scientific x-axis ranges.
+    figure, axes = plt.subplots(2, 2, figsize=(11.6, 7.0))
     figure.subplots_adjust(
-        left=0.09, right=0.985, bottom=0.11, top=0.95, wspace=0.46, hspace=0.36
+        left=0.075,
+        right=0.825,
+        bottom=0.11,
+        top=0.95,
+        wspace=0.52,
+        hspace=0.40,
     )
     ax_a, ax_b, ax_c, ax_d = axes.ravel()
 
     ax_a.set_axis_off()
-    ax_a.set_title("Loss selection and sign uncertainty determine distinct actions", loc="left")
-    add_box(ax_a, 0.04, 0.71, 0.23, 0.14, "Core LST\nC", "#EAF4FB", COLORS["core"])
-    add_box(ax_a, 0.04, 0.48, 0.23, 0.14, "Ring LST\nR", "#EAF8F3", COLORS["ring"])
+    add_box(ax_a, 0.02, 0.71, 0.21, 0.14, "Core LST\nC", "#EAF4FB", COLORS["core"])
+    add_box(ax_a, 0.02, 0.48, 0.21, 0.14, "Ring LST\nR", "#EAF8F3", COLORS["ring"])
     add_box(
         ax_a,
-        0.39,
+        0.32,
         0.60,
         0.25,
         0.16,
-        "Spatial contrast\nD = C - R",
+        r"Spatial contrast" "\n" r"$D = C - R$",
         "#FAEFF7",
         COLORS["anomaly"],
     )
     add_box(
         ax_a,
-        0.73,
+        0.66,
         0.60,
-        0.24,
+        0.32,
         0.16,
-        "Temporal transition\nT = Dpost - Dpre",
+        r"Temporal transition" "\n" r"$T = D_{\mathrm{post}} - D_{\mathrm{pre}}$",
         "#F4F4F4",
         "#666666",
     )
-    add_arrow(ax_a, (0.28, 0.78), (0.38, 0.70))
-    add_arrow(ax_a, (0.28, 0.55), (0.38, 0.66))
-    add_arrow(ax_a, (0.65, 0.68), (0.72, 0.68))
+    add_arrow(ax_a, (0.24, 0.78), (0.31, 0.70))
+    add_arrow(ax_a, (0.24, 0.55), (0.31, 0.66))
+    add_arrow(ax_a, (0.58, 0.68), (0.65, 0.68))
     add_box(
         ax_a,
-        0.04,
+        0.02,
         0.31,
-        0.58,
+        0.55,
         0.10,
         "Out-of-sample loss at each measurand",
         "#F7F7F7",
@@ -208,9 +215,9 @@ def main() -> None:
     )
     add_box(
         ax_a,
-        0.04,
+        0.02,
         0.07,
-        0.27,
+        0.26,
         0.14,
         "Loss improves\nApply selected\ncorrection",
         "#EEF8F4",
@@ -219,22 +226,22 @@ def main() -> None:
     )
     add_box(
         ax_a,
-        0.35,
+        0.31,
         0.07,
-        0.27,
+        0.26,
         0.14,
         "No justified gain\nRetain raw\nmeasurand",
         "#F4F4F4",
         "#888888",
         6.5,
     )
-    add_arrow(ax_a, (0.20, 0.30), (0.175, 0.22))
-    add_arrow(ax_a, (0.46, 0.30), (0.485, 0.22))
+    add_arrow(ax_a, (0.18, 0.30), (0.15, 0.22))
+    add_arrow(ax_a, (0.43, 0.30), (0.44, 0.22))
     add_box(
         ax_a,
-        0.68,
+        0.60,
         0.31,
-        0.29,
+        0.38,
         0.10,
         "Empirical residual interval\nfor transition sign",
         "#F7F3FA",
@@ -243,42 +250,42 @@ def main() -> None:
     )
     add_box(
         ax_a,
-        0.68,
+        0.575,
         0.07,
-        0.13,
+        0.23,
         0.14,
-        "Excludes 0\nResolve sign",
+        "Interval excludes\nzero\nSign supported",
         "#EEF8F4",
         "#6A9E86",
-        6.6,
+        5.7,
     )
     add_box(
         ax_a,
-        0.84,
+        0.83,
         0.07,
-        0.13,
+        0.15,
         0.14,
-        "Includes 0\nAbstain",
+        "Interval includes\nzero\nAbstain",
         "#FFF3EB",
         "#C86428",
-        6.6,
+        5.7,
     )
-    add_arrow(ax_a, (0.77, 0.30), (0.745, 0.22))
-    add_arrow(ax_a, (0.88, 0.30), (0.905, 0.22))
+    add_arrow(ax_a, (0.72, 0.30), (0.69, 0.22))
+    add_arrow(ax_a, (0.88, 0.30), (0.90, 0.22))
     panel_label(ax_a, "a")
 
     rmse = load_rmse()
     samples = list(rmse["sample"].cat.categories)
     sample_labels = [
         "2021 G17/16 external",
-        "2022-24 G18/16 expansion",
+        "2022–24 G18/16 expansion",
         "2025 G18/19 original",
         "2025 G18/19 expansion",
         "2026 G18/19 prospective",
     ]
     y = np.arange(len(samples))
     offsets = {"core": -0.17, "ring": 0.0, "anomaly": 0.17}
-    labels = {"core": "Core", "ring": "Ring", "anomaly": "Core-minus-ring"}
+    labels = {"core": "Core", "ring": "Ring", "anomaly": "Core−ring contrast"}
     for component in ["core", "ring", "anomaly"]:
         selected = rmse[rmse["component"].eq(component)].set_index("sample")
         values = np.array(
@@ -298,9 +305,12 @@ def main() -> None:
     ax_b.set_yticks(y, sample_labels)
     ax_b.invert_yaxis()
     ax_b.set_xlabel("Out-of-sample RMSE reduction (%)")
-    ax_b.set_title("Component gains transfer inconsistently to the difference", loc="left")
-    ax_b.legend(frameon=False, loc="lower right")
-    ax_b.grid(axis="x", color="#E6E6E6", linewidth=0.6)
+    ax_b.legend(
+        frameon=False,
+        loc="center left",
+        bbox_to_anchor=(1.02, 0.5),
+        borderaxespad=0,
+    )
     ax_b.set_xlim(-18, 72)
     panel_label(ax_b, "b")
 
@@ -329,20 +339,23 @@ def main() -> None:
     ax_c.scatter(
         x,
         net,
-        s=32,
-        marker="D",
+        s=20,
+        marker="o",
         color=COLORS["net"],
-        edgecolor="white",
-        linewidth=0.4,
+        edgecolor="none",
         label="Net downstream gain",
         zorder=4,
     )
     ax_c.axhline(0, color="#555555", linewidth=0.7)
-    ax_c.set_xticks(x, ["2021\nG17/16", "2022-24\nG18/16", "2025 orig.\nG18/19", "2025 expand.\nG18/19", "2026\nG18/19"])
-    ax_c.set_ylabel("Exact hourly MSE-budget term (K²)")
-    ax_c.set_title("Covariance loss offsets upstream variance reduction", loc="left")
-    ax_c.legend(frameon=False, ncol=2, loc="lower left")
-    ax_c.grid(axis="y", color="#E6E6E6", linewidth=0.6)
+    ax_c.set_xticks(x, ["2021\nG17/16", "2022–24\nG18/16", "2025 orig.\nG18/19", "2025 expand.\nG18/19", "2026\nG18/19"])
+    ax_c.set_ylabel("Exact hourly MSE decomposition term (K²)")
+    ax_c.set_ylim(min(-2.7, float(penalty.min()) - 0.15), 3.0)
+    ax_c.legend(
+        frameon=False,
+        loc="center left",
+        bbox_to_anchor=(1.02, 0.5),
+        borderaxespad=0,
+    )
     panel_label(ax_c, "c")
 
     uncertainty = load_uncertainty()
@@ -356,12 +369,21 @@ def main() -> None:
     labels = ["Agrees with G18", "Differs from G18", "Abstained"]
     colors = [COLORS["certified"], COLORS["covariance"], COLORS["abstain"]]
     left = 0
+    bar_y = 0.18
+    bar_height = 0.18
     for value, label, color in zip(values, labels, colors):
-        ax_d.barh(0, value, left=left, height=0.45, color=color, label=label)
+        ax_d.barh(
+            bar_y,
+            value,
+            left=left,
+            height=bar_height,
+            color=color,
+            label=label,
+        )
         if value >= 20:
             ax_d.text(
                 left + value / 2,
-                0,
+                bar_y,
                 str(value),
                 ha="center",
                 va="center",
@@ -370,41 +392,40 @@ def main() -> None:
                 fontweight="bold",
             )
         else:
-            ax_d.text(
-                left + value / 2,
-                0.31,
+            ax_d.annotate(
                 str(value),
+                xy=(left + value / 2, bar_y + bar_height / 2),
+                xytext=(left + value / 2, bar_y + 0.23),
                 ha="center",
                 va="bottom",
-                color="#222222",
                 fontsize=7,
                 fontweight="bold",
+                arrowprops={"arrowstyle": "-", "lw": 0.6, "color": "#555555"},
             )
         left += value
     ax_d.set_xlim(0, total)
-    ax_d.set_ylim(-0.65, 0.65)
+    ax_d.set_ylim(0, 0.92)
     ax_d.set_yticks([])
     ax_d.set_xlabel("Held-out 2026 city-event transitions")
-    ax_d.set_title("Residual interval permits selective inference", loc="left")
-    ax_d.legend(frameon=False, loc="upper center", ncol=3)
-    ax_d.text(
-        0.02,
-        0.12,
-        f"{combined['coverage']*100:.1f}% interval\ncoverage",
-        transform=ax_d.transAxes,
-        ha="left",
-        va="bottom",
-        fontsize=8,
+    ax_d.spines["left"].set_visible(False)
+    ax_d.tick_params(axis="y", left=False)
+    ax_d.legend(
+        frameon=False,
+        loc="upper center",
+        bbox_to_anchor=(0.5, 1.02),
+        ncol=3,
+        borderaxespad=0,
     )
     ax_d.text(
-        0.98,
-        0.12,
-        f"{combined['certified_fraction']*100:.1f}% resolved\n"
-        f"{combined['certified_sign_accuracy']*100:.1f}% agreement\n"
-        "with GOES-18 sign",
+        0.5,
+        0.67,
+        f"{combined['coverage']*100:.1f}% interval coverage; interval excluded zero for "
+        f"{certified}/{total} ({combined['certified_fraction']*100:.1f}%)\n"
+        f"Supported signs agreed with GOES-18 for {agrees}/{certified} "
+        f"({combined['certified_sign_accuracy']*100:.1f}%)",
         transform=ax_d.transAxes,
-        ha="right",
-        va="bottom",
+        ha="center",
+        va="center",
         fontsize=8,
     )
     panel_label(ax_d, "d")
@@ -431,21 +452,32 @@ def main() -> None:
             bbox_inches="tight",
             metadata=metadata,
         )
+        if suffix == "svg":
+            svg_path = OUT / "downstream_metric_framework_synthesis.svg"
+            svg_text = svg_path.read_text(encoding="utf-8")
+            svg_path.write_text(
+                "\n".join(line.rstrip() for line in svg_text.splitlines()) + "\n",
+                encoding="utf-8",
+            )
     plt.close(figure)
 
     caption = (
         "**Figure 2. Cross-cohort component gains, downstream non-transfer, and selective "
         "directional inference.** **(a)** Measurement hierarchy, loss-based correction or "
-        "raw-retention rule, and separate residual-interval rule for directional resolution "
-        "or abstention. Core is urban-core land surface temperature (LST), and ring is the "
-        "fixed 10–20-km surrounding-ring LST. **(b)** Out-of-sample root-mean-squared error "
+        "raw-retention rule, and separate residual-interval rule for sign support or "
+        "abstention. Core is urban-core land surface temperature (LST), ring is the fixed "
+        "10–20-km surrounding-ring LST, and \\(T=D_{\\mathrm{post}}-D_{\\mathrm{pre}}\\). "
+        "**(b)** Out-of-sample root-mean-squared error "
         "(RMSE) reductions across three reference/source platform pairings and five evaluation "
-        "cohorts. **(c)** Exact hourly mean-squared-error (MSE) decomposition. Positive "
+        "cohorts; the vertical zero line marks no RMSE change. **(c)** Exact hourly "
+        "mean-squared-error (MSE) decomposition. Positive "
         "component-variance and differential-bias gains are offset by loss of beneficial "
-        "core–ring residual covariance; diamonds show net downstream MSE gain. **(d)** The "
+        "core–ring residual covariance; filled circles show net downstream MSE gain, and the "
+        "horizontal zero line marks no gain. **(d)** The "
         "prespecified 2026 residual interval covered 90.0% of 588 GOES-18 reference-platform "
-        "transitions, directionally resolved 30.6%, and 96.7% of resolved directions matched "
-        "the GOES-18 sign."
+        "transitions and excluded zero for 180 cases (30.6%); the supported sign agreed with "
+        "GOES-18 in 174 cases (96.7%). Segment counts show the corresponding cases in the "
+        "stacked bar."
     )
     (OUT / "downstream_metric_framework_synthesis_caption.md").write_text(
         caption, encoding="utf-8"

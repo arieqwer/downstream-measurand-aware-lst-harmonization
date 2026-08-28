@@ -50,14 +50,14 @@ python -m unittest discover -s 05_CODE/tests -p 'test_metric_aware_harmonization
 shasum -a 256 -c SHA256SUMS.txt
 ```
 
-The validator independently reconstructs all 15 hourly RMSE rows and 10 hourly/transition MSE budgets from retained row-level predictions, verifies exact-identity closure, checks the 2026 residual-interval results, audits both 5,000-draw crossed-bootstrap archives, and verifies the source-provenance manifest.
+The validator independently reconstructs all 15 hourly RMSE rows and 10 hourly/transition MSE decompositions from retained row-level predictions, verifies exact-identity closure, checks the 2026 residual-interval results, audits both 5,000-draw crossed-bootstrap archives, and verifies the source-provenance manifest.
 
 ## Main validated results
 
 - Core and ring RMSE decreased by 29.3–60.0% across all five evaluation cohorts.
 - Core–ring contrast RMSE ranged from a 12.5% deterioration to an 11.3% improvement.
 - Positive covariance-loss penalties offset 94.6–113.6% of gross variance-plus-bias gains.
-- In the prospective 2026 holdout, the residual-interval rule covered 529/588 transitions, directionally resolved 180/588 cases, and 174/180 resolved directions agreed with the GOES-18 reference-platform sign.
+- In the prospective 2026 holdout, the residual-interval rule covered 529/588 transitions, excluded zero for 180/588 cases, and 174/180 supported signs agreed with the GOES-18 reference-platform sign.
 - The deterministic stress test enumerates 11,612,160 bounded configurations across 9,216 correlation cells.
 
 GOES-18 is a consistency reference in the 2026 comparison, not ground truth; reference-sign agreement is not absolute LST accuracy.

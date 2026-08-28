@@ -14,7 +14,7 @@ Use these forms consistently.
 | component-harmonized contrast | `D` calculated after separately harmonizing `C` and `R`. |
 | direct downstream correction | Correction selected against loss for `D` or `T`. |
 | raw retention | No correction applied to the downstream metric. |
-| directional abstention | Direction not resolved when its empirical residual interval contains zero. |
+| directional abstention | A sign is not supported when its empirical residual interval includes zero. |
 | consistency reference | The comparison platform; never call it truth or ground truth. |
 | covariance-loss penalty | `2[Cov_raw(e_c,e_r)-Cov_harm(e_c,e_r)]`; positive values reduce downstream gain. |
 | crossed city-event bootstrap | Cities and events resampled independently and their multiplicities combined. |

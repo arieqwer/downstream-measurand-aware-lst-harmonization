@@ -6,21 +6,24 @@
 ## Outcome
 
 - The revised main manuscript and Supplementary Materials preserve all analyzed samples, models, thresholds, dates, numerical results, and scientific conclusions.
+- The main Methods now contain exactly five subsections, Results four, and Discussion three, with the requested merged headings and synchronized cross-references.
 - The abstract is one paragraph and 252 words under the submission-package counter. Highlights, Introduction, Methods, Discussion, Conclusions, quality terminology, and study-specific novelty language were revised as requested where supported.
 - Figure order is Figure 1, Figure 2 (cross-cohort synthesis), Figure 3 (deterministic covariance-regime stress test), and Figure 4, in strict order of first citation. All main-text, SI, and caption-file cross-references match.
-- Figure 1 panel a now shows the complete workflow with wider horizontal spacing, sentence-case box text, a lower measurand-action row, and no arrow/label overlap. Panel b has no vertical year gridlines.
+- Figures 1–4 were regenerated from the retained plotting scripts and verified data sources at publication resolution. Embedded panel titles and decorative grids were removed; bold lowercase panel labels, scientific zero/identity/boundary/contour lines, external legends, requested axis limits, and caption explanations were retained or added as specified.
+- Figure 1 panel a shows the complete workflow with wider horizontal spacing, sentence-case box text, a lower measurand-action row, true transition subscripts, and no arrow/label overlap. Panel b has no vertical year gridlines.
 - Main Table 1 and SI Tables S1–S5, S7, and S9 use at least 8 pt text. All other table text is also at least 8 pt.
 - The main article contains nine displayed equations and the Supplementary Materials contain nine displayed equations. All 18 are native editable Microsoft Word equation objects.
 - Neither Word file contains author-applied line numbering.
 - The rendered 17-page manuscript and 19-page supplement were inspected page by page. No clipped text, split figure caption, missing panel, overlapping object, or unreadable table was found.
 - Reported values, sample sizes, intervals, platform pairings, measurement terms, figure/table numbers, Supplementary Data identifiers, citations, and section cross-references were checked across the manuscript, SI, figure-caption assets, and retained evidence. No unresolved numerical or cross-reference mismatch remains.
+- The 2021 transition statement was checked against the frozen observed report and crossed-bootstrap summary: the observed estimate is −1.84%, and the 95% interval is −13.8% to 6.9%.
 
 ## Editorial decisions
 
 - The DQF wording was changed to “good- and medium-quality LST retrievals (DQF 0–1),” with DQF 0 defined as good quality and DQF 1 as medium quality, without changing the analyzed sample.
 - Zhang et al. (2025; DOI 10.3389/frsen.2025.1670390) was added only as prior covariance-aware derived-product work; the manuscript does not claim covariance itself as new.
-- “Exact MSE decomposition,” “evaluation design,” “validation design,” “residual-interval rule,” “directionally resolved,” and “abstained” are used consistently in article-facing text. Legacy machine fields containing `gate` or `certified` remain unchanged for schema/provenance compatibility and are explicitly mapped in Table S12.
-- The standalone reproducibility subsection was removed from the main text; its essential software statement remains at the end of Section 2.8, while detailed tests and machine checks remain in SI S9.
+- “Exact MSE decomposition,” “evaluation design,” “validation design,” “residual-interval rule,” “interval excluded zero,” “sign supported,” and “abstained” are used consistently in article-facing text. Legacy machine fields containing `gate` or `certified` remain unchanged for schema/provenance compatibility and are explicitly mapped in Table S12.
+- The standalone reproducibility subsection was removed from the main text; its essential software statement remains at the end of Section 2.5, while detailed tests and machine checks remain in SI S9.
 - The factual generative-AI disclosure was retained in Materials and Methods and Acknowledgments because the documented assistance extended beyond text-only editing to software implementation, validation checks, and figure-generation scripts.
 - US English was standardized outside official titles, literal field names, code identifiers, and frozen protocol text.
 
@@ -58,9 +61,9 @@ All 15 numbered files exist at the Table S12 paths, have the stated dimensions, 
 ## Machine validation
 
 - The private reviewer repository rebuilt successfully with `scripts/run_all.sh`.
-- The independent reviewer validator passed 19 of 19 checks: 15 five-cohort RMSE rows, ten exact MSE budgets, 30 observed identity checks, 2026 residual-interval counts, both 10,000-row bootstrap files, 60,000 bootstrap identity checks, and all 36 source-provenance hashes.
+- The independent reviewer validator passed 19 of 19 checks: 15 five-cohort RMSE rows, ten exact MSE decompositions, 30 observed identity checks, 2026 residual-interval counts, both 10,000-row bootstrap files, 60,000 bootstrap identity checks, and all 36 source-provenance hashes.
 - Four reusable-module unit tests passed.
 - The deterministic stress test reproduced 9,216 correlation cells and 11,612,160 configurations; the maximum direct-versus-reconstructed discrepancy was 8.88 × 10⁻¹⁶ normalized MSE units.
-- Word OOXML packages passed CRC/XML checks; every table run has an explicit size of at least 16 half-points (8 pt); current Figure 1–4 PNGs are embedded byte-for-byte; all 26 references are cited and numbered contiguously.
+- Word OOXML packages passed CRC/XML checks; all 18 displayed equations are native Word math objects; every table run has an explicit size of at least 16 half-points (8 pt); current Figure 1–4 PNGs are embedded byte-for-byte; all 25 references are cited and numbered contiguously.
 
 No missing or mismatched submission-data artifact remains. The only documentation limits are the unrecorded specific rationale for the fixed 2019–2021 dates and the archived-protocol shorthand discrepancy noted above.
