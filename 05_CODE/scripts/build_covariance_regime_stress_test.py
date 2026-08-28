@@ -389,7 +389,7 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
             axes[0].scatter(
                 row.rho_raw,
                 row.rho_harmonized,
-                s=34,
+                s=24,
                 marker="o",
                 facecolor="#2166AC",
                 edgecolor="none",
@@ -400,7 +400,7 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
             axes[0].scatter(
                 row.rho_raw,
                 row.rho_harmonized,
-                s=42,
+                s=30,
                 marker="x",
                 color="#B2182B",
                 linewidth=1.5,
@@ -431,7 +431,6 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
         color="#303030",
         ha="left",
         va="bottom",
-        bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.72, "pad": 1.0},
         zorder=5,
     )
     axes[0].legend(
@@ -443,7 +442,7 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
                 linestyle="none",
                 markerfacecolor="#2166AC",
                 markeredgecolor="none",
-                markersize=5,
+                markersize=4.2,
                 label=r"Empirical $G_D>0$",
             ),
             Line2D(
@@ -453,16 +452,13 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
                 linestyle="none",
                 color="#B2182B",
                 markeredgewidth=1.4,
-                markersize=5.5,
+                markersize=4.6,
                 label=r"Empirical $G_D<0$",
             ),
         ],
         loc="upper left",
         bbox_to_anchor=(0.015, 0.985),
-        frameon=True,
-        facecolor="white",
-        edgecolor="none",
-        framealpha=0.78,
+        frameon=False,
         borderpad=0.3,
         handletextpad=0.4,
         fontsize=6.3,

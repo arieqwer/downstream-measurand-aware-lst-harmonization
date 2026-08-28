@@ -2,6 +2,8 @@
 
 The processed source tables, parameter files, frozen manifests, row-level prediction outputs, and scripts needed to regenerate all figures, supplementary tables, and reported numerical summaries are preserved in this private review repository. The large analysis-ready city–interval panel can be provided to editors and reviewers through an access-controlled archive. A versioned public code-and-data archive with a permanent identifier will be released upon acceptance.
 
+The consolidated frozen design and reproduction instructions are documented in [`docs/REPRODUCIBILITY_PROTOCOL.md`](docs/REPRODUCIBILITY_PROTOCOL.md).
+
 Raw GOES ABI land-surface-temperature files are publicly available from NOAA cloud archives under the `ABI-L2-LSTC` product prefix. GHS-UCDB R2024A is available from the European Commission Joint Research Centre at <https://doi.org/10.2905/JRC.05RDPR0>. NOAA GOES-R land-surface-temperature algorithm metadata are available at <https://doi.org/10.7289/V52R3PZ8>.
 
 No raw provider files are redistributed here. This package starts from frozen processed evidence and does not claim to reproduce raw-data extraction or every upstream model-fitting stage.

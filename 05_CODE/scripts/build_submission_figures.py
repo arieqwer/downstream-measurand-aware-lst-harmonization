@@ -373,7 +373,7 @@ def timeline_block(
     facecolor: str,
     text: str,
     textcolor: str = COLORS["ink"],
-    edgecolor: str = COLORS["ink"],
+    edgecolor: str = "none",
     hatch: str | None = None,
     fontsize: float = 6.2,
 ) -> None:
@@ -383,7 +383,7 @@ def timeline_block(
         height,
         facecolor=facecolor,
         edgecolor=edgecolor,
-        linewidth=0.8,
+        linewidth=0,
         hatch=hatch,
         zorder=2,
     )
@@ -435,7 +435,10 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         ha="center",
     )
 
-    box_x = [0.015, 0.27, 0.525, 0.78]
+    # Narrow all eight boxes uniformly to give each horizontal derivation
+    # arrow and its label an unambiguous gap between neighboring boxes.
+    box_x = [0.02, 0.27, 0.52, 0.77]
+    box_width = 0.18
     measurands = [
         ("Component LST\n$C$ urban core\n$R$ surrounding ring", "#EAF4FA", COLORS["core"]),
         ("Spatial contrast\n$D = C - R$", "#EAF7F2", COLORS["contrast"]),
@@ -463,7 +466,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
             hierarchy,
             x,
             0.59,
-            0.205,
+            box_width,
             0.24,
             fill,
             edge,
@@ -474,19 +477,27 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
             hierarchy,
             x,
             0.025,
-            0.205,
+            box_width,
             0.205,
             action_fill,
             action_edge,
             action,
             fontsize=5.8,
         )
-        axes_arrow(hierarchy, (x + 0.1025, 0.585), (x + 0.1025, 0.235))
+        axes_arrow(
+            hierarchy,
+            (x + box_width / 2, 0.585),
+            (x + box_width / 2, 0.235),
+        )
 
     for left, right in zip(box_x[:-1], box_x[1:]):
-        axes_arrow(hierarchy, (left + 0.208, 0.70), (right - 0.004, 0.70))
+        axes_arrow(
+            hierarchy,
+            (left + box_width + 0.003, 0.70),
+            (right - 0.004, 0.70),
+        )
         hierarchy.text(
-            (left + 0.205 + right) / 2,
+            (left + box_width + right) / 2,
             0.735,
             "derive",
             transform=hierarchy.transAxes,
@@ -509,10 +520,19 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     timeline.set_xticks(np.arange(2019, 2027))
     timeline.set_xticklabels([str(year) for year in range(2019, 2027)])
     timeline.grid(False)
-    timeline.spines[["left", "right", "top"]].set_visible(False)
+    timeline.spines[["right", "top"]].set_visible(False)
+    timeline.spines["left"].set_visible(True)
+    timeline.spines["left"].set_color(COLORS["muted"])
     timeline.spines["bottom"].set_color(COLORS["muted"])
     timeline.tick_params(axis="x", length=3, color=COLORS["muted"])
-    timeline.tick_params(axis="y", length=0, pad=5, labelsize=6.0)
+    timeline.tick_params(
+        axis="y",
+        length=3,
+        width=0.7,
+        color=COLORS["muted"],
+        pad=5,
+        labelsize=6.0,
+    )
     for label in timeline.get_yticklabels():
         label.set_horizontalalignment("right")
         label.set_fontweight("bold")
@@ -561,7 +581,6 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         0.31,
         COLORS["evaluation"],
         "Expansion evaluation\n31 c | 31 e",
-        textcolor="white",
         fontsize=5.6,
     )
     timeline_block(
@@ -572,7 +591,6 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         0.69,
         COLORS["evaluation"],
         "OOS evaluation\n75 c | 10 e",
-        textcolor="white",
         fontsize=5.6,
     )
     timeline.annotate(
@@ -600,7 +618,6 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         0.50,
         COLORS["prospective"],
         "Holdout\n75 c | 8 e",
-        textcolor="white",
         fontsize=5.6,
     )
     timeline.annotate(
@@ -611,10 +628,10 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
 
     legend = [
-        Patch(facecolor=COLORS["calibration"], edgecolor=COLORS["ink"], label="Calibration / derivation"),
-        Patch(facecolor=COLORS["evaluation"], edgecolor=COLORS["ink"], label="Out-of-sample evaluation"),
-        Patch(facecolor=COLORS["historical"], edgecolor=COLORS["ink"], label="Historical external evaluation"),
-        Patch(facecolor=COLORS["prospective"], edgecolor=COLORS["ink"], label="Prospective holdout"),
+        Patch(facecolor=COLORS["calibration"], edgecolor="none", label="Calibration / derivation"),
+        Patch(facecolor=COLORS["evaluation"], edgecolor="none", label="Out-of-sample evaluation"),
+        Patch(facecolor=COLORS["historical"], edgecolor="none", label="Historical external evaluation"),
+        Patch(facecolor=COLORS["prospective"], edgecolor="none", label="Prospective holdout"),
     ]
     timeline.legend(
         handles=legend,
@@ -691,7 +708,9 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
     components = ["core", "ring", "anomaly"]
     labels = ["Core", "Ring", "Core−ring contrast"]
     colors = [COLORS["core"], COLORS["ring"], COLORS["contrast"]]
-    y = np.arange(3)
+    # Compact the category spacing and reserve explicit clearance below the
+    # lowest point for its downward/right numerical label.
+    y = np.array([0.0, 0.72, 1.44])
     point_pct = np.array(
         [external_point[f"{component}_rmse_reduction_fraction"] for component in components]
     ) * 100
@@ -727,20 +746,9 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
         )
     ax_a.axvline(0, color=COLORS["ink"], linewidth=0.8)
     ax_a.set_yticks(y, labels)
-    ax_a.invert_yaxis()
+    ax_a.set_ylim(1.90, -0.25)
     ax_a.set_xlim(-10, 68)
     ax_a.set_xlabel("Observed RMSE reduction (%)")
-    ax_a.legend(
-        handles=component_legend_handles(),
-        loc="upper right",
-        bbox_to_anchor=(1.0, 1.08),
-        frameon=False,
-        ncol=3,
-        handletextpad=0.3,
-        columnspacing=0.8,
-        borderaxespad=0,
-        fontsize=6.2,
-    )
     panel_label(ax_a, "a")
     clean_axis(ax_a)
 
@@ -823,7 +831,9 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
             mse_ci.loc[metric_names[3], "ci95_high"],
         ]
     )
-    term_y = np.arange(4)
+    # Compact term spacing and leave additional lower clearance for the net
+    # downstream-gain value label.
+    term_y = np.array([0.0, 0.60, 1.20, 1.80])
     for yi, point, low, high, color, metric_name in zip(
         term_y, points, lows, highs, term_colors, metric_names
     ):
@@ -853,7 +863,7 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
         )
     ax_c.axvline(0, color=COLORS["ink"], linewidth=0.8)
     ax_c.set_yticks(term_y, term_labels)
-    ax_c.invert_yaxis()
+    ax_c.set_ylim(2.28, -0.25)
     ax_c.set_xlim(-2.25, 2.40)
     ax_c.set_xlabel("Observed contribution to MSE gain (K²)")
     panel_label(ax_c, "c")
@@ -909,7 +919,7 @@ def build_figure4(data: dict[str, pd.DataFrame]) -> plt.Figure:
                 va="center",
                 rotation=90,
                 fontsize=5.5,
-                color="white" if metric != "certified_fraction" else COLORS["ink"],
+                color=COLORS["ink"],
                 fontweight="bold",
             )
     ax_d.set_xticks(x, cohort_labels)

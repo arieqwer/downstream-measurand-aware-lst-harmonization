@@ -19,7 +19,7 @@ Raw provider files are not redistributed. Upstream availability and licensing ar
 - `05_CODE/tests/`: tests for the reusable MSE-decomposition module.
 - `data/` and `outputs/`: the 40-file processed-source closure required to rebuild the SI evidence tables and validate all reported five-cohort summaries.
 - `07_SUBMISSION/`: the deterministic machine-readable supplementary-data archive and its README.
-- `docs/`: claim-to-evidence mapping, terminology, and claim boundaries.
+- `docs/`: the consolidated reproducibility protocol, claim-to-evidence mapping, terminology, and claim boundaries. Start with [docs/REPRODUCIBILITY_PROTOCOL.md](docs/REPRODUCIBILITY_PROTOCOL.md) for the frozen chronology, analytical parameters, software, validation, and exact package paths.
 
 ## Environment
 

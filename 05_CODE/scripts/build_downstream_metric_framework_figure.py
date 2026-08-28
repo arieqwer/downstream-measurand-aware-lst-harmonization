@@ -39,10 +39,10 @@ COLORS = {
 }
 
 
-def panel_label(axis: plt.Axes, label: str) -> None:
+def panel_label(axis: plt.Axes, label: str, y: float = 1.035) -> None:
     axis.text(
         -0.11,
-        1.035,
+        y,
         label,
         transform=axis.transAxes,
         fontsize=11,
@@ -217,26 +217,26 @@ def main() -> None:
         ax_a,
         0.02,
         0.07,
-        0.26,
+        0.22,
         0.14,
-        "Loss improves\nApply selected\ncorrection",
+        "Loss improves\napply selected\ncorrection",
         "#EEF8F4",
         "#6A9E86",
         6.5,
     )
     add_box(
         ax_a,
-        0.31,
+        0.265,
         0.07,
-        0.26,
+        0.22,
         0.14,
-        "No justified gain\nRetain raw\nmeasurand",
+        "No justified gain\nretain raw\nmeasurand",
         "#F4F4F4",
         "#888888",
         6.5,
     )
-    add_arrow(ax_a, (0.18, 0.30), (0.15, 0.22))
-    add_arrow(ax_a, (0.43, 0.30), (0.44, 0.22))
+    add_arrow(ax_a, (0.18, 0.30), (0.13, 0.22))
+    add_arrow(ax_a, (0.43, 0.30), (0.375, 0.22))
     add_box(
         ax_a,
         0.60,
@@ -250,28 +250,28 @@ def main() -> None:
     )
     add_box(
         ax_a,
-        0.575,
+        0.51,
         0.07,
-        0.23,
+        0.195,
         0.14,
-        "Interval excludes\nzero\nSign supported",
+        "Interval excludes\nzero\nsign supported",
         "#EEF8F4",
         "#6A9E86",
         5.7,
     )
     add_box(
         ax_a,
-        0.83,
+        0.73,
         0.07,
-        0.15,
+        0.25,
         0.14,
-        "Interval includes\nzero\nAbstain",
+        "Interval includes\nzero\nabstain",
         "#FFF3EB",
         "#C86428",
         5.7,
     )
-    add_arrow(ax_a, (0.72, 0.30), (0.69, 0.22))
-    add_arrow(ax_a, (0.88, 0.30), (0.90, 0.22))
+    add_arrow(ax_a, (0.72, 0.30), (0.6075, 0.22))
+    add_arrow(ax_a, (0.88, 0.30), (0.855, 0.22))
     panel_label(ax_a, "a")
 
     rmse = load_rmse()
@@ -352,11 +352,15 @@ def main() -> None:
     ax_c.set_ylim(min(-2.7, float(penalty.min()) - 0.15), 3.0)
     ax_c.legend(
         frameon=False,
-        loc="center left",
-        bbox_to_anchor=(1.02, 0.5),
+        loc="upper right",
+        bbox_to_anchor=(0.99, 0.985),
         borderaxespad=0,
+        ncol=2,
+        fontsize=6.2,
+        handlelength=1.5,
+        columnspacing=0.8,
     )
-    panel_label(ax_c, "c")
+    panel_label(ax_c, "c", y=1.10)
 
     uncertainty = load_uncertainty()
     combined = uncertainty[uncertainty["cohort"].eq("combined")].iloc[0]
@@ -412,13 +416,13 @@ def main() -> None:
     ax_d.legend(
         frameon=False,
         loc="upper center",
-        bbox_to_anchor=(0.5, 1.02),
+        bbox_to_anchor=(0.5, 0.93),
         ncol=3,
         borderaxespad=0,
     )
     ax_d.text(
         0.5,
-        0.67,
+        0.57,
         f"{combined['coverage']*100:.1f}% interval coverage; interval excluded zero for "
         f"{certified}/{total} ({combined['certified_fraction']*100:.1f}%)\n"
         f"Supported signs agreed with GOES-18 for {agrees}/{certified} "
