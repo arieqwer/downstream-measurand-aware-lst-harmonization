@@ -425,14 +425,16 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         fontweight="bold",
     )
     hierarchy.text(
-        0.245,
-        0.39,
+        0.01,
+        -0.035,
         "Measurand-level actions",
         transform=hierarchy.transAxes,
         color=COLORS["muted"],
         fontsize=6.2,
         fontweight="bold",
-        ha="center",
+        ha="left",
+        va="top",
+        clip_on=False,
     )
 
     # Narrow all eight boxes uniformly to give each horizontal derivation
@@ -585,8 +587,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline_block(
         timeline,
-        2025.15,
-        2025.77,
+        2025.12,
+        2026.14,
         1.62,
         0.69,
         COLORS["evaluation"],

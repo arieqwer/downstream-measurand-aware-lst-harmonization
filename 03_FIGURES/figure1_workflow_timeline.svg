@@ -207,7 +207,7 @@ z
     <text style="fill: #666666; font: 700 6.2px 'DejaVu Sans'; text-anchor: start" x="23.73912" y="25.533" transform="rotate(-0 23.73912 25.533)">Scientific measurands</text>
    </g>
    <g id="text_2">
-    <text style="fill: #666666; font: 700 6.2px 'DejaVu Sans'; text-anchor: middle" x="148.45644" y="90.1143" transform="rotate(-0 148.45644 90.1143)">Measurand-level actions</text>
+    <text style="fill: #666666; font: 700 6.2px 'DejaVu Sans'; text-anchor: start" x="23.73912" y="148.643081" transform="rotate(-0 23.73912 148.643081)">Measurand-level actions</text>
    </g>
    <g id="text_3">
     <text style="fill: #202020; font: 6.5px 'DejaVu Sans'" transform="translate(48.39594 44.100505)">Component LST</text>
@@ -452,10 +452,10 @@ z
 " clip-path="url(#p4a295ca3c9)" style="fill: #009e73"/>
    </g>
    <g id="patch_22">
-    <path d="M 448.056 280.325607
-L 480.9408 280.325607
-L 480.9408 244.168318
-L 448.056 244.168318
+    <path d="M 446.4648 280.325607
+L 500.5656 280.325607
+L 500.5656 244.168318
+L 446.4648 244.168318
 z
 " clip-path="url(#p4a295ca3c9)" style="fill: #009e73"/>
    </g>
@@ -512,8 +512,8 @@ z
     <text style="fill: #202020; font: 5.6px 'DejaVu Sans'" transform="translate(340.610012 276.649595)">31 c | 31 e</text>
    </g>
    <g id="text_29">
-    <text style="fill: #202020; font: 5.6px 'DejaVu Sans'" transform="translate(442.69515 260.735435)">OOS evaluation</text>
-    <text style="fill: #202020; font: 5.6px 'DejaVu Sans'" transform="translate(449.607212 266.69324)">75 c | 10 e</text>
+    <text style="fill: #202020; font: 5.6px 'DejaVu Sans'" transform="translate(451.71195 260.735435)">OOS evaluation</text>
+    <text style="fill: #202020; font: 5.6px 'DejaVu Sans'" transform="translate(458.624012 266.69324)">75 c | 10 e</text>
    </g>
    <g id="patch_28">
     <path d="M 423.537755 262.508972
