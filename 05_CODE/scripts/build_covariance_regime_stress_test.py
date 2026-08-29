@@ -409,8 +409,8 @@ def build_figure(regimes: pd.DataFrame, empirical: pd.DataFrame) -> None:
     terminal_ticks = [0.0, 0.2, 0.4, 0.6, 0.8, 0.95]
     axes[0].set_xlim(0, 0.95)
     axes[0].set_ylim(0, 0.95)
-    axes[0].set_xticks(terminal_ticks, ["0", "0.2", "0.4", "0.6", "0.8", "0.95"])
-    axes[0].set_yticks(terminal_ticks, ["0", "0.2", "0.4", "0.6", "0.8", "0.95"])
+    axes[0].set_xticks(terminal_ticks, ["0", "0.2", "0.4", "0.6", "0.8", ""])
+    axes[0].set_yticks(terminal_ticks, ["0", "0.2", "0.4", "0.6", "0.8", ""])
     axes[0].set_xlabel(r"Raw core–ring residual correlation, $\rho_{\mathrm{raw}}$")
     axes[0].set_ylabel(r"Harmonized residual correlation, $\rho_{\mathrm{harm}}$")
     axes[0].plot(

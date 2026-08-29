@@ -1,13 +1,13 @@
 {
-  "05_CODE/scripts/build_covariance_regime_stress_test.py": "3553910b0532ad0c0288f7ecec9a994e9cd881006719ddd8ffd8992516487e67",
+  "05_CODE/scripts/build_covariance_regime_stress_test.py": "23f85ec5e7946c42d9c3cc60f786dd1e468423abd128c0c6216f8d85e55d439a",
   "02_EVIDENCE/tables/exact_mse_budgets_with_external.csv": "24fdb9ba2e8875e54f5acaf848dc95dd28354a2497d758896b01fe7d3b0cdf4f",
   "02_EVIDENCE/simulation/README.md": "fded4e34380f89588d0c4821df2b3333796a0e471782bfa0d37c50ceb7ab4c12",
   "02_EVIDENCE/simulation/covariance_regime_grid.csv": "c086fa1da78eb5fc7c3346b4705960bda8b888b702523a14483f838347f17de8",
   "02_EVIDENCE/simulation/empirical_cohort_positions.csv": "2b419f5f136febf148c64dc7c12977c27cf0b5610281c28db3ca458084cddadc",
   "02_EVIDENCE/simulation/covariance_regime_simulation_summary.json": "2427b780d15379ea8b780608691fd256db6b28431c7bfd1973f62ad47309eb09",
   "02_EVIDENCE/simulation/covariance_regime_validation.json": "49a90c94227c9af709d542f97e348cc602e7f6876edecaab9f259006d6919a20",
-  "03_FIGURES/covariance_regime_stress_test.png": "e9a92346838b287e8130b2f495dc36d55e9c7b2e85300201368a85bc390573c1",
-  "03_FIGURES/covariance_regime_stress_test.pdf": "623576bea73b90834947a5dedd69b576aa90eb59555703d7bad54ecf6be495e9",
-  "03_FIGURES/covariance_regime_stress_test.svg": "9953014a83fd4e11b229607980a638fd6afe93170a37dc020e88b7b90809fb93",
+  "03_FIGURES/covariance_regime_stress_test.png": "164ac76c4954eeeff6a6e4d3558cb441f9c08dc04a979a95df1323206df2390b",
+  "03_FIGURES/covariance_regime_stress_test.pdf": "5061cf7e9703d0f5c725a0a9cd6c3c72bf8e0ccc4c2da40c5bd8ce72bca49a32",
+  "03_FIGURES/covariance_regime_stress_test.svg": "b35f639b4210b97e08a7fb90dced3526a244748dc698623b2f220eb5fd0d6c25",
   "03_FIGURES/covariance_regime_stress_test_caption.md": "7fc558ab9672c492204d40a409e455e518f01d2751f3f4fcc9b0402ba29cc734"
 }

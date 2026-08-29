@@ -235,8 +235,8 @@ def main() -> None:
         "#888888",
         6.5,
     )
-    add_arrow(ax_a, (0.18, 0.30), (0.13, 0.22))
-    add_arrow(ax_a, (0.43, 0.30), (0.375, 0.22))
+    add_arrow(ax_a, (0.13, 0.30), (0.13, 0.22))
+    add_arrow(ax_a, (0.375, 0.30), (0.375, 0.22))
     add_box(
         ax_a,
         0.60,
@@ -270,8 +270,8 @@ def main() -> None:
         "#C86428",
         5.7,
     )
-    add_arrow(ax_a, (0.72, 0.30), (0.6075, 0.22))
-    add_arrow(ax_a, (0.88, 0.30), (0.855, 0.22))
+    add_arrow(ax_a, (0.6075, 0.30), (0.6075, 0.22))
+    add_arrow(ax_a, (0.855, 0.30), (0.855, 0.22))
     panel_label(ax_a, "a")
 
     rmse = load_rmse()

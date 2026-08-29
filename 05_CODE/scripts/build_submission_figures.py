@@ -438,7 +438,7 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     # Narrow all eight boxes uniformly to give each horizontal derivation
     # arrow and its label an unambiguous gap between neighboring boxes.
     box_x = [0.02, 0.27, 0.52, 0.77]
-    box_width = 0.18
+    box_width = 0.17
     measurands = [
         ("Component LST\n$C$ urban core\n$R$ surrounding ring", "#EAF4FA", COLORS["core"]),
         ("Spatial contrast\n$D = C - R$", "#EAF7F2", COLORS["contrast"]),
@@ -493,8 +493,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     for left, right in zip(box_x[:-1], box_x[1:]):
         axes_arrow(
             hierarchy,
-            (left + box_width + 0.003, 0.70),
-            (right - 0.004, 0.70),
+            (left + box_width + 0.022, 0.70),
+            (right - 0.022, 0.70),
         )
         hierarchy.text(
             (left + box_width + right) / 2,
@@ -538,8 +538,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
         label.set_fontweight("bold")
     timeline_block(
         timeline,
-        2019.0,
-        2020.82,
+        2019.20,
+        2020.60,
         2.76,
         0.48,
         COLORS["calibration"],
@@ -548,8 +548,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline_block(
         timeline,
-        2021.04,
-        2021.90,
+        2021.17,
+        2021.79,
         2.76,
         0.48,
         COLORS["historical"],
@@ -558,15 +558,15 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline.annotate(
         "",
-        xy=(2021.03, 3.00),
-        xytext=(2020.83, 3.00),
+        xy=(2021.10, 3.00),
+        xytext=(2020.67, 3.00),
         arrowprops={"arrowstyle": "-|>", "lw": 0.8, "color": COLORS["muted"]},
     )
 
     timeline_block(
         timeline,
-        2022.0,
-        2024.82,
+        2022.23,
+        2024.58,
         2.00,
         0.31,
         COLORS["calibration"],
@@ -575,8 +575,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline_block(
         timeline,
-        2022.0,
-        2024.82,
+        2022.23,
+        2024.58,
         1.62,
         0.31,
         COLORS["evaluation"],
@@ -585,8 +585,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline_block(
         timeline,
-        2025.04,
-        2025.91,
+        2025.15,
+        2025.77,
         1.62,
         0.69,
         COLORS["evaluation"],
@@ -595,15 +595,15 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline.annotate(
         "",
-        xy=(2025.03, 1.96),
-        xytext=(2024.83, 1.96),
+        xy=(2025.08, 1.96),
+        xytext=(2024.65, 1.96),
         arrowprops={"arrowstyle": "-|>", "lw": 0.8, "color": COLORS["muted"]},
     )
 
     timeline_block(
         timeline,
-        2025.04,
-        2025.91,
+        2025.16,
+        2025.76,
         0.56,
         0.50,
         COLORS["calibration"],
@@ -612,8 +612,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline_block(
         timeline,
-        2026.04,
-        2026.91,
+        2026.22,
+        2026.82,
         0.56,
         0.50,
         COLORS["prospective"],
@@ -622,8 +622,8 @@ def build_figure1(data: dict[str, pd.DataFrame]) -> plt.Figure:
     )
     timeline.annotate(
         "",
-        xy=(2026.03, 0.81),
-        xytext=(2025.92, 0.81),
+        xy=(2026.15, 0.81),
+        xytext=(2025.83, 0.81),
         arrowprops={"arrowstyle": "-|>", "lw": 0.8, "color": COLORS["muted"]},
     )
 
