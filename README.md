@@ -1,6 +1,6 @@
 # Measurand-aware GOES LST harmonization
 
-This is the reproducibility repository for the *Remote Sensing* article **“Measurand-Aware Validation of Cross-Platform GOES Land Surface Temperature Harmonization”**.
+This is the reproducibility repository for the article **“Measurand-Aware Validation of Cross-Platform GOES Land Surface Temperature Harmonization”**.
 
 The study asks whether corrections that improve two component land-surface-temperature measurements also improve the spatial difference and temporal change used for inference. It uses frozen GOES-16/17/18/19 evaluation cohorts, exact mean-squared-error decomposition, a measurand-specific correction selector, a residual-interval rule, and a deterministic covariance-regime stress test.
 
