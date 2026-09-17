@@ -1,6 +1,6 @@
 # Data availability
 
-The processed source tables, parameter files, frozen manifests, row-level prediction outputs, and scripts needed to regenerate all figures, supplementary tables, and reported numerical summaries are preserved in this private review repository. The large analysis-ready city–interval panel can be provided to editors and reviewers through an access-controlled archive. A versioned public code-and-data archive with a permanent identifier will be released upon acceptance.
+The processed source tables, parameter files, frozen manifests, row-level prediction outputs, and scripts needed to regenerate all figures, supplementary tables, and reported numerical summaries are preserved in this repository. 
 
 The consolidated frozen design and reproduction instructions are documented in [`docs/REPRODUCIBILITY_PROTOCOL.md`](docs/REPRODUCIBILITY_PROTOCOL.md).
 
