@@ -18,7 +18,6 @@ The auxiliary city names come from `ucdb_city_lookup_for_event_anatomy.csv`; the
 
 ## Regeneration
 
-From the private reviewer-repository root:
 
 ```bash
 python3 05_CODE/scripts/build_si_evidence_tables.py \
@@ -26,10 +25,8 @@ python3 05_CODE/scripts/build_si_evidence_tables.py \
   --name-lookup 04_PROTOCOLS/frozen_inputs/AUXILIARY_UCDB_94_CITY_LOOKUP.csv
 ```
 
-The private reviewer repository includes the frozen processed-source closure required by the builder. The manuscript handoff package may instead point `--source-root` to the separately retained immutable research workspace.
+The repository includes the frozen processed-source closure required by the builder. The manuscript handoff package may instead point `--source-root` to the separately retained immutable research workspace.
 
 The script uses no random operations. It enforces the frozen grid rule (at least 3 core and 10 ring pixels) and transition rule (at least 2 observed hours in each of sunset hours -3 to -1 and +4 to +6). Relevant prospective selection and model manifests are copied byte-for-byte to `04_PROTOCOLS/frozen_inputs/`.
 
 When `--name-lookup` is omitted and the external full lookup is unavailable, the builder automatically uses the package-local `04_PROTOCOLS/frozen_inputs/AUXILIARY_UCDB_94_CITY_LOOKUP.csv`.
-
-In `source_provenance_manifest.csv`, `reviewer_repository`, `manuscript_package`, and `original_workspace` are logical root labels: each associated relative path is resolved beneath the appropriate package or directory supplied through `--source-root`. Historical absolute strings retained in immutable manifests are non-operative provenance. Obsolete GRL manuscript files were not used.
