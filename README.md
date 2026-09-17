@@ -13,12 +13,11 @@ Raw provider files are not redistributed. Upstream availability and licensing ar
 ## Contents
 
 - `02_EVIDENCE/`: frozen point estimates, bootstrap draws, replication evidence, simulation outputs, and submission-table sources.
-- `03_FIGURES/`: main figures and captions in submission and vector formats.
-- `04_PROTOCOLS/`: frozen protocols, manifests, and the package-local 94-city auxiliary lookup.
-- `05_CODE/scripts/`: deterministic builders and validator.
+- `03_PROTOCOLS/`: frozen protocols, manifests, and the package-local 94-city auxiliary lookup.
+- `04_CODE/scripts/`: deterministic builders and validator.
 - `05_CODE/tests/`: tests for the reusable MSE-decomposition module.
 - `data/` and `outputs/`: the 40-file processed-source closure required to rebuild the SI evidence tables and validate all reported five-cohort summaries.
-- `07_SUBMISSION/`: the deterministic supplementary-data archive and its README.
+- `06_SUBMISSION/`: the deterministic supplementary-data archive and its README.
 - `docs/`: the consolidated reproducibility protocol, claim-to-evidence mapping, terminology, and claim boundaries. Start with [docs/REPRODUCIBILITY_PROTOCOL.md](docs/REPRODUCIBILITY_PROTOCOL.md) for the frozen chronology, analytical parameters, software, validation, and exact package paths.
 
 ## Environment
