@@ -1,0 +1,9 @@
+event_time_id,event_year,analysis_role,candidate_daily_rows,paired_valid_daily_rows,retained_city_event_hour_rows,retained_cities,retained_hours
+3001,2019,calibration,6000,3317,632,69,10
+3002,2019,calibration,6000,3869,658,69,10
+3003,2020,calibration,5853,2719,616,69,10
+3004,2020,calibration,6000,4054,627,69,10
+3005,2021,validation,5928,3676,660,69,10
+3006,2021,validation,6000,3520,653,69,10
+3007,2021,validation,5750,3807,656,69,10
+3008,2021,validation,4949,2406,602,66,10

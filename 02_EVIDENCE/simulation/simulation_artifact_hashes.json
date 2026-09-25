@@ -1,0 +1,11 @@
+{
+  "04_CODE/scripts/build_covariance_regime_stress_test.py": "23dda770ccffc0991008c122fa8b8626f2b7eec26a11ab1b9f38886d902f207e",
+  "02_EVIDENCE/tables/exact_mse_budgets_with_external.csv": "24fdb9ba2e8875e54f5acaf848dc95dd28354a2497d758896b01fe7d3b0cdf4f",
+  "02_EVIDENCE/simulation/README.md": "b3debb0421e77efd7ebf73f603fc41a576de64c016a4e299e9048580ceadc730",
+  "02_EVIDENCE/simulation/covariance_regime_grid.csv": "c086fa1da78eb5fc7c3346b4705960bda8b888b702523a14483f838347f17de8",
+  "02_EVIDENCE/simulation/empirical_cohort_positions.csv": "2b419f5f136febf148c64dc7c12977c27cf0b5610281c28db3ca458084cddadc",
+  "02_EVIDENCE/simulation/covariance_regime_simulation_summary.json": "2427b780d15379ea8b780608691fd256db6b28431c7bfd1973f62ad47309eb09",
+  "02_EVIDENCE/simulation/covariance_regime_validation.json": "49a90c94227c9af709d542f97e348cc602e7f6876edecaab9f259006d6919a20",
+  "06_SUBMISSION/figures/Figure_4_covariance_regime_stress_test.png": "cc1774120823fccbb045ac73de8be67702ed2be8072aa322b392081646a832bf",
+  "06_SUBMISSION/figures/Figure_4_covariance_regime_stress_test_caption.md": "ae341c2b57821bdd0b73b370f35300ab24fd91397c9a776684f4919c030797b5"
+}

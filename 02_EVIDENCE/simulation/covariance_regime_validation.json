@@ -1,0 +1,14 @@
+{
+  "status": "all_checks_passed",
+  "checks": {
+    "fraction_partition_closes": true,
+    "stress_test_matches_direct_mse_difference": true,
+    "empirical_budget_reconstruction_closes": true,
+    "all_empirical_points_within_bounded_grid": true,
+    "all_three_regime_classes_present": true,
+    "enumeration_count_matches_design": true
+  },
+  "maximum_fraction_partition_residual": 0.0,
+  "maximum_direct_mse_identity_residual": 8.881784197001252e-16,
+  "maximum_empirical_budget_reconstruction_residual_k2": 3.7470027081099033e-16
+}

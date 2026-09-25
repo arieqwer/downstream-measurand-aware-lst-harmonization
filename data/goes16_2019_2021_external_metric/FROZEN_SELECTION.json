@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-08-10T15:33:45.145746+00:00",
+  "frozen_before_goes17_outcome_listing_or_extraction": true,
+  "satellite": "GOES16",
+  "n_candidate_cities": 75,
+  "n_intervals": 8,
+  "calibration_intervals": 4,
+  "validation_intervals": 4,
+  "hashes": {
+    "protocol": "b1ef7c1f2e0f34bda29da3168e9e7d210405a93d67a9a42b31f8cdd58678417b",
+    "source_predictions": "66547d58343045f8076029e162e2db6c3bd19d1222f4b877ef3d6198ba140fac",
+    "cities": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7",
+    "intervals": "3804cf1ec122ff9c5ecf14c9101d7013dcf7574f71ffd29dbb6e0d36d69e994d",
+    "geometry": "718245528e4434fb9873e04064c74a6a7c5e3707f69dad18449fc264de99bd60"
+  }
+}

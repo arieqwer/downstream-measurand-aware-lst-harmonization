@@ -1,0 +1,53 @@
+{
+  "stage": "derivation_complete_validation_not_opened_by_this_stage",
+  "protocol": "03_PROTOCOLS/prior_frozen_designs/MULTIPLATFORM_HARMONIZATION_PROTOCOL.md",
+  "protocol_sha256": "33b370d6a4862dff74e159e67830032f05cbbb6bebbb9970fa93e54f5274c6d7",
+  "selected_model": "hour_offset",
+  "n_hourly": 13454,
+  "n_cities": 44,
+  "n_intervals": 31,
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "model_sha256": "907a4b22d863b314c3253740493b8135d23883b4a7a93fa83d6a0ca585163792",
+  "selection": [
+    {
+      "model": "hour_spline",
+      "mean_composite": 0.5600659316173079,
+      "sd_composite": 0.15028715119618846,
+      "se_composite": 0.0388039755821196,
+      "n_folds": 15,
+      "one_se_threshold": 0.5988699071994275,
+      "selected": false
+    },
+    {
+      "model": "hour_offset",
+      "mean_composite": 0.560188846802878,
+      "sd_composite": 0.15019715386979013,
+      "se_composite": 0.03878073837236334,
+      "n_folds": 15,
+      "one_se_threshold": 0.5988699071994275,
+      "selected": true
+    },
+    {
+      "model": "geometry_ridge",
+      "mean_composite": 0.8716561127426801,
+      "sd_composite": 0.7153153537478619,
+      "se_composite": 0.18469363015679574,
+      "n_folds": 15,
+      "one_se_threshold": 0.5988699071994275,
+      "selected": false
+    },
+    {
+      "model": "raw",
+      "mean_composite": 1.0,
+      "sd_composite": 0.0,
+      "se_composite": 0.0,
+      "n_folds": 15,
+      "one_se_threshold": 0.5988699071994275,
+      "selected": false
+    }
+  ]
+}
