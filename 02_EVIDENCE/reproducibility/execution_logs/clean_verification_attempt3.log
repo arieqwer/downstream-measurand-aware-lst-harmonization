@@ -1,0 +1,42 @@
+{
+  "status": "FAIL",
+  "checks": 1110,
+  "numerical_cells_compared": 4137623,
+  "failed": [
+    {
+      "check": "Figure source regeneration Figure_4_repaired_covariance_regimes",
+      "passed": false,
+      "new_shape": [
+        2280,
+        4920,
+        3
+      ],
+      "baseline_shape": [
+        2280,
+        4920,
+        3
+      ],
+      "pixel_identical": false
+    },
+    {
+      "check": "Figure source regeneration Phoenix_LST_corrected_local_date",
+      "passed": false,
+      "new_shape": [
+        2800,
+        3200,
+        3
+      ],
+      "baseline_shape": [
+        2800,
+        3200,
+        3
+      ],
+      "pixel_identical": false
+    }
+  ],
+  "scope": [
+    "Full processed-input fit/selection/evaluation/bootstrap/budget recomputation under unchanged protocol.",
+    "Figures 2\u20135 use regenerated numerical outputs; Figure1 uses archived fixed metadata/basemaps; Figure6 uses archived decoded native arrays.",
+    "Provider raw re-extraction, new cloud/radiometry source downloads and complete urban ground validation are not asserted by this check."
+  ]
+}

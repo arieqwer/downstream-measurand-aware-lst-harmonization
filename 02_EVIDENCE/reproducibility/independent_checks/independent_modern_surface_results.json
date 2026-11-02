@@ -1,0 +1,369 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Unique platform/time keys",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Two platforms per common key",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "282commonpairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Only native0/1 modern tier",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Every common G19point is tier1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "No strict common support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ground windowQC12of15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native physicalbounds",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native scan gap<1minute",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Finite common temperatures",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ground radiometry independently recomputed",
+      "passed": true,
+      "details": 5.684341886080802e-14
+    },
+    {
+      "name": "Residuals independently recomputed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "dra physical local sunset date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fpk physical local sunset date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "tbl physical local sunset date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "18first-localdates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all all noaa-goes18 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all all noaa-goes19 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all dra noaa-goes18 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all dra noaa-goes19 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all fpk noaa-goes18 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all fpk noaa-goes19 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all tbl noaa-goes18 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all tbl noaa-goes19 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2025 all noaa-goes18 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2025 all noaa-goes19 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2026 all noaa-goes18 pointmetrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2026 all noaa-goes19 pointmetrics",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "source_sha256": {
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/modern_surface/recommended/results/full_matchups_common.csv": "23ff93fdc63d7e80909af6d2ad23af98f7b82dcbd0d6d738e53a1743e994fb65",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/modern_surface/recommended/results/full_metrics.csv": "1f388a103dd529b867b64adcacf99d78949f9b0d6e1414bc25caf08e61162bc7"
+  },
+  "metrics": [
+    {
+      "year": "all",
+      "site": "all",
+      "bucket": "noaa-goes18",
+      "n": 282,
+      "dates": 18,
+      "bias": -1.1263953910509872,
+      "RMSE": 1.9975560920138618
+    },
+    {
+      "year": "all",
+      "site": "all",
+      "bucket": "noaa-goes19",
+      "n": 282,
+      "dates": 18,
+      "bias": -1.6662180740204708,
+      "RMSE": 2.489774917306173
+    },
+    {
+      "year": "all",
+      "site": "dra",
+      "bucket": "noaa-goes18",
+      "n": 143,
+      "dates": 18,
+      "bias": -1.0504556913701615,
+      "RMSE": 1.5163181105602495
+    },
+    {
+      "year": "all",
+      "site": "dra",
+      "bucket": "noaa-goes19",
+      "n": 143,
+      "dates": 18,
+      "bias": -2.073270353823157,
+      "RMSE": 2.4483748528350886
+    },
+    {
+      "year": "all",
+      "site": "fpk",
+      "bucket": "noaa-goes18",
+      "n": 71,
+      "dates": 13,
+      "bias": 0.47653424115927323,
+      "RMSE": 1.307998039810959
+    },
+    {
+      "year": "all",
+      "site": "fpk",
+      "bucket": "noaa-goes19",
+      "n": 71,
+      "dates": 13,
+      "bias": 0.418365228374945,
+      "RMSE": 1.3886345355168468
+    },
+    {
+      "year": "all",
+      "site": "tbl",
+      "bucket": "noaa-goes18",
+      "n": 68,
+      "dates": 15,
+      "bias": -2.9597392284228485,
+      "RMSE": 3.150596182124286
+    },
+    {
+      "year": "all",
+      "site": "tbl",
+      "bucket": "noaa-goes19",
+      "n": 68,
+      "dates": 15,
+      "bias": -2.9867612866423876,
+      "RMSE": 3.3298632349060853
+    },
+    {
+      "year": 2025,
+      "site": "all",
+      "bucket": "noaa-goes18",
+      "n": 173,
+      "dates": 10,
+      "bias": -0.9396403779145883,
+      "RMSE": 1.9042365833800952
+    },
+    {
+      "year": 2025,
+      "site": "all",
+      "bucket": "noaa-goes19",
+      "n": 173,
+      "dates": 10,
+      "bias": -1.569004525696914,
+      "RMSE": 2.5733812363869073
+    },
+    {
+      "year": 2025,
+      "site": "dra",
+      "bucket": "noaa-goes18",
+      "n": 84,
+      "dates": 10,
+      "bias": -0.9894631791101981,
+      "RMSE": 1.4926156169791385
+    },
+    {
+      "year": 2025,
+      "site": "dra",
+      "bucket": "noaa-goes19",
+      "n": 84,
+      "dates": 10,
+      "bias": -2.223064342013253,
+      "RMSE": 2.7250039932107932
+    },
+    {
+      "year": 2025,
+      "site": "fpk",
+      "bucket": "noaa-goes18",
+      "n": 49,
+      "dates": 8,
+      "bias": 0.6232985018361447,
+      "RMSE": 1.2881257105030253
+    },
+    {
+      "year": 2025,
+      "site": "fpk",
+      "bucket": "noaa-goes19",
+      "n": 49,
+      "dates": 8,
+      "bias": 0.5261556468645996,
+      "RMSE": 1.5375890798395402
+    },
+    {
+      "year": 2025,
+      "site": "tbl",
+      "bucket": "noaa-goes18",
+      "n": 40,
+      "dates": 9,
+      "bias": -2.749612623098456,
+      "RMSE": 2.9952896130737
+    },
+    {
+      "year": 2025,
+      "site": "tbl",
+      "bucket": "noaa-goes19",
+      "n": 40,
+      "dates": 9,
+      "bias": -2.762050122820456,
+      "RMSE": 3.186130819860003
+    },
+    {
+      "year": 2026,
+      "site": "all",
+      "bucket": "noaa-goes18",
+      "n": 109,
+      "dates": 8,
+      "bias": -1.4228047238271067,
+      "RMSE": 2.137319596036508
+    },
+    {
+      "year": 2026,
+      "site": "all",
+      "bucket": "noaa-goes19",
+      "n": 109,
+      "dates": 8,
+      "bias": -1.8205111369560238,
+      "RMSE": 2.350982180592432
+    },
+    {
+      "year": 2026,
+      "site": "dra",
+      "bucket": "noaa-goes18",
+      "n": 59,
+      "dates": 8,
+      "bias": -1.1372924884860418,
+      "RMSE": 1.5494385623473839
+    },
+    {
+      "year": 2026,
+      "site": "dra",
+      "bucket": "noaa-goes19",
+      "n": 59,
+      "dates": 8,
+      "bias": -1.8600043367389525,
+      "RMSE": 1.9892286596673643
+    },
+    {
+      "year": 2026,
+      "site": "fpk",
+      "bucket": "noaa-goes18",
+      "n": 22,
+      "dates": 5,
+      "bias": 0.14965020601533235,
+      "RMSE": 1.3512091464804568
+    },
+    {
+      "year": 2026,
+      "site": "fpk",
+      "bucket": "noaa-goes19",
+      "n": 22,
+      "dates": 5,
+      "bias": 0.17828656901162337,
+      "RMSE": 0.9785166941412333
+    },
+    {
+      "year": 2026,
+      "site": "tbl",
+      "bucket": "noaa-goes18",
+      "n": 28,
+      "dates": 6,
+      "bias": -3.259920093171981,
+      "RMSE": 3.3600331309166362
+    },
+    {
+      "year": 2026,
+      "site": "tbl",
+      "bucket": "noaa-goes19",
+      "n": 28,
+      "dates": 6,
+      "bias": -3.3077772349594334,
+      "RMSE": 3.525043459943417
+    }
+  ],
+  "interpretation": "Rigorous descriptive extension is feasible under declared primary modernDQF0/1tier, with282commonpairs on18sampledfirst-localdays at3sites. All G19paired pixels haveDQF1; strict0jointsupport iszero. Historicalstrict0andmodern0/1resultsdo notsupportacrosseraranking. Fullurbanworkflowgroundvalidationremainsincomplete.",
+  "scope": "Independent scalar/support/ground-flux formula audit of final per-matchup table. Provider-native decode and minute QC reconstruction are separately checked by surface agent; not re-executed in this script."
+}

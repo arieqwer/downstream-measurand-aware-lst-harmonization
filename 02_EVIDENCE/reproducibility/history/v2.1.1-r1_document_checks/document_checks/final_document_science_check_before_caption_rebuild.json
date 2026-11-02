@@ -1,0 +1,2963 @@
+{
+  "status": "PASS",
+  "command": [
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean_environment/bin/python",
+    "/Users/apple/Downloads/RS revision 1/concision_20261030/proposals/audit_final_document_science.py"
+  ],
+  "documents": {
+    "Manuscript v1_suggestions.docx": {
+      "path": "/Users/apple/Downloads/RS revision 1/Manuscript v1_suggestions.docx",
+      "sha256": "ce8f15976f9e10a48349a062f3aadb38c5694d198f8b8c482e737cbcc84178e1"
+    },
+    "supplementary_suggestions.docx": {
+      "path": "/Users/apple/Downloads/RS revision 1/supplementary_suggestions.docx",
+      "sha256": "8b517fefdc36e97332fded8691f533895ce7f2a458a677519cb6e8337cefee8f"
+    }
+  },
+  "source_hashes": {
+    "/Users/apple/Downloads/RS revision 1/concision_20261030/snapshots/supplementary_suggestions.docx": "632f4c7d103cd5cb92bd80c2e4f09d68ffad44dc116ae74520c408f68d125077",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_hourly_predictions.parquet": "a10f4d1895ba7ddbec62ae0cc65e4b5fdd0111d3f998feb4d08c2f81ccf0b457",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_hourly_predictions.parquet": "7dfec3e907bd85d545a2c5243d99f819ab10fd2bcb2e8ab250ed53ad2cb502a9",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/quality/recommended_common_daily_hourly.parquet": "3f78a232a10163bba4715fb545e0d0994b751ecdde13b9a96bd92b31f354779c",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/quality/strict_common_daily_hourly.parquet": "d1fd0644d49dd7daff2fc98662a7a2635efb3726b0abfc308ebd190454759e7b"
+  },
+  "checks": [
+    {
+      "check": "Manuscript v1_suggestions.docx Track Changes enabled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary_suggestions.docx Track Changes enabled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Current SI contains exactly five accepted tables",
+      "passed": true,
+      "details": 5
+    },
+    {
+      "check": "SI captions ordered S1 through S5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Baseline contains four accepted tables",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S1 caption unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S1 all accepted cells unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S2 caption unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S2 all accepted cells unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S3 caption unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S3 all accepted cells unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S4 caption unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S4 all accepted cells unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No separately numbered SI Notes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No separately numbered Data attachments",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2021 pooled direct MSE closure",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "2021 h=-3 direct MSE closure",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "2021 h=-2 direct MSE closure",
+      "passed": true,
+      "details": 1.5959455978986625e-16
+    },
+    {
+      "check": "2021 h=-1 direct MSE closure",
+      "passed": true,
+      "details": -6.938893903907228e-17
+    },
+    {
+      "check": "2021 h=0 direct MSE closure",
+      "passed": true,
+      "details": -1.0755285551056204e-16
+    },
+    {
+      "check": "2021 h=+1 direct MSE closure",
+      "passed": true,
+      "details": -3.469446951953614e-18
+    },
+    {
+      "check": "2021 h=+2 direct MSE closure",
+      "passed": true,
+      "details": -2.2551405187698492e-17
+    },
+    {
+      "check": "2021 h=+3 direct MSE closure",
+      "passed": true,
+      "details": 3.8163916471489756e-17
+    },
+    {
+      "check": "2021 h=+4 direct MSE closure",
+      "passed": true,
+      "details": 2.42861286636753e-17
+    },
+    {
+      "check": "2021 h=+5 direct MSE closure",
+      "passed": true,
+      "details": 3.469446951953614e-18
+    },
+    {
+      "check": "2021 h=+6 direct MSE closure",
+      "passed": true,
+      "details": 2.42861286636753e-17
+    },
+    {
+      "check": "2026 h=-3 direct MSE closure",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "2026 h=-2 direct MSE closure",
+      "passed": true,
+      "details": -5.551115123125783e-16
+    },
+    {
+      "check": "2026 h=-1 direct MSE closure",
+      "passed": true,
+      "details": -8.326672684688674e-17
+    },
+    {
+      "check": "2026 h=0 direct MSE closure",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "2026 h=+1 direct MSE closure",
+      "passed": true,
+      "details": -5.551115123125783e-17
+    },
+    {
+      "check": "2026 h=+2 direct MSE closure",
+      "passed": true,
+      "details": 1.942890293094024e-16
+    },
+    {
+      "check": "2026 h=+3 direct MSE closure",
+      "passed": true,
+      "details": 5.551115123125783e-17
+    },
+    {
+      "check": "2026 h=+4 direct MSE closure",
+      "passed": true,
+      "details": -5.551115123125783e-17
+    },
+    {
+      "check": "2026 h=+5 direct MSE closure",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "2026 h=+6 direct MSE closure",
+      "passed": true,
+      "details": -5.551115123125783e-17
+    },
+    {
+      "check": "2026 G18 VZA [40, 50)° direct MSE closure",
+      "passed": true,
+      "details": -1.6653345369377348e-16
+    },
+    {
+      "check": "2026 G18 VZA [50, 60)° direct MSE closure",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "Exactly 23 independently reconstructed S5 rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 has header and 23 rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 six columns in every row",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 header column 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 header column 2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 header column 3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 header column 4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 header column 5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 header column 6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 row 1 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 pooled",
+        "expected": "2021 pooled"
+      }
+    },
+    {
+      "check": "S5 row 1 column 2",
+      "passed": true,
+      "details": {
+        "actual": "2,602 / 69",
+        "expected": "2,602 / 69"
+      }
+    },
+    {
+      "check": "S5 row 1 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.638 / 0.620",
+        "expected": "0.638 / 0.620"
+      }
+    },
+    {
+      "check": "S5 row 1 column 4",
+      "passed": true,
+      "details": {
+        "actual": "2.4671",
+        "expected": "2.4671"
+      }
+    },
+    {
+      "check": "S5 row 1 column 5",
+      "passed": true,
+      "details": {
+        "actual": "2.4437",
+        "expected": "2.4437"
+      }
+    },
+    {
+      "check": "S5 row 1 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0234",
+        "expected": "0.0234"
+      }
+    },
+    {
+      "check": "S5 row 2 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=−3",
+        "expected": "2021 h=-3"
+      }
+    },
+    {
+      "check": "S5 row 2 column 2",
+      "passed": true,
+      "details": {
+        "actual": "252 / 69",
+        "expected": "252 / 69"
+      }
+    },
+    {
+      "check": "S5 row 2 column 3",
+      "passed": true,
+      "details": {
+        "actual": "1.051 / 1.020",
+        "expected": "1.051 / 1.020"
+      }
+    },
+    {
+      "check": "S5 row 2 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0638",
+        "expected": "0.0638"
+      }
+    },
+    {
+      "check": "S5 row 2 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 2 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0638",
+        "expected": "0.0638"
+      }
+    },
+    {
+      "check": "S5 row 3 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=−2",
+        "expected": "2021 h=-2"
+      }
+    },
+    {
+      "check": "S5 row 3 column 2",
+      "passed": true,
+      "details": {
+        "actual": "254 / 69",
+        "expected": "254 / 69"
+      }
+    },
+    {
+      "check": "S5 row 3 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.916 / 0.899",
+        "expected": "0.916 / 0.899"
+      }
+    },
+    {
+      "check": "S5 row 3 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0321",
+        "expected": "0.0321"
+      }
+    },
+    {
+      "check": "S5 row 3 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 3 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0321",
+        "expected": "0.0321"
+      }
+    },
+    {
+      "check": "S5 row 4 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=−1",
+        "expected": "2021 h=-1"
+      }
+    },
+    {
+      "check": "S5 row 4 column 2",
+      "passed": true,
+      "details": {
+        "actual": "256 / 69",
+        "expected": "256 / 69"
+      }
+    },
+    {
+      "check": "S5 row 4 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.623 / 0.602",
+        "expected": "0.623 / 0.602"
+      }
+    },
+    {
+      "check": "S5 row 4 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0255",
+        "expected": "0.0255"
+      }
+    },
+    {
+      "check": "S5 row 4 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 4 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0255",
+        "expected": "0.0255"
+      }
+    },
+    {
+      "check": "S5 row 5 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=0",
+        "expected": "2021 h=0"
+      }
+    },
+    {
+      "check": "S5 row 5 column 2",
+      "passed": true,
+      "details": {
+        "actual": "261 / 69",
+        "expected": "261 / 69"
+      }
+    },
+    {
+      "check": "S5 row 5 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.554 / 0.536",
+        "expected": "0.554 / 0.536"
+      }
+    },
+    {
+      "check": "S5 row 5 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0192",
+        "expected": "0.0192"
+      }
+    },
+    {
+      "check": "S5 row 5 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 5 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0192",
+        "expected": "0.0192"
+      }
+    },
+    {
+      "check": "S5 row 6 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=+1",
+        "expected": "2021 h=+1"
+      }
+    },
+    {
+      "check": "S5 row 6 column 2",
+      "passed": true,
+      "details": {
+        "actual": "259 / 69",
+        "expected": "259 / 69"
+      }
+    },
+    {
+      "check": "S5 row 6 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.469 / 0.450",
+        "expected": "0.469 / 0.450"
+      }
+    },
+    {
+      "check": "S5 row 6 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0181",
+        "expected": "0.0181"
+      }
+    },
+    {
+      "check": "S5 row 6 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 6 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0181",
+        "expected": "0.0181"
+      }
+    },
+    {
+      "check": "S5 row 7 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=+2",
+        "expected": "2021 h=+2"
+      }
+    },
+    {
+      "check": "S5 row 7 column 2",
+      "passed": true,
+      "details": {
+        "actual": "262 / 69",
+        "expected": "262 / 69"
+      }
+    },
+    {
+      "check": "S5 row 7 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.503 / 0.489",
+        "expected": "0.503 / 0.489"
+      }
+    },
+    {
+      "check": "S5 row 7 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0137",
+        "expected": "0.0137"
+      }
+    },
+    {
+      "check": "S5 row 7 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 7 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0137",
+        "expected": "0.0137"
+      }
+    },
+    {
+      "check": "S5 row 8 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=+3",
+        "expected": "2021 h=+3"
+      }
+    },
+    {
+      "check": "S5 row 8 column 2",
+      "passed": true,
+      "details": {
+        "actual": "265 / 69",
+        "expected": "265 / 69"
+      }
+    },
+    {
+      "check": "S5 row 8 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.478 / 0.460",
+        "expected": "0.478 / 0.460"
+      }
+    },
+    {
+      "check": "S5 row 8 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0167",
+        "expected": "0.0167"
+      }
+    },
+    {
+      "check": "S5 row 8 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 8 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0167",
+        "expected": "0.0167"
+      }
+    },
+    {
+      "check": "S5 row 9 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=+4",
+        "expected": "2021 h=+4"
+      }
+    },
+    {
+      "check": "S5 row 9 column 2",
+      "passed": true,
+      "details": {
+        "actual": "266 / 69",
+        "expected": "266 / 69"
+      }
+    },
+    {
+      "check": "S5 row 9 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.500 / 0.482",
+        "expected": "0.500 / 0.482"
+      }
+    },
+    {
+      "check": "S5 row 9 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0175",
+        "expected": "0.0175"
+      }
+    },
+    {
+      "check": "S5 row 9 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 9 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0175",
+        "expected": "0.0175"
+      }
+    },
+    {
+      "check": "S5 row 10 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=+5",
+        "expected": "2021 h=+5"
+      }
+    },
+    {
+      "check": "S5 row 10 column 2",
+      "passed": true,
+      "details": {
+        "actual": "269 / 69",
+        "expected": "269 / 69"
+      }
+    },
+    {
+      "check": "S5 row 10 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.497 / 0.482",
+        "expected": "0.497 / 0.482"
+      }
+    },
+    {
+      "check": "S5 row 10 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0146",
+        "expected": "0.0146"
+      }
+    },
+    {
+      "check": "S5 row 10 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 10 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0146",
+        "expected": "0.0146"
+      }
+    },
+    {
+      "check": "S5 row 11 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2021 h=+6",
+        "expected": "2021 h=+6"
+      }
+    },
+    {
+      "check": "S5 row 11 column 2",
+      "passed": true,
+      "details": {
+        "actual": "258 / 69",
+        "expected": "258 / 69"
+      }
+    },
+    {
+      "check": "S5 row 11 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.531 / 0.517",
+        "expected": "0.531 / 0.517"
+      }
+    },
+    {
+      "check": "S5 row 11 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.0152",
+        "expected": "0.0152"
+      }
+    },
+    {
+      "check": "S5 row 11 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.0000",
+        "expected": "0.0000"
+      }
+    },
+    {
+      "check": "S5 row 11 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0152",
+        "expected": "0.0152"
+      }
+    },
+    {
+      "check": "S5 row 12 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=−3",
+        "expected": "2026 h=-3"
+      }
+    },
+    {
+      "check": "S5 row 12 column 2",
+      "passed": true,
+      "details": {
+        "actual": "589 / 75",
+        "expected": "589 / 75"
+      }
+    },
+    {
+      "check": "S5 row 12 column 3",
+      "passed": true,
+      "details": {
+        "actual": "1.173 / 1.073",
+        "expected": "1.173 / 1.073"
+      }
+    },
+    {
+      "check": "S5 row 12 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.5604",
+        "expected": "0.5604"
+      }
+    },
+    {
+      "check": "S5 row 12 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.3365",
+        "expected": "0.3365"
+      }
+    },
+    {
+      "check": "S5 row 12 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.2239",
+        "expected": "0.2239"
+      }
+    },
+    {
+      "check": "S5 row 13 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=−2",
+        "expected": "2026 h=-2"
+      }
+    },
+    {
+      "check": "S5 row 13 column 2",
+      "passed": true,
+      "details": {
+        "actual": "550 / 75",
+        "expected": "550 / 75"
+      }
+    },
+    {
+      "check": "S5 row 13 column 3",
+      "passed": true,
+      "details": {
+        "actual": "1.085 / 1.051",
+        "expected": "1.085 / 1.051"
+      }
+    },
+    {
+      "check": "S5 row 13 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.4414",
+        "expected": "0.4414"
+      }
+    },
+    {
+      "check": "S5 row 13 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.3702",
+        "expected": "0.3702"
+      }
+    },
+    {
+      "check": "S5 row 13 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0712",
+        "expected": "0.0712"
+      }
+    },
+    {
+      "check": "S5 row 14 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=−1",
+        "expected": "2026 h=-1"
+      }
+    },
+    {
+      "check": "S5 row 14 column 2",
+      "passed": true,
+      "details": {
+        "actual": "548 / 75",
+        "expected": "548 / 75"
+      }
+    },
+    {
+      "check": "S5 row 14 column 3",
+      "passed": true,
+      "details": {
+        "actual": "1.007 / 1.025",
+        "expected": "1.007 / 1.025"
+      }
+    },
+    {
+      "check": "S5 row 14 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.2399",
+        "expected": "0.2399"
+      }
+    },
+    {
+      "check": "S5 row 14 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.2775",
+        "expected": "0.2775"
+      }
+    },
+    {
+      "check": "S5 row 14 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0376",
+        "expected": "-0.0376"
+      }
+    },
+    {
+      "check": "S5 row 15 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=0",
+        "expected": "2026 h=0"
+      }
+    },
+    {
+      "check": "S5 row 15 column 2",
+      "passed": true,
+      "details": {
+        "actual": "473 / 75",
+        "expected": "473 / 75"
+      }
+    },
+    {
+      "check": "S5 row 15 column 3",
+      "passed": true,
+      "details": {
+        "actual": "1.114 / 1.155",
+        "expected": "1.114 / 1.155"
+      }
+    },
+    {
+      "check": "S5 row 15 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.2492",
+        "expected": "0.2492"
+      }
+    },
+    {
+      "check": "S5 row 15 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.3424",
+        "expected": "0.3424"
+      }
+    },
+    {
+      "check": "S5 row 15 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0932",
+        "expected": "-0.0932"
+      }
+    },
+    {
+      "check": "S5 row 16 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=+1",
+        "expected": "2026 h=+1"
+      }
+    },
+    {
+      "check": "S5 row 16 column 2",
+      "passed": true,
+      "details": {
+        "actual": "591 / 75",
+        "expected": "591 / 75"
+      }
+    },
+    {
+      "check": "S5 row 16 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.616 / 0.626",
+        "expected": "0.616 / 0.626"
+      }
+    },
+    {
+      "check": "S5 row 16 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.2630",
+        "expected": "0.2630"
+      }
+    },
+    {
+      "check": "S5 row 16 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.2754",
+        "expected": "0.2754"
+      }
+    },
+    {
+      "check": "S5 row 16 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0124",
+        "expected": "-0.0124"
+      }
+    },
+    {
+      "check": "S5 row 17 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=+2",
+        "expected": "2026 h=+2"
+      }
+    },
+    {
+      "check": "S5 row 17 column 2",
+      "passed": true,
+      "details": {
+        "actual": "594 / 75",
+        "expected": "594 / 75"
+      }
+    },
+    {
+      "check": "S5 row 17 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.598 / 0.614",
+        "expected": "0.598 / 0.614"
+      }
+    },
+    {
+      "check": "S5 row 17 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.2150",
+        "expected": "0.2150"
+      }
+    },
+    {
+      "check": "S5 row 17 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.2350",
+        "expected": "0.2350"
+      }
+    },
+    {
+      "check": "S5 row 17 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0200",
+        "expected": "-0.0200"
+      }
+    },
+    {
+      "check": "S5 row 18 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=+3",
+        "expected": "2026 h=+3"
+      }
+    },
+    {
+      "check": "S5 row 18 column 2",
+      "passed": true,
+      "details": {
+        "actual": "593 / 75",
+        "expected": "593 / 75"
+      }
+    },
+    {
+      "check": "S5 row 18 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.488 / 0.545",
+        "expected": "0.488 / 0.545"
+      }
+    },
+    {
+      "check": "S5 row 18 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.1668",
+        "expected": "0.1668"
+      }
+    },
+    {
+      "check": "S5 row 18 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.2265",
+        "expected": "0.2265"
+      }
+    },
+    {
+      "check": "S5 row 18 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0597",
+        "expected": "-0.0597"
+      }
+    },
+    {
+      "check": "S5 row 19 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=+4",
+        "expected": "2026 h=+4"
+      }
+    },
+    {
+      "check": "S5 row 19 column 2",
+      "passed": true,
+      "details": {
+        "actual": "595 / 75",
+        "expected": "595 / 75"
+      }
+    },
+    {
+      "check": "S5 row 19 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.518 / 0.530",
+        "expected": "0.518 / 0.530"
+      }
+    },
+    {
+      "check": "S5 row 19 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.1969",
+        "expected": "0.1969"
+      }
+    },
+    {
+      "check": "S5 row 19 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.2100",
+        "expected": "0.2100"
+      }
+    },
+    {
+      "check": "S5 row 19 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0131",
+        "expected": "-0.0131"
+      }
+    },
+    {
+      "check": "S5 row 20 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=+5",
+        "expected": "2026 h=+5"
+      }
+    },
+    {
+      "check": "S5 row 20 column 2",
+      "passed": true,
+      "details": {
+        "actual": "591 / 75",
+        "expected": "591 / 75"
+      }
+    },
+    {
+      "check": "S5 row 20 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.553 / 0.592",
+        "expected": "0.553 / 0.592"
+      }
+    },
+    {
+      "check": "S5 row 20 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.1370",
+        "expected": "0.1370"
+      }
+    },
+    {
+      "check": "S5 row 20 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.1824",
+        "expected": "0.1824"
+      }
+    },
+    {
+      "check": "S5 row 20 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0453",
+        "expected": "-0.0453"
+      }
+    },
+    {
+      "check": "S5 row 21 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 h=+6",
+        "expected": "2026 h=+6"
+      }
+    },
+    {
+      "check": "S5 row 21 column 2",
+      "passed": true,
+      "details": {
+        "actual": "592 / 75",
+        "expected": "592 / 75"
+      }
+    },
+    {
+      "check": "S5 row 21 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.550 / 0.591",
+        "expected": "0.550 / 0.591"
+      }
+    },
+    {
+      "check": "S5 row 21 column 4",
+      "passed": true,
+      "details": {
+        "actual": "0.1337",
+        "expected": "0.1337"
+      }
+    },
+    {
+      "check": "S5 row 21 column 5",
+      "passed": true,
+      "details": {
+        "actual": "0.1807",
+        "expected": "0.1807"
+      }
+    },
+    {
+      "check": "S5 row 21 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.0470",
+        "expected": "-0.0470"
+      }
+    },
+    {
+      "check": "S5 row 22 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 G18 VZA [40, 50)°",
+        "expected": "2026 G18 VZA [40, 50)°"
+      }
+    },
+    {
+      "check": "S5 row 22 column 2",
+      "passed": true,
+      "details": {
+        "actual": "3,619 / 47",
+        "expected": "3,619 / 47"
+      }
+    },
+    {
+      "check": "S5 row 22 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.701 / 0.633",
+        "expected": "0.701 / 0.633"
+      }
+    },
+    {
+      "check": "S5 row 22 column 4",
+      "passed": true,
+      "details": {
+        "actual": "1.8647",
+        "expected": "1.8647"
+      }
+    },
+    {
+      "check": "S5 row 22 column 5",
+      "passed": true,
+      "details": {
+        "actual": "1.7737",
+        "expected": "1.7737"
+      }
+    },
+    {
+      "check": "S5 row 22 column 6",
+      "passed": true,
+      "details": {
+        "actual": "0.0911",
+        "expected": "0.0911"
+      }
+    },
+    {
+      "check": "S5 row 23 column 1",
+      "passed": true,
+      "details": {
+        "actual": "2026 G18 VZA [50, 60)°",
+        "expected": "2026 G18 VZA [50, 60)°"
+      }
+    },
+    {
+      "check": "S5 row 23 column 2",
+      "passed": true,
+      "details": {
+        "actual": "2,097 / 28",
+        "expected": "2,097 / 28"
+      }
+    },
+    {
+      "check": "S5 row 23 column 3",
+      "passed": true,
+      "details": {
+        "actual": "0.956 / 1.037",
+        "expected": "0.956 / 1.037"
+      }
+    },
+    {
+      "check": "S5 row 23 column 4",
+      "passed": true,
+      "details": {
+        "actual": "1.3715",
+        "expected": "1.3715"
+      }
+    },
+    {
+      "check": "S5 row 23 column 5",
+      "passed": true,
+      "details": {
+        "actual": "1.5337",
+        "expected": "1.5337"
+      }
+    },
+    {
+      "check": "S5 row 23 column 6",
+      "passed": true,
+      "details": {
+        "actual": "−0.1622",
+        "expected": "-0.1622"
+      }
+    },
+    {
+      "check": "All 10 modern hour bins present",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All 8 unfavorable modern hourly results retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern hour stratum n sums to 5716",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Historical hour stratum n sums to2602",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "High VZA unfavorable result retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 caption retains n counts city–interval–hour means",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 caption retains four intervals",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 caption retains eight intervals",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 caption retains lower-inclusive and upper-exclusive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 caption retains Gross gain = component-variance + differential-bias gain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S5 caption retains do not isolate angular causes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "recommended_common_daily direct MSE closure",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "recommended_common_daily exactly21transitions across3cities",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "recommended_common_daily transition correction worsens RMSE",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_common_daily direct MSE closure",
+      "passed": true,
+      "details": 3.885780586188048e-16
+    },
+    {
+      "check": "strict_common_daily exactly21transitions across3cities",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_common_daily transition correction worsens RMSE",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Actual main3.5 sentence matches independently rebuilt transition values",
+      "passed": true,
+      "details": "On the same restricted support, component correction increased transition-contrast RMSE from 0.961 to 0.992 K under recommended screening and from 0.816 to 0.840 K under strict DQF-0 screening."
+    },
+    {
+      "check": "Main3.5 retains only three cities (Tucson, South Valley and Albuquerque)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main3.5 retains 215 hourly observations and 21 transitions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main3.5 retains On the same restricted support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main3.5 retains conditional comparison cannot establish robustness across all 75 cities",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main3.5 distinguishes corrected hourly comparison",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main explicitly references S5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Input unchanged supplementary_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Input unchanged validation_2021_hourly_predictions.parquet",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Input unchanged validation_2026_hourly_predictions.parquet",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Input unchanged recommended_common_daily_hourly.parquet",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Input unchanged strict_common_daily_hourly.parquet",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Word unchanged during audit Manuscript v1_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Word unchanged during audit supplementary_suggestions.docx",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "check_count": 216,
+  "s5_compared_data_cells": 138,
+  "cells": [
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 1,
+      "actual": "2021 pooled",
+      "expected": "2021 pooled",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 2,
+      "actual": "2,602 / 69",
+      "expected": "2,602 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 3,
+      "actual": "0.638 / 0.620",
+      "expected": "0.638 / 0.620",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 4,
+      "actual": "2.4671",
+      "expected": "2.4671",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 5,
+      "actual": "2.4437",
+      "expected": "2.4437",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 1,
+      "column": 6,
+      "actual": "0.0234",
+      "expected": "0.0234",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 1,
+      "actual": "2021 h=−3",
+      "expected": "2021 h=-3",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 2,
+      "actual": "252 / 69",
+      "expected": "252 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 3,
+      "actual": "1.051 / 1.020",
+      "expected": "1.051 / 1.020",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 4,
+      "actual": "0.0638",
+      "expected": "0.0638",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 2,
+      "column": 6,
+      "actual": "0.0638",
+      "expected": "0.0638",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 1,
+      "actual": "2021 h=−2",
+      "expected": "2021 h=-2",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 2,
+      "actual": "254 / 69",
+      "expected": "254 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 3,
+      "actual": "0.916 / 0.899",
+      "expected": "0.916 / 0.899",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 4,
+      "actual": "0.0321",
+      "expected": "0.0321",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 3,
+      "column": 6,
+      "actual": "0.0321",
+      "expected": "0.0321",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 1,
+      "actual": "2021 h=−1",
+      "expected": "2021 h=-1",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 2,
+      "actual": "256 / 69",
+      "expected": "256 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 3,
+      "actual": "0.623 / 0.602",
+      "expected": "0.623 / 0.602",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 4,
+      "actual": "0.0255",
+      "expected": "0.0255",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 4,
+      "column": 6,
+      "actual": "0.0255",
+      "expected": "0.0255",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 1,
+      "actual": "2021 h=0",
+      "expected": "2021 h=0",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 2,
+      "actual": "261 / 69",
+      "expected": "261 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 3,
+      "actual": "0.554 / 0.536",
+      "expected": "0.554 / 0.536",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 4,
+      "actual": "0.0192",
+      "expected": "0.0192",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 5,
+      "column": 6,
+      "actual": "0.0192",
+      "expected": "0.0192",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 1,
+      "actual": "2021 h=+1",
+      "expected": "2021 h=+1",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 2,
+      "actual": "259 / 69",
+      "expected": "259 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 3,
+      "actual": "0.469 / 0.450",
+      "expected": "0.469 / 0.450",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 4,
+      "actual": "0.0181",
+      "expected": "0.0181",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 6,
+      "column": 6,
+      "actual": "0.0181",
+      "expected": "0.0181",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 7,
+      "column": 1,
+      "actual": "2021 h=+2",
+      "expected": "2021 h=+2",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 7,
+      "column": 2,
+      "actual": "262 / 69",
+      "expected": "262 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 7,
+      "column": 3,
+      "actual": "0.503 / 0.489",
+      "expected": "0.503 / 0.489",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 7,
+      "column": 4,
+      "actual": "0.0137",
+      "expected": "0.0137",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 7,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 7,
+      "column": 6,
+      "actual": "0.0137",
+      "expected": "0.0137",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 8,
+      "column": 1,
+      "actual": "2021 h=+3",
+      "expected": "2021 h=+3",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 8,
+      "column": 2,
+      "actual": "265 / 69",
+      "expected": "265 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 8,
+      "column": 3,
+      "actual": "0.478 / 0.460",
+      "expected": "0.478 / 0.460",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 8,
+      "column": 4,
+      "actual": "0.0167",
+      "expected": "0.0167",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 8,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 8,
+      "column": 6,
+      "actual": "0.0167",
+      "expected": "0.0167",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 9,
+      "column": 1,
+      "actual": "2021 h=+4",
+      "expected": "2021 h=+4",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 9,
+      "column": 2,
+      "actual": "266 / 69",
+      "expected": "266 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 9,
+      "column": 3,
+      "actual": "0.500 / 0.482",
+      "expected": "0.500 / 0.482",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 9,
+      "column": 4,
+      "actual": "0.0175",
+      "expected": "0.0175",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 9,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 9,
+      "column": 6,
+      "actual": "0.0175",
+      "expected": "0.0175",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 10,
+      "column": 1,
+      "actual": "2021 h=+5",
+      "expected": "2021 h=+5",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 10,
+      "column": 2,
+      "actual": "269 / 69",
+      "expected": "269 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 10,
+      "column": 3,
+      "actual": "0.497 / 0.482",
+      "expected": "0.497 / 0.482",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 10,
+      "column": 4,
+      "actual": "0.0146",
+      "expected": "0.0146",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 10,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 10,
+      "column": 6,
+      "actual": "0.0146",
+      "expected": "0.0146",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 11,
+      "column": 1,
+      "actual": "2021 h=+6",
+      "expected": "2021 h=+6",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 11,
+      "column": 2,
+      "actual": "258 / 69",
+      "expected": "258 / 69",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 11,
+      "column": 3,
+      "actual": "0.531 / 0.517",
+      "expected": "0.531 / 0.517",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 11,
+      "column": 4,
+      "actual": "0.0152",
+      "expected": "0.0152",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 11,
+      "column": 5,
+      "actual": "0.0000",
+      "expected": "0.0000",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 11,
+      "column": 6,
+      "actual": "0.0152",
+      "expected": "0.0152",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 12,
+      "column": 1,
+      "actual": "2026 h=−3",
+      "expected": "2026 h=-3",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 12,
+      "column": 2,
+      "actual": "589 / 75",
+      "expected": "589 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 12,
+      "column": 3,
+      "actual": "1.173 / 1.073",
+      "expected": "1.173 / 1.073",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 12,
+      "column": 4,
+      "actual": "0.5604",
+      "expected": "0.5604",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 12,
+      "column": 5,
+      "actual": "0.3365",
+      "expected": "0.3365",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 12,
+      "column": 6,
+      "actual": "0.2239",
+      "expected": "0.2239",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 13,
+      "column": 1,
+      "actual": "2026 h=−2",
+      "expected": "2026 h=-2",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 13,
+      "column": 2,
+      "actual": "550 / 75",
+      "expected": "550 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 13,
+      "column": 3,
+      "actual": "1.085 / 1.051",
+      "expected": "1.085 / 1.051",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 13,
+      "column": 4,
+      "actual": "0.4414",
+      "expected": "0.4414",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 13,
+      "column": 5,
+      "actual": "0.3702",
+      "expected": "0.3702",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 13,
+      "column": 6,
+      "actual": "0.0712",
+      "expected": "0.0712",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 14,
+      "column": 1,
+      "actual": "2026 h=−1",
+      "expected": "2026 h=-1",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 14,
+      "column": 2,
+      "actual": "548 / 75",
+      "expected": "548 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 14,
+      "column": 3,
+      "actual": "1.007 / 1.025",
+      "expected": "1.007 / 1.025",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 14,
+      "column": 4,
+      "actual": "0.2399",
+      "expected": "0.2399",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 14,
+      "column": 5,
+      "actual": "0.2775",
+      "expected": "0.2775",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 14,
+      "column": 6,
+      "actual": "−0.0376",
+      "expected": "-0.0376",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 15,
+      "column": 1,
+      "actual": "2026 h=0",
+      "expected": "2026 h=0",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 15,
+      "column": 2,
+      "actual": "473 / 75",
+      "expected": "473 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 15,
+      "column": 3,
+      "actual": "1.114 / 1.155",
+      "expected": "1.114 / 1.155",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 15,
+      "column": 4,
+      "actual": "0.2492",
+      "expected": "0.2492",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 15,
+      "column": 5,
+      "actual": "0.3424",
+      "expected": "0.3424",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 15,
+      "column": 6,
+      "actual": "−0.0932",
+      "expected": "-0.0932",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 16,
+      "column": 1,
+      "actual": "2026 h=+1",
+      "expected": "2026 h=+1",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 16,
+      "column": 2,
+      "actual": "591 / 75",
+      "expected": "591 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 16,
+      "column": 3,
+      "actual": "0.616 / 0.626",
+      "expected": "0.616 / 0.626",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 16,
+      "column": 4,
+      "actual": "0.2630",
+      "expected": "0.2630",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 16,
+      "column": 5,
+      "actual": "0.2754",
+      "expected": "0.2754",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 16,
+      "column": 6,
+      "actual": "−0.0124",
+      "expected": "-0.0124",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 17,
+      "column": 1,
+      "actual": "2026 h=+2",
+      "expected": "2026 h=+2",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 17,
+      "column": 2,
+      "actual": "594 / 75",
+      "expected": "594 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 17,
+      "column": 3,
+      "actual": "0.598 / 0.614",
+      "expected": "0.598 / 0.614",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 17,
+      "column": 4,
+      "actual": "0.2150",
+      "expected": "0.2150",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 17,
+      "column": 5,
+      "actual": "0.2350",
+      "expected": "0.2350",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 17,
+      "column": 6,
+      "actual": "−0.0200",
+      "expected": "-0.0200",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 18,
+      "column": 1,
+      "actual": "2026 h=+3",
+      "expected": "2026 h=+3",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 18,
+      "column": 2,
+      "actual": "593 / 75",
+      "expected": "593 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 18,
+      "column": 3,
+      "actual": "0.488 / 0.545",
+      "expected": "0.488 / 0.545",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 18,
+      "column": 4,
+      "actual": "0.1668",
+      "expected": "0.1668",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 18,
+      "column": 5,
+      "actual": "0.2265",
+      "expected": "0.2265",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 18,
+      "column": 6,
+      "actual": "−0.0597",
+      "expected": "-0.0597",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 19,
+      "column": 1,
+      "actual": "2026 h=+4",
+      "expected": "2026 h=+4",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 19,
+      "column": 2,
+      "actual": "595 / 75",
+      "expected": "595 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 19,
+      "column": 3,
+      "actual": "0.518 / 0.530",
+      "expected": "0.518 / 0.530",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 19,
+      "column": 4,
+      "actual": "0.1969",
+      "expected": "0.1969",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 19,
+      "column": 5,
+      "actual": "0.2100",
+      "expected": "0.2100",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 19,
+      "column": 6,
+      "actual": "−0.0131",
+      "expected": "-0.0131",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 20,
+      "column": 1,
+      "actual": "2026 h=+5",
+      "expected": "2026 h=+5",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 20,
+      "column": 2,
+      "actual": "591 / 75",
+      "expected": "591 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 20,
+      "column": 3,
+      "actual": "0.553 / 0.592",
+      "expected": "0.553 / 0.592",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 20,
+      "column": 4,
+      "actual": "0.1370",
+      "expected": "0.1370",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 20,
+      "column": 5,
+      "actual": "0.1824",
+      "expected": "0.1824",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 20,
+      "column": 6,
+      "actual": "−0.0453",
+      "expected": "-0.0453",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 21,
+      "column": 1,
+      "actual": "2026 h=+6",
+      "expected": "2026 h=+6",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 21,
+      "column": 2,
+      "actual": "592 / 75",
+      "expected": "592 / 75",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 21,
+      "column": 3,
+      "actual": "0.550 / 0.591",
+      "expected": "0.550 / 0.591",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 21,
+      "column": 4,
+      "actual": "0.1337",
+      "expected": "0.1337",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 21,
+      "column": 5,
+      "actual": "0.1807",
+      "expected": "0.1807",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 21,
+      "column": 6,
+      "actual": "−0.0470",
+      "expected": "-0.0470",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 22,
+      "column": 1,
+      "actual": "2026 G18 VZA [40, 50)°",
+      "expected": "2026 G18 VZA [40, 50)°",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 22,
+      "column": 2,
+      "actual": "3,619 / 47",
+      "expected": "3,619 / 47",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 22,
+      "column": 3,
+      "actual": "0.701 / 0.633",
+      "expected": "0.701 / 0.633",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 22,
+      "column": 4,
+      "actual": "1.8647",
+      "expected": "1.8647",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 22,
+      "column": 5,
+      "actual": "1.7737",
+      "expected": "1.7737",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 22,
+      "column": 6,
+      "actual": "0.0911",
+      "expected": "0.0911",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 23,
+      "column": 1,
+      "actual": "2026 G18 VZA [50, 60)°",
+      "expected": "2026 G18 VZA [50, 60)°",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 23,
+      "column": 2,
+      "actual": "2,097 / 28",
+      "expected": "2,097 / 28",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 23,
+      "column": 3,
+      "actual": "0.956 / 1.037",
+      "expected": "0.956 / 1.037",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 23,
+      "column": 4,
+      "actual": "1.3715",
+      "expected": "1.3715",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 23,
+      "column": 5,
+      "actual": "1.5337",
+      "expected": "1.5337",
+      "passed": true
+    },
+    {
+      "table": "S5",
+      "row": 23,
+      "column": 6,
+      "actual": "−0.1622",
+      "expected": "-0.1622",
+      "passed": true
+    }
+  ],
+  "independent_s5_rows": [
+    {
+      "label": "2021 pooled",
+      "n": 2602,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.6384703767148606,
+      "corrected_rmse": 0.6198532400907162,
+      "variance_gain": 2.441612903530062,
+      "bias_gain": 0.025526235839444304,
+      "gross_gain": 2.467139139369506,
+      "covariance_penalty": 2.4437127566780488,
+      "net_gain": 0.023426382691456915
+    },
+    {
+      "label": "2021 h=-3",
+      "n": 252,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 1.0505273659961794,
+      "corrected_rmse": 1.0197033013990746,
+      "variance_gain": -2.220446049250313e-16,
+      "bias_gain": 0.06381292382269854,
+      "gross_gain": 0.06381292382269832,
+      "covariance_penalty": -2.220446049250313e-16,
+      "net_gain": 0.06381292382269854
+    },
+    {
+      "label": "2021 h=-2",
+      "n": 254,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.9162355030814319,
+      "corrected_rmse": 0.8985718885492232,
+      "variance_gain": 1.1102230246251565e-16,
+      "bias_gain": 0.03205605821596707,
+      "gross_gain": 0.03205605821596718,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.03205605821596702
+    },
+    {
+      "label": "2021 h=-1",
+      "n": 256,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.6232775125934943,
+      "corrected_rmse": 0.602450123425118,
+      "variance_gain": -5.551115123125783e-17,
+      "bias_gain": 0.02552870648979365,
+      "gross_gain": 0.025528706489793593,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.025528706489793662
+    },
+    {
+      "label": "2021 h=0",
+      "n": 261,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.5537774185543489,
+      "corrected_rmse": 0.536187853712678,
+      "variance_gain": -5.551115123125783e-17,
+      "bias_gain": 0.019172014831710386,
+      "gross_gain": 0.01917201483171033,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.019172014831710438
+    },
+    {
+      "label": "2021 h=+1",
+      "n": 259,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.46940749241219154,
+      "corrected_rmse": 0.4497471884214853,
+      "variance_gain": -2.7755575615628914e-17,
+      "bias_gain": 0.01807086043967065,
+      "gross_gain": 0.018070860439670624,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.018070860439670627
+    },
+    {
+      "label": "2021 h=+2",
+      "n": 262,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.5030799803953222,
+      "corrected_rmse": 0.4892369027426612,
+      "variance_gain": -2.7755575615628914e-17,
+      "bias_gain": 0.013736719669325608,
+      "gross_gain": 0.01373671966932558,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.013736719669325603
+    },
+    {
+      "label": "2021 h=+3",
+      "n": 265,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.478198079094423,
+      "corrected_rmse": 0.4603849032497698,
+      "variance_gain": 2.7755575615628914e-17,
+      "bias_gain": 0.01671914370929618,
+      "gross_gain": 0.016719143709296207,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.01671914370929617
+    },
+    {
+      "label": "2021 h=+4",
+      "n": 266,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.5001724674539602,
+      "corrected_rmse": 0.4823430027022091,
+      "variance_gain": 2.7755575615628914e-17,
+      "bias_gain": 0.017517724943199527,
+      "gross_gain": 0.017517724943199555,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.01751772494319953
+    },
+    {
+      "label": "2021 h=+5",
+      "n": 269,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.49720972912442957,
+      "corrected_rmse": 0.48235499698082834,
+      "variance_gain": 0.0,
+      "bias_gain": 0.014551171623613694,
+      "gross_gain": 0.014551171623613694,
+      "covariance_penalty": 0.0,
+      "net_gain": 0.01455117162361369
+    },
+    {
+      "label": "2021 h=+6",
+      "n": 258,
+      "cities": 69,
+      "intervals": 4,
+      "raw_rmse": 0.5313333311484081,
+      "corrected_rmse": 0.5168783654275592,
+      "variance_gain": 0.0,
+      "bias_gain": 0.015151864142198584,
+      "gross_gain": 0.015151864142198584,
+      "covariance_penalty": 1.3877787807814457e-17,
+      "net_gain": 0.015151864142198546
+    },
+    {
+      "label": "2026 h=-3",
+      "n": 589,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 1.1728241370224113,
+      "corrected_rmse": 1.0731457968637887,
+      "variance_gain": 0.4365218244341307,
+      "bias_gain": 0.12383979824900043,
+      "gross_gain": 0.5603616226831312,
+      "covariance_penalty": 0.3364870676271835,
+      "net_gain": 0.22387455505594756
+    },
+    {
+      "label": "2026 h=-2",
+      "n": 550,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 1.0845098375604663,
+      "corrected_rmse": 1.0511822789205778,
+      "variance_gain": 0.4090002700567088,
+      "bias_gain": 0.03241176023843737,
+      "gross_gain": 0.4414120302951462,
+      "covariance_penalty": 0.3702346260463776,
+      "net_gain": 0.07117740424876917
+    },
+    {
+      "label": "2026 h=-1",
+      "n": 548,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 1.0069293504873993,
+      "corrected_rmse": 1.0254286021245311,
+      "variance_gain": 0.22122613605983388,
+      "bias_gain": 0.018716636418777445,
+      "gross_gain": 0.23994277247861132,
+      "covariance_penalty": 0.2775398736607053,
+      "net_gain": -0.03759710118209392
+    },
+    {
+      "label": "2026 h=0",
+      "n": 473,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 1.114027406312226,
+      "corrected_rmse": 1.1551115505091498,
+      "variance_gain": 0.23176133355344342,
+      "bias_gain": 0.0174614464109595,
+      "gross_gain": 0.24922277996440292,
+      "covariance_penalty": 0.3424484120693096,
+      "net_gain": -0.09322563210490675
+    },
+    {
+      "label": "2026 h=+1",
+      "n": 591,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 0.6158583189754272,
+      "corrected_rmse": 0.6258494599263267,
+      "variance_gain": 0.2341618098508261,
+      "bias_gain": 0.0288782254774995,
+      "gross_gain": 0.2630400353283256,
+      "covariance_penalty": 0.2754461127671614,
+      "net_gain": -0.01240607743883576
+    },
+    {
+      "label": "2026 h=+2",
+      "n": 594,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 0.5976496542989658,
+      "corrected_rmse": 0.6141607241435885,
+      "variance_gain": 0.19195969141862268,
+      "bias_gain": 0.023014934591628865,
+      "gross_gain": 0.21497462601025155,
+      "covariance_penalty": 0.23498291180715497,
+      "net_gain": -0.020008285796903613
+    },
+    {
+      "label": "2026 h=+3",
+      "n": 593,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 0.48764806594448673,
+      "corrected_rmse": 0.5454438441451203,
+      "variance_gain": 0.14401293415386768,
+      "bias_gain": 0.022790600568868828,
+      "gross_gain": 0.1668035347227365,
+      "covariance_penalty": 0.2265118856191442,
+      "net_gain": -0.05970835089640775
+    },
+    {
+      "label": "2026 h=+4",
+      "n": 595,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 0.5176080724136081,
+      "corrected_rmse": 0.5300921620110963,
+      "variance_gain": 0.17711405563246288,
+      "bias_gain": 0.01979878700381046,
+      "gross_gain": 0.19691284263627334,
+      "covariance_penalty": 0.20999242623414083,
+      "net_gain": -0.013079583597867428
+    },
+    {
+      "label": "2026 h=+5",
+      "n": 591,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 0.552597733440991,
+      "corrected_rmse": 0.5921904337512488,
+      "variance_gain": 0.11552385064569473,
+      "bias_gain": 0.021524664505110605,
+      "gross_gain": 0.13704851515080535,
+      "covariance_penalty": 0.182373769973177,
+      "net_gain": -0.04532525482237165
+    },
+    {
+      "label": "2026 h=+6",
+      "n": 592,
+      "cities": 75,
+      "intervals": 8,
+      "raw_rmse": 0.549645140040723,
+      "corrected_rmse": 0.5908495000250967,
+      "variance_gain": 0.11601468328662268,
+      "bias_gain": 0.0176767764888882,
+      "gross_gain": 0.1336914597755109,
+      "covariance_penalty": 0.1806848114850318,
+      "net_gain": -0.04699335170952085
+    },
+    {
+      "label": "2026 G18 VZA [40, 50)°",
+      "n": 3619,
+      "cities": 47,
+      "intervals": 8,
+      "raw_rmse": 0.7011390598044613,
+      "corrected_rmse": 0.6328854498027835,
+      "variance_gain": 1.817426505095554,
+      "bias_gain": 0.04730818840438614,
+      "gross_gain": 1.8647346934999403,
+      "covariance_penalty": 1.773682704888528,
+      "net_gain": 0.09105198861141245
+    },
+    {
+      "label": "2026 G18 VZA [50, 60)°",
+      "n": 2097,
+      "cities": 28,
+      "intervals": 8,
+      "raw_rmse": 0.9560421277956784,
+      "corrected_rmse": 1.0374284791796884,
+      "variance_gain": 1.462521948406287,
+      "bias_gain": -0.09102762618005643,
+      "gross_gain": 1.3714943222262306,
+      "covariance_penalty": 1.5337356215192233,
+      "net_gain": -0.1622412992929928
+    }
+  ],
+  "independent_transition_results": [
+    {
+      "label": "recommended_common_daily",
+      "n": 21,
+      "cities": 3,
+      "intervals": 8,
+      "raw_rmse": 0.9611786586958649,
+      "corrected_rmse": 0.9915247947503683,
+      "variance_gain": 2.681188604469753e-14,
+      "bias_gain": -0.059257004672402636,
+      "gross_gain": -0.059257004672375824,
+      "covariance_penalty": 1.9984014443252818e-15,
+      "net_gain": -0.059257004672378044
+    },
+    {
+      "label": "strict_common_daily",
+      "n": 21,
+      "cities": 3,
+      "intervals": 8,
+      "raw_rmse": 0.8159860343363887,
+      "corrected_rmse": 0.8399358645769108,
+      "variance_gain": 3.114175584073564e-14,
+      "bias_gain": -0.03965904837051154,
+      "gross_gain": -0.0396590483704804,
+      "covariance_penalty": 5.589972928987663e-14,
+      "net_gain": -0.03965904837053669
+    }
+  ],
+  "scope": "Direct retained-prediction/common-support scalar reconstruction against actual accepted Word XML; all prior S1–S4 accepted cells/captions unchanged. No Word edits, model fits, provider retrievals or new full scientific rerun.",
+  "limitations": [
+    "This check does not replace final rendering/visual inspection.",
+    "Independent raw-product surface validation, unique physical attribution and final-workflow unseen-city performance retain their documented limits.",
+    "Response letters are not drafted or cross-checked in this task."
+  ]
+}

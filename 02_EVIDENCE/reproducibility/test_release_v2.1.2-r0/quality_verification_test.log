@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "numeric_cells_compared": 11123,
+  "scope": "Strict quality and paired5000draw sensitivity recomputed using newly reproduced calibration-only models; scientific results unchanged after primary <1minute scan-pair rule alignment.",
+  "failed": []
+}

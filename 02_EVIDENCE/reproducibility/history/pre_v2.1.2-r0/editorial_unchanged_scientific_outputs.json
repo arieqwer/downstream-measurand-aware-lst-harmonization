@@ -1,0 +1,957 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/validation_expanded_leave_one_event_out.csv",
+      "sha256": "2891477554e42a0fbcb10fc2696fdafa56e088650919ca1547b81cd8c57ec612"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/historical_expanded_stratified_metrics.csv",
+      "sha256": "cfd05a204031d326dafd85fe3beee2e85d3c16bb798ac1a655b307b6085f19c2"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/combined_2025_metrics.csv",
+      "sha256": "e8a48164556276ca2dba509738f7e0c6b295c64bfcc793438c513637612fc504"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/combined_2025_common_domain_predictions.parquet",
+      "sha256": "28e041192273664868588e550d5791a9800231a3a686a2b33200be704ab0d56b"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/validation_expanded_bootstrap_summary.csv",
+      "sha256": "64e2c0f271c6d87acc0d75ad3eb1b5a86dcdeda5a132c91903cbaf091e9af847"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/validation_expanded_report.json",
+      "sha256": "0f3b62fe6cc1bc6bcf770a886853ea48ebf4b1ba969855063c17c9cc3dae5144"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/validation_expanded_bootstrap.parquet",
+      "sha256": "7ae55f2ec6868e38f90bf24ae031dd13f7ce4a580801682e9bc9ba30e1cb264e"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/validation_expanded_metrics.csv",
+      "sha256": "0cb47d0e5fc2f9da54bd48c81e272c1773fc0aa6be2fcfa00bb57c770d32b69f"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/combined_2025_report.json",
+      "sha256": "1f6042366e187a37d1c34236b80215089492197eb349940110ea91ee90b59718"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/historical_expanded_leave_one_event_out.csv",
+      "sha256": "ea57dd09d264c99341e5dccea4c5a9cc4c33e06c25d38f4f32dc16478c38102e"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/combined_2025_cohort_comparison.csv",
+      "sha256": "d0fd8189df6e584b4430bd7010713bc95b05b78f0b3814349b33be629699e4ef"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/historical_expanded_report.json",
+      "sha256": "983dd6f7d926eeed47ec99b61eab8ecbe952e359482441243015babf8c684c15"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/historical_expanded_bootstrap.parquet",
+      "sha256": "45b7b432dc5928042023caab7c6f65a383792964d6850b2a8efa8e73679d070f"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/historical_expanded_predictions.parquet",
+      "sha256": "23fad9cffcda95fb1d710506bd543d5a18a536266d8ae25120f7f48580938a1e"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/validation_expanded_stratified_metrics.csv",
+      "sha256": "7632135da5cf0a348f9e9bb77e0c6e0b99ca0320bb3a20fa0577425ad6f99018"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/historical_expanded_metrics.csv",
+      "sha256": "3910c3222c5ca12cf9183f84e1354953c89c11164d038403b5babd7a9dcc1a90"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/validation_expanded_predictions.parquet",
+      "sha256": "c72499dbcb20f0a3f9116a28ff88f7564ca04e4dd3449f321d9137768df9464f"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_expanded_validation/historical_expanded_bootstrap_summary.csv",
+      "sha256": "c43311a9e8a973d4f6ccfe3f8e55e0386363d052cac58ae8c629360351838990"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/error_decomposition_stratified.csv",
+      "sha256": "6ebfca7c86b5834c06e978d817c20f4bd470481bc51cd171fada1b2e00b3b6f6"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/cross_sample_rmse_summary.csv",
+      "sha256": "9dcd61d8db805537db1dff3fc4e4fd3e3f3906a5e4587a12c252f065a78992a9"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/error_decomposition_overall.csv",
+      "sha256": "2bbbf65a791809f23c4cc637adad504058f9c66f2acbfd9688e27e54379c4ded"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/error_decomposition_bootstrap_summary.csv",
+      "sha256": "00f89983b79741e18716253efc7f0c3414dfac9b23ec2c51465d0c7efcafd87f"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/error_decomposition_crossed_bootstrap.parquet",
+      "sha256": "72255e17b6cefc255f3aa6e339492886450be164ad26e2aaafe36684f188584e"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/cross_sample_error_decomposition.csv",
+      "sha256": "1b3c55e66937b6209ad2a463580bdc0ddb50ac6f0e0754d0dbb20ca7c831c3eb"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/error_cascade_report.json",
+      "sha256": "123b37bfb06b998941905f5789e4bba4a9e8c562be4f0004e18961d95bb46553"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/harmonization_error_cascade/uncertainty_exact_intervals.csv",
+      "sha256": "2175fea8f8ddf62847cc1d4c09fc3cdd44a5c9c7c5dd442390e886e1c722adf7"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/downstream_metric_framework_report.json",
+      "sha256": "87b704f01f4438079d4732a60015268f35bf0ac6130500e2549e516d100261f1"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/metric_aware_decision_audit.csv",
+      "sha256": "b3c700c89bb56cfa6cc7f9a45cf072b987db3fdaa7dd47be6ce8afb06c6b57d9"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/exact_mse_budgets_all_samples.csv",
+      "sha256": "cc66e1c860e87404d3ee35f0a1300353bcd8633f81eb8ce41b83e3aa8576e192"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/cross_sample_rmse_with_external.csv",
+      "sha256": "a138af0819125353c9cda3e7c7995b8384c786e096a6bd351ddc4a442a1880ee"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/exact_mse_budgets_with_external.csv",
+      "sha256": "ad0b71bc58cf48374e4c415ae17b31c51fe3d1a40bc928715d3cabf67c3df631"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/mse_budget_2026_bootstrap_summary.csv",
+      "sha256": "d742e9b7de6c3702ccf1a8ce96ee0ffb7c0089dafebf64bce53b6317818681aa"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/downstream_metric_framework_synthesis.json",
+      "sha256": "42cb0571a6f51e900e9ecd0e9757750017553c4474d60d4df0ead555e65f4e08"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/downstream_metric_framework/mse_budget_2026_crossed_bootstrap.parquet",
+      "sha256": "6c19bf7fe087e7546048752f405c6d3fe48dabfed016e95f89699e4e55a9686d"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_report.json",
+      "sha256": "3e0be9b3e768dc203b754be6b287653ca8096691648a195dc7ee10426ecd769c"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/frozen_metric_aware_manifest.json",
+      "sha256": "6610f0a9a4fb0cd632a083dde50f69b0848ddf2a5f4eeea8f65133393825ffac"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/transition_cross_validated_predictions.parquet",
+      "sha256": "ef8cbfadb3f5e15f039d5318488e82baef6c4de9e54f0825c047c3fc7c12bfac"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_transition_predictions.parquet",
+      "sha256": "4effe08b9f72beb93ef5b98ac94f620eea5bf91d810fc55e1f079ed0f7a5d51b"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_error_decomposition.csv",
+      "sha256": "d16ad2c5ded35440ec8d0d268b9712f8254038a58f82415ea1966cfc4a2261c1"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_hourly_predictions.parquet",
+      "sha256": "7dfec3e907bd85d545a2c5243d99f819ab10fd2bcb2e8ab250ed53ad2cb502a9"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_metrics.csv",
+      "sha256": "7c62212d38e3e89e93e086fc9359dbaae363646217f20a43c8d8ed480189a3f3"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/frozen_metric_aware_model.joblib",
+      "sha256": "db6cfc91c55edf840cd857361b5f1c93b6cddcd01474504e5049cb0a82b566bc"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/hourly_cross_validation_scores.csv",
+      "sha256": "002ac0624083e8cf72ad5d0b4e4c2524dd1b3698850f72b00b503285b2f5b2ae"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/hourly_cross_validated_predictions.parquet",
+      "sha256": "6038ff33a52026bd384f1fc4447339735d0b9007fd947ce3e3ed7c021eab71b8"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/model_selection.csv",
+      "sha256": "21ca0242908fee8207a9860ad16cbe16749f648823e52a063b01acbc0db7c400"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_uncertainty.csv",
+      "sha256": "ee93a8a928c10869a336d804053c5facd5489e4fc3cfa42fcba2b489bb861d3b"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/transition_cross_validation_scores.csv",
+      "sha256": "a70a4227505119c20539cee6d7503e019adf46f80ca8fa1673ea08626a326ac7"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_hourly_predictions.parquet",
+      "sha256": "a10f4d1895ba7ddbec62ae0cc65e4b5fdd0111d3f998feb4d08c2f81ccf0b457"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/external_replication_report.json",
+      "sha256": "daa3a7d345351e3cde45c74fc47e8d82952f4a11e02fa71599f84d2bbb733d57"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_transition_predictions.parquet",
+      "sha256": "440c36c18eec81d78859e52242a8aa24eb3938a72de44c17d6c1218b90aacaf1"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_event_influence.csv",
+      "sha256": "93c6b4fad6b4e89fd3001b59008dd87270df47deda800e11b9778612ed4a7e7b"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_exact_mse_budget.csv",
+      "sha256": "a0ff26ead7aa5c8e9bb681caeaabd6cb16fdad45bba5bba5b335ab02412844e4"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_crossed_bootstrap.parquet",
+      "sha256": "7fc64f641a22496781a25d6694a159b446c9c3ad7a11044b1f0ef8b63dd06379"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/event_attrition.csv",
+      "sha256": "138761341fd9c09706df73a461451b2407d32161c4d2f945e60fd97f570e7d7e"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/frozen_hour_offsets_2019_2020.csv",
+      "sha256": "f95a9af959eeaced7cc20917f56b6f7c42bd0ff5e3fa45c7b43a95ffc5f267bb"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_bootstrap_summary.csv",
+      "sha256": "c425bf99f5069ad373a17ef0107a92006089cb595cfb02650cc3588a56318a0f"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/derivation_cross_validation_metrics.csv",
+      "sha256": "7d1d725c52f052ae56c94b123a35fca7725692ca52e3f7f43d55ab1d673ddcf8"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/validation_2025_predictions.parquet",
+      "sha256": "0c402b739421cf9aea7ff4e884c03bfea0230567da2cc77e5dd55a56ff6149ee"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/frozen_harmonization_model.joblib",
+      "sha256": "865db036d7b70762b3528dd26100cfb64947f0d3602a7c2c789256645eee9f5d"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/validation_2025_metrics.csv",
+      "sha256": "831629c24eb0ec68707d3f6b91114fbd48b25457e583540424553b4adaa23657"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/derivation_cross_validated_predictions.parquet",
+      "sha256": "96f53deb20b6b0a7cf947eb0e647665c8eb782afd638cc76b82c6888a235507d"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/temporal_artifact_models.csv",
+      "sha256": "54f9dd27a3a9263bc7b96a60b186a5a77f3717602b44ae0ee41e08799366c789"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/validation_crossed_bootstrap_summary.csv",
+      "sha256": "f474888c90e330ab565495df3df23c2abb2e5b8cae06146a524121087bdff776"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/frozen_harmonization_manifest.json",
+      "sha256": "97bc63d824d684c986d7524ad3fac2e4d4d78ca64550809a9d93feee58b82137"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/derivation_model_selection.csv",
+      "sha256": "97784d8fb84c4343d06eb94a7eb5c65e35e5fabb293577520644dc176ac0d108"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/derivation_city_event_hourly.parquet",
+      "sha256": "208fe067d3299d415b8ecf560664e712429e1f044ea00433bbb73db4cedee6c6"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/validation_crossed_bootstrap.parquet",
+      "sha256": "d0b422a543369da5b849b075340cad371872b10a5d0fe5e28c1b40a129a5570d"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/validation_leave_one_event_out.csv",
+      "sha256": "03536474ed0aa8dc288856e87e665ca011954fa909b1916a5db58fc19bb56c8f"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/temporal_artifact_wild_tests.csv",
+      "sha256": "9d824db642ad02675b8050478efeb574599cfbc3a59cce73767735521737b80a"
+    },
+    {
+      "path": "02_EVIDENCE/analysis_outputs/multiplatform_harmonization/validation_report.json",
+      "sha256": "d1cd63c21cfedd177461449ddb14b9ce1cc9f0c5efb1053d77d0a7766d82cfc5"
+    },
+    {
+      "path": "02_EVIDENCE/bootstrap/validation_2021_crossed_bootstrap.parquet",
+      "sha256": "7fc64f641a22496781a25d6694a159b446c9c3ad7a11044b1f0ef8b63dd06379"
+    },
+    {
+      "path": "02_EVIDENCE/bootstrap/mse_budget_2026_crossed_bootstrap.parquet",
+      "sha256": "6c19bf7fe087e7546048752f405c6d3fe48dabfed016e95f89699e4e55a9686d"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/repaired_diagnostics_summary.json",
+      "sha256": "39b27b85820a27740733f575206f1a48b1bf34977078c7dc855b6b56bff81e88"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/repaired_hour_diagnostics.csv",
+      "sha256": "44360c1b93c01f7cd52fe6f851b760043bff0e6aa6b4a93787e9882406409266"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/repaired_G17_June_sensitivity.csv",
+      "sha256": "21a975e834a56583f5db4a7ac14db1fc71ba9d479533e2dd160f1f3caab3d39e"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/SI_S21_native_category_summary.csv",
+      "sha256": "7cd971fcdcc1d501e9f6cae90a38b7e4ba29f6549b8ad97f0c9b5a558e6ff743"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/SI_S5note_reference_contrast_distribution.csv",
+      "sha256": "86e0bdfd9c9992664eac0db0405b5b1c80fec3fdecfbc310a5288c5aa466ec9b"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/SI_S16_calendar_subsets.csv",
+      "sha256": "4d83f2757de166da47a1ae4bdf3ddc1e4f01bbe6beb3254dfd3a67449dd39f57"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/repaired_observed_contrast_scale.csv",
+      "sha256": "7b20d8387ebe8b4244f891223d26ed084f9c7045c3cc99c36ade370ff8c194ab"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/SI_S14_all_geometry_strata.csv",
+      "sha256": "0cda6f87f4d794e0b7c781eef9e01f7cf79a3bab227e7632b34a4c9a719c5128"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/repaired_VZA_diagnostics.csv",
+      "sha256": "36a4baec475813a93c701c4040b369bd1bf6e9e9e8ae6e81739c526f858b7f5f"
+    },
+    {
+      "path": "02_EVIDENCE/diagnostics/index.csv",
+      "sha256": "99d3f06360e72092f773704506bf243130f3b9ffd7d2e5621020c0e0dd854f3d"
+    },
+    {
+      "path": "02_EVIDENCE/external_replication/validation_2021_event_influence.csv",
+      "sha256": "93c6b4fad6b4e89fd3001b59008dd87270df47deda800e11b9778612ed4a7e7b"
+    },
+    {
+      "path": "02_EVIDENCE/external_replication/validation_2021_bootstrap_summary.csv",
+      "sha256": "c425bf99f5069ad373a17ef0107a92006089cb595cfb02650cc3588a56318a0f"
+    },
+    {
+      "path": "02_EVIDENCE/native/historical_and_modern_metadata_catalog.csv",
+      "sha256": "90f072dcd6e132edf7c62a4ad422d5b518778cd4ad867f9d16a74cfaa66f2d06"
+    },
+    {
+      "path": "02_EVIDENCE/native/native_cloud_sensitivity.csv",
+      "sha256": "057a8c8b51b5bf8fe7ca4a73de08475c0dafc5f1f9336600e67d0a2ae3f2e328"
+    },
+    {
+      "path": "02_EVIDENCE/native/native_city_screening.csv",
+      "sha256": "ba50e6fbbac782a30888c5f4634c15d7db273bb95b00b4aba5af551d6c23781d"
+    },
+    {
+      "path": "02_EVIDENCE/native/native_PQI_reasons_aggregated.csv",
+      "sha256": "7919e79a12a9a476287ec4b7997f66e66a72cfa6c1a0093d514b31e308003e38"
+    },
+    {
+      "path": "02_EVIDENCE/native/cloud_scene_status.json",
+      "sha256": "1b7a53d7d7f0a0d30258effc0f5eabf9016446882fdef5f83d11195c4a7fda91"
+    },
+    {
+      "path": "02_EVIDENCE/native/native_PQI_reasons.csv",
+      "sha256": "042285a79beb0031d7deea515094c4cb46c820b47d54ecb590c2d8d7c3d9c848"
+    },
+    {
+      "path": "02_EVIDENCE/native/native_cloud_paired_rows.csv",
+      "sha256": "0c2fd47b83f534ad294fe771d0492947401fdf3de4c0ed9f6d2ee97dda5ab8ce"
+    },
+    {
+      "path": "02_EVIDENCE/native/native_region_replay.json",
+      "sha256": "3cafa23e118b484165c44a7f3788db9cddacee0f0421eca296f14ec4353be12b"
+    },
+    {
+      "path": "02_EVIDENCE/native/ACM_metadata.json",
+      "sha256": "a47796c98a18b193cb1e19ef1fccd674f9829718ec61ef95ce3bd8b052b06fe7"
+    },
+    {
+      "path": "02_EVIDENCE/native/historical_and_modern_metadata_audit.json",
+      "sha256": "e2090b31e412693d866952f5229db7dba92adf1b60301c26ff6cdc8c7624c4ef"
+    },
+    {
+      "path": "02_EVIDENCE/native/index.csv",
+      "sha256": "49bac2489ba1800304c8c4d28bf994f359dbdf60652d41ea81dfc471f04e8869"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-17_h+4_metadata.json",
+      "sha256": "ccbcbeb0a0c62dc685cb2b20f09063ea37594f96d15372a3fa2584e019334310"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-17_h-3_metadata.json",
+      "sha256": "ae2bcc8653588e8d039d4ba9f6ad00f05e5c4dbd183fd47b2e77668d99cfac99"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-17_h-3_metadata.json",
+      "sha256": "7b6e7bfadd5a7ef5cae863dbcdde96146fc04f844dc89a1a7467a40645dd8cc3"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-17_h+4_metadata.json",
+      "sha256": "319b34945235d5189344e86d0b22f03b6a0bc694e8955ef985814421fb98079d"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-11_h+4_metadata.json",
+      "sha256": "9123a78203466f14b222b440efa4382f89b0bcb0523f44c2f8b090ce6d65a5a6"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-11_h-3_metadata.json",
+      "sha256": "c660f4d8044a56db41f160f7027ccc9e67245889a55fe7eb5439f475106c9def"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-11_h-3_metadata.json",
+      "sha256": "9fd1e7d07644ff7554b76f063d641464f692e5bced88cb8232579d1726f7dc05"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-11_h+4_metadata.json",
+      "sha256": "3c93fb916b1fbe03025fe27709a48e1ac32692ee742beef39eab9ea349905db2"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-09_h-3_metadata.json",
+      "sha256": "130aaf99a42b585e4d61c2675709035fcb07a99aa230077946c20811fcf69a16"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-09_h+4_metadata.json",
+      "sha256": "c4294a13239b349c0ccbe093297ae1a5cf7d4815e028682bcdd4d04d964923a0"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-09_h+4_metadata.json",
+      "sha256": "8d96e69d7d24ca8d61dbea858950e1d03a5a86d4195de36a1aba80729f40d33d"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-09_h-3_metadata.json",
+      "sha256": "85aa5ed78d84aa16744e401d5c667713c8d977deb702e43f55b638b615e0b472"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-25_h+4_metadata.json",
+      "sha256": "45ba3c2b4854969278a28c7c6f6a19d95d536dfb6f56cc0f02a9290f276e39de"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-27_h-3_metadata.json",
+      "sha256": "e14c602e70219d02b2232e98e7160afadb3eb193f2c86300ac72eb621037ce27"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-25_h-3_metadata.json",
+      "sha256": "991a7464fa39d91d4a819190517714d60fbaaa52a011868185c1e36035298ab0"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-27_h+4_metadata.json",
+      "sha256": "b9afdb2eed0ecd06df5d1918156c201eaa77ac7b32bb7e283f5de500db7fe95e"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-25_h-3_metadata.json",
+      "sha256": "3632d1cb1d08c51fca14ff76324ef78e064a42824d63a61cf17713bc9a24d3c2"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-27_h+4_metadata.json",
+      "sha256": "a2e9a15fedcf6de0418acd6ae52b8728082b3af347104b5445331aad2dc5a1da"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-25_h+4_metadata.json",
+      "sha256": "37aa612d71828237266911b3b39b8c3e865afad3d91ded64e6af3b0ddd922e75"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-27_h-3_metadata.json",
+      "sha256": "72ca8847b9a7a0496c445df7f9b430a5724e1ccbcd912498885d9589e0effac2"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-01_h+4_metadata.json",
+      "sha256": "b0da6f25bea04071d9a61c1e5006450e7f737ff27d6a26ade430c846c474785a"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-03_h-3_metadata.json",
+      "sha256": "408895239824e574d294a315efe4b7741277182a7a18dd57fc5341af9ee81058"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-01_h-3_metadata.json",
+      "sha256": "2e62bfd97d123bf2a341bcba4f0cd86138fc0772e16a1b10007f237f0e89e31e"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-03_h+4_metadata.json",
+      "sha256": "5ecf0a1d5418149b9570d4358e765039036593e5bd4d744008e30a92420db026"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-06-01_h-3_metadata.json",
+      "sha256": "9d74834fb7fd769ce1055ad892715e18540c06963e0a60bc7ab0bb21ae1358c1"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-03_h+4_metadata.json",
+      "sha256": "bf711fd81af72cfcaadc944862ba5b3bfa06f8a8706e0134d040f29aed544627"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-06-01_h+4_metadata.json",
+      "sha256": "f2f36b1415ee720bb4291578cf08c5569231ef3c8fa8fd217d8c3b9e4413e53c"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-03_h-3_metadata.json",
+      "sha256": "d41aea23c02121e17bdf6e8815fd1d3d5f121dde7361483e15e26191ac67dab9"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/cloud8_audit_summary.json",
+      "sha256": "7b91ef84ec0dc38d1abd0e6b8e14323e630bd6547e543941617063f4f2fffa3a"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-19_h-3_metadata.json",
+      "sha256": "ecd0e8eb4ec7322fc51afaeca9934dfd748fcd1ed16703704d0ecab0e49e595c"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-19_h+4_metadata.json",
+      "sha256": "03b43f9cd478b7e8e2077fc41d495bd4847df6ce60f5b0b98697bfb7aa8ca815"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes18_2026_Phoenix_2026-07-19_h+4_metadata.json",
+      "sha256": "a95dff96891b058cf8514397c00daef856b06ef79c6b91df545fddfc42887cd9"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/cloud8_selection_predeclared.json",
+      "sha256": "73621dd5e80397d4285ccc312e7e8a9a480829672dc996cc8566dea9a0694b3d"
+    },
+    {
+      "path": "02_EVIDENCE/native/metadata/noaa-goes19_2026_Phoenix_2026-07-19_h-3_metadata.json",
+      "sha256": "9cf2d8ff9c40034fd3d173c0ca4f5d7d3016cdeaa38a81d88eeb791d7273a5cc"
+    },
+    {
+      "path": "02_EVIDENCE/quality/paired_crossed_bootstrap_summary.csv",
+      "sha256": "8078467766e6e13079798763b88b99cd2d2b303211745794ee001f7d0ed46b69"
+    },
+    {
+      "path": "02_EVIDENCE/quality/daily_pair_support.parquet",
+      "sha256": "18fb56d06215bcf236e1a8005b5e0e304fc2f8ee45b06369f709e29f5dd67d52"
+    },
+    {
+      "path": "02_EVIDENCE/quality/recommended_eligible_city_full_dates_hourly.parquet",
+      "sha256": "9fdc91c78eb86b2ddbb08b136592a1eb7a6907770b63bb922447b738d69e6f86"
+    },
+    {
+      "path": "02_EVIDENCE/quality/full_mse_decompositions.csv",
+      "sha256": "abba73bbb68c3e9186f81166c8f08a4ae91d440d23e6c11f46328c37bb8dc687"
+    },
+    {
+      "path": "02_EVIDENCE/quality/recommended_full_hourly.parquet",
+      "sha256": "8e6abc433077eda3a2d965a9e93666a7ab0fd8cdfe937541337a5439b7972503"
+    },
+    {
+      "path": "02_EVIDENCE/quality/strict_common_daily_hourly.parquet",
+      "sha256": "d1fd0644d49dd7daff2fc98662a7a2635efb3726b0abfc308ebd190454759e7b"
+    },
+    {
+      "path": "02_EVIDENCE/quality/stratified_performance.csv",
+      "sha256": "328d8d88c42f31252afd4dabf7c19da33a75e952f92c8a5b66d57179eb8a57f6"
+    },
+    {
+      "path": "02_EVIDENCE/quality/support_summary.csv",
+      "sha256": "25ccb2b7a82af440184b66419b6d8c7446bc278a9695e207801df925b63c31aa"
+    },
+    {
+      "path": "02_EVIDENCE/quality/strict_full_hourly.parquet",
+      "sha256": "d1fd0644d49dd7daff2fc98662a7a2635efb3726b0abfc308ebd190454759e7b"
+    },
+    {
+      "path": "02_EVIDENCE/quality/paired_crossed_bootstrap_comparison_summary.csv",
+      "sha256": "67b4447362cd365395c83322faf9aa32e072206b07d8afddcd494c8dcc4903c5"
+    },
+    {
+      "path": "02_EVIDENCE/quality/recommended_common_daily_hourly.parquet",
+      "sha256": "3f78a232a10163bba4715fb545e0d0994b751ecdde13b9a96bd92b31f354779c"
+    },
+    {
+      "path": "02_EVIDENCE/quality/recommended_eligible_city_full_dates_transition.parquet",
+      "sha256": "c749a6aa04fa56f04be8b4eb6016b594471cae943b9fe47e6918c3b2d5d8da47"
+    },
+    {
+      "path": "02_EVIDENCE/quality/recommended_full_transition.parquet",
+      "sha256": "b2d11cdb5704c9e3298d25843b07579de7f24935cd9cca2b1ee78927fa0720e1"
+    },
+    {
+      "path": "02_EVIDENCE/quality/paired_crossed_bootstrap_differences.parquet",
+      "sha256": "dd47d8a84a4b1b90e0eb55e3fc67f8841baac3629d8fdee8271227cecc4dd4ea"
+    },
+    {
+      "path": "02_EVIDENCE/quality/recommended_common_daily_transition.parquet",
+      "sha256": "64997a4f58e063921692e949aa6bd5344c610e2732c000c8e8a91dd47bcb8e94"
+    },
+    {
+      "path": "02_EVIDENCE/quality/strict_common_daily_transition.parquet",
+      "sha256": "3e3928c7d52aef09747c8b8fc189a02fa328cd937af0c34750a2b3efac8222ab"
+    },
+    {
+      "path": "02_EVIDENCE/quality/paired_crossed_bootstrap_draws.parquet",
+      "sha256": "857bbf8a19bb99e8c864ab26c6ec26deb921ca46da700c2bc123e21da230868b"
+    },
+    {
+      "path": "02_EVIDENCE/quality/component_and_contrast_metrics.csv",
+      "sha256": "0cfe88267ec9a9ecac1d39933bb44fc88d3b40523b38d6ecfd735d333fc85525"
+    },
+    {
+      "path": "02_EVIDENCE/quality/daily_attrition.csv",
+      "sha256": "272efdd9f6725d5003845ed4ec1907f43a4c2319df0dd9975fc85b2216db365b"
+    },
+    {
+      "path": "02_EVIDENCE/quality/validation_manifest.json",
+      "sha256": "4d9f914ea05bcc7014b237b3b810ee256a2263a497901ab12712dfebb4e82ed5"
+    },
+    {
+      "path": "02_EVIDENCE/quality/paired_daily_regional_summaries.parquet",
+      "sha256": "c6add5f8a37acd95f48451bf863afd339c7d711d00a395ffd06d3e2df811c06a"
+    },
+    {
+      "path": "02_EVIDENCE/quality/independent_quality_check.json",
+      "sha256": "84e4f073d82ee054aff82dccebce6b8b397caf9f2cccb7bd81ab8788d4e15c11"
+    },
+    {
+      "path": "02_EVIDENCE/quality/index.csv",
+      "sha256": "96aafa9b20a24ec78c7ab4ccb33a7c44147cc981311c4b9cb172e9f65a486917"
+    },
+    {
+      "path": "02_EVIDENCE/quality/strict_full_transition.parquet",
+      "sha256": "3e3928c7d52aef09747c8b8fc189a02fa328cd937af0c34750a2b3efac8222ab"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/Table_S2_publication.csv",
+      "sha256": "7f2682d57ae6aab9c756c08838c5f229955b10569e22032fce3d151cb25b6c78"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/uncertainty_gate_2026_by_cohort_event.csv",
+      "sha256": "a11d0efa86e3c2c521136e12e962b26334e7eff54afd55892f87cc7417c42bbf"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/fixed_city_candidate_metadata.csv",
+      "sha256": "a326b15d279edd704c2c122d7cbb3db7532cad8d1e4fd9c086af07c705b64b9d"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/Table_S4_publication.csv",
+      "sha256": "6b506b49b78045c3581c05b9e4b719660a2af4c6a714dacbb521f7331ec8d372"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/Table_S3_publication.csv",
+      "sha256": "86ff8b8e6ee47de8f652bfc63634436111381a7f83d388c6f83da9bcca4899bf"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/model_selection_summary.csv",
+      "sha256": "902d2ae798345089ee65f4461e8b913178bab6acd6d6c371e1b9fe6793268ad6"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/cohort_event_analysis_counts.csv",
+      "sha256": "afa8128f8ffd20d91bec2b7c64396c0e2ea12d65f2e3bb41e3f3273ff4acc335"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/external_hour_offsets_2019_2020.csv",
+      "sha256": "f95a9af959eeaced7cc20917f56b6f7c42bd0ff5e3fa45c7b43a95ffc5f267bb"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/Table_S1_publication.csv",
+      "sha256": "af1008df0e30177072bf79d7ca2fb3ab82591a6472df8050df3bec0ba1e81ef2"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/cohort_attrition_summary.csv",
+      "sha256": "836b10edda2993a1fcefe7c91809c0bb0e076fe038db2cc2f69bd7d16aea94f3"
+    },
+    {
+      "path": "02_EVIDENCE/si_tables/fixed_interval_chronology.csv",
+      "sha256": "6f7643ab1897219e3021264f678814c6ae666064cccf96e1617287174fa18c84"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_matchups_all.csv",
+      "sha256": "78dfb647fdfaa849d01841abd8928068b757f2a66494a98b09fd1ee72b4338db"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_missing_inventory.csv",
+      "sha256": "2b817e2fd4e797c9fbdf8929b3b88501f6ff88e0acb919295b08742cb0d2ad27"
+    },
+    {
+      "path": "02_EVIDENCE/surface/independent_surface_verification.json",
+      "sha256": "325d407cc4343532d721a7c012fcf50c46dc7cdf5d5c606855c2ebf1d13dfebc"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_matchups_all.parquet",
+      "sha256": "07f57765c49bf0f468dbaad5cffb8d3ed060667994a6347eb6a85c80332c0d4f"
+    },
+    {
+      "path": "02_EVIDENCE/surface/raw_point_bootstrap_design_date.parquet",
+      "sha256": "8f11daf8d719c16bc6a0062f658773dcdc4dc922a7c888976c61afe181bfcc43"
+    },
+    {
+      "path": "02_EVIDENCE/surface/neighborhood_matched_sensitivity.csv",
+      "sha256": "33fec265b08a30026f63ca6f08ee2ad0135217c1bd5b59dc60e2db00691932c0"
+    },
+    {
+      "path": "02_EVIDENCE/surface/station_pixel_geometry.csv",
+      "sha256": "9006e2fafaba215c712e0ae9e2486fc1840e6151ca4824f6b6bbc5a5cb7d3f21"
+    },
+    {
+      "path": "02_EVIDENCE/surface/attrition_by_station_platform.csv",
+      "sha256": "df8b3572009ac76b0ae744761f9e4a5d80e9059999ad993f3af30da9804e2f3c"
+    },
+    {
+      "path": "02_EVIDENCE/surface/raw_point_bootstrap_event_id.parquet",
+      "sha256": "4a28bcf75c56b822f10f0aa1e2a271e7aa1f2819bc467eb470dd9b4bdfa2e441"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_summary.json",
+      "sha256": "9983e669f6361823eba1791d8a6e869707182099ef6e32439968966ea76f0bae"
+    },
+    {
+      "path": "02_EVIDENCE/surface/timing_audit.json",
+      "sha256": "2d627e09dbeff64b86442d8e12ec80a4f9fbd89cec80daf34b1bdcd381fba394"
+    },
+    {
+      "path": "02_EVIDENCE/surface/raw_point_cluster_bootstrap_summary.csv",
+      "sha256": "5fb807596ad8702d3994f9354ac4b3e9b61482385c94685044f4dbd8c4ff3e21"
+    },
+    {
+      "path": "02_EVIDENCE/surface/station_change_bootstrap_event_id.parquet",
+      "sha256": "239180bf156a235bdcb864ee20f5b72aec39eb4d1c72f77def2cdad8ba93a718"
+    },
+    {
+      "path": "02_EVIDENCE/surface/leave_one_station_out.csv",
+      "sha256": "1ad791db8306ee20f7558e97f0d7f62ec5a5bcea14fd4c7c61c75e1f86b1038f"
+    },
+    {
+      "path": "02_EVIDENCE/surface/station_change_bootstrap_design_date_summary.csv",
+      "sha256": "fd18142dac7b0fa14e1237caf7744c826ebff6062a27d557d9929ba6fc6eb2d6"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_requests.csv",
+      "sha256": "8491da4b303cceb424983e66730306336732312b999482d54722e82bf6dbb1a0"
+    },
+    {
+      "path": "02_EVIDENCE/surface/station_change_bootstrap_event_id_summary.csv",
+      "sha256": "2946ea187d14074930481979e0824b55cf2910fe4a09eae1c6f4517ec1cc1144"
+    },
+    {
+      "path": "02_EVIDENCE/surface/acceptance_checks.json",
+      "sha256": "335d7cbd34a6a9fda1c12d66f82b6f4aa8f9566cb08eb86985dfd7a9c3a11029"
+    },
+    {
+      "path": "02_EVIDENCE/surface/radiometry_sensitivity_scenarios.csv",
+      "sha256": "ff88794212a5fd5c2130d86000796fe34bd4d8f7a76b74f411e1a6d0dffb8b17"
+    },
+    {
+      "path": "02_EVIDENCE/surface/station_pre_post_change_metrics.csv",
+      "sha256": "a0befdb292a9955544eb0ac9c97e507bae1bf8fd63831de6d7e420d221d76de1"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_requests_all.csv",
+      "sha256": "af3b29f05e57108a18699af486da0cacfbd7ded66b96954eaf1f4cd08e31a17d"
+    },
+    {
+      "path": "02_EVIDENCE/surface/surface_emissivity_sources.json",
+      "sha256": "fceb5c0ac14d2f0699237fa7a490b723286e61d30f2bb3ea6cc35c8a0c870115"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_native_extracted.parquet",
+      "sha256": "efaf53212da52274d749095300055b1a04f8558fd110e046ac920fc719eb7c0c"
+    },
+    {
+      "path": "02_EVIDENCE/surface/benchmark_final_summary.json",
+      "sha256": "c0a23f93fc245eea318185d80e1fa1b498da6369b803cd8bddd835f60888c93a"
+    },
+    {
+      "path": "02_EVIDENCE/surface/point_dqf_counts.csv",
+      "sha256": "2fa950ca94f8424851e2391c0af250da22d44b6b8ca3be2ce61e82ff107a5a2d"
+    },
+    {
+      "path": "02_EVIDENCE/surface/station_change_bootstrap_design_date.parquet",
+      "sha256": "dcf029835296abf65ba2a3c485a2daa592a974d5af17bc443812a24c1554f977"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_matchups_common.parquet",
+      "sha256": "efd4e586fe35df94da96944249158eddf1573da6341f0df19d7284437f66e857"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_metrics.csv",
+      "sha256": "c6a9f7ae9f979a683e1e9a1b9e1a544c7d7249c9bf6e34b8a71c6a65d3d7eaa3"
+    },
+    {
+      "path": "02_EVIDENCE/surface/full_matchups_common.csv",
+      "sha256": "9399666e2a349572af1ac496be22a6686e7bc41c6d1472b2c0a41272391e5c36"
+    },
+    {
+      "path": "02_EVIDENCE/surface/index.csv",
+      "sha256": "9dcc04d70f587cbe380a8a479392733d54d23da006f6795e8db875e214c8d755"
+    },
+    {
+      "path": "02_EVIDENCE/surface/station_pre_post_change.csv",
+      "sha256": "e3d1b43bcbea5e2f190a4549a16e7ff20d79a8c8fe4e4722adb461be14bbf226"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_station_table_for_SI.csv",
+      "sha256": "ac1fc536041f7d5d1cbad4068392b130946f87318b252aee7585212dfcd7be57"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_matchups_all.csv",
+      "sha256": "ac03ee4cde4c20174594444d2d889ec2befce739580174a81820b57441747cf7"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_missing_inventory.csv",
+      "sha256": "7a0424a9c277a9b55621ae71138d472084a6a5725ca6a7fd20f12b05a5783a7b"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/recommended_quality_amendment.md",
+      "sha256": "c63d0a9bc362e70c9d2d00b47ef40db2016eec8ccb305c121bbe641bb6adfd59"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_neighborhood_sensitivity.csv",
+      "sha256": "6041aee00a6a5b7c12c31d4fbf683b984138122fa9987eca5d3f99c9bf14f4e5"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_matchups_all.parquet",
+      "sha256": "cbd5202920ec7dcf122ef7cc41993538813557a9d74b66ff955570fd06c5597e"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/acceptance_plan.md",
+      "sha256": "9d6aba4124966893ca015a36a7380e6ae564dac3b27e8d131ce57208ed65615c"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_verification_summary.json",
+      "sha256": "58ba2761fd5de47e4813cb756b4817162762b4df81f3334d8e15a8a46d63bfc0"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_bootstrap_draws.parquet",
+      "sha256": "591f2287bf6dc00bc34747bd5037c61d1c6177367f06658709cce26b06785487"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/quality_geometry_by_year_site.csv",
+      "sha256": "93f30cde33a19b9f7b5f691942e0788511981e0bc5d34446f68d69ea449b91ae"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_summary.json",
+      "sha256": "ffadba49de434c556bc075567be7f306512c011ce3a09039f870c5000635b752"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_bootstrap_intervals.csv",
+      "sha256": "ad4ef777b5d85d8b632ceaa18851b99e9ea917de9a0d9c74b5d4cc745f4ac0fa"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_report.md",
+      "sha256": "eb765d1cd324beb260d827c3c03966678b91ce1666b2d37163dd274d33eb5edc"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_attrition.csv",
+      "sha256": "db33d870886e94686861c5a207f9c3e818f2f5790fe82590a5504e11069db54c"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/timing_audit.json",
+      "sha256": "971f2edc330bcd8b9a53f47ab7237cdf6088e978c38a44bbd1ad721425ad01fe"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/compact_station_metrics.csv",
+      "sha256": "e54e5f0b2c4aacd950044b5585cafc1a092e4ac9bccbe3e8c380261ab631de63"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/native_source_manifest.csv",
+      "sha256": "966ecdbf322efaa09416d957b66a07baca807e3f657ab1018d5d813786f517f6"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_requests.csv",
+      "sha256": "1f92bf516db931616b8381f87e17e22ce7b9b4dca6a1a85736c13414de1ff4f7"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/acceptance_checks.json",
+      "sha256": "6227303d2de98cf5b6bf3afef123cc5ee384b664ec4f97cc7e2d0f98835c33a9"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_requests_all.csv",
+      "sha256": "1f92bf516db931616b8381f87e17e22ce7b9b4dca6a1a85736c13414de1ff4f7"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/modern_ground_sensitivity.csv",
+      "sha256": "ac4ee67d81f80457d9dfba520279d2dcbefd9c9eb7359369cc868a8692db3889"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/independent_point_quality_geometry.csv",
+      "sha256": "43293c7e7b2b5e9598bc2d7a0da4057b10479e132bae472ac4f46dbc02c1f765"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_native_extracted.parquet",
+      "sha256": "fe4edc109d0056a9146343f4870a92123de93f82663d6640740e645cfd0e851d"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/independent_verification_checks.json",
+      "sha256": "7a55ea93088617d75d1fa9ee723c6153b22ae80539a60311e145528094962da2"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/ground_source_manifest.csv",
+      "sha256": "21ce4f0c947aee3751bcc6410a3da75d48d5f92e882ec3cba9f6c23cb9bb49f9"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_matchups_common.parquet",
+      "sha256": "2e53f4851023e3359e26647a400f35b19e6fb7e49de51e020f411aa8168f0e99"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_metrics.csv",
+      "sha256": "1f388a103dd529b867b64adcacf99d78949f9b0d6e1414bc25caf08e61162bc7"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/full_matchups_common.csv",
+      "sha256": "23ff93fdc63d7e80909af6d2ad23af98f7b82dcbd0d6d738e53a1743e994fb65"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/strict_feasibility/pilot_summary.json",
+      "sha256": "62f1174e19f5007270f6d73a5278563352525803bc2eec94741c30f787ad0974"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/strict_feasibility/pilot_missing_inventory.csv",
+      "sha256": "7a0424a9c277a9b55621ae71138d472084a6a5725ca6a7fd20f12b05a5783a7b"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/strict_feasibility/pilot_requests_all.csv",
+      "sha256": "921f8961b202415d30a73f20a8da61fb629a9d177ae52f0793f2ca7d95ba0245"
+    },
+    {
+      "path": "02_EVIDENCE/surface/modern/strict_feasibility/acceptance_checks.json",
+      "sha256": "64ced2f4f6bc99d34876b8b90af2de27485be751c37477f6881d7d725aba700b"
+    },
+    {
+      "path": "02_EVIDENCE/tables/downstream_metric_framework_figure_rmse_source.csv",
+      "sha256": "01eff3410f72c1396dc58ce937a10583483b747f8e46b51c12bff7927eb4fdbc"
+    },
+    {
+      "path": "02_EVIDENCE/tables/downstream_metric_framework_figure_budget_source.csv",
+      "sha256": "021e16dae6eca326e3603c371db5fe107aaf87ef2f89a28c768399f0e474edd5"
+    },
+    {
+      "path": "02_EVIDENCE/tables/cross_sample_rmse_with_external.csv",
+      "sha256": "a138af0819125353c9cda3e7c7995b8384c786e096a6bd351ddc4a442a1880ee"
+    },
+    {
+      "path": "02_EVIDENCE/tables/exact_mse_budgets_with_external.csv",
+      "sha256": "ad0b71bc58cf48374e4c415ae17b31c51fe3d1a40bc928715d3cabf67c3df631"
+    },
+    {
+      "path": "02_EVIDENCE/tables/mse_budget_2026_bootstrap_summary.csv",
+      "sha256": "d742e9b7de6c3702ccf1a8ce96ee0ffb7c0089dafebf64bce53b6317818681aa"
+    },
+    {
+      "path": "02_EVIDENCE/simulation/empirical_cohort_positions.csv",
+      "sha256": "2b419f5f136febf148c64dc7c12977c27cf0b5610281c28db3ca458084cddadc"
+    },
+    {
+      "path": "02_EVIDENCE/simulation/simulation_artifact_hashes.json",
+      "sha256": "9c7fa5458e5b05e5d690c46f1bb0d998576947912372fee28a61b2603f33e43c"
+    },
+    {
+      "path": "02_EVIDENCE/simulation/covariance_regime_validation.json",
+      "sha256": "49a90c94227c9af709d542f97e348cc602e7f6876edecaab9f259006d6919a20"
+    },
+    {
+      "path": "02_EVIDENCE/simulation/README.md",
+      "sha256": "fded4e34380f89588d0c4821df2b3333796a0e471782bfa0d37c50ceb7ab4c12"
+    },
+    {
+      "path": "02_EVIDENCE/simulation/covariance_regime_simulation_summary.json",
+      "sha256": "2427b780d15379ea8b780608691fd256db6b28431c7bfd1973f62ad47309eb09"
+    },
+    {
+      "path": "02_EVIDENCE/simulation/covariance_regime_grid.csv",
+      "sha256": "c086fa1da78eb5fc7c3346b4705960bda8b888b702523a14483f838347f17de8"
+    }
+  ]
+}

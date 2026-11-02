@@ -1,10 +1,7 @@
-.DS_Store
 .venv/
 __pycache__/
-*.py[cod]
-*.joblib
-*.tmp
-~$*
-.codex*
-hourly_parts/
-caches/
+*.pyc
+outputs/reproduced/
+outputs/native_checks/
+data/native_workspace/
+.DS_Store

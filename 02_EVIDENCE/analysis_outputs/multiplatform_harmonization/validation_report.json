@@ -1,0 +1,45 @@
+{
+  "status": "independent_2025_validation_complete",
+  "selected_model": "hour_offset",
+  "n_hourly": 4191,
+  "n_cities": 44,
+  "n_intervals": 10,
+  "success_metrics": {
+    "hourly_anomaly_rmse_reduction_fraction": 0.11460005511929483,
+    "transition_anomaly_rmse_reduction_fraction": 0.026572431244732186,
+    "transition_absolute_bias_reduction_fraction": 0.946758402696163,
+    "transition_sign_disagreement_change": 0.018306636155606404,
+    "all_primary_criteria_met": false
+  },
+  "strong_transfer_criteria_met": false,
+  "leave_one_event_out_min_rmse_reduction": 0.021683945318917153,
+  "leave_one_event_out_max_rmse_reduction": 0.128077464396113,
+  "temporal_wild_tests": [
+    {
+      "estimate": -0.11718250678181173,
+      "observed_t_interval_cluster": -3.3052184061011314,
+      "wild_interval_p_two_sided": 0.0175,
+      "n_sign_patterns": 19999,
+      "n_intervals": 39,
+      "n_cities": 44,
+      "n_obs": 874,
+      "inference_type": "seeded_rademacher_monte_carlo",
+      "analysis": "temporal_transfer_raw",
+      "outcome": "transition_consensus_raw",
+      "focal_term": "severity_x_2025"
+    },
+    {
+      "estimate": -0.1175749238170925,
+      "observed_t_interval_cluster": -3.286036085403603,
+      "wild_interval_p_two_sided": 0.0187,
+      "n_sign_patterns": 19999,
+      "n_intervals": 39,
+      "n_cities": 44,
+      "n_obs": 874,
+      "inference_type": "seeded_rademacher_monte_carlo",
+      "analysis": "temporal_transfer_corrected",
+      "outcome": "transition_consensus_corrected",
+      "focal_term": "severity_x_2025"
+    }
+  ]
+}

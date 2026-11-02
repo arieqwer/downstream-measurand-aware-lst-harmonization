@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/Manuscript v1.docx",
+    "snapshot": "/Users/apple/Downloads/RS revision 1/continuation_20261029/snapshots/Manuscript v1.docx",
+    "sha256": "829479af55aba0dabbdedaf414252ee686b1df686f6917e39db9e3ea88119f29"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/supplementary.docx",
+    "snapshot": "/Users/apple/Downloads/RS revision 1/continuation_20261029/snapshots/supplementary.docx",
+    "sha256": "ce3b3e3fa175297617fc358eed828f33e43997552ce4af610b8c39817ef317bc"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/R1 Reviewer comments.docx",
+    "snapshot": "/Users/apple/Downloads/RS revision 1/continuation_20261029/snapshots/R1 Reviewer comments.docx",
+    "sha256": "a61507a19cea1ec009afa404ddc6013240a3df762b78150c2b6b9669ba53541c"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/Manuscript v1_suggestions.docx",
+    "snapshot": "/Users/apple/Downloads/RS revision 1/continuation_20261029/snapshots/Manuscript v1_suggestions.docx",
+    "sha256": "e2553c19aef7003aa46c2354b4f896db1856bd490a25406d093402d22a6d0cd4"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/supplementary_suggestions.docx",
+    "snapshot": "/Users/apple/Downloads/RS revision 1/continuation_20261029/snapshots/supplementary_suggestions.docx",
+    "sha256": "547c08f8cc304edac10883da765794241b778edca42eeb6a84dfdc44d0c25f9c"
+  }
+]

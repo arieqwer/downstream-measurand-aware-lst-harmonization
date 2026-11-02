@@ -1,0 +1,46 @@
+[
+  {
+    "path": "noaa-goes19_2026_Phoenix_2026-06-01_h-3_map_arrays.npz",
+    "matching_source": [
+      [
+        "/Users/apple/Downloads/RS revision 1/repair_20261029/auxiliary/native/cloud8/results/noaa-goes19_2026_Phoenix_2026-06-01_h-3_map_arrays.npz",
+        "6701a7031fb5f873c0cb5b8322d59cff57047c8a465149c0d97128527d821047"
+      ]
+    ],
+    "package_sha256": "6701a7031fb5f873c0cb5b8322d59cff57047c8a465149c0d97128527d821047",
+    "source_equal": true
+  },
+  {
+    "path": "noaa-goes18_2026_Phoenix_2026-06-01_h+4_map_arrays.npz",
+    "matching_source": [
+      [
+        "/Users/apple/Downloads/RS revision 1/repair_20261029/auxiliary/native/cloud8/results/noaa-goes18_2026_Phoenix_2026-06-01_h+4_map_arrays.npz",
+        "a79ae98f805b64e76f4d043faf61e7b2074381f4f59f93853595d0c7d6e5f2a7"
+      ]
+    ],
+    "package_sha256": "a79ae98f805b64e76f4d043faf61e7b2074381f4f59f93853595d0c7d6e5f2a7",
+    "source_equal": true
+  },
+  {
+    "path": "noaa-goes18_2026_Phoenix_2026-06-01_h-3_map_arrays.npz",
+    "matching_source": [
+      [
+        "/Users/apple/Downloads/RS revision 1/repair_20261029/auxiliary/native/cloud8/results/noaa-goes18_2026_Phoenix_2026-06-01_h-3_map_arrays.npz",
+        "5e5753dc2e1a7d06a7c23dc3d9f8966434ec59a78f9a4a29da5cbf0a9266c0b6"
+      ]
+    ],
+    "package_sha256": "5e5753dc2e1a7d06a7c23dc3d9f8966434ec59a78f9a4a29da5cbf0a9266c0b6",
+    "source_equal": true
+  },
+  {
+    "path": "noaa-goes19_2026_Phoenix_2026-06-01_h+4_map_arrays.npz",
+    "matching_source": [
+      [
+        "/Users/apple/Downloads/RS revision 1/repair_20261029/auxiliary/native/cloud8/results/noaa-goes19_2026_Phoenix_2026-06-01_h+4_map_arrays.npz",
+        "704772e295f9647d2c57c3c09e5b9818b9e22290fb91b52010805b5e80e3ea25"
+      ]
+    ],
+    "package_sha256": "704772e295f9647d2c57c3c09e5b9818b9e22290fb91b52010805b5e80e3ea25",
+    "source_equal": true
+  }
+]

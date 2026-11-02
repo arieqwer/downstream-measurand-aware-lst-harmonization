@@ -1,0 +1,17 @@
+{
+  "stage": "pilot",
+  "requested_station_satellite_rows": 60,
+  "native_present_rows": 60,
+  "requested_rows": 60,
+  "all_stations": 3,
+  "native_files": 22,
+  "point_qc0_rows": 10,
+  "ground_qc0_rows": 60,
+  "common_rows": 0,
+  "common_matchups": 0,
+  "common_stations": 0,
+  "common_design_days": 0,
+  "max_projection_roundtrip_m": 9.789967928840145e-09,
+  "max_scan_pair_separation_seconds": null,
+  "metrics": []
+}

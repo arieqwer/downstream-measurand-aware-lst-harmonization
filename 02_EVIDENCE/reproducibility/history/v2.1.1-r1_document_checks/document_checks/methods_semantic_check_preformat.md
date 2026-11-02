@@ -1,0 +1,13 @@
+# Independent Methods semantic check
+
+Actual current Word content was independently interpreted from native tracked OOXML, without importing the authoring accept-view helper, and compared with the prepass snapshot and exported current paragraphs. No Word, plan, input, model or previous evidence file was modified.
+
+**Result: PASS, 180/180 checks.** Paragraph-only words are 8,518 versus 8,762 original (244 fewer). Counting table paragraphs as well gives 8,872 versus 9,105. Both comparisons use whitespace-delimited Word text and include references, excluding native math text as in the stated counting method.
+
+The 17changed Methods paragraphs retain operative cohort/provenance rules, physical local-date/full-polygon corrections, native decoding, primary/strict DQF criteria, viewing-geometry limits, both crossed-fold training/testing exclusions, every candidate/predictor family, model-selection scoring and one-SE acceptance, higher empirical quantile, directional scope/thresholds and conditional cloud/quality interpretation. Source text for the selection/quantile implementations corroborates the concise description. Unedited Methods paragraphs are exactly equal to the prepass text, including every station radiometry/QC/timing/sensitivity procedure, bootstrap condition and stress-grid setting.
+
+All 18 native mathematical objects match their prepass semantic structure. The inline temperature T in paragraph 42 remains between `and` and `is in °C`; square roots 15 and 25 in paragraphs 129/131 remain after `divided by` and before the next sentence. No symbol was converted to plain text, lost or shifted into the wrong clause. Display equations remain unchanged.
+
+The final oneSE wording now explicitly says candidate means must not exceed the best mean plus the SE of the best candidate; this matches the code. The final cloud sentence explicitly concerns only cloud rows, preserving the distinction from strict-quality interval/transition results. Main 3.5 includes both unfavorable transition comparisons 0.961→0.992 K and 0.816→0.840 K, with 21 transitions/three-city conditional scope. New station evidence remains raw-product-only, with all 282 G19 pixels DQF 1 and zero joint strict pairs, and both modern RMSE difference intervals including zero. Full urban workflow ground validation and LHP causal isolation remain incomplete rather than overstated.
+
+No material scientific defect was identified in this read-only check. Visual rendering is separately required; this is neither a complete raw-data rerun nor a submission-readiness declaration. Reviewer letters were not drafted.

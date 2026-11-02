@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "recommended_common_daily",
+    "n": 21,
+    "cities": 3,
+    "intervals": 8,
+    "raw_contrast_rmse_K": 0.9611786586958649,
+    "corrected_contrast_rmse_K": 0.9915247947503683,
+    "variance_gain_K2": 2.681188604469753e-14,
+    "bias_gain_K2": -0.059257004672402636,
+    "covariance_penalty_K2": 1.9984014443252818e-15,
+    "gross_gain_K2": -0.059257004672375824,
+    "net_MSE_gain_K2": -0.059257004672378044,
+    "raw_covariance_K2": 0.26855786645823604,
+    "corrected_covariance_K2": 0.26855786645823504
+  },
+  {
+    "scenario": "strict_common_daily",
+    "n": 21,
+    "cities": 3,
+    "intervals": 8,
+    "raw_contrast_rmse_K": 0.8159860343363887,
+    "corrected_contrast_rmse_K": 0.8399358645769108,
+    "variance_gain_K2": 3.114175584073564e-14,
+    "bias_gain_K2": -0.03965904837051154,
+    "covariance_penalty_K2": 5.589972928987663e-14,
+    "gross_gain_K2": -0.0396590483704804,
+    "net_MSE_gain_K2": -0.03965904837053669,
+    "raw_covariance_K2": 0.19106561975035313,
+    "corrected_covariance_K2": 0.19106561975032518
+  }
+]

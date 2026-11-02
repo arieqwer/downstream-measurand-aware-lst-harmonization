@@ -1,0 +1,10 @@
+{
+  "version": "v2.1.2-r0",
+  "status": "public test prerelease",
+  "release_date": "2026-11-02",
+  "repository": "https://github.com/arieqwer/downstream-measurand-aware-lst-harmonization",
+  "release_url": "https://github.com/arieqwer/downstream-measurand-aware-lst-harmonization/releases/tag/v2.1.2-r0",
+  "final_release_published": false,
+  "reserved_final_version": "v2.1.2-r1",
+  "requires_separate_author_confirmation_for_final": true
+}

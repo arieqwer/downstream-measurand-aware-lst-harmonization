@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-10-30T16:20:14.963219+00:00",
+  "word_path": "/Users/apple/Downloads/RS revision 1/Manuscript v1_suggestions.docx",
+  "word_sha256": "ed22a9998b2e2f1e8a8233aa10639fef7e1b23a32e6697db230f57281a9efbf2",
+  "view": "Native Track Changes displayed; no changes accepted",
+  "pages_reviewed": 17,
+  "range": [
+    17,
+    33
+  ],
+  "pages": [
+    {
+      "page": 17,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-17.png",
+      "sha256": "6465cdbbb7edf72602a2b77461780648bfed9b6d1aa14035e2d22eac5e61de5d",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 18,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-18.png",
+      "sha256": "a2def5e5e10d5ca70477ef4f2a6b4b07e5665d0a5a2c60f85ac7e3bf5057c529",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 19,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-19.png",
+      "sha256": "ae92306a6d6dbee71df53c423cf48557c5e534c440667a2aa00707ed9a59f0d8",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 20,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-20.png",
+      "sha256": "47b4e84d5f213c252699cc35c90aee00f13f0ab7d075151e654d932223be573f",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 21,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-21.png",
+      "sha256": "ac8f01046fc9a9251c832695d2bba41401af8395aebd9864c741d9143254f41e",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 22,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-22.png",
+      "sha256": "1b33884469c057452b2fb2309aaa1a25e64f4ad6603d10a00aaa61c058e2f841",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 23,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-23.png",
+      "sha256": "115d72b3974b9d70815030e301bb59709211abc5a8402ade5e8b8bf5b84c5a89",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 24,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-24.png",
+      "sha256": "d4654c831b638584e2a9a7157c86319fe76d84f357a18c70bfdcda289ea2ffde",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 25,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-25.png",
+      "sha256": "5c742d2d48c9904304bc5632a00feb99d17e3242c760bac7756cda9bd5c9aea6",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 26,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-26.png",
+      "sha256": "0b4f9b3331d6802ddf9e8d1799eaf2b19a987ea3cb81e95f9a7fac1bbcb3bc91",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 27,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-27.png",
+      "sha256": "eeb070e67a390d17ce3f67f63bcab329956d817b59a90efa24165b274ba389dd",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 28,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-28.png",
+      "sha256": "68cf39ab99846d8759423da73b8d133bc6f6c2a6ace01d8ad600183b11465fe7",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 29,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-29.png",
+      "sha256": "a2b11c6dc633837a64edf087c289cac8330df7160c9d69ec950d40f37c1a734c",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 30,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-30.png",
+      "sha256": "1c54b9db4835def1a61832a443c1ecda8a14cd36eb8ac1539d06066cdfa0275c",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 31,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-31.png",
+      "sha256": "c4ab3922895c307ee44238de1e063fc2d1d0c6a2893ed023ae5134e7c6842021",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 32,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-32.png",
+      "sha256": "f934d77d4ed4ec4af70d137a0d18eac47c1fd0976e8de18cfad1d2415bc6bc72",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    },
+    {
+      "page": 33,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_tracked_final/page-33.png",
+      "sha256": "986df54606b893344b93c7ab664eb303d6e7a50af074b14f97cd33ad8e5f06fc",
+      "width": 1414,
+      "height": 2000,
+      "inspection": "Opened with view_image at original detail; direct visual review",
+      "status": "PASS",
+      "observations": "No clipping, overlap, missing glyphs or broken table boundaries. Native insertions/deletions and prior/new figure pairs visible."
+    }
+  ],
+  "notes": [
+    "Table2continues across21–22 with repeated headers and readable whole rows.",
+    "Deleted original figures have normal diagonal deletion marks; replacement images remain visible. Figure5old/new images occupy separate pages23/24 and share their revised caption on25 in this marked view. Clean-view layout is audited separately.",
+    "Reference links/characters and publisher template footer render correctly; revision styling reflects retained edits.",
+    "180/180Methods semantic checks rerun after format-only caption keepNext fix; current Word hash matches."
+  ]
+}

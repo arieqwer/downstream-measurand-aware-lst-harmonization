@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "02_EVIDENCE/si_tables/fixed_city_candidate_metadata.csv": "a326b15d279edd704c2c122d7cbb3db7532cad8d1e4fd9c086af07c705b64b9d",
+    "02_EVIDENCE/si_tables/fixed_interval_chronology.csv": "6f7643ab1897219e3021264f678814c6ae666064cccf96e1617287174fa18c84",
+    "data/basemap/ne_110m_land.shp": "8689e6932b8e370e2ca4587cf3ba21e460b1235db37b6ed3c172c35b4a6088de",
+    "data/basemap/ne_110m_admin_0_boundary_lines_land.shp": "d19f784f92626816c064f878571f61bc43ec7bfc407666ce6a450d6e757afff0",
+    "data/basemap/ne_50m_admin_1_states_provinces_lines.shp": "c117e2f2d2776e2d0504f32be833bbbd9fb7b4683cf70e2298b5cc385a25b883",
+    "02_EVIDENCE/si_tables/cohort_event_analysis_counts.csv": "afa8128f8ffd20d91bec2b7c64396c0e2ea12d65f2e3bb41e3f3273ff4acc335",
+    "/Users/apple/Downloads/Remote Sensing Submission/publish_v2.1.2-r0_20261102/reproduction_run/repaired/si_tables/model_selection_summary.csv": "902d2ae798345089ee65f4461e8b913178bab6acd6d6c371e1b9fe6793268ad6",
+    "/Users/apple/Downloads/Remote Sensing Submission/publish_v2.1.2-r0_20261102/reproduction_run/repaired/tables/downstream_metric_framework_figure_rmse_source.csv": "01eff3410f72c1396dc58ce937a10583483b747f8e46b51c12bff7927eb4fdbc",
+    "/Users/apple/Downloads/Remote Sensing Submission/publish_v2.1.2-r0_20261102/reproduction_run/repaired/tables/downstream_metric_framework_figure_budget_source.csv": "021e16dae6eca326e3603c371db5fe107aaf87ef2f89a28c768399f0e474edd5",
+    "data/map_arrays/noaa-goes18_2026_Phoenix_2026-06-01_h-3_map_arrays.npz": "5e5753dc2e1a7d06a7c23dc3d9f8966434ec59a78f9a4a29da5cbf0a9266c0b6",
+    "data/map_arrays/noaa-goes19_2026_Phoenix_2026-06-01_h-3_map_arrays.npz": "6701a7031fb5f873c0cb5b8322d59cff57047c8a465149c0d97128527d821047",
+    "data/map_arrays/noaa-goes18_2026_Phoenix_2026-06-01_h+4_map_arrays.npz": "a79ae98f805b64e76f4d043faf61e7b2074381f4f59f93853595d0c7d6e5f2a7",
+    "data/map_arrays/noaa-goes19_2026_Phoenix_2026-06-01_h+4_map_arrays.npz": "704772e295f9647d2c57c3c09e5b9818b9e22290fb91b52010805b5e80e3ea25"
+  },
+  "stress_checks": {
+    "status": "all_checks_passed",
+    "checks": {
+      "fraction_partition_closes": true,
+      "stress_test_matches_direct_mse_difference": true,
+      "empirical_budget_reconstruction_closes": true,
+      "all_empirical_points_within_bounded_grid": true,
+      "all_three_regime_classes_present": true,
+      "enumeration_count_matches_design": true
+    },
+    "maximum_fraction_partition_residual": 2.220446049250313e-16,
+    "maximum_direct_mse_identity_residual": 8.881784197001252e-16,
+    "maximum_empirical_budget_reconstruction_residual_k2": 8.465450562766819e-16
+  },
+  "scope": "Figs2\u20135 use recomputed results; Fig1 fixed-design sources; Fig6 retained decoded native arrays"
+}

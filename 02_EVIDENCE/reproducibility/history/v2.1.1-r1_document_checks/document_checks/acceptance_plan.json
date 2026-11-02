@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "purpose": "Targeted tracked revision responding to four author suggestions; no new science run or response letters.",
+  "baseline_paragraph_words": {
+    "original": 8762,
+    "current_proposal": 10202
+  },
+  "acceptance": [
+    "Proposed manuscript paragraph-only words including references must be strictly below8762; also report table-inclusive counts.",
+    "Explicit main3.5 common-support transition deterioration0.9612\u21920.9915 and0.8160\u21920.8399K, only21transitions/3cities.",
+    "Preserve new station benchmarks, covariance decomposition, unfavorable2026/subgroupfindings, primaryqualityrules, posthoc/same75/2025only/no unseen-cityclaim and groundpartial/causallimits.",
+    "Retain all12maineditableequations and sixfigurebytes, citationidentities/order, exactvalues against sourceevidence.",
+    "Add at mostonecompactdiagnostictable without SI Notes, or retainfour and exactfilenameindex if compacttablefails.",
+    "Originals and previousbaseline snapshots unchanged; native WordTrackChangesenabled, noexistingchangesaccepted; RejectAllrestoresoriginal logicalcontent.",
+    "Independent review before/after, XMLcheck, full render and perpagevisualreview of clean/trackedviews.",
+    "Updateauthorlog and local releasecandidate so all active document/table/index content corresponds; no publicactions."
+  ],
+  "tests_not_needed": "No recalibration/provider downloads/full scientific rerun for editorial changes that leave computation/data unchanged. Numerical/source/file-identity checks are required."
+}

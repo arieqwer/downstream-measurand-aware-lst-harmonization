@@ -1,0 +1,217 @@
+[
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_same_sensor/goes_sunset_hourly.parquet",
+    "bytes": 4870588,
+    "sha256": "4312794e2eba55a8b0118b43b877cdd21ea7053ebc22bc896c559fc598c3e0a8"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_same_sensor/goes_sunset_city_events.csv",
+    "bytes": 445034,
+    "sha256": "eca5d3e0fbe1ad448bda810e8d1dd11e4cc9c0000e2e25af777926f01c486b66"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_same_sensor/goes_sunset_cities.csv",
+    "bytes": 6256,
+    "sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_same_sensor/FROZEN_SELECTION.json",
+    "bytes": 700,
+    "sha256": "facf69784d1c8c06906ce23429a9f4c3991a435d2b0b73abcee88c4ec9d1b146"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2018_2024_full_census/goes_sunset_hourly.parquet",
+    "bytes": 2882350,
+    "sha256": "6988e7711c764585302d2639cf69d9014d68e7c4e9a5d8bba89424532e72d594"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2018_2024_full_census/goes_sunset_city_events.csv",
+    "bytes": 1047865,
+    "sha256": "01c2bea922a481eb7201833aaa44e2b3e4691e1edf8c9a027b19488969af7ba5"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2018_2024_full_census/goes_sunset_cities.csv",
+    "bytes": 6256,
+    "sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_western_replication/goes_sunset_hourly.parquet",
+    "bytes": 1635380,
+    "sha256": "329580822a4c9ffda9438b098d175fc664bc3ec7813ff23a2c4685354392e356"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_western_replication/goes_sunset_city_events.csv",
+    "bytes": 145063,
+    "sha256": "4a7498b518e1e12f531465744ba064916d52a76d70906d65e999decbae3bf1d7"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_western_replication/goes_sunset_cities.csv",
+    "bytes": 6256,
+    "sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_western_replication/FROZEN_SELECTION.json",
+    "bytes": 524,
+    "sha256": "0e1a5421f2b8e8843b2a14ddee9bf157e07fa63169560fe286260bdb1b43938e"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_holdout/goes_sunset_hourly.parquet",
+    "bytes": 936886,
+    "sha256": "6ecbe39eadfeb2a54d57aee8c1d898fa54bdf2f9f258a325946342c5070e3321"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_holdout/goes_sunset_city_events.csv",
+    "bytes": 145063,
+    "sha256": "4a7498b518e1e12f531465744ba064916d52a76d70906d65e999decbae3bf1d7"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_holdout/goes_sunset_cities.csv",
+    "bytes": 6256,
+    "sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_holdout/FROZEN_SELECTION.json",
+    "bytes": 1063,
+    "sha256": "07b2cdfbf87f6e263da00277a01242f3d553cabe78d251b2876be2dab42f22e7"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_expansion/goes_sunset_hourly.parquet",
+    "bytes": 3206834,
+    "sha256": "ad6843da5aefd6b31f77c34b0b0d9c582f12026cd3b5a7ae22cbd0d7a0d703af"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_expansion/goes_sunset_city_events.csv",
+    "bytes": 298177,
+    "sha256": "f694ae4e9d18cd156995d646d95f80c3f8d2df80049cf6531239dc0213c16301"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_expansion/goes_sunset_cities.csv",
+    "bytes": 5564,
+    "sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2022_2024_expansion/FROZEN_SELECTION.json",
+    "bytes": 849,
+    "sha256": "5ca2802ccd71b360d050694b673c556201b12078a8646e5fe38d78136378512d"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2018_2024_low_green/goes_sunset_hourly.parquet",
+    "bytes": 2638643,
+    "sha256": "b121a7aa01a7f0cc4e9d0f3a3d5c1c023ed73401177147a84fbb19ce7d545b9d"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2018_2024_low_green/goes_sunset_city_events.csv",
+    "bytes": 700991,
+    "sha256": "2202222d19121af28e9a23696c882fdb736cfc5fcae271340cd7b376d48404ab"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2018_2024_low_green/goes_sunset_cities.csv",
+    "bytes": 5564,
+    "sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2018_2024_low_green/FROZEN_SELECTION.json",
+    "bytes": 231,
+    "sha256": "040266a513b27a29b3f1fd9231cd29a7f81aab5b4f7ec7a247f42df4e2d2b987"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_expansion/goes_sunset_hourly.parquet",
+    "bytes": 1082118,
+    "sha256": "da16d990f77bdcd949f255f4e1d410d365e1f83c5964c925516b134556d7e5ae"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_expansion/goes_sunset_city_events.csv",
+    "bytes": 122990,
+    "sha256": "ec8041187a9830ab25e10c64fcd7312a474a8c3552beb2bd66eba49174c85da2"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_expansion/goes_sunset_cities.csv",
+    "bytes": 5564,
+    "sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2025_expansion/FROZEN_SELECTION.json",
+    "bytes": 823,
+    "sha256": "4077fecc62cbf53c70ccaf02c871c8d4bc7f98e86a34802603587d4c211ae331"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_low_green/goes_sunset_hourly.parquet",
+    "bytes": 874472,
+    "sha256": "1263c8a52f3f7740b030587bdd044b213a9b4cfe1181624ee9056278cf70b00b"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_low_green/goes_sunset_city_events.csv",
+    "bytes": 122990,
+    "sha256": "ec8041187a9830ab25e10c64fcd7312a474a8c3552beb2bd66eba49174c85da2"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_low_green/goes_sunset_cities.csv",
+    "bytes": 5564,
+    "sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2025_low_green/FROZEN_SELECTION.json",
+    "bytes": 528,
+    "sha256": "d1638d6450f64f63c88cb8bdca92190e9e307d3172d8a910e2aba409c812ace7"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2026_metric_holdout/goes_sunset_hourly.parquet",
+    "bytes": 2105782,
+    "sha256": "eae5f14b3d29b59e901612cf16602e45b7490f4b20453c9aaf26af9a61fd6556"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2026_metric_holdout/goes_sunset_cities.csv",
+    "bytes": 13076,
+    "sha256": "677625775e326333371f28fa0458129b89fb2291b4f3e90906086962268267f2"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes18_2026_metric_holdout/FROZEN_SELECTION.json",
+    "bytes": 595,
+    "sha256": "722d2b3785f1c6c66b04d7cdd0932edb8aa60ecf2eef0ecc9c70f9f94c2f70d1"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2026_metric_holdout/goes_sunset_hourly.parquet",
+    "bytes": 1384945,
+    "sha256": "4f42badc82b08f291f94bba5e17a412a405ed05e0f30041886e8d188e4e187dd"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2026_metric_holdout/goes_sunset_cities.csv",
+    "bytes": 13076,
+    "sha256": "677625775e326333371f28fa0458129b89fb2291b4f3e90906086962268267f2"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes19_2026_metric_holdout/FROZEN_SELECTION.json",
+    "bytes": 595,
+    "sha256": "d62e0a0f3c803b4c1e0ebbd23f540279d22d4e3b3ec69f784e96a8b83fab3878"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2019_2021_external_metric/goes_sunset_hourly.parquet",
+    "bytes": 1755288,
+    "sha256": "47cb656290ef43fcea6bc018b4a4d27856ae155a909a31c5d669b72ed3a77fcf"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2019_2021_external_metric/goes_sunset_cities.csv",
+    "bytes": 10439,
+    "sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes16_2019_2021_external_metric/FROZEN_SELECTION.json",
+    "bytes": 698,
+    "sha256": "b94f9fe5b97a2d3dc3a36fd25708ffa1cc6b434ce69d8fd8d97bca3bbf1f8adb"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes17_2019_2021_external_metric/goes_sunset_hourly.parquet",
+    "bytes": 1879438,
+    "sha256": "e3d37e24373bcc3b7da58fdc705a87a5b0923a2e022a226a8fed77f752b90361"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes17_2019_2021_external_metric/goes_sunset_cities.csv",
+    "bytes": 10439,
+    "sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7"
+  },
+  {
+    "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean checkout with spaces/data/corrected_inputs/goes17_2019_2021_external_metric/FROZEN_SELECTION.json",
+    "bytes": 698,
+    "sha256": "154e7b83e227e6c8e9332b17ec3f31330d0ede4871923ce200215f5f101cf8dd"
+  }
+]

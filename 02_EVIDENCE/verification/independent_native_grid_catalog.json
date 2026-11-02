@@ -1,0 +1,352 @@
+[
+  {
+    "platform": "noaa-goes16",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes16_2019_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes16/OR_ABI-L2-LSTC-M6_G16_s20191512301411_e20191512304184_c20191512304594.nc",
+    "acquisition": "2019-05-31T23:01:41.1Z"
+  },
+  {
+    "platform": "noaa-goes16",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes16_2020_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes16/OR_ABI-L2-LSTC-M6_G16_s20201522301131_e20201522303504_c20201522304419.nc",
+    "acquisition": "2020-05-31T23:01:13.1Z"
+  },
+  {
+    "platform": "noaa-goes16",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes16_2021_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes16/OR_ABI-L2-LSTC-M6_G16_s20211512301164_e20211512303537_c20211512304394.nc",
+    "acquisition": "2021-05-31T23:01:16.4Z"
+  },
+  {
+    "platform": "noaa-goes16",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes16_2022_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes16/OR_ABI-L2-LSTC-M6_G16_s20221922101172_e20221922103545_c20221922105141.nc",
+    "acquisition": "2022-07-11T21:01:17.2Z"
+  },
+  {
+    "platform": "noaa-goes16",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes16_2024_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes16/OR_ABI-L2-LSTC-M6_G16_s20241762101171_e20241762103543_c20241762106292.nc",
+    "acquisition": "2024-06-24T21:01:17.1Z"
+  },
+  {
+    "platform": "noaa-goes17",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes17_2019_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes17/OR_ABI-L2-LSTC-M6_G17_s20191512301197_e20191512303570_c20191512304349.nc",
+    "acquisition": "2019-05-31T23:01:19.7Z"
+  },
+  {
+    "platform": "noaa-goes17",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes17_2020_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes17/OR_ABI-L2-LSTC-M6_G17_s20201522301177_e20201522303550_c20201522304318.nc",
+    "acquisition": "2020-05-31T23:01:17.7Z"
+  },
+  {
+    "platform": "noaa-goes17",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes17_2021-07-09_09UTC_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes17/OR_ABI-L2-LSTC-M6_G17_s20211900601177_e20211900603550_c20211900604361.nc",
+    "acquisition": "2021-07-09T06:01:17.7Z"
+  },
+  {
+    "platform": "noaa-goes17",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes17_2021-07-23_09UTC_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes17/OR_ABI-L2-LSTC-M6_G17_s20212042301167_e20212042303540_c20212042304393.nc",
+    "acquisition": "2021-07-23T23:01:16.7Z"
+  },
+  {
+    "platform": "noaa-goes17",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes17_2021_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes17/OR_ABI-L2-LSTC-M6_G17_s20211512301177_e20211512303550_c20211512304348.nc",
+    "acquisition": "2021-05-31T23:01:17.7Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2022_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20221602301162_e20221602303535_c20221602305097.nc",
+    "acquisition": "2022-06-09T23:01:16.2Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2024_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20241682301186_e20241682303559_c20241682306421.nc",
+    "acquisition": "2024-06-16T23:01:18.6Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2025_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20251682301192_e20251682303565_c20251682306445.nc",
+    "acquisition": "2025-06-17T23:01:19.2Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-01_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261520701186_e20261520703559_c20261520707104.nc",
+    "acquisition": "2026-06-01T07:01:18.6Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-01_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261520001185_e20261520003558_c20261520006549.nc",
+    "acquisition": "2026-06-01T00:01:18.5Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-09_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261600701172_e20261600703545_c20261600707036.nc",
+    "acquisition": "2026-06-09T07:01:17.2Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-09_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261600001171_e20261600003544_c20261600006294.nc",
+    "acquisition": "2026-06-09T00:01:17.1Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-17_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261680701195_e20261680703568_c20261680706421.nc",
+    "acquisition": "2026-06-17T07:01:19.5Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-17_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261680001194_e20261680003567_c20261680006291.nc",
+    "acquisition": "2026-06-17T00:01:19.4Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-25_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261760701219_e20261760703592_c20261760707104.nc",
+    "acquisition": "2026-06-25T07:01:21.9Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-06-25_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261760001218_e20261760003591_c20261760006537.nc",
+    "acquisition": "2026-06-25T00:01:21.8Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-03_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261840701242_e20261840704015_c20261840707071.nc",
+    "acquisition": "2026-07-03T07:01:24.2Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-03_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261840001241_e20261840004014_c20261840007040.nc",
+    "acquisition": "2026-07-03T00:01:24.1Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-11_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261920701182_e20261920703555_c20261920705380.nc",
+    "acquisition": "2026-07-11T07:01:18.2Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-11_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261920001181_e20261920003556_c20261920005429.nc",
+    "acquisition": "2026-07-11T00:01:18.1Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-19_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20262000701201_e20262000703574_c20262000705560.nc",
+    "acquisition": "2026-07-19T07:01:20.1Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-19_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20262000001200_e20262000003573_c20262000005436.nc",
+    "acquisition": "2026-07-19T00:01:20.0Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-27_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20262080701183_e20262080703557_c20262080705454.nc",
+    "acquisition": "2026-07-27T07:01:18.3Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_2026-07-27_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20262080001183_e20262080003556_c20262080005303.nc",
+    "acquisition": "2026-07-27T00:01:18.3Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261520701186_e20261520703559_c20261520707104.nc",
+    "acquisition": "2026-06-01T07:01:18.6Z"
+  },
+  {
+    "platform": "noaa-goes18",
+    "grid_signature": "c8a276c3975cf497abe3959f8bf9f775d2869a573639dacf969d282216378541",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes18_2026_Phoenix_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20261520001185_e20261520003558_c20261520006549.nc",
+    "acquisition": "2026-06-01T00:01:18.5Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2025_first_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20251682101173_e20251682103546_c20251682107304.nc",
+    "acquisition": "2025-06-17T21:01:17.3Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-01_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261520701176_e20261520703549_c20261520707232.nc",
+    "acquisition": "2026-06-01T07:01:17.6Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-01_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261520001176_e20261520003549_c20261520007214.nc",
+    "acquisition": "2026-06-01T00:01:17.6Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-09_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261600701184_e20261600703557_c20261600707160.nc",
+    "acquisition": "2026-06-09T07:01:18.4Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-09_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261600001184_e20261600003557_c20261600007200.nc",
+    "acquisition": "2026-06-09T00:01:18.4Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-17_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261680701192_e20261680703565_c20261680707181.nc",
+    "acquisition": "2026-06-17T07:01:19.2Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-17_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261680001192_e20261680003565_c20261680006305.nc",
+    "acquisition": "2026-06-17T00:01:19.2Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-25_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261760701172_e20261760703545_c20261760707121.nc",
+    "acquisition": "2026-06-25T07:01:17.2Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-06-25_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261760001172_e20261760003545_c20261760006505.nc",
+    "acquisition": "2026-06-25T00:01:17.2Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-03_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261840701180_e20261840703553_c20261840706350.nc",
+    "acquisition": "2026-07-03T07:01:18.0Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-03_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261840001180_e20261840003553_c20261840006371.nc",
+    "acquisition": "2026-07-03T00:01:18.0Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-11_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261920701174_e20261920703547_c20261920705494.nc",
+    "acquisition": "2026-07-11T07:01:17.4Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-11_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261920001174_e20261920003550_c20261920005432.nc",
+    "acquisition": "2026-07-11T00:01:17.4Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-19_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20262000701158_e20262000703531_c20262000705447.nc",
+    "acquisition": "2026-07-19T07:01:15.8Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-19_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20262000001158_e20262000003531_c20262000006103.nc",
+    "acquisition": "2026-07-19T00:01:15.8Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-27_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20262080701176_e20262080703550_c20262080705316.nc",
+    "acquisition": "2026-07-27T07:01:17.6Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_2026-07-27_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20262080001176_e20262080003549_c20262080005526.nc",
+    "acquisition": "2026-07-27T00:01:17.6Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_h+4_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261520701176_e20261520703549_c20261520707232.nc",
+    "acquisition": "2026-06-01T07:01:17.6Z"
+  },
+  {
+    "platform": "noaa-goes19",
+    "grid_signature": "10980497e2d8554378335dbc76c676c179180885ee5d0c14cfa80c7630160fd0",
+    "metadata": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/results/noaa-goes19_2026_Phoenix_h-3_metadata.json",
+    "raw_path": "/Users/apple/Downloads/RS revision 1/rerun_20261028/native/raw/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261520001176_e20261520003549_c20261520007214.nc",
+    "acquisition": "2026-06-01T00:01:17.6Z"
+  }
+]

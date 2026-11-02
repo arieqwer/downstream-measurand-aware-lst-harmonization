@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "documents": {
+    "Manuscript v1_suggestions.docx": "ed22a9998b2e2f1e8a8233aa10639fef7e1b23a32e6697db230f57281a9efbf2",
+    "supplementary_suggestions.docx": "0411ee0a5d1136c3f6f4e907e41d73ca4a34c726aac342de2393867f89ccd159"
+  },
+  "pages": [
+    {
+      "view": "manuscript_tracked_final",
+      "page": 1,
+      "sha256": "551a2fbfe6f2b23a504c9bd0fb6041c5ebe52723d46adeb4f42f70622468a31b",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 2,
+      "sha256": "2d653a323e23a62c3c1ad9d10de7e9e05d7d178bb3997a124f1d9440de5c938c",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 3,
+      "sha256": "1498f63160ba239e16d4c68cb32489a7f55bf4f67548d5be2118e995a9e339b1",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 4,
+      "sha256": "5dfa526f319c4d10c5eb34f6270337dbbfce4a34e5a6b47504e45c394bb36667",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 5,
+      "sha256": "d72c14d6f1d8001d41f354d7ff546b42257faa282e3a1e148a43cc3065f8f66b",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 6,
+      "sha256": "0c79dc6e066fe9aaea3caa88dbfe01a5489559b02360daed6b407741553ffd2d",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 7,
+      "sha256": "25fef722dd98e0c4e27b7106ea5acbf70e4b8ac4f29e6df1cf6508316183b0e5",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 8,
+      "sha256": "c1d6ddb4e7c9845f568735eb60b08fa3808dfb92fe052f187009dc0ba2fd9c25",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 9,
+      "sha256": "3f67f97fdd600b039618f9cb1d715ba48e8d0f53fd252d95b7c43633bea859f6",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 10,
+      "sha256": "92056fe1e1ce63a89f2bb99fcec04ce32477918a6a68ae9e55339f6e8adbf0ca",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 11,
+      "sha256": "3fafb7b87d1ac8dc7e2204bfa839298f366930ebac9bc291c6b1a1934bc9c7ed",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 12,
+      "sha256": "2aa36ed9a44c715cc5bb9238c41f85887249b9d1ef423394193fd831f80c5495",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 13,
+      "sha256": "48d9a4c6ce7b6d42364323219d8887d3ec92d28b2ecb20fa990ba09f7868bbe6",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 14,
+      "sha256": "308fee74fd07a430d1f516f367d154890370c0fafe572c0c1ebeb3b49ce6065e",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 15,
+      "sha256": "50ed28a48fb6dcff596d8f416f2812653474ed75968f35aad28bd403ba044a98",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "manuscript_tracked_final",
+      "page": 16,
+      "sha256": "d291f3fd3b6e71d85c1f2ac4e866649ebd01b87bb41e53c3eca9594bc0ff4d46",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "si_accepted_final",
+      "page": 1,
+      "sha256": "2736e78f152440f46c192c46307d8e9f62ce78ae1924002e1a483b7730e73619",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "si_accepted_final",
+      "page": 2,
+      "sha256": "6ac73f114a06655bb96c8f19098cbcc3b97ac8bb76f9b145eb3aa121d8b5abab",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "si_accepted_final",
+      "page": 3,
+      "sha256": "f0ebab6fe59a81faa4d3e316bc1db8b480319ec36057494cd5d35c6e825842f0",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    },
+    {
+      "view": "si_accepted_final",
+      "page": 4,
+      "sha256": "7851052ce8af1370f52d7fe4724767bafbdd61e1a7ba0680d34022f617fe871d",
+      "method": "Direct full-page visual inspection by primary editor",
+      "passed": true
+    }
+  ],
+  "observations": [
+    "Tracked main shows deleted/replacement figures and associated whitespace; all marks/content remain legible.",
+    "Four proposed clean SI pages fit without clipping or table splits; S5 fits on page4."
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "status": "PASS",
+  "assertions": [
+    {
+      "file": "paired_crossed_bootstrap_summary.csv",
+      "check": "shape",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_summary.csv",
+      "check": "observed",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_summary.csv",
+      "check": "lower_95",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_summary.csv",
+      "check": "upper_95",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_summary.csv",
+      "check": "bootstrap_draws",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "shape",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_core_bias_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_ring_bias_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_core_bias_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_ring_bias_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_core_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_ring_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_core_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_ring_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_core_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_ring_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_core_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_ring_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_contrast_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_contrast_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "raw_covariance_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "corrected_covariance_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "variance_gain_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "differential_bias_gain_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "covariance_loss_penalty_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "net_contrast_mse_gain_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "contrast_RMSE_reduction_percent",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "contrast_MSE_gain_percent",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "identity_residual_K2",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "n",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "cities",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "intervals",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "fixed_interval_coverage_percent",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "fixed_interval_sign_support_percent",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "fixed_interval_supported_sign_match_percent",
+      "passed": true
+    },
+    {
+      "file": "full_mse_decompositions.csv",
+      "check": "sign_supported_n",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "shape",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_core_bias_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_ring_bias_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_core_bias_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_ring_bias_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_core_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_ring_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_core_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_ring_variance_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_core_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_ring_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_core_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_ring_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_contrast_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_contrast_rmse_K",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "raw_covariance_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "corrected_covariance_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "variance_gain_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "differential_bias_gain_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "covariance_loss_penalty_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "net_contrast_mse_gain_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "contrast_RMSE_reduction_percent",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "contrast_MSE_gain_percent",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "identity_residual_K2",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "n",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "cities",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "intervals",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "fixed_interval_coverage_percent",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "fixed_interval_sign_support_percent",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "fixed_interval_supported_sign_match_percent",
+      "passed": true
+    },
+    {
+      "file": "stratified_performance.csv",
+      "check": "sign_supported_n",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "shape",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "paired_daily_rows",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "hourly_rows",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "cities",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "intervals",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "transitions",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "transition_cities",
+      "passed": true
+    },
+    {
+      "file": "support_summary.csv",
+      "check": "max_daily_scan_gap_min",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_comparison_summary.csv",
+      "check": "shape",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_comparison_summary.csv",
+      "check": "observed_difference",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_comparison_summary.csv",
+      "check": "lower_95",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_comparison_summary.csv",
+      "check": "upper_95",
+      "passed": true
+    },
+    {
+      "file": "paired_crossed_bootstrap_comparison_summary.csv",
+      "check": "bootstrap_draws",
+      "passed": true
+    },
+    {
+      "file": "component_and_contrast_metrics.csv",
+      "check": "shape",
+      "passed": true
+    },
+    {
+      "file": "component_and_contrast_metrics.csv",
+      "check": "n",
+      "passed": true
+    },
+    {
+      "file": "component_and_contrast_metrics.csv",
+      "check": "bias_K",
+      "passed": true
+    },
+    {
+      "file": "component_and_contrast_metrics.csv",
+      "check": "mae_K",
+      "passed": true
+    },
+    {
+      "file": "component_and_contrast_metrics.csv",
+      "check": "rmse_K",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "shape",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "stratum",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "paired_candidates",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "recommended_retained",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "strict_retained",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "common_retained",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "recommended_rejected",
+      "passed": true
+    },
+    {
+      "file": "daily_attrition.csv",
+      "check": "strict_rejected",
+      "passed": true
+    },
+    {
+      "check": "replayed baseline and independent controls",
+      "passed": true
+    }
+  ],
+  "numeric_cells_compared": 11123,
+  "scope": "Strict quality and paired5000draw sensitivity recomputed using newly reproduced calibration-only models; scientific results unchanged after primary <1minute scan-pair rule alignment.",
+  "failed": []
+}

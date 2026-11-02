@@ -1,0 +1,20 @@
+{
+  "dataset": "goes18_2022_2024_same_sensor",
+  "bucket": "noaa-goes18",
+  "candidate_cities": 51,
+  "geometric_eligible_cities": 51,
+  "affected_city_ids": [
+    "2007"
+  ],
+  "requested_rows": 126480,
+  "archive_missing_rows": 2278,
+  "available_eligible_rows": 124202,
+  "reusable_rows": 120395,
+  "native_reextract_rows": 3807,
+  "native_reextract_objects": 2441,
+  "original_input_sha256": "809a6d218dbfc2dcc0cb3659235720ca05a9d7e3df51ffd6a6856e3fab939fb8",
+  "prototype_grid_signature": "06002d2fd8095e917c3f8f10592f57af89796466589132be0f27142996d3041f",
+  "calendar": "Astral intended local-sunset date; longitude-based fixed solar offset, UTC conversion",
+  "spatial": "complete saved polygons, boundary vertices densified0.005degree,2nativepixelpaddingverifiedagainst8pixelpadding",
+  "arithmetic": "Originalfloat32LSTdecodeandmean;float64nativecoordinates;originalquality0and<=1andthresholdsunchanged"
+}

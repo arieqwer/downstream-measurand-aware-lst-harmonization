@@ -1,0 +1,333 @@
+{
+  "status": "PASS",
+  "scenes": [
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-01_h-3",
+      "physical_sunset_date": "2026-06-01",
+      "actual_scan_start": "2026-06-02T00:01:18.7Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-01_h+4",
+      "physical_sunset_date": "2026-06-01",
+      "actual_scan_start": "2026-06-02T07:01:18.8Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-09_h-3",
+      "physical_sunset_date": "2026-06-09",
+      "actual_scan_start": "2026-06-10T00:01:17.4Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-09_h+4",
+      "physical_sunset_date": "2026-06-09",
+      "actual_scan_start": "2026-06-10T07:01:17.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-17_h-3",
+      "physical_sunset_date": "2026-06-17",
+      "actual_scan_start": "2026-06-18T00:01:19.7Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-17_h+4",
+      "physical_sunset_date": "2026-06-17",
+      "actual_scan_start": "2026-06-18T07:01:19.8Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-25_h-3",
+      "physical_sunset_date": "2026-06-25",
+      "actual_scan_start": "2026-06-26T00:01:22.1Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-06-25_h+4",
+      "physical_sunset_date": "2026-06-25",
+      "actual_scan_start": "2026-06-26T07:01:22.2Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-03_h-3",
+      "physical_sunset_date": "2026-07-03",
+      "actual_scan_start": "2026-07-04T00:01:24.4Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-03_h+4",
+      "physical_sunset_date": "2026-07-03",
+      "actual_scan_start": "2026-07-04T07:01:24.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-11_h-3",
+      "physical_sunset_date": "2026-07-11",
+      "actual_scan_start": "2026-07-12T00:01:18.3Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-11_h+4",
+      "physical_sunset_date": "2026-07-11",
+      "actual_scan_start": "2026-07-12T07:01:18.4Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-19_h-3",
+      "physical_sunset_date": "2026-07-19",
+      "actual_scan_start": "2026-07-20T00:01:20.2Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-19_h+4",
+      "physical_sunset_date": "2026-07-19",
+      "actual_scan_start": "2026-07-20T07:01:20.3Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-27_h-3",
+      "physical_sunset_date": "2026-07-27",
+      "actual_scan_start": "2026-07-28T00:01:18.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes18_2026_Phoenix_2026-07-27_h+4",
+      "physical_sunset_date": "2026-07-27",
+      "actual_scan_start": "2026-07-28T07:01:18.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-01_h-3",
+      "physical_sunset_date": "2026-06-01",
+      "actual_scan_start": "2026-06-02T00:01:17.7Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-01_h+4",
+      "physical_sunset_date": "2026-06-01",
+      "actual_scan_start": "2026-06-02T07:01:17.7Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-09_h-3",
+      "physical_sunset_date": "2026-06-09",
+      "actual_scan_start": "2026-06-10T00:01:18.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-09_h+4",
+      "physical_sunset_date": "2026-06-09",
+      "actual_scan_start": "2026-06-10T07:01:18.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-17_h-3",
+      "physical_sunset_date": "2026-06-17",
+      "actual_scan_start": "2026-06-18T00:01:19.3Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-17_h+4",
+      "physical_sunset_date": "2026-06-17",
+      "actual_scan_start": "2026-06-18T07:01:19.3Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-25_h-3",
+      "physical_sunset_date": "2026-06-25",
+      "actual_scan_start": "2026-06-26T00:01:17.3Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-06-25_h+4",
+      "physical_sunset_date": "2026-06-25",
+      "actual_scan_start": "2026-06-26T07:01:17.3Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-03_h-3",
+      "physical_sunset_date": "2026-07-03",
+      "actual_scan_start": "2026-07-04T00:01:18.1Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-03_h+4",
+      "physical_sunset_date": "2026-07-03",
+      "actual_scan_start": "2026-07-04T07:01:18.1Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-11_h-3",
+      "physical_sunset_date": "2026-07-11",
+      "actual_scan_start": "2026-07-12T00:01:17.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-11_h+4",
+      "physical_sunset_date": "2026-07-11",
+      "actual_scan_start": "2026-07-12T07:01:17.5Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-19_h-3",
+      "physical_sunset_date": "2026-07-19",
+      "actual_scan_start": "2026-07-20T00:01:15.9Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-19_h+4",
+      "physical_sunset_date": "2026-07-19",
+      "actual_scan_start": "2026-07-20T07:01:15.9Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-27_h-3",
+      "physical_sunset_date": "2026-07-27",
+      "actual_scan_start": "2026-07-28T00:01:17.7Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    },
+    {
+      "label": "noaa-goes19_2026_Phoenix_2026-07-27_h+4",
+      "physical_sunset_date": "2026-07-27",
+      "actual_scan_start": "2026-07-28T07:01:17.7Z",
+      "LST_ACM_hashes_match": true,
+      "exact_scan_start_end_grid_projection": true,
+      "complete_polygon_counts_verified": true
+    }
+  ],
+  "regional_count_checks": 24000,
+  "regional_mean_max_error_K": 1.8611550331115723e-05,
+  "metrics_max_error": 1.3322676295501878e-15,
+  "frozen_prediction_algebra_max_error_K": 4.1744385725905886e-14,
+  "frozen_model_sha256": "db6cfc91c55edf840cd857361b5f1c93b6cddcd01474504e5049cb0a82b566bc",
+  "eligible_counts": {
+    "ACM_clear": {
+      "rows": 588,
+      "cities": 74,
+      "local_dates": 8
+    },
+    "ACM_clear_buffer1": {
+      "rows": 573,
+      "cities": 74,
+      "local_dates": 8
+    },
+    "ACM_clear_buffer2": {
+      "rows": 547,
+      "cities": 73,
+      "local_dates": 8
+    },
+    "recommended": {
+      "rows": 676,
+      "cities": 75,
+      "local_dates": 8
+    },
+    "strict_DQF0": {
+      "rows": 19,
+      "cities": 3,
+      "local_dates": 8
+    }
+  },
+  "city_target_hour_distribution": {
+    "-3": 267,
+    "-2": 27,
+    "3": 94,
+    "4": 256,
+    "5": 32
+  },
+  "first_local_day_map_arrays": [
+    {
+      "array": "noaa-goes18_2026_Phoenix_2026-06-01_h+4_map_arrays.npz",
+      "valid": 1679,
+      "min_K": 256.6949985092506,
+      "max_K": 302.53749748459086
+    },
+    {
+      "array": "noaa-goes18_2026_Phoenix_2026-06-01_h-3_map_arrays.npz",
+      "valid": 2657,
+      "min_K": 300.58749752817675,
+      "max_K": 324.22499699983746
+    },
+    {
+      "array": "noaa-goes19_2026_Phoenix_2026-06-01_h+4_map_arrays.npz",
+      "valid": 964,
+      "min_K": 241.099998857826,
+      "max_K": 301.8249975005165
+    },
+    {
+      "array": "noaa-goes19_2026_Phoenix_2026-06-01_h-3_map_arrays.npz",
+      "valid": 1936,
+      "min_K": 294.189997671172,
+      "max_K": 322.6899970341474
+    }
+  ],
+  "script_sha256": "eb725ad6a995b7bfdf65739577f9915d3baa187466ced7c1e226d266878f8d36",
+  "limitations": [
+    "32selectedscans,notfull8daycloudrerun;citytargetbinsvarywithlocation.",
+    "Buffersare4connectednativepixels,notconstantkm.",
+    "CountsandmeansusenewfullpolygonsincludingLA;noinheritedradiusclipping.",
+    "Fixedrepaired2025model;cloudscreeningsensitivityisposthocdescriptive,notcausalorabsolutevalidation."
+  ]
+}

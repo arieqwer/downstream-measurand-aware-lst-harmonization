@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "common_pairs": 282,
+  "years": {
+    "2025": 173,
+    "2026": 109
+  },
+  "checks": [
+    {
+      "file": "compact_station_metrics.csv",
+      "rows": 16,
+      "columns": 8,
+      "max_abs_numeric_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "modern_ground_sensitivity.csv",
+      "rows": 36,
+      "columns": 9,
+      "max_abs_numeric_difference": 1.3322676295501878e-15,
+      "status": "PASS"
+    },
+    {
+      "file": "modern_bootstrap_intervals.csv",
+      "rows": 12,
+      "columns": 6,
+      "max_abs_numeric_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "modern_neighborhood_sensitivity.csv",
+      "rows": 4,
+      "columns": 8,
+      "max_abs_numeric_difference": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Offline regeneration from packaged station pairs and retained neighborhood values; native/raw ground decoding not repeated by this command."
+}

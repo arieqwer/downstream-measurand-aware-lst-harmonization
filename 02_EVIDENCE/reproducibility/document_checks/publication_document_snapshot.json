@@ -1,0 +1,215 @@
+{
+  "release_version": "v2.1.2-r0",
+  "status": "test prerelease author-review snapshot",
+  "master_snapshots": [
+    {
+      "file": "Manuscript_R1_clean_20261102.docx",
+      "sha256": "8291073e32710f5df9c9e56ed3ca7ac7fd1e5b2637870ecf784a1ca4310d9ebb",
+      "role": "Latest accepted clean author-review manuscript master"
+    },
+    {
+      "file": "SI_R1_clean_20261102.docx",
+      "sha256": "097ccce118f4db98f368c11b6aabd298ae2efde4dbe84257d833d86c2465fe68",
+      "role": "Latest author-saved accepted clean SI master"
+    }
+  ],
+  "repository_documents": [
+    {
+      "file": "Manuscript.docx",
+      "sha256": "b877a6915fd4c2c25606c57252e4b956d388994d293a83fd7ab5daf2f160ef48",
+      "change_from_master": "Data Availability Statement version only: v2.1.2-r1 to v2.1.2-r0"
+    },
+    {
+      "file": "Supplementary_Information.docx",
+      "sha256": "097ccce118f4db98f368c11b6aabd298ae2efde4dbe84257d833d86c2465fe68",
+      "change_from_master": "Byte-identical copy"
+    }
+  ],
+  "si_table_comparison": [
+    {
+      "table": "S1",
+      "rows": 11,
+      "columns": 6,
+      "all_cell_text_identical_to_marked_proposed_view": true
+    },
+    {
+      "table": "S2",
+      "rows": 10,
+      "columns": 5,
+      "all_cell_text_identical_to_marked_proposed_view": true
+    },
+    {
+      "table": "S3",
+      "rows": 4,
+      "columns": 6,
+      "all_cell_text_identical_to_marked_proposed_view": true
+    },
+    {
+      "table": "S4",
+      "rows": 13,
+      "columns": 5,
+      "all_cell_text_identical_to_marked_proposed_view": true
+    },
+    {
+      "table": "S5",
+      "rows": 24,
+      "columns": 6,
+      "all_cell_text_identical_to_marked_proposed_view": true
+    }
+  ],
+  "checks": {
+    "manuscript_version_only_document_xml_change": true,
+    "manuscript_original_master_unchanged": true,
+    "si_master_unchanged": true,
+    "si_repository_copy_byte_identical_to_author_master": true,
+    "all_other_manuscript_zip_parts_byte_identical": true,
+    "manuscript_output_has_r0_and_no_r1_version": true,
+    "all_five_SI_table_cells_unchanged": true,
+    "clean_documents_have_no_tracking_or_comment_anchors": true,
+    "all_submission_relative_links_exist": true
+  },
+  "render_checks": {
+    "renderer_bundle": "26.1026.10807",
+    "manuscript_pages": 23,
+    "manuscript_changed_render_pages": [
+      20
+    ],
+    "other_22_manuscript_pages_pixel_identical_to_previously_reviewed_author_master": true,
+    "manuscript_changed_page_opened_and_inspected": true,
+    "SI_pages": 6,
+    "all_SI_pages_opened_and_inspected": true,
+    "SI_caption_table_pairing_and_numeric_legibility_passed": true,
+    "latest_SI_layout_preserved_without_modification": true
+  },
+  "relative_links_checked": [
+    {
+      "file": "README.md",
+      "link": "Manuscript.docx",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "Supplementary_Information.docx",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "MASTER_SNAPSHOT_SHA256.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "MANUSCRIPT_FILE_MAP.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "../DATA_DIAGNOSTICS_INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../DATA_DIAGNOSTICS_INDEX.md",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/fixed_interval_chronology.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/fixed_city_candidate_metadata.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/cohort_provenance/index.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/model_selection_summary.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/external_hour_offsets_2019_2020.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/tables/cross_sample_rmse_with_external.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/tables/exact_mse_budgets_with_external.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/quality/component_and_contrast_metrics.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/native/native_cloud_sensitivity.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/surface/full_metrics.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/surface/modern/compact_station_metrics.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/surface/modern/native_source_manifest.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/Table_S1_publication.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/Table_S2_publication.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/Table_S3_publication.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/Table_S4_publication.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../02_EVIDENCE/si_tables/Table_S5_publication.csv",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../scripts/reproduce_figures.py",
+      "exists": true
+    },
+    {
+      "file": "MANUSCRIPT_FILE_MAP.md",
+      "link": "../REVIEWER_DIAGNOSTICS.md",
+      "exists": true
+    }
+  ],
+  "master_snapshots_verified_after_render": {
+    "Manuscript_R1_clean_20261102.docx": "8291073e32710f5df9c9e56ed3ca7ac7fd1e5b2637870ecf784a1ca4310d9ebb",
+    "SI_R1_clean_20261102.docx": "097ccce118f4db98f368c11b6aabd298ae2efde4dbe84257d833d86c2465fe68"
+  }
+}

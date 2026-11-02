@@ -1,0 +1,1 @@
+Dated v2.1.1-r1 document checks/log, superseded for main Word identity by the current minor-copyedit check. SI/code/data/results/figures are unchanged. The earlier word count8518was correct before the35-word Methods clarification. Historical logs may retain author-workspace relative links.

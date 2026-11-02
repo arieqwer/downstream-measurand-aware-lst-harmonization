@@ -1,0 +1,1960 @@
+{
+  "status": "PASS",
+  "documents": {
+    "Manuscript v1_suggestions.docx": {
+      "path": "/Users/apple/Downloads/RS revision 1/Manuscript v1_suggestions.docx",
+      "sha256": "e334d60d35b167f9d063d01c22f2f4bca9284751b3a8e3d6060840cfcbba24da"
+    },
+    "supplementary_suggestions.docx": {
+      "path": "/Users/apple/Downloads/RS revision 1/supplementary_suggestions.docx",
+      "sha256": "632f4c7d103cd5cb92bd80c2e4f09d68ffad44dc116ae74520c408f68d125077"
+    }
+  },
+  "checks": [
+    {
+      "check": "Manuscript v1_suggestions.docx tracking enabled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary_suggestions.docx tracking enabled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original immutable Manuscript v1.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original immutable supplementary.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original immutable R1 Reviewer comments.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main Reject All restores original logical content",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main original accepted editable equations preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main unique revision IDs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SI Reject All restores original logical content",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SI original math preserved in tracked/rejection content",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SI unique revision IDs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Point source audit PASS",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bootstrap source audit PASS",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SI exactly four tables",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SI captions numbered1to4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No remaining numbered Supplementary Notes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No separately numbered Supplementary Data references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All main SI table references within1to4",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        2,
+        4,
+        4,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "check": "S1ten data rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Table S1 row1col1",
+      "passed": true,
+      "details": {
+        "actual": "9,216",
+        "expected": "9,216",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row1col2",
+      "passed": true,
+      "details": {
+        "actual": "1.4712",
+        "expected": "1.4712",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row1col3",
+      "passed": true,
+      "details": {
+        "actual": "−0.1366",
+        "expected": "-0.1366",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row1col4",
+      "passed": true,
+      "details": {
+        "actual": "1.4644",
+        "expected": "1.4644",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row1col5",
+      "passed": true,
+      "details": {
+        "actual": "−0.1298",
+        "expected": "-0.1298",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row2col1",
+      "passed": true,
+      "details": {
+        "actual": "892",
+        "expected": "892",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row2col2",
+      "passed": true,
+      "details": {
+        "actual": "−0.0175",
+        "expected": "-0.0175",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row2col3",
+      "passed": true,
+      "details": {
+        "actual": "0.0345",
+        "expected": "0.0345",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row2col4",
+      "passed": true,
+      "details": {
+        "actual": "−0.0171",
+        "expected": "-0.0171",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row2col5",
+      "passed": true,
+      "details": {
+        "actual": "0.0341",
+        "expected": "0.0341",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row3col1",
+      "passed": true,
+      "details": {
+        "actual": "4,191",
+        "expected": "4,191",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row3col2",
+      "passed": true,
+      "details": {
+        "actual": "1.8095",
+        "expected": "1.8095",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row3col3",
+      "passed": true,
+      "details": {
+        "actual": "0.0985",
+        "expected": "0.0985",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row3col4",
+      "passed": true,
+      "details": {
+        "actual": "1.8046",
+        "expected": "1.8046",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row3col5",
+      "passed": true,
+      "details": {
+        "actual": "0.1034",
+        "expected": "0.1034",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row4col1",
+      "passed": true,
+      "details": {
+        "actual": "437",
+        "expected": "437",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row4col2",
+      "passed": true,
+      "details": {
+        "actual": "0.1410",
+        "expected": "0.1410",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row4col3",
+      "passed": true,
+      "details": {
+        "actual": "0.0245",
+        "expected": "0.0245",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row4col4",
+      "passed": true,
+      "details": {
+        "actual": "0.1374",
+        "expected": "0.1374",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row4col5",
+      "passed": true,
+      "details": {
+        "actual": "0.0281",
+        "expected": "0.0281",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row5col1",
+      "passed": true,
+      "details": {
+        "actual": "2,948",
+        "expected": "2,948",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row5col2",
+      "passed": true,
+      "details": {
+        "actual": "1.7335",
+        "expected": "1.7335",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row5col3",
+      "passed": true,
+      "details": {
+        "actual": "−0.2073",
+        "expected": "-0.2073",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row5col4",
+      "passed": true,
+      "details": {
+        "actual": "1.7405",
+        "expected": "1.7405",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row5col5",
+      "passed": true,
+      "details": {
+        "actual": "−0.2143",
+        "expected": "-0.2143",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row6col1",
+      "passed": true,
+      "details": {
+        "actual": "300",
+        "expected": "300",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row6col2",
+      "passed": true,
+      "details": {
+        "actual": "0.0385",
+        "expected": "0.0385",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row6col3",
+      "passed": true,
+      "details": {
+        "actual": "−0.0362",
+        "expected": "-0.0362",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row6col4",
+      "passed": true,
+      "details": {
+        "actual": "0.0422",
+        "expected": "0.0422",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row6col5",
+      "passed": true,
+      "details": {
+        "actual": "−0.0399",
+        "expected": "-0.0399",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row7col1",
+      "passed": true,
+      "details": {
+        "actual": "5,716",
+        "expected": "5,716",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row7col2",
+      "passed": true,
+      "details": {
+        "actual": "1.7549",
+        "expected": "1.7549",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row7col3",
+      "passed": true,
+      "details": {
+        "actual": "0.0294",
+        "expected": "0.0294",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row7col4",
+      "passed": true,
+      "details": {
+        "actual": "1.7862",
+        "expected": "1.7862",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row7col5",
+      "passed": true,
+      "details": {
+        "actual": "−0.0019",
+        "expected": "-0.0019",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row8col1",
+      "passed": true,
+      "details": {
+        "actual": "583",
+        "expected": "583",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row8col2",
+      "passed": true,
+      "details": {
+        "actual": "0.0115",
+        "expected": "0.0115",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row8col3",
+      "passed": true,
+      "details": {
+        "actual": "0.0082",
+        "expected": "0.0082",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row8col4",
+      "passed": true,
+      "details": {
+        "actual": "0.0114",
+        "expected": "0.0114",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row8col5",
+      "passed": true,
+      "details": {
+        "actual": "0.0082",
+        "expected": "0.0082",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row9col1",
+      "passed": true,
+      "details": {
+        "actual": "2,602",
+        "expected": "2,602",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row9col2",
+      "passed": true,
+      "details": {
+        "actual": "2.4416",
+        "expected": "2.4416",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row9col3",
+      "passed": true,
+      "details": {
+        "actual": "0.0255",
+        "expected": "0.0255",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row9col4",
+      "passed": true,
+      "details": {
+        "actual": "2.4437",
+        "expected": "2.4437",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row9col5",
+      "passed": true,
+      "details": {
+        "actual": "0.0234",
+        "expected": "0.0234",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row10col1",
+      "passed": true,
+      "details": {
+        "actual": "253",
+        "expected": "253",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row10col2",
+      "passed": true,
+      "details": {
+        "actual": "0.0312",
+        "expected": "0.0312",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row10col3",
+      "passed": true,
+      "details": {
+        "actual": "−0.0184",
+        "expected": "-0.0184",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row10col4",
+      "passed": true,
+      "details": {
+        "actual": "0.0307",
+        "expected": "0.0307",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S1 row10col5",
+      "passed": true,
+      "details": {
+        "actual": "−0.0179",
+        "expected": "-0.0179",
+        "source": "exact_mse_budgets_with_external.csv"
+      }
+    },
+    {
+      "check": "Table S2 row1col2",
+      "passed": true,
+      "details": {
+        "actual": "215 / 3",
+        "expected": "215 / 3",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row1col3",
+      "passed": true,
+      "details": {
+        "actual": "1.0153 / 0.9493",
+        "expected": "1.0153 / 0.9493",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row1col4",
+      "passed": true,
+      "details": {
+        "actual": "0.1298",
+        "expected": "0.1298",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row2col2",
+      "passed": true,
+      "details": {
+        "actual": "21 / 3",
+        "expected": "21 / 3",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row2col3",
+      "passed": true,
+      "details": {
+        "actual": "0.9612 / 0.9915",
+        "expected": "0.9612 / 0.9915",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row2col4",
+      "passed": true,
+      "details": {
+        "actual": "−0.0593",
+        "expected": "-0.0593",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row3col2",
+      "passed": true,
+      "details": {
+        "actual": "215 / 3",
+        "expected": "215 / 3",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row3col3",
+      "passed": true,
+      "details": {
+        "actual": "0.9153 / 0.9042",
+        "expected": "0.9153 / 0.9042",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row3col4",
+      "passed": true,
+      "details": {
+        "actual": "0.0202",
+        "expected": "0.0202",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row4col2",
+      "passed": true,
+      "details": {
+        "actual": "21 / 3",
+        "expected": "21 / 3",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row4col3",
+      "passed": true,
+      "details": {
+        "actual": "0.8160 / 0.8399",
+        "expected": "0.8160 / 0.8399",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row4col4",
+      "passed": true,
+      "details": {
+        "actual": "−0.0397",
+        "expected": "-0.0397",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row5col2",
+      "passed": true,
+      "details": {
+        "actual": "676 / 75",
+        "expected": "676 / 75",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row5col3",
+      "passed": true,
+      "details": {
+        "actual": "1.1181 / 1.1290",
+        "expected": "1.1181 / 1.1290",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row5col4",
+      "passed": true,
+      "details": {
+        "actual": "−0.0245",
+        "expected": "-0.0245",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row6col2",
+      "passed": true,
+      "details": {
+        "actual": "588 / 74",
+        "expected": "588 / 74",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row6col3",
+      "passed": true,
+      "details": {
+        "actual": "1.0082 / 1.0011",
+        "expected": "1.0082 / 1.0011",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row6col4",
+      "passed": true,
+      "details": {
+        "actual": "0.0144",
+        "expected": "0.0144",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row7col2",
+      "passed": true,
+      "details": {
+        "actual": "573 / 74",
+        "expected": "573 / 74",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row7col3",
+      "passed": true,
+      "details": {
+        "actual": "0.9846 / 0.9782",
+        "expected": "0.9846 / 0.9782",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row7col4",
+      "passed": true,
+      "details": {
+        "actual": "0.0125",
+        "expected": "0.0125",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row8col2",
+      "passed": true,
+      "details": {
+        "actual": "547 / 73",
+        "expected": "547 / 73",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row8col3",
+      "passed": true,
+      "details": {
+        "actual": "0.9620 / 0.9459",
+        "expected": "0.9620 / 0.9459",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row8col4",
+      "passed": true,
+      "details": {
+        "actual": "0.0308",
+        "expected": "0.0308",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row9col2",
+      "passed": true,
+      "details": {
+        "actual": "547 / 73",
+        "expected": "547 / 73",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row9col3",
+      "passed": true,
+      "details": {
+        "actual": "0.9066 / 0.9166",
+        "expected": "0.9066 / 0.9166",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "Table S2 row9col4",
+      "passed": true,
+      "details": {
+        "actual": "−0.0183",
+        "expected": "-0.0183",
+        "source": "quality/cloud per-observation summaries independently recomputed"
+      }
+    },
+    {
+      "check": "S2unfavorable strict transition retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "S3three cohort rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Table S3 row1col1",
+      "passed": true,
+      "details": {
+        "actual": "583",
+        "expected": "583",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row1col2",
+      "passed": true,
+      "details": {
+        "actual": "524/583; 89.9%",
+        "expected": "524/583; 89.9%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row1col3",
+      "passed": true,
+      "details": {
+        "actual": "186/583; 31.9%",
+        "expected": "186/583; 31.9%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row1col4",
+      "passed": true,
+      "details": {
+        "actual": "176/186; 94.6%",
+        "expected": "176/186; 94.6%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row1col5",
+      "passed": true,
+      "details": {
+        "actual": "Pass / Pass",
+        "expected": "Pass / Pass",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row2col1",
+      "passed": true,
+      "details": {
+        "actual": "345",
+        "expected": "345",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row2col2",
+      "passed": true,
+      "details": {
+        "actual": "336/345; 97.4%",
+        "expected": "336/345; 97.4%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row2col3",
+      "passed": true,
+      "details": {
+        "actual": "100/345; 29.0%",
+        "expected": "100/345; 29.0%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row2col4",
+      "passed": true,
+      "details": {
+        "actual": "100/100; 100.0%",
+        "expected": "100/100; 100.0%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row2col5",
+      "passed": true,
+      "details": {
+        "actual": "Fail / Pass",
+        "expected": "Fail / Pass",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row3col1",
+      "passed": true,
+      "details": {
+        "actual": "238",
+        "expected": "238",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row3col2",
+      "passed": true,
+      "details": {
+        "actual": "188/238; 79.0%",
+        "expected": "188/238; 79.0%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row3col3",
+      "passed": true,
+      "details": {
+        "actual": "86/238; 36.1%",
+        "expected": "86/238; 36.1%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row3col4",
+      "passed": true,
+      "details": {
+        "actual": "76/86; 88.4%",
+        "expected": "76/86; 88.4%",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S3 row3col5",
+      "passed": true,
+      "details": {
+        "actual": "Fail / Fail",
+        "expected": "Fail / Fail",
+        "source": "independent selected-transition reconstruction"
+      }
+    },
+    {
+      "check": "Table S4 row1col2",
+      "passed": true,
+      "details": {
+        "actual": "157",
+        "expected": "157",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row1col3",
+      "passed": true,
+      "details": {
+        "actual": "−6.874 / −5.918",
+        "expected": "-6.874 / -5.918",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row1col4",
+      "passed": true,
+      "details": {
+        "actual": "7.240 / 6.111",
+        "expected": "7.240 / 6.111",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row2col2",
+      "passed": true,
+      "details": {
+        "actual": "145",
+        "expected": "145",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row2col3",
+      "passed": true,
+      "details": {
+        "actual": "−0.771 / −1.161",
+        "expected": "-0.771 / -1.161",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row2col4",
+      "passed": true,
+      "details": {
+        "actual": "1.691 / 1.958",
+        "expected": "1.691 / 1.958",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row3col2",
+      "passed": true,
+      "details": {
+        "actual": "111",
+        "expected": "111",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row3col3",
+      "passed": true,
+      "details": {
+        "actual": "−1.359 / −1.683",
+        "expected": "-1.359 / -1.683",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row3col4",
+      "passed": true,
+      "details": {
+        "actual": "1.876 / 2.127",
+        "expected": "1.876 / 2.127",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row4col2",
+      "passed": true,
+      "details": {
+        "actual": "413",
+        "expected": "413",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row4col3",
+      "passed": true,
+      "details": {
+        "actual": "−3.249 / −3.110",
+        "expected": "-3.249 / -3.110",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row4col4",
+      "passed": true,
+      "details": {
+        "actual": "4.678 / 4.094",
+        "expected": "4.678 / 4.094",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row5col2",
+      "passed": true,
+      "details": {
+        "actual": "84",
+        "expected": "84",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row5col3",
+      "passed": true,
+      "details": {
+        "actual": "−0.989 / −2.223",
+        "expected": "-0.989 / -2.223",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row5col4",
+      "passed": true,
+      "details": {
+        "actual": "1.493 / 2.725",
+        "expected": "1.493 / 2.725",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row6col2",
+      "passed": true,
+      "details": {
+        "actual": "49",
+        "expected": "49",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row6col3",
+      "passed": true,
+      "details": {
+        "actual": "0.623 / 0.526",
+        "expected": "0.623 / 0.526",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row6col4",
+      "passed": true,
+      "details": {
+        "actual": "1.288 / 1.538",
+        "expected": "1.288 / 1.538",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row7col2",
+      "passed": true,
+      "details": {
+        "actual": "40",
+        "expected": "40",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row7col3",
+      "passed": true,
+      "details": {
+        "actual": "−2.750 / −2.762",
+        "expected": "-2.750 / -2.762",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row7col4",
+      "passed": true,
+      "details": {
+        "actual": "2.995 / 3.186",
+        "expected": "2.995 / 3.186",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row8col2",
+      "passed": true,
+      "details": {
+        "actual": "173",
+        "expected": "173",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row8col3",
+      "passed": true,
+      "details": {
+        "actual": "−0.940 / −1.569",
+        "expected": "-0.940 / -1.569",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row8col4",
+      "passed": true,
+      "details": {
+        "actual": "1.904 / 2.573",
+        "expected": "1.904 / 2.573",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row9col2",
+      "passed": true,
+      "details": {
+        "actual": "59",
+        "expected": "59",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row9col3",
+      "passed": true,
+      "details": {
+        "actual": "−1.137 / −1.860",
+        "expected": "-1.137 / -1.860",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row9col4",
+      "passed": true,
+      "details": {
+        "actual": "1.549 / 1.989",
+        "expected": "1.549 / 1.989",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row10col2",
+      "passed": true,
+      "details": {
+        "actual": "22",
+        "expected": "22",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row10col3",
+      "passed": true,
+      "details": {
+        "actual": "0.150 / 0.178",
+        "expected": "0.150 / 0.178",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row10col4",
+      "passed": true,
+      "details": {
+        "actual": "1.351 / 0.979",
+        "expected": "1.351 / 0.979",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row11col2",
+      "passed": true,
+      "details": {
+        "actual": "28",
+        "expected": "28",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row11col3",
+      "passed": true,
+      "details": {
+        "actual": "−3.260 / −3.308",
+        "expected": "-3.260 / -3.308",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row11col4",
+      "passed": true,
+      "details": {
+        "actual": "3.360 / 3.525",
+        "expected": "3.360 / 3.525",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row12col2",
+      "passed": true,
+      "details": {
+        "actual": "109",
+        "expected": "109",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row12col3",
+      "passed": true,
+      "details": {
+        "actual": "−1.423 / −1.821",
+        "expected": "-1.423 / -1.821",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table S4 row12col4",
+      "passed": true,
+      "details": {
+        "actual": "2.137 / 2.351",
+        "expected": "2.137 / 2.351",
+        "source": "independently reconstructed raw station/time metrics"
+      }
+    },
+    {
+      "check": "Table 1 row1col3",
+      "passed": true,
+      "details": {
+        "actual": "69",
+        "expected": "69",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row1col4",
+      "passed": true,
+      "details": {
+        "actual": "4",
+        "expected": "4",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row1col5",
+      "passed": true,
+      "details": {
+        "actual": "2,559",
+        "expected": "2,559",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row1col6",
+      "passed": true,
+      "details": {
+        "actual": "—",
+        "expected": "—",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row2col3",
+      "passed": true,
+      "details": {
+        "actual": "69",
+        "expected": "69",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row2col4",
+      "passed": true,
+      "details": {
+        "actual": "4",
+        "expected": "4",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row2col5",
+      "passed": true,
+      "details": {
+        "actual": "2,602",
+        "expected": "2,602",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row2col6",
+      "passed": true,
+      "details": {
+        "actual": "253",
+        "expected": "253",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row3col3",
+      "passed": true,
+      "details": {
+        "actual": "44",
+        "expected": "44",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row3col4",
+      "passed": true,
+      "details": {
+        "actual": "31",
+        "expected": "31",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row3col5",
+      "passed": true,
+      "details": {
+        "actual": "13,441",
+        "expected": "13,441",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row3col6",
+      "passed": true,
+      "details": {
+        "actual": "1,351",
+        "expected": "1,351",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row4col3",
+      "passed": true,
+      "details": {
+        "actual": "31",
+        "expected": "31",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row4col4",
+      "passed": true,
+      "details": {
+        "actual": "31",
+        "expected": "31",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row4col5",
+      "passed": true,
+      "details": {
+        "actual": "9,216",
+        "expected": "9,216",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row4col6",
+      "passed": true,
+      "details": {
+        "actual": "892",
+        "expected": "892",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row5col3",
+      "passed": true,
+      "details": {
+        "actual": "44",
+        "expected": "44",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row5col4",
+      "passed": true,
+      "details": {
+        "actual": "10",
+        "expected": "10",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row5col5",
+      "passed": true,
+      "details": {
+        "actual": "4,191",
+        "expected": "4,191",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row5col6",
+      "passed": true,
+      "details": {
+        "actual": "437",
+        "expected": "437",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row6col3",
+      "passed": true,
+      "details": {
+        "actual": "31",
+        "expected": "31",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row6col4",
+      "passed": true,
+      "details": {
+        "actual": "10",
+        "expected": "10",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row6col5",
+      "passed": true,
+      "details": {
+        "actual": "2,948",
+        "expected": "2,948",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row6col6",
+      "passed": true,
+      "details": {
+        "actual": "300",
+        "expected": "300",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row7col3",
+      "passed": true,
+      "details": {
+        "actual": "75",
+        "expected": "75",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row7col4",
+      "passed": true,
+      "details": {
+        "actual": "8",
+        "expected": "8",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row7col5",
+      "passed": true,
+      "details": {
+        "actual": "5,716",
+        "expected": "5,716",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Table 1 row7col6",
+      "passed": true,
+      "details": {
+        "actual": "583",
+        "expected": "583",
+        "source": "corrected cohort_attrition_summary.csv"
+      }
+    },
+    {
+      "check": "Posthoc temporal scope: same 75 cities",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Posthoc temporal scope: post hoc corrected temporal evaluation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Posthoc temporal scope: unseen cities remains untested",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Abstract explicit posthoc qualification",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Fixed radius interpolation: higher",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Fixed radius interpolation: 1.5043",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Primary paired quality support: three",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Primary paired quality support: 215",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Primary paired quality support: 21 transitions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Primary paired quality support: Tucson",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Primary paired quality support: South Valley",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Primary paired quality support: Albuquerque",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Sparse strict screening boundary: geography",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Sparse strict screening boundary: view",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Sparse strict screening boundary: three",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Sparse strict screening boundary: 75 cities",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Cloud sampled support: first local day",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Cloud sampled support: eight",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Cloud sampled support: scan-level",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground QC and timing: QC = 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground QC and timing: 12 valid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground QC and timing: 15-minute",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground QC and timing: 30 s",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Historical covariance: 0.886",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Historical covariance: 0.535",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Historical covariance: 0.2085",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Historical covariance: 1.2282",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Historical covariance: 0.0064",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "LHP limit: does not isolate LHP effects",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Inputs not causally isolated: emissivity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Inputs not causally isolated: atmospheric",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Inputs not causally isolated: unresolved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Raw benchmark urban validation incomplete: full urban",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Raw benchmark urban validation incomplete: ground validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Directional fractions distinct: 31.9%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Directional fractions distinct: 94.6%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Directional fractions distinct: 97.4%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Directional fractions distinct: 79.0%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Directional fractions distinct: 88.4%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original and expansion negatives: above",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original and expansion negatives: coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original and expansion negatives: expansion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Scale ratios: 1.670",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Scale ratios: 1.818",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Scale ratios: 38.2%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Scale ratios: 44.2%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Scale ratios: aggregate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2026 contrast uncertain: −0.14%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2026 contrast uncertain: −6.75%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2026 contrast uncertain: +6.48%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern sample and year support: 282",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern sample and year support: 173",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern sample and year support: 109",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern sample and year support: 2025",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern sample and year support: 2026",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern quality restriction: DQF",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern quality restriction: zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern quality restriction: strict",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern quality restriction: 2021",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern station RMSE: 1.904",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern station RMSE: 2.573",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern station RMSE: 2.137",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern station RMSE: 2.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground scenarios differ from retrieval inputs: ground",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground scenarios differ from retrieval inputs: emissivity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground scenarios differ from retrieval inputs: ABI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No stale prospective labels in accepted main",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No old numerical supports",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Exactly six accepted figures",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure1source bytes match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure2source bytes match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure3source bytes match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure4source bytes match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure5source bytes match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure6source bytes match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "12equations in sequence",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "check": "34references",
+      "passed": true,
+      "details": 34
+    },
+    {
+      "check": "No duplicate DOI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Independent audited inputs unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "compared_cells": 156,
+  "source_hashes": {
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/records/baseline_manifest.json": "42324afa3925cec1851aaf9d3deabff164cccda8ac3d201ffb3e0bb0832c07e3",
+    "/Users/apple/Downloads/RS revision 1/repair_20261029/pipeline/repaired/outputs/grl_deepening_2026/downstream_metric_framework/exact_mse_budgets_with_external.csv": "ad0b71bc58cf48374e4c415ae17b31c51fe3d1a40bc928715d3cabf67c3df631",
+    "/Users/apple/Downloads/RS revision 1/repair_20261029/auxiliary/quality/results/full_mse_decompositions.csv": "abba73bbb68c3e9186f81166c8f08a4ae91d440d23e6c11f46328c37bb8dc687",
+    "/Users/apple/Downloads/RS revision 1/repair_20261029/auxiliary/native/cloud8/results/native_cloud_sensitivity.csv": "057a8c8b51b5bf8fe7ca4a73de08475c0dafc5f1f9336600e67d0a2ae3f2e328",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/claims_audit/independent_claims_results.json": "78c08c214e047d13dabda8fa018b830c3fd33d168409838ed5d02996edc6b802",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/claims_audit/independent_bootstrap_summary.csv": "1e273e50799cf3b73779aadf0425bdaf92a38ed5b801d226b0550fbd37218b5e",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/claims_audit/independent_bootstrap_results.json": "897b4a32131a0b854f1c6526781c9c0fb7f232e46b16761e205d5aac0964bbc1",
+    "/Users/apple/Downloads/RS revision 1/repair_20261029/auxiliary/surface/results/full_metrics.csv": "c6a9f7ae9f979a683e1e9a1b9e1a544c7d7249c9bf6e34b8a71c6a65d3d7eaa3",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/claims_audit/independent_modern_station_metrics.csv": "f9d87a7269884d8efcd262337434188a7e507a4e859c3de56771bb6dc6935e47",
+    "/Users/apple/Downloads/RS revision 1/repair_20261029/pipeline/repaired/si_tables/cohort_attrition_summary.csv": "836b10edda2993a1fcefe7c91809c0bb0e076fe038db2cc2f69bd7d16aea94f3"
+  },
+  "limitations": [
+    "This audit verifies content/structure and source consistency; visual rendering is separately required.",
+    "No response-letter cross-check is claimed; letters are deferred by the user."
+  ]
+}

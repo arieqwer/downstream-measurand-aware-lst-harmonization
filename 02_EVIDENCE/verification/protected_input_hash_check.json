@@ -1,0 +1,1801 @@
+{
+  "status": "PASS",
+  "protected_file_count": 299,
+  "word_file_count": 5,
+  "files": [
+    {
+      "path": "/Users/apple/Downloads/RS revision 1/Manuscript v1.docx",
+      "expected_sha256": "829479af55aba0dabbdedaf414252ee686b1df686f6917e39db9e3ea88119f29",
+      "actual_sha256": "829479af55aba0dabbdedaf414252ee686b1df686f6917e39db9e3ea88119f29",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/RS revision 1/Manuscript v1_suggestions.docx",
+      "expected_sha256": "3c8df03d2b13d1e62bf7bb84d46df36a7372cd65c5d0e6be13fe0da0e0b41ec0",
+      "actual_sha256": "3c8df03d2b13d1e62bf7bb84d46df36a7372cd65c5d0e6be13fe0da0e0b41ec0",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/RS revision 1/R1 Reviewer comments.docx",
+      "expected_sha256": "a61507a19cea1ec009afa404ddc6013240a3df762b78150c2b6b9669ba53541c",
+      "actual_sha256": "a61507a19cea1ec009afa404ddc6013240a3df762b78150c2b6b9669ba53541c",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/RS revision 1/supplementary.docx",
+      "expected_sha256": "ce3b3e3fa175297617fc358eed828f33e43997552ce4af610b8c39817ef317bc",
+      "actual_sha256": "ce3b3e3fa175297617fc358eed828f33e43997552ce4af610b8c39817ef317bc",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/RS revision 1/supplementary_suggestions.docx",
+      "expected_sha256": "b6fc866492ff9e4ffffcabdb78bcb2d3c6da94d88a68f6c5928247382b15deea",
+      "actual_sha256": "b6fc866492ff9e4ffffcabdb78bcb2d3c6da94d88a68f6c5928247382b15deea",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/design_inputs/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "576e4bf4bcaf9a4b922b6206940b1e3f81166410c4819f13110c88db7e5c6212",
+      "actual_sha256": "576e4bf4bcaf9a4b922b6206940b1e3f81166410c4819f13110c88db7e5c6212",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/design_inputs/goes_city_units.geojson",
+      "expected_sha256": "718245528e4434fb9873e04064c74a6a7c5e3707f69dad18449fc264de99bd60",
+      "actual_sha256": "718245528e4434fb9873e04064c74a6a7c5e3707f69dad18449fc264de99bd60",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/design_inputs/goes_sunset_cities.csv",
+      "expected_sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7",
+      "actual_sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/design_inputs/goes_sunset_intervals.csv",
+      "expected_sha256": "3804cf1ec122ff9c5ecf14c9101d7013dcf7574f71ffd29dbb6e0d36d69e994d",
+      "actual_sha256": "3804cf1ec122ff9c5ecf14c9101d7013dcf7574f71ffd29dbb6e0d36d69e994d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/event_attrition.csv",
+      "expected_sha256": "ea5c8c50a9fe5f8204cacdd92d15deb0e33e6e756f2b0535d93c22f9d52a6af5",
+      "actual_sha256": "ea5c8c50a9fe5f8204cacdd92d15deb0e33e6e756f2b0535d93c22f9d52a6af5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/external_replication_report.json",
+      "expected_sha256": "895fbc1598cc7e3a41c82dfa1422c22cc01ff341fd44610381588e9e918c6f51",
+      "actual_sha256": "895fbc1598cc7e3a41c82dfa1422c22cc01ff341fd44610381588e9e918c6f51",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/extracted_summaries/GOES16_sunset_hourly.parquet",
+      "expected_sha256": "f7d3d9eef5955980a4ffecaa9d49fec53fa3f0ef66cb561c537d547b30d1fd8e",
+      "actual_sha256": "f7d3d9eef5955980a4ffecaa9d49fec53fa3f0ef66cb561c537d547b30d1fd8e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/extracted_summaries/GOES17_sunset_hourly.parquet",
+      "expected_sha256": "61e4b55e2744ad7e9c2b2973f48b3acd01b1e8c194ab88cc6b20d7b6a250abd2",
+      "actual_sha256": "61e4b55e2744ad7e9c2b2973f48b3acd01b1e8c194ab88cc6b20d7b6a250abd2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/frozen_hour_offsets_2019_2020.csv",
+      "expected_sha256": "73a41a9b9174bc7f57d7f536e2348fdba655408b9ceff44b49644a536495e3f1",
+      "actual_sha256": "73a41a9b9174bc7f57d7f536e2348fdba655408b9ceff44b49644a536495e3f1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/validation_2021_bootstrap_summary.csv",
+      "expected_sha256": "ac7d2a2e89f1e528e5a9ca761eec4ae554ce6357d12660bf8a16dafe97c57a36",
+      "actual_sha256": "ac7d2a2e89f1e528e5a9ca761eec4ae554ce6357d12660bf8a16dafe97c57a36",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/validation_2021_event_influence.csv",
+      "expected_sha256": "be7ba368f7e8f763180f8fd69ad0ef8d74f92f205f251353a222c384405aa1e1",
+      "actual_sha256": "be7ba368f7e8f763180f8fd69ad0ef8d74f92f205f251353a222c384405aa1e1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/validation_2021_exact_mse_budget.csv",
+      "expected_sha256": "f880abb8dd16a0a686b11ac16bff29043b0fec19e8d2b384b3fa88816bfdb87b",
+      "actual_sha256": "f880abb8dd16a0a686b11ac16bff29043b0fec19e8d2b384b3fa88816bfdb87b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/validation_2021_hourly_predictions.parquet",
+      "expected_sha256": "19d4dd91044a95ba2165f0e92e2fee8e2c6ab14a2fd2df84ed0d4d8d05e31802",
+      "actual_sha256": "19d4dd91044a95ba2165f0e92e2fee8e2c6ab14a2fd2df84ed0d4d8d05e31802",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/external_replication/validation_2021_transition_predictions.parquet",
+      "expected_sha256": "fad4127e9a30cb8533015e5c14211e5fa38594aa7b78e4b8d17cfcb0a6519a79",
+      "actual_sha256": "fad4127e9a30cb8533015e5c14211e5fa38594aa7b78e4b8d17cfcb0a6519a79",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/README.md",
+      "expected_sha256": "9535e9ddccfac1f504b60bd300ab22548a0ee816bddffd514c524057ec03e4ca",
+      "actual_sha256": "9535e9ddccfac1f504b60bd300ab22548a0ee816bddffd514c524057ec03e4ca",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/cohort_attrition_summary.csv",
+      "expected_sha256": "85a4b36bdbf9697d0a71cedb726cd9d480c9b91c6f199e2187ebcc5c2cd1a948",
+      "actual_sha256": "85a4b36bdbf9697d0a71cedb726cd9d480c9b91c6f199e2187ebcc5c2cd1a948",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/cohort_event_analysis_counts.csv",
+      "expected_sha256": "34c101b4c79e6340bdc87eb8f26f75cef001ab277ef50c132cd12e39cee34be1",
+      "actual_sha256": "34c101b4c79e6340bdc87eb8f26f75cef001ab277ef50c132cd12e39cee34be1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/external_hour_offsets_2019_2020.csv",
+      "expected_sha256": "73a41a9b9174bc7f57d7f536e2348fdba655408b9ceff44b49644a536495e3f1",
+      "actual_sha256": "73a41a9b9174bc7f57d7f536e2348fdba655408b9ceff44b49644a536495e3f1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/fixed_city_candidate_metadata.csv",
+      "expected_sha256": "bc682ab609298bf36ba4841693cb26895525e7ec085c3c87a0fbc1b170707378",
+      "actual_sha256": "bc682ab609298bf36ba4841693cb26895525e7ec085c3c87a0fbc1b170707378",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/fixed_interval_chronology.csv",
+      "expected_sha256": "ba96cdcc9a3f8ef9b00aa61bee3676977714ed590392ca79ad4be2d97c817b23",
+      "actual_sha256": "ba96cdcc9a3f8ef9b00aa61bee3676977714ed590392ca79ad4be2d97c817b23",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/model_selection_summary.csv",
+      "expected_sha256": "1de247585987d64021fd95e3189ca36a7800b3c5dd9b09868c4617ff7bb9bdf1",
+      "actual_sha256": "1de247585987d64021fd95e3189ca36a7800b3c5dd9b09868c4617ff7bb9bdf1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/source_provenance_manifest.csv",
+      "expected_sha256": "d5afa379cd3b1e775f72f2aa8a7be6529b24ed3e0f66f3ed6867fede7242b86a",
+      "actual_sha256": "d5afa379cd3b1e775f72f2aa8a7be6529b24ed3e0f66f3ed6867fede7242b86a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/uncertainty_gate_2026_by_cohort_event.csv",
+      "expected_sha256": "813b6595123557baf6db7675da7a01df08f9ba429b66d201829e59fd96e6ed5a",
+      "actual_sha256": "813b6595123557baf6db7675da7a01df08f9ba429b66d201829e59fd96e6ed5a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/02_EVIDENCE/si_tables/validation_report.json",
+      "expected_sha256": "bdcc476140472d2ef9440fcc11d67803da7f3b08cfeb4af9105e7e726e1b7037",
+      "actual_sha256": "bdcc476140472d2ef9440fcc11d67803da7f3b08cfeb4af9105e7e726e1b7037",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/AUXILIARY_UCDB_94_CITY_LOOKUP.csv",
+      "expected_sha256": "eb5ad2cf9e8aca1e593343030b2c724559b73e64f36603785703f966c204c2e6",
+      "actual_sha256": "eb5ad2cf9e8aca1e593343030b2c724559b73e64f36603785703f966c204c2e6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES16_FROZEN_SELECTION.json",
+      "expected_sha256": "b94f9fe5b97a2d3dc3a36fd25708ffa1cc6b434ce69d8fd8d97bca3bbf1f8adb",
+      "actual_sha256": "b94f9fe5b97a2d3dc3a36fd25708ffa1cc6b434ce69d8fd8d97bca3bbf1f8adb",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES17_FROZEN_SELECTION.json",
+      "expected_sha256": "154e7b83e227e6c8e9332b17ec3f31330d0ede4871923ce200215f5f101cf8dd",
+      "actual_sha256": "154e7b83e227e6c8e9332b17ec3f31330d0ede4871923ce200215f5f101cf8dd",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES18_2022_2024_EXPANSION_FROZEN_SELECTION.json",
+      "expected_sha256": "5ca2802ccd71b360d050694b673c556201b12078a8646e5fe38d78136378512d",
+      "actual_sha256": "5ca2802ccd71b360d050694b673c556201b12078a8646e5fe38d78136378512d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES18_2022_2024_ORIGINAL_FROZEN_SELECTION.json",
+      "expected_sha256": "facf69784d1c8c06906ce23429a9f4c3991a435d2b0b73abcee88c4ec9d1b146",
+      "actual_sha256": "facf69784d1c8c06906ce23429a9f4c3991a435d2b0b73abcee88c4ec9d1b146",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES18_2025_EXPANSION_FROZEN_SELECTION.json",
+      "expected_sha256": "4077fecc62cbf53c70ccaf02c871c8d4bc7f98e86a34802603587d4c211ae331",
+      "actual_sha256": "4077fecc62cbf53c70ccaf02c871c8d4bc7f98e86a34802603587d4c211ae331",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES18_2025_ORIGINAL_FROZEN_SELECTION.json",
+      "expected_sha256": "0e1a5421f2b8e8843b2a14ddee9bf157e07fa63169560fe286260bdb1b43938e",
+      "actual_sha256": "0e1a5421f2b8e8843b2a14ddee9bf157e07fa63169560fe286260bdb1b43938e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES18_2026_FROZEN_SELECTION.json",
+      "expected_sha256": "722d2b3785f1c6c66b04d7cdd0932edb8aa60ecf2eef0ecc9c70f9f94c2f70d1",
+      "actual_sha256": "722d2b3785f1c6c66b04d7cdd0932edb8aa60ecf2eef0ecc9c70f9f94c2f70d1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/GOES19_2026_FROZEN_SELECTION.json",
+      "expected_sha256": "d62e0a0f3c803b4c1e0ebbd23f540279d22d4e3b3ec69f784e96a8b83fab3878",
+      "actual_sha256": "d62e0a0f3c803b4c1e0ebbd23f540279d22d4e3b3ec69f784e96a8b83fab3878",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/INITIAL_HARMONIZATION_FROZEN_MANIFEST.json",
+      "expected_sha256": "014782fac5d5621259810810a4762b7b49a89155d5d46c992bde45f9902b2a8c",
+      "actual_sha256": "014782fac5d5621259810810a4762b7b49a89155d5d46c992bde45f9902b2a8c",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/04_PROTOCOLS/frozen_inputs/METRIC_AWARE_HARMONIZATION_FROZEN_MANIFEST.json",
+      "expected_sha256": "b13aa8b6197653289c945383da5568fb3b4e23f0ad016b4f928678d0b2b0d5e9",
+      "actual_sha256": "b13aa8b6197653289c945383da5568fb3b4e23f0ad016b4f928678d0b2b0d5e9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/analyze_downstream_metric_framework.py",
+      "expected_sha256": "4d270031ddd93d67de766a039aa22184f6e8c21778a1d523d1ad5bcdd402cc50",
+      "actual_sha256": "4d270031ddd93d67de766a039aa22184f6e8c21778a1d523d1ad5bcdd402cc50",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/analyze_harmonization_error_cascade.py",
+      "expected_sha256": "b2404cf9d9b4a9147d4de1db1d79868654d7f3a4b330056da0d4a87b8e3a23fe",
+      "actual_sha256": "b2404cf9d9b4a9147d4de1db1d79868654d7f3a4b330056da0d4a87b8e3a23fe",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_covariance_regime_stress_test.py",
+      "expected_sha256": "f19263cceac89289b2f6dc1179c560482964017234e803a6e1d3dbc73482c42b",
+      "actual_sha256": "f19263cceac89289b2f6dc1179c560482964017234e803a6e1d3dbc73482c42b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_downstream_metric_framework_figure.py",
+      "expected_sha256": "4a58be5741c2a7e4e995799eb1f4be3003fdd4f93973401ef369e455d25831c7",
+      "actual_sha256": "4a58be5741c2a7e4e995799eb1f4be3003fdd4f93973401ef369e455d25831c7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_metric_harmonization_synthesis.py",
+      "expected_sha256": "ecf4d30f8ae5d56a4fb2d903834c4a7246e870244b11317bc02dfef6f016ada5",
+      "actual_sha256": "ecf4d30f8ae5d56a4fb2d903834c4a7246e870244b11317bc02dfef6f016ada5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_multiplatform_replication_synthesis.py",
+      "expected_sha256": "3e2f21f301f87c84da3351ab1c96d897a9ecaa42ab9568d070d7b6a46eaaeedb",
+      "actual_sha256": "3e2f21f301f87c84da3351ab1c96d897a9ecaa42ab9568d070d7b6a46eaaeedb",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_reference_imports.py",
+      "expected_sha256": "4f343c5374a2135a7792307a9f1bedeb6368a9632efe4d3ae3c83665fc098fa0",
+      "actual_sha256": "4f343c5374a2135a7792307a9f1bedeb6368a9632efe4d3ae3c83665fc098fa0",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_remote_sensing_figures_1_2_3.py",
+      "expected_sha256": "3e851bd6083efa5807ed4448608e7bba19e657f9babc77093a79b6c63378a6d3",
+      "actual_sha256": "3e851bd6083efa5807ed4448608e7bba19e657f9babc77093a79b6c63378a6d3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_si_evidence_tables.py",
+      "expected_sha256": "0a81937b3bcc325049b787fcfcd5d6719e581dc59700b61a3b036bf815824184",
+      "actual_sha256": "0a81937b3bcc325049b787fcfcd5d6719e581dc59700b61a3b036bf815824184",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_submission_docx.js",
+      "expected_sha256": "5b353147be8e1fc970dc9b2b0831a1414e48dd82d4c9f316bce2466f20a48259",
+      "actual_sha256": "5b353147be8e1fc970dc9b2b0831a1414e48dd82d4c9f316bce2466f20a48259",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_submission_figures.py",
+      "expected_sha256": "4609101f613ad74a217504cbd787a341b00ed7137256b118178157906fe07e4c",
+      "actual_sha256": "4609101f613ad74a217504cbd787a341b00ed7137256b118178157906fe07e4c",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/build_supplementary_data_zip.py",
+      "expected_sha256": "87da411b4902d627f95a613bdccb0b6575ed28279d8d38e955ef3ab12674c121",
+      "actual_sha256": "87da411b4902d627f95a613bdccb0b6575ed28279d8d38e955ef3ab12674c121",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/extract_goes_sunset_trajectories.py",
+      "expected_sha256": "226ff43a6023f5da948991051b12e2b6290d27968a7d037203c294d4b6150fba",
+      "actual_sha256": "226ff43a6023f5da948991051b12e2b6290d27968a7d037203c294d4b6150fba",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/metric_aware_harmonization.py",
+      "expected_sha256": "92f3cecc7e16ca7bb5222611c418b63a63ab3544fcc924091d0a24ffc9bece08",
+      "actual_sha256": "92f3cecc7e16ca7bb5222611c418b63a63ab3544fcc924091d0a24ffc9bece08",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/prepare_goes18_2022_2024_same_sensor.py",
+      "expected_sha256": "537c35bba3edb45ceb7fbe6659e4d99987445acb509fc019037d4a10e2e4761b",
+      "actual_sha256": "537c35bba3edb45ceb7fbe6659e4d99987445acb509fc019037d4a10e2e4761b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/prepare_goes18_2025_western_replication.py",
+      "expected_sha256": "ca89701ac7dd6e606b932b486d5dac7caf523d46a7a8d4dc46d81b99024426e5",
+      "actual_sha256": "ca89701ac7dd6e606b932b486d5dac7caf523d46a7a8d4dc46d81b99024426e5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/prepare_goes19_2025_holdout.py",
+      "expected_sha256": "125d26c7eb5abf67ce623723b8db6b9b439d9d65111a0406ead4b397419835df",
+      "actual_sha256": "125d26c7eb5abf67ce623723b8db6b9b439d9d65111a0406ead4b397419835df",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/prepare_goes_2026_metric_holdout.py",
+      "expected_sha256": "f26270c687855021b49be0ed245a5c95b70e1f38c45d7269a8d03585977520a5",
+      "actual_sha256": "f26270c687855021b49be0ed245a5c95b70e1f38c45d7269a8d03585977520a5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/run_expanded_harmonization_validation.py",
+      "expected_sha256": "07387f870e956bb40ecfd464b9c51fd62efc480a4fbeb909047058349582ef8a",
+      "actual_sha256": "07387f870e956bb40ecfd464b9c51fd62efc480a4fbeb909047058349582ef8a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/run_goes17_goes16_external_metric_replication.py",
+      "expected_sha256": "9344c411b454a3f579f801ac1e40c876bc572251d9ae70f4eb9d10df012a775d",
+      "actual_sha256": "9344c411b454a3f579f801ac1e40c876bc572251d9ae70f4eb9d10df012a775d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/run_multiplatform_bias_decomposition.py",
+      "expected_sha256": "746e39c89057ade5759fa1c76d0654537f0c516c3f5c0f8ceb3894002075698b",
+      "actual_sha256": "746e39c89057ade5759fa1c76d0654537f0c516c3f5c0f8ceb3894002075698b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/run_multiplatform_harmonization.py",
+      "expected_sha256": "1dde7cee230a08a3ca88f4eb30e2cdfdcac88ec918cb04d3b0f3888843768d01",
+      "actual_sha256": "1dde7cee230a08a3ca88f4eb30e2cdfdcac88ec918cb04d3b0f3888843768d01",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/run_multiplatform_replication_audit.py",
+      "expected_sha256": "342fa007f4a8a0f8446427ceb33db8fdcf541899fe020c6fdc883a95e7f1b974",
+      "actual_sha256": "342fa007f4a8a0f8446427ceb33db8fdcf541899fe020c6fdc883a95e7f1b974",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/run_multiplatform_secondary_diagnostics.py",
+      "expected_sha256": "8eb585d7dc43047fe6b5033b9e25e938e58d39c0acfddf47872b06c25f199f54",
+      "actual_sha256": "8eb585d7dc43047fe6b5033b9e25e938e58d39c0acfddf47872b06c25f199f54",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/screen_metric_aware_harmonization.py",
+      "expected_sha256": "4056af73dcd741ccf9d717293927a653265f4b3b10b956755e7d6d9827031714",
+      "actual_sha256": "4056af73dcd741ccf9d717293927a653265f4b3b10b956755e7d6d9827031714",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/synthesize_downstream_metric_framework.py",
+      "expected_sha256": "9679b26c0cdd7d225c0234f171f525a60ecf8d8632b1c9fa921922302e0de7e2",
+      "actual_sha256": "9679b26c0cdd7d225c0234f171f525a60ecf8d8632b1c9fa921922302e0de7e2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/train_goes18_goes19_metric_harmonization.py",
+      "expected_sha256": "d69334e9bcaf5dd43bc189d0da20e7de8a46d70785a466a3435ef282fb111d15",
+      "actual_sha256": "d69334e9bcaf5dd43bc189d0da20e7de8a46d70785a466a3435ef282fb111d15",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/validate_downstream_metric_framework.py",
+      "expected_sha256": "7a899f51084f3283035cf6c73b94224d255ed0a34f889aed8686f7a37323264f",
+      "actual_sha256": "7a899f51084f3283035cf6c73b94224d255ed0a34f889aed8686f7a37323264f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/validate_goes18_goes19_metric_harmonization_2026.py",
+      "expected_sha256": "fb17eacced38fe2ade9925a9bcc963853d73d3fc1f18fb9d70d1a2a3518ab260",
+      "actual_sha256": "fb17eacced38fe2ade9925a9bcc963853d73d3fc1f18fb9d70d1a2a3518ab260",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/validate_metric_harmonization_package.py",
+      "expected_sha256": "7e188d095397179c8194b387bd1177a061bff087199fdd98454472f0da0b13ed",
+      "actual_sha256": "7e188d095397179c8194b387bd1177a061bff087199fdd98454472f0da0b13ed",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/validate_multiplatform_replication_audit.py",
+      "expected_sha256": "0f049953cd8442d711153c2d5bda6ebffa1e49bcd5d0a5c8b45705c2cb1389ca",
+      "actual_sha256": "0f049953cd8442d711153c2d5bda6ebffa1e49bcd5d0a5c8b45705c2cb1389ca",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/validate_reviewer_package.py",
+      "expected_sha256": "61930bab63e3c3ac866e5da91351004501d694615f32fa58d6f53e776004f415",
+      "actual_sha256": "61930bab63e3c3ac866e5da91351004501d694615f32fa58d6f53e776004f415",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/gsis_metric_aware_harmonization_manuscript/05_CODE/scripts/validate_submission_package.py",
+      "expected_sha256": "73b88aafbe8422a357f819ed0e02d584bbd90ee7120ec550dc2daed5f2e93bdb",
+      "actual_sha256": "73b88aafbe8422a357f819ed0e02d584bbd90ee7120ec550dc2daed5f2e93bdb",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/FROZEN_CENSUS.json",
+      "expected_sha256": "91249d5830c63dbcf7bca1615612ae54a24ea12fa4d4099a64d1a16f308c65ac",
+      "actual_sha256": "91249d5830c63dbcf7bca1615612ae54a24ea12fa4d4099a64d1a16f308c65ac",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "afb332da1b24320c07c595f4aa1534b3f61de420f82b747ccc3d3b48947c3811",
+      "actual_sha256": "afb332da1b24320c07c595f4aa1534b3f61de420f82b747ccc3d3b48947c3811",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_city_units.geojson",
+      "expected_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "actual_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_lstc_key_inventory.csv",
+      "expected_sha256": "730a02ec9af88f54ce73700ab044d19c087c745ecc4bbc8413953b1493865225",
+      "actual_sha256": "730a02ec9af88f54ce73700ab044d19c087c745ecc4bbc8413953b1493865225",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_2018_2021_intervals.csv",
+      "expected_sha256": "f01e5a754a4712eb51d7d9931671e592e0b4a025c838262e79bf7193061103fe",
+      "actual_sha256": "f01e5a754a4712eb51d7d9931671e592e0b4a025c838262e79bf7193061103fe",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_2022_2024_intervals.csv",
+      "expected_sha256": "9b2f47c1cb5d2e15a5dcbc450d9c9e79d2663b0a302c857202bab470368cd7b9",
+      "actual_sha256": "9b2f47c1cb5d2e15a5dcbc450d9c9e79d2663b0a302c857202bab470368cd7b9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_cities.csv",
+      "expected_sha256": "909d6585394ebe35d9a3a94bfd885d3e4895cfbd5bd5f5cee89852598c7eccd9",
+      "actual_sha256": "909d6585394ebe35d9a3a94bfd885d3e4895cfbd5bd5f5cee89852598c7eccd9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_city_events.csv",
+      "expected_sha256": "ed9e40eba447d494c1f4fe13ccacc34811e859d4d7be2721334fc4995111024f",
+      "actual_sha256": "ed9e40eba447d494c1f4fe13ccacc34811e859d4d7be2721334fc4995111024f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_hourly.parquet",
+      "expected_sha256": "d786371bb0612d6491a09a8e1310d015ed0a9de6770b42dc578a35eee227b4ff",
+      "actual_sha256": "d786371bb0612d6491a09a8e1310d015ed0a9de6770b42dc578a35eee227b4ff",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_intervals.csv",
+      "expected_sha256": "1416a57caa7a56c11e4844333c02b0aa771987193ce1c6968cc64ae88236af39",
+      "actual_sha256": "1416a57caa7a56c11e4844333c02b0aa771987193ce1c6968cc64ae88236af39",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_previously_unseen_intervals.csv",
+      "expected_sha256": "d6f8d2548be5bafec4b2b1ad34861da29cb2c5a4f5f67a162bbbaf7882ee2d76",
+      "actual_sha256": "d6f8d2548be5bafec4b2b1ad34861da29cb2c5a4f5f67a162bbbaf7882ee2d76",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_full_census/goes_sunset_requests.parquet",
+      "expected_sha256": "cc860455a6918121cd4266604c82ee57ce0bdd2eb8d493f18cc408d543bea7c9",
+      "actual_sha256": "cc860455a6918121cd4266604c82ee57ce0bdd2eb8d493f18cc408d543bea7c9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/FROZEN_SELECTION.json",
+      "expected_sha256": "040266a513b27a29b3f1fd9231cd29a7f81aab5b4f7ec7a247f42df4e2d2b987",
+      "actual_sha256": "040266a513b27a29b3f1fd9231cd29a7f81aab5b4f7ec7a247f42df4e2d2b987",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "f70891ce050c1f94686f4f213448eb06baa86cc1df798d5fc83cba3e58e38d3b",
+      "actual_sha256": "f70891ce050c1f94686f4f213448eb06baa86cc1df798d5fc83cba3e58e38d3b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_city_units.geojson",
+      "expected_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "actual_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_lstc_key_inventory.csv",
+      "expected_sha256": "c956e92d32be095383c9268adf9174acd28852d600141cc16d8bdb8983c129e2",
+      "actual_sha256": "c956e92d32be095383c9268adf9174acd28852d600141cc16d8bdb8983c129e2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_sunset_cities.csv",
+      "expected_sha256": "89a92e552b55df398d6cb4ceb2abfd4ec1544db1257a5be8f1e323beb6d014ab",
+      "actual_sha256": "89a92e552b55df398d6cb4ceb2abfd4ec1544db1257a5be8f1e323beb6d014ab",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_sunset_city_events.csv",
+      "expected_sha256": "b2611523a0e435500e5d993a7bf1d5d85a0d193b175d99308879a9fa014c89ea",
+      "actual_sha256": "b2611523a0e435500e5d993a7bf1d5d85a0d193b175d99308879a9fa014c89ea",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_sunset_hourly.parquet",
+      "expected_sha256": "b900a5eae22c3f76d375e4da4ddfb2b745d19689db2ac7e5f60ae68525dfa1d7",
+      "actual_sha256": "b900a5eae22c3f76d375e4da4ddfb2b745d19689db2ac7e5f60ae68525dfa1d7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_sunset_intervals.csv",
+      "expected_sha256": "840db4fa2ce4b02f2246c5ab4ca1596a90e2e6e18c73b1683976ae6bae37e160",
+      "actual_sha256": "840db4fa2ce4b02f2246c5ab4ca1596a90e2e6e18c73b1683976ae6bae37e160",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2018_2024_low_green/goes_sunset_requests.parquet",
+      "expected_sha256": "2df1a8dbf9d3e2779aac1efe70391411aef32f6eab03639c425e23e9041b4d5d",
+      "actual_sha256": "2df1a8dbf9d3e2779aac1efe70391411aef32f6eab03639c425e23e9041b4d5d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/FROZEN_SELECTION.json",
+      "expected_sha256": "b94f9fe5b97a2d3dc3a36fd25708ffa1cc6b434ce69d8fd8d97bca3bbf1f8adb",
+      "actual_sha256": "b94f9fe5b97a2d3dc3a36fd25708ffa1cc6b434ce69d8fd8d97bca3bbf1f8adb",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "576e4bf4bcaf9a4b922b6206940b1e3f81166410c4819f13110c88db7e5c6212",
+      "actual_sha256": "576e4bf4bcaf9a4b922b6206940b1e3f81166410c4819f13110c88db7e5c6212",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/goes_city_units.geojson",
+      "expected_sha256": "718245528e4434fb9873e04064c74a6a7c5e3707f69dad18449fc264de99bd60",
+      "actual_sha256": "718245528e4434fb9873e04064c74a6a7c5e3707f69dad18449fc264de99bd60",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/goes_lstc_key_inventory.csv",
+      "expected_sha256": "dbb8058df6eb011a4f509f25df7aa6e65070297d0dc23a274cb0145bf50a3364",
+      "actual_sha256": "dbb8058df6eb011a4f509f25df7aa6e65070297d0dc23a274cb0145bf50a3364",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/goes_sunset_cities.csv",
+      "expected_sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7",
+      "actual_sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/goes_sunset_hourly.parquet",
+      "expected_sha256": "f7d3d9eef5955980a4ffecaa9d49fec53fa3f0ef66cb561c537d547b30d1fd8e",
+      "actual_sha256": "f7d3d9eef5955980a4ffecaa9d49fec53fa3f0ef66cb561c537d547b30d1fd8e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/goes_sunset_intervals.csv",
+      "expected_sha256": "3804cf1ec122ff9c5ecf14c9101d7013dcf7574f71ffd29dbb6e0d36d69e994d",
+      "actual_sha256": "3804cf1ec122ff9c5ecf14c9101d7013dcf7574f71ffd29dbb6e0d36d69e994d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes16_2019_2021_external_metric/goes_sunset_requests.parquet",
+      "expected_sha256": "63a5a9d05dfa3c35b58bfc251fcc2b9eec560a79fa796b43a09b60895ddfaf14",
+      "actual_sha256": "63a5a9d05dfa3c35b58bfc251fcc2b9eec560a79fa796b43a09b60895ddfaf14",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/FROZEN_SELECTION.json",
+      "expected_sha256": "154e7b83e227e6c8e9332b17ec3f31330d0ede4871923ce200215f5f101cf8dd",
+      "actual_sha256": "154e7b83e227e6c8e9332b17ec3f31330d0ede4871923ce200215f5f101cf8dd",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "3f03081d6606410c41129e6638bfb4dc2bde3e0f5d243f6258801cd010feaaf3",
+      "actual_sha256": "3f03081d6606410c41129e6638bfb4dc2bde3e0f5d243f6258801cd010feaaf3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/goes_city_units.geojson",
+      "expected_sha256": "718245528e4434fb9873e04064c74a6a7c5e3707f69dad18449fc264de99bd60",
+      "actual_sha256": "718245528e4434fb9873e04064c74a6a7c5e3707f69dad18449fc264de99bd60",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/goes_lstc_key_inventory.csv",
+      "expected_sha256": "eee5716697ae6a4c98444d6723e1d821dbbeb50f206116568a91d7948c535aa1",
+      "actual_sha256": "eee5716697ae6a4c98444d6723e1d821dbbeb50f206116568a91d7948c535aa1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/goes_sunset_cities.csv",
+      "expected_sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7",
+      "actual_sha256": "a056556455efd4a18aa3fbadcde697d4361607cad85377406ae46c72837d85a7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/goes_sunset_hourly.parquet",
+      "expected_sha256": "61e4b55e2744ad7e9c2b2973f48b3acd01b1e8c194ab88cc6b20d7b6a250abd2",
+      "actual_sha256": "61e4b55e2744ad7e9c2b2973f48b3acd01b1e8c194ab88cc6b20d7b6a250abd2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/goes_sunset_intervals.csv",
+      "expected_sha256": "3804cf1ec122ff9c5ecf14c9101d7013dcf7574f71ffd29dbb6e0d36d69e994d",
+      "actual_sha256": "3804cf1ec122ff9c5ecf14c9101d7013dcf7574f71ffd29dbb6e0d36d69e994d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes17_2019_2021_external_metric/goes_sunset_requests.parquet",
+      "expected_sha256": "dbedf2284a2494c1eeb3461cf0508d290e0086ea8d5bb4526b991ea77dde36c7",
+      "actual_sha256": "dbedf2284a2494c1eeb3461cf0508d290e0086ea8d5bb4526b991ea77dde36c7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/FROZEN_SELECTION.json",
+      "expected_sha256": "5ca2802ccd71b360d050694b673c556201b12078a8646e5fe38d78136378512d",
+      "actual_sha256": "5ca2802ccd71b360d050694b673c556201b12078a8646e5fe38d78136378512d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "011c7ea92bd765ab5e3de07085ea4b918c9dfb07b3a4054963b092474763631f",
+      "actual_sha256": "011c7ea92bd765ab5e3de07085ea4b918c9dfb07b3a4054963b092474763631f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_city_units.geojson",
+      "expected_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "actual_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_lstc_key_inventory.csv",
+      "expected_sha256": "4ca4d109270d845d660a37bde15fffcf0862959800a7d983d1808ec81b846082",
+      "actual_sha256": "4ca4d109270d845d660a37bde15fffcf0862959800a7d983d1808ec81b846082",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_sunset_cities.csv",
+      "expected_sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376",
+      "actual_sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_sunset_city_events.csv",
+      "expected_sha256": "f694ae4e9d18cd156995d646d95f80c3f8d2df80049cf6531239dc0213c16301",
+      "actual_sha256": "f694ae4e9d18cd156995d646d95f80c3f8d2df80049cf6531239dc0213c16301",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_sunset_hourly.parquet",
+      "expected_sha256": "a42e51b4134df80f8f327c77220d33fa5d5cf7b48a4bde4f1e8e20e893c0ed20",
+      "actual_sha256": "a42e51b4134df80f8f327c77220d33fa5d5cf7b48a4bde4f1e8e20e893c0ed20",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_sunset_intervals.csv",
+      "expected_sha256": "bce78f94621e647a8e0a78e229da3ae3bc4d99e1ec22eaae5a2128becd44ae06",
+      "actual_sha256": "bce78f94621e647a8e0a78e229da3ae3bc4d99e1ec22eaae5a2128becd44ae06",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_expansion/goes_sunset_requests.parquet",
+      "expected_sha256": "5e7695fab255a4d6e46af789c5aaff59604a70f3c01e4496a3154c572ec94abe",
+      "actual_sha256": "5e7695fab255a4d6e46af789c5aaff59604a70f3c01e4496a3154c572ec94abe",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/FROZEN_SELECTION.json",
+      "expected_sha256": "facf69784d1c8c06906ce23429a9f4c3991a435d2b0b73abcee88c4ec9d1b146",
+      "actual_sha256": "facf69784d1c8c06906ce23429a9f4c3991a435d2b0b73abcee88c4ec9d1b146",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes18_2022_2024_cities.csv",
+      "expected_sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219",
+      "actual_sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes18_2022_2024_city_events.csv",
+      "expected_sha256": "eca5d3e0fbe1ad448bda810e8d1dd11e4cc9c0000e2e25af777926f01c486b66",
+      "actual_sha256": "eca5d3e0fbe1ad448bda810e8d1dd11e4cc9c0000e2e25af777926f01c486b66",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes18_2022_2024_intervals.csv",
+      "expected_sha256": "bce78f94621e647a8e0a78e229da3ae3bc4d99e1ec22eaae5a2128becd44ae06",
+      "actual_sha256": "bce78f94621e647a8e0a78e229da3ae3bc4d99e1ec22eaae5a2128becd44ae06",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "ebfb40a7c9310c606484b38262d95a296115b158a213f31cd9ede6f53824ad4b",
+      "actual_sha256": "ebfb40a7c9310c606484b38262d95a296115b158a213f31cd9ede6f53824ad4b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_city_units.geojson",
+      "expected_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "actual_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_lstc_key_inventory.csv",
+      "expected_sha256": "fdbd1e1a1be9dd1e1ce8e8729fc44d982830e289b6779ec1ba638847e4069e5e",
+      "actual_sha256": "fdbd1e1a1be9dd1e1ce8e8729fc44d982830e289b6779ec1ba638847e4069e5e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_sunset_cities.csv",
+      "expected_sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219",
+      "actual_sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_sunset_city_events.csv",
+      "expected_sha256": "eca5d3e0fbe1ad448bda810e8d1dd11e4cc9c0000e2e25af777926f01c486b66",
+      "actual_sha256": "eca5d3e0fbe1ad448bda810e8d1dd11e4cc9c0000e2e25af777926f01c486b66",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_sunset_hourly.parquet",
+      "expected_sha256": "809a6d218dbfc2dcc0cb3659235720ca05a9d7e3df51ffd6a6856e3fab939fb8",
+      "actual_sha256": "809a6d218dbfc2dcc0cb3659235720ca05a9d7e3df51ffd6a6856e3fab939fb8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_sunset_intervals.csv",
+      "expected_sha256": "bce78f94621e647a8e0a78e229da3ae3bc4d99e1ec22eaae5a2128becd44ae06",
+      "actual_sha256": "bce78f94621e647a8e0a78e229da3ae3bc4d99e1ec22eaae5a2128becd44ae06",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2022_2024_same_sensor/goes_sunset_requests.parquet",
+      "expected_sha256": "7821a51f028212d23763087bb68a3fdb96797481b3983e13495388c180b3b4fe",
+      "actual_sha256": "7821a51f028212d23763087bb68a3fdb96797481b3983e13495388c180b3b4fe",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/FROZEN_SELECTION.json",
+      "expected_sha256": "4077fecc62cbf53c70ccaf02c871c8d4bc7f98e86a34802603587d4c211ae331",
+      "actual_sha256": "4077fecc62cbf53c70ccaf02c871c8d4bc7f98e86a34802603587d4c211ae331",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "011c7ea92bd765ab5e3de07085ea4b918c9dfb07b3a4054963b092474763631f",
+      "actual_sha256": "011c7ea92bd765ab5e3de07085ea4b918c9dfb07b3a4054963b092474763631f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_city_units.geojson",
+      "expected_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "actual_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_lstc_key_inventory.csv",
+      "expected_sha256": "8baece365a6d63eb6a8693f8d8f8067d9e619dee9c3fcdfb5d49c10066bf77ee",
+      "actual_sha256": "8baece365a6d63eb6a8693f8d8f8067d9e619dee9c3fcdfb5d49c10066bf77ee",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_sunset_cities.csv",
+      "expected_sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376",
+      "actual_sha256": "6a1de5d896e685146a593d48bf7735d25b410274b8c8bd7d6585280909db4376",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_sunset_city_events.csv",
+      "expected_sha256": "ec8041187a9830ab25e10c64fcd7312a474a8c3552beb2bd66eba49174c85da2",
+      "actual_sha256": "ec8041187a9830ab25e10c64fcd7312a474a8c3552beb2bd66eba49174c85da2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_sunset_hourly.parquet",
+      "expected_sha256": "6497679a8d25d895161125d5779aade6da077be1502c8f95f62d9db83ead82b7",
+      "actual_sha256": "6497679a8d25d895161125d5779aade6da077be1502c8f95f62d9db83ead82b7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_sunset_intervals.csv",
+      "expected_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "actual_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_expansion/goes_sunset_requests.parquet",
+      "expected_sha256": "2698014afd1d499f690900de41dd446f62685ff385e46d4bf53d8cb3a7fcda04",
+      "actual_sha256": "2698014afd1d499f690900de41dd446f62685ff385e46d4bf53d8cb3a7fcda04",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/FROZEN_SELECTION.json",
+      "expected_sha256": "0e1a5421f2b8e8843b2a14ddee9bf157e07fa63169560fe286260bdb1b43938e",
+      "actual_sha256": "0e1a5421f2b8e8843b2a14ddee9bf157e07fa63169560fe286260bdb1b43938e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes18_2025_cities.csv",
+      "expected_sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219",
+      "actual_sha256": "771aa2059cb38371d1ee05cbde1f23216ef42834e2c3250730285ac792bd3219",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes18_2025_city_events.csv",
+      "expected_sha256": "4a7498b518e1e12f531465744ba064916d52a76d70906d65e999decbae3bf1d7",
+      "actual_sha256": "4a7498b518e1e12f531465744ba064916d52a76d70906d65e999decbae3bf1d7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes18_2025_intervals.csv",
+      "expected_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "actual_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "ebfb40a7c9310c606484b38262d95a296115b158a213f31cd9ede6f53824ad4b",
+      "actual_sha256": "ebfb40a7c9310c606484b38262d95a296115b158a213f31cd9ede6f53824ad4b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes_city_units.geojson",
+      "expected_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "actual_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes_lstc_key_inventory.csv",
+      "expected_sha256": "7728e894240917fd31cba1f9dbe0a1230757868ed461c30f01344bfbb1b636fa",
+      "actual_sha256": "7728e894240917fd31cba1f9dbe0a1230757868ed461c30f01344bfbb1b636fa",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes_sunset_city_events.csv",
+      "expected_sha256": "4a7498b518e1e12f531465744ba064916d52a76d70906d65e999decbae3bf1d7",
+      "actual_sha256": "4a7498b518e1e12f531465744ba064916d52a76d70906d65e999decbae3bf1d7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes_sunset_hourly.parquet",
+      "expected_sha256": "af0de0a88a16b21bffcc1f87b250db7d6ff11b655c0c61cd7c6a29376f3ea753",
+      "actual_sha256": "af0de0a88a16b21bffcc1f87b250db7d6ff11b655c0c61cd7c6a29376f3ea753",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2025_western_replication/goes_sunset_requests.parquet",
+      "expected_sha256": "effbb0261a7a0cb690137d7ee02d95c69bf3317e750a77875ac16c56b1fe3575",
+      "actual_sha256": "effbb0261a7a0cb690137d7ee02d95c69bf3317e750a77875ac16c56b1fe3575",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/FROZEN_SELECTION.json",
+      "expected_sha256": "722d2b3785f1c6c66b04d7cdd0932edb8aa60ecf2eef0ecc9c70f9f94c2f70d1",
+      "actual_sha256": "722d2b3785f1c6c66b04d7cdd0932edb8aa60ecf2eef0ecc9c70f9f94c2f70d1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "f4fd09f121c86002bdf56a33722631117bc488f8102fbf92392220a8fa06858b",
+      "actual_sha256": "f4fd09f121c86002bdf56a33722631117bc488f8102fbf92392220a8fa06858b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/goes_city_units.geojson",
+      "expected_sha256": "04b88cb319c8176ac7c25d6cacbfc5b50666fdd74bc595011876d3999bde9252",
+      "actual_sha256": "04b88cb319c8176ac7c25d6cacbfc5b50666fdd74bc595011876d3999bde9252",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/goes_lstc_key_inventory.csv",
+      "expected_sha256": "35110539c6eda3ab8ce5f816e0ea3f28ee5ee02b8571aa21f1058b566ec509d7",
+      "actual_sha256": "35110539c6eda3ab8ce5f816e0ea3f28ee5ee02b8571aa21f1058b566ec509d7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/goes_sunset_cities.csv",
+      "expected_sha256": "677625775e326333371f28fa0458129b89fb2291b4f3e90906086962268267f2",
+      "actual_sha256": "677625775e326333371f28fa0458129b89fb2291b4f3e90906086962268267f2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/goes_sunset_hourly.parquet",
+      "expected_sha256": "5b2dc709d1d82d3f19de55ef54d17ad810bf83d265a6940d8a15f75ddaec656b",
+      "actual_sha256": "5b2dc709d1d82d3f19de55ef54d17ad810bf83d265a6940d8a15f75ddaec656b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/goes_sunset_intervals.csv",
+      "expected_sha256": "b7529b742bb874e8ffdcb18716482e8f06b1a57d705e5dc21569c8cbaf78c3f5",
+      "actual_sha256": "b7529b742bb874e8ffdcb18716482e8f06b1a57d705e5dc21569c8cbaf78c3f5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes18_2026_metric_holdout/goes_sunset_requests.parquet",
+      "expected_sha256": "417d5720d6e050cdc0dc167c54309e05658577aae94c742e2ae4fddf10014581",
+      "actual_sha256": "417d5720d6e050cdc0dc167c54309e05658577aae94c742e2ae4fddf10014581",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/FROZEN_SELECTION.json",
+      "expected_sha256": "07b2cdfbf87f6e263da00277a01242f3d553cabe78d251b2876be2dab42f22e7",
+      "actual_sha256": "07b2cdfbf87f6e263da00277a01242f3d553cabe78d251b2876be2dab42f22e7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes19_2025_cities.csv",
+      "expected_sha256": "909d6585394ebe35d9a3a94bfd885d3e4895cfbd5bd5f5cee89852598c7eccd9",
+      "actual_sha256": "909d6585394ebe35d9a3a94bfd885d3e4895cfbd5bd5f5cee89852598c7eccd9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes19_2025_city_events.csv",
+      "expected_sha256": "84be45ea2523207feb4bc9493a1102ced965a5520822e04ffd29fa8bbbdb00bd",
+      "actual_sha256": "84be45ea2523207feb4bc9493a1102ced965a5520822e04ffd29fa8bbbdb00bd",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes19_2025_hourly.parquet",
+      "expected_sha256": "ec1b681288c90edbc320877df4ce5cca4cb1e61d3aff8e44bd29ff3e735e2928",
+      "actual_sha256": "ec1b681288c90edbc320877df4ce5cca4cb1e61d3aff8e44bd29ff3e735e2928",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes19_2025_hourly_smoke.parquet",
+      "expected_sha256": "a0381a8a3cb28f74e390fbb8cdb5596497db3e79e183f1c925c30d22a553b7c0",
+      "actual_sha256": "a0381a8a3cb28f74e390fbb8cdb5596497db3e79e183f1c925c30d22a553b7c0",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes19_2025_intervals.csv",
+      "expected_sha256": "98345a66bda10728ed01302ebe498e104b1126abdc1060cd7e34e14dd67fa16a",
+      "actual_sha256": "98345a66bda10728ed01302ebe498e104b1126abdc1060cd7e34e14dd67fa16a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "afb332da1b24320c07c595f4aa1534b3f61de420f82b747ccc3d3b48947c3811",
+      "actual_sha256": "afb332da1b24320c07c595f4aa1534b3f61de420f82b747ccc3d3b48947c3811",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes_city_units.geojson",
+      "expected_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "actual_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes_lstc_key_inventory.csv",
+      "expected_sha256": "b891dbe75772759ba1978c0f03ffa25e24161759f9c30f872f0a9fb14daa539f",
+      "actual_sha256": "b891dbe75772759ba1978c0f03ffa25e24161759f9c30f872f0a9fb14daa539f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes_sunset_city_events.csv",
+      "expected_sha256": "84be45ea2523207feb4bc9493a1102ced965a5520822e04ffd29fa8bbbdb00bd",
+      "actual_sha256": "84be45ea2523207feb4bc9493a1102ced965a5520822e04ffd29fa8bbbdb00bd",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes_sunset_hourly.parquet",
+      "expected_sha256": "ec1b681288c90edbc320877df4ce5cca4cb1e61d3aff8e44bd29ff3e735e2928",
+      "actual_sha256": "ec1b681288c90edbc320877df4ce5cca4cb1e61d3aff8e44bd29ff3e735e2928",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_holdout/goes_sunset_requests.parquet",
+      "expected_sha256": "531d8a879ad886d2f7396b7529a9da9e0066bb9b6a0005b33ace864434025221",
+      "actual_sha256": "531d8a879ad886d2f7396b7529a9da9e0066bb9b6a0005b33ace864434025221",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/FROZEN_SELECTION.json",
+      "expected_sha256": "d1638d6450f64f63c88cb8bdca92190e9e307d3172d8a910e2aba409c812ace7",
+      "actual_sha256": "d1638d6450f64f63c88cb8bdca92190e9e307d3172d8a910e2aba409c812ace7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes19_2025_cities.csv",
+      "expected_sha256": "89a92e552b55df398d6cb4ceb2abfd4ec1544db1257a5be8f1e323beb6d014ab",
+      "actual_sha256": "89a92e552b55df398d6cb4ceb2abfd4ec1544db1257a5be8f1e323beb6d014ab",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes19_2025_city_events.csv",
+      "expected_sha256": "42b05bea17214e116f0530b73b77d63f1a8198a9272e45a05c3c80a594fc4a84",
+      "actual_sha256": "42b05bea17214e116f0530b73b77d63f1a8198a9272e45a05c3c80a594fc4a84",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes19_2025_intervals.csv",
+      "expected_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "actual_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "f70891ce050c1f94686f4f213448eb06baa86cc1df798d5fc83cba3e58e38d3b",
+      "actual_sha256": "f70891ce050c1f94686f4f213448eb06baa86cc1df798d5fc83cba3e58e38d3b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_city_units.geojson",
+      "expected_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "actual_sha256": "ff34605eb2474325fb2ab37df1de6957d278c79c7d597e28adc6fa8550702c00",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_lstc_key_inventory.csv",
+      "expected_sha256": "9cf4b551cbe5594568ad8bcd15e39658761c8d26412526cd0db7b2ccf95535c6",
+      "actual_sha256": "9cf4b551cbe5594568ad8bcd15e39658761c8d26412526cd0db7b2ccf95535c6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_sunset_cities.csv",
+      "expected_sha256": "89a92e552b55df398d6cb4ceb2abfd4ec1544db1257a5be8f1e323beb6d014ab",
+      "actual_sha256": "89a92e552b55df398d6cb4ceb2abfd4ec1544db1257a5be8f1e323beb6d014ab",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_sunset_city_events.csv",
+      "expected_sha256": "42b05bea17214e116f0530b73b77d63f1a8198a9272e45a05c3c80a594fc4a84",
+      "actual_sha256": "42b05bea17214e116f0530b73b77d63f1a8198a9272e45a05c3c80a594fc4a84",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_sunset_hourly.parquet",
+      "expected_sha256": "5a215cf06fe77934c282894723f0d1a6b0a5d562fb7c487ee349c709f1665e56",
+      "actual_sha256": "5a215cf06fe77934c282894723f0d1a6b0a5d562fb7c487ee349c709f1665e56",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_sunset_intervals.csv",
+      "expected_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "actual_sha256": "2189cc6699409960cf627faa1456430a5659608412924f8f4e3e4a91e5296a57",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2025_low_green/goes_sunset_requests.parquet",
+      "expected_sha256": "2f31c4fe9e76971c7c647a21a109002d8cb147c3649e7a05d8578b0488e40475",
+      "actual_sha256": "2f31c4fe9e76971c7c647a21a109002d8cb147c3649e7a05d8578b0488e40475",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/FROZEN_SELECTION.json",
+      "expected_sha256": "d62e0a0f3c803b4c1e0ebbd23f540279d22d4e3b3ec69f784e96a8b83fab3878",
+      "actual_sha256": "d62e0a0f3c803b4c1e0ebbd23f540279d22d4e3b3ec69f784e96a8b83fab3878",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "b1bdc570f852e08d19cd1876d57ff9323ee6e3fa6980030734ca7d1f9c03fde2",
+      "actual_sha256": "b1bdc570f852e08d19cd1876d57ff9323ee6e3fa6980030734ca7d1f9c03fde2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/goes_city_units.geojson",
+      "expected_sha256": "04b88cb319c8176ac7c25d6cacbfc5b50666fdd74bc595011876d3999bde9252",
+      "actual_sha256": "04b88cb319c8176ac7c25d6cacbfc5b50666fdd74bc595011876d3999bde9252",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/goes_lstc_key_inventory.csv",
+      "expected_sha256": "3c90c8dbcb23a195aad2d23c6531cc0f90a9e2f287defd50f5a0161aa77c9514",
+      "actual_sha256": "3c90c8dbcb23a195aad2d23c6531cc0f90a9e2f287defd50f5a0161aa77c9514",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/goes_sunset_cities.csv",
+      "expected_sha256": "677625775e326333371f28fa0458129b89fb2291b4f3e90906086962268267f2",
+      "actual_sha256": "677625775e326333371f28fa0458129b89fb2291b4f3e90906086962268267f2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/goes_sunset_hourly.parquet",
+      "expected_sha256": "de694c6b9eca730c15254457c97d241be307272fdb67a84f88049ab215dfa16a",
+      "actual_sha256": "de694c6b9eca730c15254457c97d241be307272fdb67a84f88049ab215dfa16a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/goes_sunset_intervals.csv",
+      "expected_sha256": "b7529b742bb874e8ffdcb18716482e8f06b1a57d705e5dc21569c8cbaf78c3f5",
+      "actual_sha256": "b7529b742bb874e8ffdcb18716482e8f06b1a57d705e5dc21569c8cbaf78c3f5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes19_2026_metric_holdout/goes_sunset_requests.parquet",
+      "expected_sha256": "b05db1f825dc7f8f116178a96acae0aad7de684ce4cbca24ba899e78ea163f11",
+      "actual_sha256": "b05db1f825dc7f8f116178a96acae0aad7de684ce4cbca24ba899e78ea163f11",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_lst_pilot/g16_sample.nc",
+      "expected_sha256": "57dddb26cc9246ed0a3bb6f355b1fbd02c86b8e6a4ae25b1b78b4e36c4c11c64",
+      "actual_sha256": "57dddb26cc9246ed0a3bb6f355b1fbd02c86b8e6a4ae25b1b78b4e36c4c11c64",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "afb332da1b24320c07c595f4aa1534b3f61de420f82b747ccc3d3b48947c3811",
+      "actual_sha256": "afb332da1b24320c07c595f4aa1534b3f61de420f82b747ccc3d3b48947c3811",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_city_units.geojson",
+      "expected_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "actual_sha256": "9701716fa4aca2066d463f6067c6ba35a215aad6914830fa21af47cf96f34a05",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_lstc_key_inventory.csv",
+      "expected_sha256": "973bbf868e95a88668abbe79eda1d8e5d7f2c5319501395e3c78872be7f4613e",
+      "actual_sha256": "973bbf868e95a88668abbe79eda1d8e5d7f2c5319501395e3c78872be7f4613e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_sunset_city_events.csv",
+      "expected_sha256": "8837daa0cc5e5f728aa355ca0f831d11ca2966c14c4f39ffc5e16c47d1d0385f",
+      "actual_sha256": "8837daa0cc5e5f728aa355ca0f831d11ca2966c14c4f39ffc5e16c47d1d0385f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_sunset_hourly.parquet",
+      "expected_sha256": "461a2642263e78a925dfb3b9bd22150169c42a59ebe94f289598d047dd6cb4a2",
+      "actual_sha256": "461a2642263e78a925dfb3b9bd22150169c42a59ebe94f289598d047dd6cb4a2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_sunset_pilot_cities.csv",
+      "expected_sha256": "d6f79586e60324fa60cfdf1c7868b36682396d87d873033a297f947c9bf24b8b",
+      "actual_sha256": "d6f79586e60324fa60cfdf1c7868b36682396d87d873033a297f947c9bf24b8b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_sunset_pilot_intervals.csv",
+      "expected_sha256": "a52f0fd501b432b37994c95f41569f352905d90a4949ee4ad5a5a6c2e7fb0001",
+      "actual_sha256": "a52f0fd501b432b37994c95f41569f352905d90a4949ee4ad5a5a6c2e7fb0001",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_confirmation/goes_sunset_requests.parquet",
+      "expected_sha256": "f17bf5d72998fd380dd372a9b53a592efbe71c75bda7b030b715c58864d7ef48",
+      "actual_sha256": "f17bf5d72998fd380dd372a9b53a592efbe71c75bda7b030b715c58864d7ef48",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_city_grid_mask_summary.csv",
+      "expected_sha256": "5eaad8b5ec9e0e1e057c4145ac196e68bbac9362f81d59151f0f2375ec5b9eb4",
+      "actual_sha256": "5eaad8b5ec9e0e1e057c4145ac196e68bbac9362f81d59151f0f2375ec5b9eb4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_city_units.geojson",
+      "expected_sha256": "740f2e23d973d91aab6bed20aa0e4f1ef201c58d7ba8b1fa97f8cdd75e93da04",
+      "actual_sha256": "740f2e23d973d91aab6bed20aa0e4f1ef201c58d7ba8b1fa97f8cdd75e93da04",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_lstc_key_inventory.csv",
+      "expected_sha256": "85ca7a8d2495cfa03f3bea8eaf79c38770ad41ca19c6c0564ddbc6c8036f0dbd",
+      "actual_sha256": "85ca7a8d2495cfa03f3bea8eaf79c38770ad41ca19c6c0564ddbc6c8036f0dbd",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_sunset_city_events.csv",
+      "expected_sha256": "d831450f4f46eeefc1a0564de1fd6bcf37abcfb5e84abc0dc4eb80ea7a8eafbe",
+      "actual_sha256": "d831450f4f46eeefc1a0564de1fd6bcf37abcfb5e84abc0dc4eb80ea7a8eafbe",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_sunset_hourly.parquet",
+      "expected_sha256": "670576c23b681db0c2f47390ef6678c95841dcc88c8e4c11e323e7d746209005",
+      "actual_sha256": "670576c23b681db0c2f47390ef6678c95841dcc88c8e4c11e323e7d746209005",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_sunset_hourly_invalid_signed_unpacking.parquet",
+      "expected_sha256": "98bf1709d81ffa2575018ef2fd0dc06a24c998254160a88f5ed50319aca195f9",
+      "actual_sha256": "98bf1709d81ffa2575018ef2fd0dc06a24c998254160a88f5ed50319aca195f9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_sunset_hourly_smoke_only.parquet",
+      "expected_sha256": "b8b097dc6f2ba780640f7f60556dff366ff18a8ae53ae194e32ba1201c7b17a7",
+      "actual_sha256": "b8b097dc6f2ba780640f7f60556dff366ff18a8ae53ae194e32ba1201c7b17a7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_sunset_pilot_cities.csv",
+      "expected_sha256": "b60de8a6b8ff441a2ba21f13252f55333d4f942228548cae68884edd7acc4753",
+      "actual_sha256": "b60de8a6b8ff441a2ba21f13252f55333d4f942228548cae68884edd7acc4753",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_sunset_pilot_intervals.csv",
+      "expected_sha256": "a52f0fd501b432b37994c95f41569f352905d90a4949ee4ad5a5a6c2e7fb0001",
+      "actual_sha256": "a52f0fd501b432b37994c95f41569f352905d90a4949ee4ad5a5a6c2e7fb0001",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/data/goes_sunset_pilot/goes_sunset_requests.parquet",
+      "expected_sha256": "e63933c03ac77f927339bf21948f164333554c616de8e7f281edd5d74103f9f9",
+      "actual_sha256": "e63933c03ac77f927339bf21948f164333554c616de8e7f281edd5d74103f9f9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/FINAL_GSIS_METHOD_DEEPENING_REPORT.md",
+      "expected_sha256": "735baa584cb7e1f3510d29d51b7980c098b6d7d1726a552bfe561e4600b46269",
+      "actual_sha256": "735baa584cb7e1f3510d29d51b7980c098b6d7d1726a552bfe561e4600b46269",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/cross_sample_rmse_with_external.csv",
+      "expected_sha256": "9b0c4bc01792050ce5123a39139e1f0df0a93b591b6a6c0a2f96af803a2181e1",
+      "actual_sha256": "9b0c4bc01792050ce5123a39139e1f0df0a93b591b6a6c0a2f96af803a2181e1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_figure_budget_source.csv",
+      "expected_sha256": "368556f1923ae22dfdd5e2c94574257968aaf271b0860c7522b98e94a0ed92a9",
+      "actual_sha256": "368556f1923ae22dfdd5e2c94574257968aaf271b0860c7522b98e94a0ed92a9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_figure_rmse_source.csv",
+      "expected_sha256": "3de82ac0bd5fb2ad7e5f0d7901d2e5956980f6f86d154a30e93eec85878ce8af",
+      "actual_sha256": "3de82ac0bd5fb2ad7e5f0d7901d2e5956980f6f86d154a30e93eec85878ce8af",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_report.json",
+      "expected_sha256": "b09ce16533ac62d6f37a78c0744ea1b5feaf966c860458076b209c5a442e968b",
+      "actual_sha256": "b09ce16533ac62d6f37a78c0744ea1b5feaf966c860458076b209c5a442e968b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_synthesis.json",
+      "expected_sha256": "7fa8f7cc2443336ae1293a5f4b00f3e69e4a0864e42298e42856ae4523ef2eaf",
+      "actual_sha256": "7fa8f7cc2443336ae1293a5f4b00f3e69e4a0864e42298e42856ae4523ef2eaf",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_synthesis.pdf",
+      "expected_sha256": "0dd2db23f05a85c04252d5bdeaa0ca27384232c0769562b65c144b20eccae69e",
+      "actual_sha256": "0dd2db23f05a85c04252d5bdeaa0ca27384232c0769562b65c144b20eccae69e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_synthesis.png",
+      "expected_sha256": "90eb2d6db3c0fa325d2537e4032200d44ba57766390efb4202dcf8e2b32d9967",
+      "actual_sha256": "90eb2d6db3c0fa325d2537e4032200d44ba57766390efb4202dcf8e2b32d9967",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_synthesis.svg",
+      "expected_sha256": "9b9f943189dd669d073ce4db6797e8d9365502cf03204fd29041933e60b3fa6f",
+      "actual_sha256": "9b9f943189dd669d073ce4db6797e8d9365502cf03204fd29041933e60b3fa6f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_synthesis_caption.md",
+      "expected_sha256": "16287ea687717614356954f84d6021fffb22b73e7707d576836b6ca61f3236c9",
+      "actual_sha256": "16287ea687717614356954f84d6021fffb22b73e7707d576836b6ca61f3236c9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/downstream_metric_framework_validation.json",
+      "expected_sha256": "644bbb0c8983e1fef26d35f0c3126f649880bb1da20cb58a441fb23908fd3417",
+      "actual_sha256": "644bbb0c8983e1fef26d35f0c3126f649880bb1da20cb58a441fb23908fd3417",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/exact_mse_budgets_all_samples.csv",
+      "expected_sha256": "6df55b4db94682a07981fa1398aae7a931a39c88d572f44b2f897db125bb6e56",
+      "actual_sha256": "6df55b4db94682a07981fa1398aae7a931a39c88d572f44b2f897db125bb6e56",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/exact_mse_budgets_with_external.csv",
+      "expected_sha256": "24fdb9ba2e8875e54f5acaf848dc95dd28354a2497d758896b01fe7d3b0cdf4f",
+      "actual_sha256": "24fdb9ba2e8875e54f5acaf848dc95dd28354a2497d758896b01fe7d3b0cdf4f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/metric_aware_decision_audit.csv",
+      "expected_sha256": "eedf7b06a414b862c7f2f30d6b59679b729eee307db8a612b62314e6b999c48e",
+      "actual_sha256": "eedf7b06a414b862c7f2f30d6b59679b729eee307db8a612b62314e6b999c48e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/mse_budget_2026_bootstrap_summary.csv",
+      "expected_sha256": "b0eeeaa25dd23343e3c1bc713aed972eae34bd92bc8f6a14bb25611ef4e32e7c",
+      "actual_sha256": "b0eeeaa25dd23343e3c1bc713aed972eae34bd92bc8f6a14bb25611ef4e32e7c",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/downstream_metric_framework/mse_budget_2026_crossed_bootstrap.parquet",
+      "expected_sha256": "c708282d516886a72096cc048305c2023592cbc4dad8e6d8a5bd3cdfb005f347",
+      "actual_sha256": "c708282d516886a72096cc048305c2023592cbc4dad8e6d8a5bd3cdfb005f347",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/event_attrition.csv",
+      "expected_sha256": "ea5c8c50a9fe5f8204cacdd92d15deb0e33e6e756f2b0535d93c22f9d52a6af5",
+      "actual_sha256": "ea5c8c50a9fe5f8204cacdd92d15deb0e33e6e756f2b0535d93c22f9d52a6af5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/external_replication_report.json",
+      "expected_sha256": "895fbc1598cc7e3a41c82dfa1422c22cc01ff341fd44610381588e9e918c6f51",
+      "actual_sha256": "895fbc1598cc7e3a41c82dfa1422c22cc01ff341fd44610381588e9e918c6f51",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/frozen_hour_offsets_2019_2020.csv",
+      "expected_sha256": "73a41a9b9174bc7f57d7f536e2348fdba655408b9ceff44b49644a536495e3f1",
+      "actual_sha256": "73a41a9b9174bc7f57d7f536e2348fdba655408b9ceff44b49644a536495e3f1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/validation_2021_bootstrap_summary.csv",
+      "expected_sha256": "ac7d2a2e89f1e528e5a9ca761eec4ae554ce6357d12660bf8a16dafe97c57a36",
+      "actual_sha256": "ac7d2a2e89f1e528e5a9ca761eec4ae554ce6357d12660bf8a16dafe97c57a36",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/validation_2021_crossed_bootstrap.parquet",
+      "expected_sha256": "334b6563d83c8f114e227cde81093f7182903d0b39f3d27a9b6b65d1e7b6a701",
+      "actual_sha256": "334b6563d83c8f114e227cde81093f7182903d0b39f3d27a9b6b65d1e7b6a701",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/validation_2021_event_influence.csv",
+      "expected_sha256": "be7ba368f7e8f763180f8fd69ad0ef8d74f92f205f251353a222c384405aa1e1",
+      "actual_sha256": "be7ba368f7e8f763180f8fd69ad0ef8d74f92f205f251353a222c384405aa1e1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/validation_2021_exact_mse_budget.csv",
+      "expected_sha256": "f880abb8dd16a0a686b11ac16bff29043b0fec19e8d2b384b3fa88816bfdb87b",
+      "actual_sha256": "f880abb8dd16a0a686b11ac16bff29043b0fec19e8d2b384b3fa88816bfdb87b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/validation_2021_hourly_predictions.parquet",
+      "expected_sha256": "19d4dd91044a95ba2165f0e92e2fee8e2c6ab14a2fd2df84ed0d4d8d05e31802",
+      "actual_sha256": "19d4dd91044a95ba2165f0e92e2fee8e2c6ab14a2fd2df84ed0d4d8d05e31802",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes17_goes16_external_metric/validation_2021_transition_predictions.parquet",
+      "expected_sha256": "fad4127e9a30cb8533015e5c14211e5fa38594aa7b78e4b8d17cfcb0a6519a79",
+      "actual_sha256": "fad4127e9a30cb8533015e5c14211e5fa38594aa7b78e4b8d17cfcb0a6519a79",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/frozen_metric_aware_manifest.json",
+      "expected_sha256": "b13aa8b6197653289c945383da5568fb3b4e23f0ad016b4f928678d0b2b0d5e9",
+      "actual_sha256": "b13aa8b6197653289c945383da5568fb3b4e23f0ad016b4f928678d0b2b0d5e9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/frozen_metric_aware_model.joblib",
+      "expected_sha256": "a3f4bf8f4d3e94099b5166746f2a383dfe04a9b3eec5ac9042cf386dab545e05",
+      "actual_sha256": "a3f4bf8f4d3e94099b5166746f2a383dfe04a9b3eec5ac9042cf386dab545e05",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/hourly_cross_validated_predictions.parquet",
+      "expected_sha256": "7e38e6b1227d78a1fe3696ea300ef0a608a9efd187b99c0b36e7b94575bc6e33",
+      "actual_sha256": "7e38e6b1227d78a1fe3696ea300ef0a608a9efd187b99c0b36e7b94575bc6e33",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/hourly_cross_validation_scores.csv",
+      "expected_sha256": "568d9e725538b34d257b360246a593c478495f240203e16729c3d2c51b481f5b",
+      "actual_sha256": "568d9e725538b34d257b360246a593c478495f240203e16729c3d2c51b481f5b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/model_selection.csv",
+      "expected_sha256": "ca98946d6f9ff7986b87831cd93c362a8c679dec3aca3983c542b0aa20ed158b",
+      "actual_sha256": "ca98946d6f9ff7986b87831cd93c362a8c679dec3aca3983c542b0aa20ed158b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/transition_cross_validated_predictions.parquet",
+      "expected_sha256": "c72c3bee275b0b929b4622a42bfa43982e4597f1f60da42502d95dc9eba5e5ce",
+      "actual_sha256": "c72c3bee275b0b929b4622a42bfa43982e4597f1f60da42502d95dc9eba5e5ce",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/transition_cross_validation_scores.csv",
+      "expected_sha256": "7fdbb354ee188270700f2c2583b025f9d8852b9a903ef0c2d0897f40efd3558e",
+      "actual_sha256": "7fdbb354ee188270700f2c2583b025f9d8852b9a903ef0c2d0897f40efd3558e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/validation_2026_error_decomposition.csv",
+      "expected_sha256": "254bf8c4ced6dd444743a46d2cc5ea35bf9a16f48f7c95133085518e741cd9dd",
+      "actual_sha256": "254bf8c4ced6dd444743a46d2cc5ea35bf9a16f48f7c95133085518e741cd9dd",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/validation_2026_hourly_predictions.parquet",
+      "expected_sha256": "66547d58343045f8076029e162e2db6c3bd19d1222f4b877ef3d6198ba140fac",
+      "actual_sha256": "66547d58343045f8076029e162e2db6c3bd19d1222f4b877ef3d6198ba140fac",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/validation_2026_metrics.csv",
+      "expected_sha256": "39d251bbbba351e8cb306f3480e02da8640f02189468fac54b4d01f8450809ec",
+      "actual_sha256": "39d251bbbba351e8cb306f3480e02da8640f02189468fac54b4d01f8450809ec",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/validation_2026_report.json",
+      "expected_sha256": "3d42c05dd8774b4b5cba1c92506d4f0df1a0c410af3792a9b10fb2a27933f41d",
+      "actual_sha256": "3d42c05dd8774b4b5cba1c92506d4f0df1a0c410af3792a9b10fb2a27933f41d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/validation_2026_transition_predictions.parquet",
+      "expected_sha256": "2c79d6b79732a84026277bbee2d05ce9fea906893ea28184ebb036ec9639ee9d",
+      "actual_sha256": "2c79d6b79732a84026277bbee2d05ce9fea906893ea28184ebb036ec9639ee9d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/goes18_goes19_metric_harmonization/validation_2026_uncertainty.csv",
+      "expected_sha256": "99b1e5ec2e105170f84bf2963742b34b70cd829e23d538fd9c7b11bcc5baa9d2",
+      "actual_sha256": "99b1e5ec2e105170f84bf2963742b34b70cd829e23d538fd9c7b11bcc5baa9d2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/RESEARCH_DEEPENING_FINDINGS_AND_VENUE_DECISION.md",
+      "expected_sha256": "77fe24d3c540f249d069b4e62fb79a9b966f3068d3c0bab43fda25342834b382",
+      "actual_sha256": "77fe24d3c540f249d069b4e62fb79a9b966f3068d3c0bab43fda25342834b382",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/cross_sample_error_decomposition.csv",
+      "expected_sha256": "85d56f58fe2a234feab23be38413b1bf13ab89d957572f8f422bf0ecec3b0402",
+      "actual_sha256": "85d56f58fe2a234feab23be38413b1bf13ab89d957572f8f422bf0ecec3b0402",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/cross_sample_rmse_summary.csv",
+      "expected_sha256": "b8d5a8988dbdc7629e55b0ac094d56fef4f03151db82e51806e1ab950b501792",
+      "actual_sha256": "b8d5a8988dbdc7629e55b0ac094d56fef4f03151db82e51806e1ab950b501792",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/error_cascade_report.json",
+      "expected_sha256": "7be9e9755ae639d5d1ca9474e9ff23c18c6069e8b01dd69ed9669ed98f7eee8a",
+      "actual_sha256": "7be9e9755ae639d5d1ca9474e9ff23c18c6069e8b01dd69ed9669ed98f7eee8a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/error_decomposition_bootstrap_summary.csv",
+      "expected_sha256": "fa07d500450a3e219512da24da8a81f3c61ed9e8c546dbdc79bdaf48d0f4e504",
+      "actual_sha256": "fa07d500450a3e219512da24da8a81f3c61ed9e8c546dbdc79bdaf48d0f4e504",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/error_decomposition_crossed_bootstrap.parquet",
+      "expected_sha256": "3827ccb6bdb14c2b3d8c233a9bf67e0c828f783db2675ef3371606aeae047da5",
+      "actual_sha256": "3827ccb6bdb14c2b3d8c233a9bf67e0c828f783db2675ef3371606aeae047da5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/error_decomposition_overall.csv",
+      "expected_sha256": "234a851d0bccfb0bd93e27bf4d24ccc594f158fa14f82a1cd1076cd5ad87b7c7",
+      "actual_sha256": "234a851d0bccfb0bd93e27bf4d24ccc594f158fa14f82a1cd1076cd5ad87b7c7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/error_decomposition_stratified.csv",
+      "expected_sha256": "82c8c902f7b32952d48bb241db1db9e84845c977a63177919b9e7a96c78693d8",
+      "actual_sha256": "82c8c902f7b32952d48bb241db1db9e84845c977a63177919b9e7a96c78693d8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/metric_harmonization_synthesis.pdf",
+      "expected_sha256": "7facd7eef49f091b9f2e45d2f4967130d22f504eabd4862c6c4c18e34b38b7af",
+      "actual_sha256": "7facd7eef49f091b9f2e45d2f4967130d22f504eabd4862c6c4c18e34b38b7af",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/metric_harmonization_synthesis.png",
+      "expected_sha256": "0ce2a866fd1deda61341967e974ddfe3db9f0cd0b68b0648df2cdd2f009e404f",
+      "actual_sha256": "0ce2a866fd1deda61341967e974ddfe3db9f0cd0b68b0648df2cdd2f009e404f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/metric_harmonization_synthesis.svg",
+      "expected_sha256": "f9ee1be7b2ab8059b1c7584d7e83781cbe11058a879167b31c5c87126a4890b4",
+      "actual_sha256": "f9ee1be7b2ab8059b1c7584d7e83781cbe11058a879167b31c5c87126a4890b4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/metric_harmonization_synthesis_caption.md",
+      "expected_sha256": "8f375f0d2cec8513cd718b2120cfd5cdb1ec28316636a070ecbde87e92e5ee29",
+      "actual_sha256": "8f375f0d2cec8513cd718b2120cfd5cdb1ec28316636a070ecbde87e92e5ee29",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/metric_harmonization_validation.json",
+      "expected_sha256": "fca5e4823fc166a32927aa68e75331a2db6de5d64cbb6a285ccb572b4d081e27",
+      "actual_sha256": "fca5e4823fc166a32927aa68e75331a2db6de5d64cbb6a285ccb572b4d081e27",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/harmonization_error_cascade/uncertainty_exact_intervals.csv",
+      "expected_sha256": "393b118cd14e43f4e8527c42318c209cc6d036b24436192b8de4edbb6f5a6d2a",
+      "actual_sha256": "393b118cd14e43f4e8527c42318c209cc6d036b24436192b8de4edbb6f5a6d2a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/metric_aware_harmonization_screen/hourly_cross_validated_predictions.parquet",
+      "expected_sha256": "f6bceb5a6be3216f9e965b1f94dc9809f0a0a2f2abda7208346b26ca0a4cbfed",
+      "actual_sha256": "f6bceb5a6be3216f9e965b1f94dc9809f0a0a2f2abda7208346b26ca0a4cbfed",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/metric_aware_harmonization_screen/hourly_cross_validation_scores.csv",
+      "expected_sha256": "07f3998a7b886ca99af8824b35e94bf8aeaba36af5aa712f08bcfab9a6d8906d",
+      "actual_sha256": "07f3998a7b886ca99af8824b35e94bf8aeaba36af5aa712f08bcfab9a6d8906d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/metric_aware_harmonization_screen/hourly_model_selection.csv",
+      "expected_sha256": "0a2dd8d8bee19b4156f9d4dfebccc94b48731bae6b067938bab4392367996a15",
+      "actual_sha256": "0a2dd8d8bee19b4156f9d4dfebccc94b48731bae6b067938bab4392367996a15",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/metric_aware_harmonization_screen/transition_cross_validated_predictions.parquet",
+      "expected_sha256": "9c3babb28a4d299f4ec4511a87d1bad288615d5c3e575111ca488bc4ddc9dd80",
+      "actual_sha256": "9c3babb28a4d299f4ec4511a87d1bad288615d5c3e575111ca488bc4ddc9dd80",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/metric_aware_harmonization_screen/transition_cross_validation_scores.csv",
+      "expected_sha256": "8f9ebf3420c8b81d694678bc8d9f7d63c4dc9909cf426cd0d811651bc3539986",
+      "actual_sha256": "8f9ebf3420c8b81d694678bc8d9f7d63c4dc9909cf426cd0d811651bc3539986",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/metric_aware_harmonization_screen/transition_model_selection.csv",
+      "expected_sha256": "a0c16d59a82be49a9ab8ea0b57d9248ce47e2d76956987fd20816a9c6cce17d4",
+      "actual_sha256": "a0c16d59a82be49a9ab8ea0b57d9248ce47e2d76956987fd20816a9c6cce17d4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/combined_2025_cohort_comparison.csv",
+      "expected_sha256": "89938d58f33ff0e12e7bb14685c5c62ae1fbf458bc386a72dfacecb018e263a9",
+      "actual_sha256": "89938d58f33ff0e12e7bb14685c5c62ae1fbf458bc386a72dfacecb018e263a9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/combined_2025_common_domain_predictions.parquet",
+      "expected_sha256": "e83a7a47298458ea4cd596bb73a37fa86a910773757d2ad3c7117599c91a839a",
+      "actual_sha256": "e83a7a47298458ea4cd596bb73a37fa86a910773757d2ad3c7117599c91a839a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/combined_2025_metrics.csv",
+      "expected_sha256": "7140d803d3ab1b33ccfe4180f6762f7e9f2c504840ec1a914c310322d3a0e107",
+      "actual_sha256": "7140d803d3ab1b33ccfe4180f6762f7e9f2c504840ec1a914c310322d3a0e107",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/combined_2025_report.json",
+      "expected_sha256": "45e13db22c50a14fefe7a996d2480351305cba8fe764b3cb529ba22dc8d45d8d",
+      "actual_sha256": "45e13db22c50a14fefe7a996d2480351305cba8fe764b3cb529ba22dc8d45d8d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/historical_expanded_bootstrap.parquet",
+      "expected_sha256": "4329a2fadb081caa52c92194d962eec99b9d9baa9cee7b3d5a2a8ed155922a14",
+      "actual_sha256": "4329a2fadb081caa52c92194d962eec99b9d9baa9cee7b3d5a2a8ed155922a14",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/historical_expanded_bootstrap_summary.csv",
+      "expected_sha256": "4c1d5657420a02e908c8c5575bb492705496d1dbe042a234d3cfbb88b41d4329",
+      "actual_sha256": "4c1d5657420a02e908c8c5575bb492705496d1dbe042a234d3cfbb88b41d4329",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/historical_expanded_leave_one_event_out.csv",
+      "expected_sha256": "bb197f07ccbe67f65a79cbe9c06813db3973cad8e53820009f2b328b618bf931",
+      "actual_sha256": "bb197f07ccbe67f65a79cbe9c06813db3973cad8e53820009f2b328b618bf931",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/historical_expanded_metrics.csv",
+      "expected_sha256": "a141b3eb16df11addd0c5a8c71e7848baa6c029e48b51861e9a5bc3060e135b9",
+      "actual_sha256": "a141b3eb16df11addd0c5a8c71e7848baa6c029e48b51861e9a5bc3060e135b9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/historical_expanded_predictions.parquet",
+      "expected_sha256": "0a4d78cf1edadb98420d33d5aa18c9f36ff378cc8c59e02e0206e86cd79f9747",
+      "actual_sha256": "0a4d78cf1edadb98420d33d5aa18c9f36ff378cc8c59e02e0206e86cd79f9747",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/historical_expanded_report.json",
+      "expected_sha256": "b6bdcfbb9b49da247b10b91b08120fc4986f7614c70856807a272671a1efc9eb",
+      "actual_sha256": "b6bdcfbb9b49da247b10b91b08120fc4986f7614c70856807a272671a1efc9eb",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/historical_expanded_stratified_metrics.csv",
+      "expected_sha256": "8f101edeb8f970c4a8530d3e13c44662f4c1654dcf953955c635b4564e7c54c2",
+      "actual_sha256": "8f101edeb8f970c4a8530d3e13c44662f4c1654dcf953955c635b4564e7c54c2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/validation_expanded_bootstrap.parquet",
+      "expected_sha256": "8c4fa2c820f7d5a93968c412b0f8fa3a7a5d5f256b5f4a206a6f931fa987e9d3",
+      "actual_sha256": "8c4fa2c820f7d5a93968c412b0f8fa3a7a5d5f256b5f4a206a6f931fa987e9d3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/validation_expanded_bootstrap_summary.csv",
+      "expected_sha256": "b356dfa4015f23c996b0ce2c7e5695fd862e5a6a756f0772f1c372da52a01117",
+      "actual_sha256": "b356dfa4015f23c996b0ce2c7e5695fd862e5a6a756f0772f1c372da52a01117",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/validation_expanded_leave_one_event_out.csv",
+      "expected_sha256": "68c6c8189fcec9b0856d6a928c3f6434bd4b7894500f3bdbd5e5c98db4e70535",
+      "actual_sha256": "68c6c8189fcec9b0856d6a928c3f6434bd4b7894500f3bdbd5e5c98db4e70535",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/validation_expanded_metrics.csv",
+      "expected_sha256": "b44169e312310bee845f2810c0a85dc3698c20c53178659a1bd9ac3e6c2ad78a",
+      "actual_sha256": "b44169e312310bee845f2810c0a85dc3698c20c53178659a1bd9ac3e6c2ad78a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/validation_expanded_predictions.parquet",
+      "expected_sha256": "bb411d9ac92dd59f1f1fe1a80b6867323ebafe5d3aea9ee5f18ba8bae92a653f",
+      "actual_sha256": "bb411d9ac92dd59f1f1fe1a80b6867323ebafe5d3aea9ee5f18ba8bae92a653f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/validation_expanded_report.json",
+      "expected_sha256": "e5502c88d16dcedf79035ca5f44d03dd3b926c85b97ab7298fa2e5eae7d35e46",
+      "actual_sha256": "e5502c88d16dcedf79035ca5f44d03dd3b926c85b97ab7298fa2e5eae7d35e46",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_expanded_validation/validation_expanded_stratified_metrics.csv",
+      "expected_sha256": "edfa05673bc3583d57e5e937e00dc2ba10cbffad05f15b38de82d593d87b40d7",
+      "actual_sha256": "edfa05673bc3583d57e5e937e00dc2ba10cbffad05f15b38de82d593d87b40d7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/derivation_city_event_hourly.parquet",
+      "expected_sha256": "de893f6c44efe0df4e3c0b65989543fa9f640a5230ef5d40c8a2c808c4d3c5b2",
+      "actual_sha256": "de893f6c44efe0df4e3c0b65989543fa9f640a5230ef5d40c8a2c808c4d3c5b2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/derivation_cross_validated_predictions.parquet",
+      "expected_sha256": "4e47c1a0d11649de145f30efb515684b1e4bf50eb622e0e47f862217429901a2",
+      "actual_sha256": "4e47c1a0d11649de145f30efb515684b1e4bf50eb622e0e47f862217429901a2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/derivation_cross_validation_metrics.csv",
+      "expected_sha256": "31a8e0e3e0341541e0fb26b55d8a417d8b4bf6bb0bb14d5c4748e5b2dabe1a92",
+      "actual_sha256": "31a8e0e3e0341541e0fb26b55d8a417d8b4bf6bb0bb14d5c4748e5b2dabe1a92",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/derivation_model_selection.csv",
+      "expected_sha256": "d764314bbfe948c3d654280c1a05ed156280979774ad1a0207cb989edb3de0f9",
+      "actual_sha256": "d764314bbfe948c3d654280c1a05ed156280979774ad1a0207cb989edb3de0f9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/frozen_harmonization_manifest.json",
+      "expected_sha256": "014782fac5d5621259810810a4762b7b49a89155d5d46c992bde45f9902b2a8c",
+      "actual_sha256": "014782fac5d5621259810810a4762b7b49a89155d5d46c992bde45f9902b2a8c",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/frozen_harmonization_model.joblib",
+      "expected_sha256": "907a4b22d863b314c3253740493b8135d23883b4a7a93fa83d6a0ca585163792",
+      "actual_sha256": "907a4b22d863b314c3253740493b8135d23883b4a7a93fa83d6a0ca585163792",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/temporal_artifact_models.csv",
+      "expected_sha256": "d356cf66c099d6b18b5ae4a4cae19062dd4a5ae10f258a87ec6063e60eaac6bc",
+      "actual_sha256": "d356cf66c099d6b18b5ae4a4cae19062dd4a5ae10f258a87ec6063e60eaac6bc",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/temporal_artifact_wild_tests.csv",
+      "expected_sha256": "d2b4346650ff3a8333ebff916492220cc47eab1f79ae0818e749c3b5a7d90d94",
+      "actual_sha256": "d2b4346650ff3a8333ebff916492220cc47eab1f79ae0818e749c3b5a7d90d94",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/validation_2025_metrics.csv",
+      "expected_sha256": "152eea9a21101c415d31496ff40f1b08304d78cf407fdba2f82bb19655e61813",
+      "actual_sha256": "152eea9a21101c415d31496ff40f1b08304d78cf407fdba2f82bb19655e61813",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/validation_2025_predictions.parquet",
+      "expected_sha256": "a732c10342ed1bc6bfea96957831cd03fc6e22b94f1d237483852172ffa40db2",
+      "actual_sha256": "a732c10342ed1bc6bfea96957831cd03fc6e22b94f1d237483852172ffa40db2",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/validation_crossed_bootstrap.parquet",
+      "expected_sha256": "7f0b8eb5f5d2261c0be82ccf3f5cce3691b464f7acd55b67b21faa837d1d5e05",
+      "actual_sha256": "7f0b8eb5f5d2261c0be82ccf3f5cce3691b464f7acd55b67b21faa837d1d5e05",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/validation_crossed_bootstrap_summary.csv",
+      "expected_sha256": "9523ea5861c39cf4f650fe9b78c788ed6008299cf43f60f3a3d04c7bdb3d8f00",
+      "actual_sha256": "9523ea5861c39cf4f650fe9b78c788ed6008299cf43f60f3a3d04c7bdb3d8f00",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/validation_leave_one_event_out.csv",
+      "expected_sha256": "ac72293d1a269317639094e0e955eb11fdb35f97ba7a55a3ee050284527377db",
+      "actual_sha256": "ac72293d1a269317639094e0e955eb11fdb35f97ba7a55a3ee050284527377db",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/outputs/grl_deepening_2026/multiplatform_harmonization/validation_report.json",
+      "expected_sha256": "57ed8fde915242166ca85587acb615730fa4694106ac71993ca07cabbe8edd95",
+      "actual_sha256": "57ed8fde915242166ca85587acb615730fa4694106ac71993ca07cabbe8edd95",
+      "unchanged": true
+    }
+  ]
+}

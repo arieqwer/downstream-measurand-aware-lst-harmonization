@@ -1,0 +1,923 @@
+[
+  {
+    "id": "CONC-M-001",
+    "doc": "manuscript",
+    "p": 26,
+    "before": "Earth-observation records increasingly combine instruments, platforms, and mission generations to obtain longer time series, denser sampling, and broader spatial coverage. Harmonization supports that integration by mapping observations to a common radiometric or product scale. Operational approaches include cross-calibration from paired observations, spectral adjustment, bidirectional-reflectance normalization, and empirical correction of geometry-dependent differences [1,2,3]. Recent harmonization studies span radiometric and spectral adjustment, geometry-dependent correction, and angular normalization of geostationary land surface temperature (LST), illustrating the continuing need to preserve consistency across platform generations [3,4]. These developments have made component-level agreement a central criterion for cross-platform interoperability.",
+    "after": "Earth-observation records combine platforms and mission generations to lengthen time series and increase sampling and coverage. Cross-calibration, spectral adjustment and geometry normalization map observations to a common scale [1,2,3]. Angular normalization of overlapping geostationary land surface temperature (LST) is one such application [4]. Component agreement is therefore a central criterion for cross-platform interoperability.",
+    "reason": "Remove duplicated examples of radiometric/spectral/geometry harmonization while preserving the introduction and first citation appearances.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-002",
+    "doc": "manuscript",
+    "p": 27,
+    "before": "Many remote-sensing analyses rely on quantities derived from multiple observations, including spatial gradients, contrasts, spectral indices, and temporal changes. Landsat continuity and Harmonized Landsat–Sentinel-2 (HLS) studies already evaluate derived vegetation indices alongside component reflectance [5,6]. We use measurand in its metrological sense: the quantity intended to be measured, whether a component quantity or one derived through a stated measurement model [7]. For a derived difference between two correlated components, mean-squared discrepancy depends on component variances, differential bias, and residual covariance; consequently, lower component-level error does not necessarily imply lower error in the derived difference when residual covariance changes [8,9,10]. Earth-observation metrology already uses traceable measurement models and covariance-aware uncertainty budgets across processing chains [11,12,13]. Recent studies also document structured error covariance in remote-sensing processing and emphasize uncertainty characterization for the downstream quantity or decision [14,15,16]. These considerations motivate direct validation at the scientific measurand and frame harmonization as a decision under measurement uncertainty.",
+    "after": "Many analyses use derived spatial gradients, contrasts, indices and temporal changes. Landsat continuity and Harmonized Landsat–Sentinel-2 (HLS) studies already evaluate vegetation indices alongside component reflectance [5,6]. A measurand is the quantity intended to be measured, including a derived quantity defined by a measurement model [7]. For a difference, mean-squared discrepancy depends on component variances, differential bias and residual covariance; lower component error need not improve the difference [8,9,10]. Earth-observation metrology uses covariance-aware uncertainty budgets across processing chains [11,12,13]. Studies of structured remote-sensing error covariance likewise emphasize uncertainty in the downstream quantity or decision [14,15,16]. These principles motivate direct consistency assessment at the scientific measurand.",
+    "reason": "Combine repeated statements of covariance propagation and downstream validation motivation; retain every cited identity and their order.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-003",
+    "doc": "manuscript",
+    "p": 28,
+    "before": "Land surface temperature from the Geostationary Operational Environmental Satellites–R Series is well suited to this evaluation because the high-frequency observations allow spatial contrasts and cross-sunset transitions to be constructed within the same instrument family [17,18]. The operational LST retrieval is a clear-sky directional radiometric surface-temperature product whose measurement model includes thermal observations, emissivity, atmospheric state, and viewing geometry [19,20]. A dedicated angular-normalization method was developed for overlapping GOES-16/17 LST [4]. GOES-19 entered operational service on 7 April 2025 as the National Oceanic and Atmospheric Administration (NOAA) GOES-East satellite at 75.2°W, replacing GOES-16 [21]. Its Advanced Baseline Imager (ABI) Level-2 LST was at the Provisional maturity level during the evaluation period [22]. The core-minus-ring LST contrast quantifies the urban center’s surface-temperature excess or deficit relative to its fixed 10–20-km surrounding zone, while its pre-to-post-sunset change captures how that relative pattern evolves across sunset. These spatial and temporal quantities provide a meaningful test of harmonization because better cross-platform agreement in core and ring LST need not improve agreement in their difference.",
+    "after": "High-frequency Geostationary Operational Environmental Satellites–R Series LST supports spatial contrasts and sunset transitions within one instrument family [17,18]. The clear-sky directional radiometric retrieval depends on thermal observations, emissivity, atmospheric state and viewing geometry [19,20]; dedicated angular normalization has been developed for overlapping GOES-16/17 LST [4]. GOES-19 replaced GOES-16 as the National Oceanic and Atmospheric Administration (NOAA) GOES-East satellite at 75.2°W on 7 April 2025 [21]. Its Advanced Baseline Imager (ABI) Level-2 LST had Provisional maturity during evaluation [22]. Core-minus-ring LST measures the urban center’s surface-temperature excess or deficit relative to its fixed 10–20-km surroundings. Its pre-to-post-sunset change tests whether component consistency transfers through spatial and temporal differencing.",
+    "reason": "Condense instrument/product motivation while retaining retrieval dependencies, platform timing/status, physical contrast meaning and cited sources.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-004",
+    "doc": "manuscript",
+    "p": 29,
+    "before": "The aim is to determine when cross-platform LST correction improves the quantity used for scientific inference. We assess the chain from core and ring LST to their spatial contrast and pre-to-post-sunset transition. The workflow combines established covariance-based MSE accounting with cross-validation and the one-standard-error rule, then evaluates correction or raw retention separately at each measurand and uses an empirical residual interval for transition-direction decisions. Its contribution is this integrated application and evaluation across GOES platform replacements. The five evaluation cohorts distinguish transfer to new cities, a changed platform pair, and later observations at previously sampled cities. Agreement is measured relative to a designated satellite reference, so the study assesses inter-platform consistency rather than absolute surface-temperature accuracy.",
+    "after": "We test when cross-platform correction improves core and ring LST, their contrast and its sunset transition. The workflow combines established MSE accounting, cross-validation and the one-standard-error rule to select correction or raw retention at each measurand, with an empirical residual interval for transition-direction decisions. The contribution is this integrated application across GOES replacements. Five evaluation cohorts address different spatial, platform and temporal transfers. Agreement with a designated satellite reference assesses inter-platform consistency; it does not establish absolute surface-temperature accuracy.",
+    "reason": "State the objective, established methods, contribution and consistency scope once without repeating the full measurement chain.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-005",
+    "doc": "manuscript",
+    "p": 31,
+    "before": "The methods define calibration and evaluation cohorts (Section 2.1), pair observations on common spatial and temporal supports (Section 2.2), construct measurands and select corrections (Section 2.3), diagnose downstream MSE changes (Section 2.4), and assess transfer regimes, uncertainty and independent reference evidence (Sections 2.5–2.7).",
+    "after": "Sections 2.1–2.7 define the cohorts, pair observations, construct measurands, select corrections, decompose downstream MSE, and assess transfer, uncertainty and independent reference evidence.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-006",
+    "doc": "manuscript",
+    "p": 33,
+    "before": "An interval is a fixed inclusive eight-day calendar window. Each stage maps a source platform to a designated consistency-reference scale (Figure 1; Table 1): GOES-17/GOES-16 in 2019–2021, GOES-18/GOES-16 in 2022–2024, and GOES-18/GOES-19 in 2025–2026, listed as reference/source. This orientation maintains the western-platform scale while the eastern platform changes. It is a design choice for comparison, not evidence that the western retrieval is closer to surface truth. Corrections were fitted on calibration data and applied without refitting to the designated evaluation cohort. Reference-platform errors therefore remain part of every reported discrepancy.",
+    "after": "Each interval is a fixed inclusive eight-day window. The designated reference/source pairs are GOES-17/16 in 2019–2021, GOES-18/16 in 2022–2024 and GOES-18/19 in 2025–2026 (Figure 1; Table 1). This orientation maintains the western-platform consistency scale without presuming greater absolute accuracy. Corrections were fitted on calibration data and applied without refitting to evaluation cohorts; discrepancies retain reference-platform error.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-007",
+    "doc": "manuscript",
+    "p": 34,
+    "before": "The initial candidate population comprised 51 cities at or west of 100°W from an inherited higher vegetation-observation-support cohort. Pairing and support rules retained 44 cities for GOES-18/16 derivation across 31 intervals in 2022–2024. A disjoint lower-support population supplied 43 expansion candidates, of which 31 met the same rules on the same dates and were excluded from fitting. These labels originate from a median split of the source city table’s mean daytime vegetation-observation support within the 10–20-km ring; they do not denote vegetation-cover fractions. The candidate lists were set on 6 and 10 August 2026 before the relevant GOES-18 extraction. The initial correction was evaluated on ten 2025 intervals in both cohorts. These 75 cities then supplied GOES-18/19 calibration for the final selector, comprising 7,139 hourly observations and 737 transitions.",
+    "after": "Of 51 higher vegetation-observation-support candidates at or west of 100°W, 44 met pairing/support rules for GOES-18/16 derivation across 31 intervals in 2022–2024. A disjoint lower-support cohort supplied 43 candidates, of which 31 met the same rules on the same dates and were excluded from fitting. These source cohorts split at the global median daytime vegetation-observation support in the 10–20-km ring; the metric is not vegetation-cover fraction. Candidate lists were fixed on 6 and 10 August 2026 before GOES-18 extraction. Both cohorts evaluated the initial correction in ten 2025 intervals, then supplied final GOES-18/19 calibration: 75 cities, 7,139 hourly observations and 737 transitions.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-008",
+    "doc": "manuscript",
+    "p": 36,
+    "before": "The 2026 GOES-18/19 evaluation used later observations at the same 75 cities as the 2025 calibration. The original design fixed the candidate list, eight consecutive eight-day windows, model candidates, predictors, thresholds, pairing and quality rules before 2026 extraction. During revision, local-date indexing and polygon extraction were corrected across calibration and evaluation data, and the unchanged selection protocol was rerun. The revised models and residual-interval width were fitted only to 2025 data, then applied to 5,716 hourly observations and 583 transitions in 2026. Because the original 2026 results had already been inspected, this is a post hoc corrected temporal evaluation of the original protocol. No 2026 discrepancy entered fitting or selection. The same-city design supplies no test of the final workflow on unseen cities.",
+    "after": "The 2026 evaluation uses the same 75 cities as 2025 calibration. Its candidate list, eight consecutive eight-day windows, models, predictors, thresholds, pairing and quality rules were fixed before extraction. Revision corrected local-date allocation and polygon extraction throughout calibration/evaluation, then reran the unchanged protocol. Models and residual width fitted only to 2025 data were applied to 5,716 hourly observations and 583 transitions. Earlier 2026 results had already been inspected, so this is a post hoc corrected temporal evaluation; it does not test unseen-city performance.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-009",
+    "doc": "manuscript",
+    "p": 37,
+    "before": "The historical GOES-17/GOES-16 replication tested recurrence under an earlier platform pair. Structural support retained 69 of the 75 common-support cities. Four calendar-fixed windows in 2019–2020 supplied calibration, and four windows in 2021 supplied temporal evaluation. Candidate cities, windows, pairing rules, support criteria, and the hour-offset model family were specified before GOES-17 file listing. Hour-specific offsets were fitted only to the 2,559 calibration observations and applied unchanged to the 2,602 evaluation observations and 253 transitions. This replication tests another platform pair and period at overlapping cities. Exact dates and design provenance are retained in the repository’s fixed_interval_chronology.csv.",
+    "after": "The historical GOES-17/16 replication retained 69 of the 75 common-support cities. Four calendar-fixed 2019–2020 windows supplied 2,559 calibration observations; four 2021 windows supplied 2,602 evaluation observations and 253 transitions. Cities, dates, pairing/support rules and the hour-offset family were specified before GOES-17 file listing. Calibration-only hour offsets were applied unchanged. This tests another platform pair and period at overlapping cities; exact dates are in fixed_interval_chronology.csv.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-010",
+    "doc": "manuscript",
+    "p": 38,
+    "before": "Together, the five stage-specific evaluation cohorts were the 2021 GOES-17/16 external cohort, the 2022–2024 GOES-18/16 expansion cohort, the 2025 GOES-18/19 original cohort, the 2025 GOES-18/19 expansion cohort, and the combined 2026 GOES-18/19 temporal evaluation. Each cohort was excluded from fitting the correction evaluated at that stage; the 2025 original and expansion cohorts were subsequently used to calibrate the measurand-aware selector, and only the 2026 cohort evaluated the final 2025-selected actions on later observations at the same cities. Spatial cohorts sharing interval dates retained their shared temporal structure in the interpretation and bootstrap design. Calendar intervals were fixed independently of the target-platform outcomes: the 2022–2024 and 2025 dates were inherited from pre-existing, outcome-independent warm-season hydroclimatic event censuses, the 2026 evaluation comprised eight consecutive eight-day windows fixed before extraction, and the 2019–2021 external dates were separately calendar-fixed before GOES-17 file listing (Figure 1c). The inherited censuses used ERA5-Land hourly (ECMWF/ERA5_LAND/HOURLY) and daily aggregate (ECMWF/ERA5_LAND/DAILY_AGGR) fields reduced over each urban core at a nominal reduction scale of ~11.1 km (11,132 m in Earth Engine) on the distributed 0.1° grid [23]. True-night temperature was the mean of hourly 2-m air temperature during 22:00–06:00 local solar time; root-zone soil moisture was the unweighted mean of volumetric soil-water layers 1–4; and vapor-pressure deficit was derived from 2-m air and dew-point temperatures as",
+    "after": "The five evaluation cohorts were 2021 GOES-17/16, 2022–2024 GOES-18/16 expansion, 2025 GOES-18/19 original and expansion, and combined 2026 GOES-18/19 (Table 1). Each was excluded from fitting its evaluated correction; both 2025 cohorts later calibrated the final selector. Shared dates limit temporal independence between spatial cohorts. Intervals were selected independently of GOES outcomes: 2022–2024 and 2025 dates came from inherited warm-season hydroclimatic censuses; 2026 and historical dates were calendar-fixed (Figure 1c). Census inputs were ERA5-Land hourly (ECMWF/ERA5_LAND/HOURLY) and daily aggregate (ECMWF/ERA5_LAND/DAILY_AGGR) fields reduced over urban cores at a nominal ~11.1 km scale (11,132 m in Earth Engine) on the distributed 0.1° grid [23]. True-night temperature averaged hourly 2-m air temperature over 22:00–06:00 local solar time. Root-zone moisture was the unweighted mean of volumetric soil-water layers 1–4; vapor-pressure deficit used 2-m air and dew-point temperatures:",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-011",
+    "doc": "manuscript",
+    "p": 42,
+    "before": "and  is in °C. Over 2003–2025, true-night temperature was ranked within city across all eight-day steps, whereas soil moisture and vapor-pressure deficit were ranked within city and recurring calendar step; hydroclimatic severity was the mean of soil-dryness percentile—100 minus the soil-moisture percentile—and vapor-pressure-deficit percentile. Both censuses required June–August intervals with at least 20 city observations at or above the city-specific true-night-temperature 90th percentile and a severity standard deviation of at least 10 percentile points. The 2022–2024 census calculated that dispersion across all candidate-city observations in an interval, whereas the 2025 census calculated it among the hot-city observations. Applying these outcome-independent rules yielded 31 intervals in 2022–2024 and ten in 2025; no evaluated GOES discrepancy or harmonization result entered interval selection. Table 1 summarizes analyzed support; the repository retains cohort_attrition_summary.csv, complete stage/interval counts and fixed_interval_chronology.csv.",
+    "after": "and  is in °C. Over 2003–2025, true-night temperature was ranked within city across eight-day steps; moisture and vapor-pressure deficit were ranked within city and recurring calendar step. Severity averaged soil dryness (100 minus moisture percentile) and vapor-pressure-deficit percentile. Both censuses required June–August intervals with at least 20 city observations at or above the city-specific true-night-temperature 90th percentile and severity standard deviation ≥10 percentile points. Dispersion used all candidate-city observations in 2022–2024 and hot-city observations in 2025. These GOES-outcome-independent rules yielded 31 and ten intervals, respectively. Table 1 summarizes support; full counts, chronology and provenance are archived.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-012",
+    "doc": "manuscript",
+    "p": 115,
+    "before": "We used the ABI Level-2 Land Surface Temperature product for the contiguous United States (CONUS) sector (ABI-L2-LSTC). The product reports instantaneous land surface skin temperature in kelvin for cloud-screened land pixels on the ABI fixed grid; the CONUS-sector product has 2-km nominal resolution [18,20]. Each platform observation was decoded using the native scale factor and offset, unsigned packed-value handling, fill-value removal, and the product data-quality flag (DQF). The analysis retained numeric DQF values 0 or 1 and LST between 180 and 380 K. Modern v02r00 DQF 0 and 1 denote high and medium quality; historical v01r00 uses bitmask encoding. No historical DQF 1 was observed in the audited files, so the historical numeric 0–1 policy does not supply a distinct quality-tier contrast. GOES-19 ABI L2 LST was at the Provisional maturity level during the 2025–2026 evaluation period [22]. The analysis therefore evaluates inter-platform consistency and transfer on the selected reference-platform scale.",
+    "after": "The ABI Level-2 Land Surface Temperature product for the contiguous United States (CONUS; ABI-L2-LSTC) reports instantaneous cloud-screened land surface skin temperature in kelvin on the ABI fixed grid, with 2-km nominal resolution [18,20]. Native decoding applied scale/offset, unsigned packed-value handling, fill removal and data-quality flags (DQF). We retained numeric DQF 0–1 and 180–380 K. Modern v02r00 DQF 0/1 denotes high/medium quality, whereas historical v01r00 uses bitmasks. No audited historical DQF 1 occurred, so this policy supplies no distinct historical quality-tier comparison. GOES-19 LST had Provisional maturity during 2025–2026 [22].",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-013",
+    "doc": "manuscript",
+    "p": 116,
+    "before": "The historical 2019–July 2021 GOES-17/16 observations precede NOAA’s operational transition from the baseline to the Enterprise LST retrieval on 19 August 2021 [24]. The 2022–2026 comparisons belong to the subsequent operational period. The published retrieval formulations include thermal radiances, emissivity, atmospheric information, and view geometry [19,20]. An audit of sampled native files across platform eras, supplemented by 32 corrected-date 2026 LST scenes, found historical v01r00 bitmask quality metadata and modern v02r00 categorical quality metadata. Sampled modern GOES-18/19 files identify matching algorithm and processing-parameter families. Ancillary containers name input classes and file templates; they do not establish equality of the numerical emissivity and atmospheric fields at each pixel. These operational-product comparisons therefore retain possible retrieval and input differences (native metadata and quality-reason files are archived in the repository).",
+    "after": "The historical 2019–July 2021 comparison precedes the 19 August 2021 baseline-to-Enterprise LST transition [24]; the 2022–2026 comparisons follow it. Retrieval formulations include thermal radiances, emissivity, atmospheric information and viewing geometry [19,20]. Native-file audits across eras, including 32 corrected-date 2026 scenes, confirmed historical bitmask and modern categorical DQF metadata. Sampled GOES-18/19 files identify matching algorithm/processing-parameter families. Ancillary class names/templates cannot establish equal numerical emissivity or atmospheric fields, so retrieval/input differences remain possible. Metadata and quality-reason records are archived.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-014",
+    "doc": "manuscript",
+    "p": 117,
+    "before": "Urban cores were the polygon geometries of retained Global Human Settlement Urban Centre Database (GHS-UCDB) R2024A urban-center features, linked by uc_id [25]. Candidate cities were located within the western North American study domain, and the harmonization experiments used the GOES East–West common domain at or west of 100°W (Figure 1b). Each core polygon was simplified with a 250-m maximum-error tolerance. The surrounding comparison ring was constructed as the geometric difference between the core’s 20-km and 10-km outward buffers, and the resulting ring was simplified with the same 250-m maximum-error tolerance. Pixel values were averaged over ABI grid-cell centers within each complete geometry. Extraction bounds were derived from the full polygon, with double-precision native geolocation; an independent full-grid check verified every study mask. Every retained scan required at least three valid core pixels and ten valid ring pixels. “Ring” denotes this fixed surrounding spatial unit and carries no automatic rural or peri-urban classification. The repository’s fixed_city_candidate_metadata.csv records the complete candidate population and support fields.",
+    "after": "Core polygons were Global Human Settlement Urban Centre Database (GHS-UCDB) R2024A urban-center features joined by uc_id [25] within the East–West common domain at or west of 100°W. Cores were simplified with a 250-m maximum-error tolerance. Rings were the difference between their 20-km and 10-km outward buffers, simplified with the same tolerance. We averaged LST over ABI grid-cell centers within each complete geometry, deriving bounds from its full extent with double-precision geolocation. Independent full-grid checks verified every mask. Scans required at least three valid core and ten ring pixels. “Ring” implies no rural or peri-urban classification. Candidate/support fields are in fixed_city_candidate_metadata.csv.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-015",
+    "doc": "manuscript",
+    "p": 118,
+    "before": "Target observations were indexed by integer hour from −3 through +6 relative to local astronomical sunset. Sunset time was calculated with Astral 3.2 for the intended physical local sunset date, converted to Coordinated Universal Time, and used to request the nearest hourly acquisition. A local-date round-trip check prevents assignment to the preceding local evening; requests cover the first through last local dates of each inclusive interval. Exact cross-platform pairs shared city, eight-day interval, local date, and target hour. Every matched daily pair was required to be separated by less than 1 min. Paired daily values were aggregated to city–interval–hour means, giving each aggregated row equal weight. The 2019–2021 external replication additionally required at least two paired dates for each city–interval–hour. Source object keys and acquisition timestamps were retained for provenance.",
+    "after": "Astral 3.2 calculated sunset on each intended physical local date. Conversion to Coordinated Universal Time (UTC) supplied the nearest hourly acquisition for bins −3 through +6; a local-date round-trip check prevents allocation to the preceding evening. Requests cover every date in each inclusive interval. Cross-platform pairs share city, interval, local date and target hour, with acquisition separation <1 min. Daily pairs form city–interval–hour means, each weighted equally; historical 2019–2021 means additionally require at least two paired dates. Source object keys and acquisition timestamps are retained.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-016",
+    "doc": "manuscript",
+    "p": 119,
+    "before": "The eastern and western platforms view the cities from different directions; pairing does not match their observation angles. In the retained 2026 sample, GOES-18 reference view-zenith angles ranged from 43.74° to 59.68° and GOES-19 source angles from 52.61° to 72.25°. Geometry predictors in the candidate models account empirically for these differences, while fixed descriptive angle strata assess variation in performance without stratum-specific fitting. Directional surface mixtures, atmospheric path lengths, and geography remain coupled, so the strata do not isolate an angular retrieval effect [19,20].",
+    "after": "Pairing does not match viewing geometry. In retained 2026 observations, GOES-18 reference zenith angles span 43.74–59.68° and GOES-19 source angles 52.61–72.25°. Candidate geometry predictors account empirically for these differences; fixed angle strata describe performance without refitting. Surface mixtures, atmospheric paths and geography remain coupled, so these strata do not isolate an angular retrieval effect [19,20].",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-017",
+    "doc": "manuscript",
+    "p": 129,
+    "before": "The first harmonization stage compared raw observations, ten hour-specific additive offsets, a cubic hour spline with five knots and ridge regularization, and a geometry ridge model. The geometry model included sunset-relative hour, latitude, longitude, source and reference view-zenith angles, their difference and mean, and hour-by-geometry interactions. Model selection used 15 crossed year-by-longitude-block folds. For every fold, the test slice was the intersection of one held year and one held spatial block, while training excluded all observations belonging to either held block. For each candidate, six RMSE ratios to raw were computed within each of the 15 folds—hourly and transition core, ring, and core–ring contrast—and their equally weighted mean formed that fold’s composite score. The reported candidate score was the unweighted mean of the 15 fold-composite scores, and its cross-fold standard error (SE) was the sample standard deviation of those 15 scores divided by . The one-standard-error cutoff was the lowest mean composite score plus the SE of the best-scoring candidate; among candidates whose means did not exceed that cutoff, selection followed the fixed complexity order raw, hour offset, hour spline, then geometry ridge. The hour-offset model was selected, fitted to all 2022–2024 derivation data, serialized, and applied unchanged to the expansion and 2025 evaluations.",
+    "after": "Initial candidates were raw observations, ten hour-specific additive offsets, a five-knot cubic hour spline with ridge regularization, and geometry ridge. Geometry predictors were sunset-relative hour, latitude, longitude, source/reference zenith angles, their difference/mean and hour-by-geometry interactions. In 15 crossed year-by-longitude-block folds, testing used the held year/block intersection; training excluded observations in either held group. Each fold averaged six RMSE-to-raw ratios equally: hourly and transition core, ring and contrast. Candidate scores averaged the 15 composites; the cross-fold standard error (SE) was the sample standard deviation of those 15 scores divided by . The cutoff was the best mean plus its SE; among candidates whose means did not exceed it, selection followed the fixed complexity order raw, hour offset, hour spline, then geometry ridge. Selected hour offsets fitted all 2022–2024 derivation data and were serialized for unchanged expansion/2025 evaluation.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-018",
+    "doc": "manuscript",
+    "p": 130,
+    "before": "The 2025 measurand-aware calibration used conventional cross-validation to evaluate candidates separately for core, ring, direct hourly contrast, and direct transition. Cities were assigned to five longitude-ranked blocks and intervals to five chronological blocks, producing 25 crossed folds. For each fold, the test set comprised the intersection of one held-out city block and one held-out chronological interval block; training excluded all observations belonging to either held-out block. Hourly candidates were raw, hour offset, geometry ridge, and scene gradient-boosted decision trees. The scene model added source core, ring, mean-surface and contrast temperatures and their interactions with sunset-relative hour. Direct-transition candidates were raw, mean offset, ridge, and gradient-boosted trees using source component transitions, pre- and post-sunset source quantities, location, and view geometry. City identifier, interval identifier, vegetation group, hydroclimatic state, and reference-platform temperature were excluded from all predictors.",
+    "after": "The 2025 selector evaluated core, ring, direct hourly contrast and direct transition separately. Five longitude-ranked city blocks crossed five chronological interval blocks to form 25 folds. Testing used the held-block intersection; training excluded observations in either held block. Hourly candidates were raw, hour offset, geometry ridge and scene gradient-boosted decision trees. Scene predictors added source core, ring, mean-surface and contrast temperatures and their interactions with sunset-relative hour. Transition candidates were raw, mean offset, ridge and boosted trees using source component transitions, pre/post-sunset quantities, location and view geometry. All predictors excluded city/interval identifiers, vegetation group, hydroclimatic state and reference-platform temperature.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-019",
+    "doc": "manuscript",
+    "p": 131,
+    "before": "For each candidate and measurand, the fold-level score was its RMSE divided by the raw RMSE from the same fold. The model-selection score was the unweighted mean of the 25 fold-level ratios, so raw had a score of 1.0; the standard error was the sample standard deviation of those ratios divided by . The parsimony rank ordered candidates from least to most complex. For each measurand, the one-standard-error cutoff was the lowest mean score plus the SE of the best-scoring candidate [26], and the lowest-ranked candidate whose mean did not exceed that cutoff was selected. Because the crossed folds share training observations, these cross-fold SEs were used as model-selection heuristics and were not interpreted as inferential standard errors. The fixed 2025 decisions were geometry ridge for core, hour offset for ring, raw for direct hourly contrast, and raw for direct transition (Figure 2). For the hourly contrast, geometry ridge had the lowest mean normalized RMSE ratio (0.9928). The corresponding one-standard-error acceptance cutoff was 1.0288. Raw observations had a normalized RMSE ratio of 1.0000 and therefore remained within the admissible set; the parsimony rule consequently selected raw (Figure 2c). The selected component models were fitted once to all 2025 calibration observations. Complete candidate scores, fold results and historical hour offsets are retained in the repository’s model_selection_summary.csv and external_hour_offsets_2019_2020.csv.",
+    "after": "For each measurand, candidate scores averaged the 25 within-fold RMSE-to-raw ratios without weighting; raw equaled 1.0. The standard error was the sample standard deviation of those ratios divided by . The one-standard-error rule selected the least complex candidate whose mean did not exceed the best mean plus the SE of the best-scoring candidate [26]. Shared training observations make these SEs selection heuristics rather than inferential standard errors. Selected actions were geometry ridge for core, hour offset for ring and raw for direct hourly contrast/transition (Figure 2). For hourly contrast, geometry ridge scored lowest (0.9928), but raw (1.0000) met the 1.0288 cutoff and was selected by parsimony. Component models were then fitted once to all 2025 calibration observations. Complete scores, fold results and historical offsets are archived in model_selection_summary.csv and external_hour_offsets_2019_2020.csv.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-020",
+    "doc": "manuscript",
+    "p": 151,
+    "before": "Directional inference used a fixed, empirically calibrated residual interval. The 90th percentile of absolute out-of-fold residuals from the selected transition candidate, using the higher empirical quantile, was 1.5043 K. For each 2026 transition, the residual interval was centered on the held-out prediction from the selected transition candidate and extended ±1.5043 K. The residual interval supported a positive or negative transition sign when it lay entirely above or below zero; otherwise, the rule abstained. The protocol specified that, if direct-transition RMSE improvement was below 10%, pooled temporal-evaluation coverage of 85–95% and supported-sign agreement of at least 90% with the reference-platform sign constituted the uncertainty-performance criteria. These values operationalized practical performance as at least a 10% transition-RMSE reduction or, for the residual-interval branch, coverage within ±5 percentage points of its nominal 90% target and no more than 10% sign disagreement among sign-supported cases; they were decision criteria rather than inferential significance thresholds. The pooled 2026 evaluation was the formal decision scope; original/expansion subgroup and interval-specific summaries were reported as transport diagnostics. This interval is an empirical cross-platform residual interval. The rule linked uncertainty to the stated transition-direction decision and treated withheld classification as an explicit decision [16,27].",
+    "after": "Directional inference used the higher empirical 90th percentile of the selected transition candidate’s absolute out-of-fold residuals: 1.5043 K. Each 2026 prediction received a ±1.5043 K residual interval. Intervals entirely above or below zero supported that sign; otherwise the rule abstained [16,27]. The protocol required at least 10% direct-transition RMSE improvement or, below that threshold, pooled coverage of 85–95% and at least 90% agreement with reference signs among supported cases. These practical decision criteria allow ±5 percentage points around nominal 90% coverage and at most 10% supported-sign disagreement; they are not significance thresholds. The pooled evaluation is the formal scope; cohort/interval summaries diagnose transport. These are empirical cross-platform residual intervals.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-021",
+    "doc": "manuscript",
+    "p": 161,
+    "before": "Strict screening requires DQF = 0 on both platforms with the same minimum three core and ten ring pixels. Comparisons use both all retained observations and identical paired daily keys before interval aggregation. The 2025-fitted component models remain fixed. Paired uncertainty uses 5,000 crossed resamples of the three eligible cities and eight intervals; it is conditional on that retained population. For clouds, the first local day of each 2026 interval is sampled at Phoenix target bins −3 and +4, giving 32 matched LST/ABI-L2-ACMC scene pairs. The same acquisitions are joined to other cities, whose sunset-relative bins can differ. Clear masks and one- and two-pixel four-connected dilations are applied on matching native grids before complete-polygon aggregation. Table S2 summarizes these sensitivities; they assess selected scans on eight days, not complete eight-day means or transitions.",
+    "after": "Strict screening requires DQF = 0 on both platforms and at least three core and ten ring pixels, with fixed 2025 component models. Comparisons use all retained observations and identical paired daily keys before aggregation; 5,000 crossed resamples condition on three eligible cities and eight intervals. Cloud sampling uses the first local day of each 2026 interval at Phoenix bins −3/+4, yielding 32 matched LST/ABI-L2-ACMC scene pairs. The same acquisitions join other cities, whose sunset-relative bins can differ. Clear masks and one-/two-pixel four-connected dilations precede complete-polygon averaging on matched native grids. Cloud rows in Table S2 concern selected scans on eight days, not complete interval means or transitions.",
+    "reason": "Remove repeated design explanations, duplicate table/figure detail and verbose syntax while retaining operative methods and scope.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "methods.json"
+  },
+  {
+    "id": "CONC-M-022",
+    "doc": "manuscript",
+    "p": 167,
+    "before": "The applicable component corrections reduced cross-platform RMSE for both components in all five evaluation cohorts (Figure 3a). Core reductions ranged from 29.3% in the 2022–2024 GOES-18/16 expansion to 59.7% in the 2026 GOES-18/19 temporal evaluation; ring reductions ranged from 44.6% to 56.1%. The pattern recurred across three platform pairings and spatial and temporal designs. Complete observed values are retained in the repository’s cross_sample_rmse_with_external.csv.",
+    "after": "Both components improved in all five evaluation cohorts (Figure 3a): core RMSE reductions ranged from 29.3% in the 2022–2024 GOES-18/16 expansion to 59.7% in the 2026 GOES-18/19 temporal evaluation; ring reductions ranged from 44.6% to 56.1%. Complete values are in the repository’s cross_sample_rmse_with_external.csv.",
+    "reason": "Remove redundant recurrence/design statement already given by the cohort comparisons; preserve numerical range and exact evidence filename.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-023",
+    "doc": "manuscript",
+    "p": 170,
+    "before": "Figure 3. Cross-cohort component gains and covariance-mediated downstream transfer. (a) Stage-specific evaluation root-mean-squared error (RMSE) reductions for urban-core land surface temperature (LST), surrounding-ring LST, and their component-harmonized core–ring contrast across three reference/source platform pairings and five stage-specific evaluation cohorts. The applied component corrections were stage specific: GOES-17/16 hour offsets fitted in 2019–2020 for the 2021 external cohort; the GOES-18/16 hour-offset model fitted on the 2022–2024 original cohort for the 2022–2024 expansion and both 2025 cohorts; and the 2025-selected geometry-ridge core and hour-offset ring models for the 2026 temporal evaluation. Positive values indicate lower RMSE after correction, and the vertical zero line marks no change. (b) Exact hourly mean-squared-error (MSE) decomposition for the same five cohorts. Positive component-variance and differential-bias gains favor harmonization; the covariance-loss penalty is plotted below zero because it subtracts from downstream MSE gain. Filled black circles show net downstream gain, and the horizontal zero line marks no net gain. GOES, Geostationary Operational Environmental Satellite; G17/16, GOES-17/GOES-16; G18/16, GOES-18/GOES-16; G18/19, GOES-18/GOES-19.",
+    "after": "Figure 3. Component gains and downstream transfer across five evaluation cohorts and three reference/source platform pairs. (a) RMSE reductions for core/ring LST and their component-harmonized contrast. Corrections were GOES-17/16 hour offsets fitted in 2019–2020 for 2021; GOES-18/16 hour offsets fitted on the 2022–2024 original cohort for its expansion and both 2025 cohorts; and 2025-selected core geometry ridge/ring hour offsets for 2026. Positive values indicate lower RMSE; zero marks no change. (b) Exact hourly MSE budgets. Positive component-variance and differential-bias gains favor harmonization; covariance loss is plotted below zero because it subtracts from net gain. Black circles show net gain. G17/16, G18/16 and G18/19 denote the GOES reference/source pairs.",
+    "reason": "Shorten caption by removing repeated expanded acronyms and descriptions of visible zero lines; retain every model/calibration-to-evaluation mapping and signed-budget convention.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-024",
+    "doc": "manuscript",
+    "p": 171,
+    "before": "The component-harmonized core–ring contrast showed a different pattern (Figure 3a). Contrast RMSE improved by 2.9% in the 2021 external cohort and 11.5% in the 2025 original cohort, but deteriorated by 11.3% in the 2022–2024 expansion and 13.1% in the 2025 expansion. Its 2026 RMSE-reduction estimate was −0.14% (95% crossed city–interval bootstrap interval, −6.75% to +6.48%). Across cohorts, the downstream result therefore ranged from a 13.1% deterioration to an 11.5% improvement despite substantial component reductions.",
+    "after": "Contrast RMSE improved by 2.9% in 2021 and 11.5% in the 2025 original cohort, but deteriorated by 11.3% in the 2022–2024 expansion and 13.1% in the 2025 expansion (Figure 3a). The 2026 RMSE-reduction estimate was −0.14% (95% crossed city–interval bootstrap interval, −6.75% to +6.48%). Component gains therefore did not consistently transfer to the contrast.",
+    "reason": "Remove duplicated global contrast range while preserving all five cohort outcomes and the uncertain2026 interval.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-025",
+    "doc": "manuscript",
+    "p": 172,
+    "before": "The temporal transition behaved similarly. Component-harmonized transition MSE-gain fractions were −2.54%, +2.68%, +5.24%, −3.13%, and +0.88% for the 2021 external, 2022–2024 expansion, 2025 original, 2025 expansion and 2026 combined cohorts, respectively. Component agreement consequently supplied no consistent proxy for either downstream measurand.",
+    "after": "Component-harmonized transition MSE gains were −2.54%, +2.68%, +5.24%, −3.13% and +0.88% for the 2021 external, 2022–2024 expansion, 2025 original, 2025 expansion and 2026 combined cohorts, respectively. Component agreement was therefore an inconsistent proxy for both downstream measurands.",
+    "reason": "Remove rhetorical opener and redundant terminology while retaining all signed transition gains and cohort mapping.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-026",
+    "doc": "manuscript",
+    "p": 175,
+    "before": "In the corrected 2026 temporal evaluation, component-variance gain was 1.7549 K² and differential-bias gain was 0.0294 K². The 1.7862 K² covariance-loss penalty slightly exceeded their sum, leaving net downstream MSE gain of −0.0019 K² (95% crossed city–interval bootstrap interval, −0.0879 to +0.0802 K²). Lower individual residual variance was accompanied by lower shared residual covariance, leaving no clear downstream benefit.",
+    "after": "In 2026, component-variance gain of 1.7549 K² and differential-bias gain of 0.0294 K² were offset by 1.7862 K² covariance loss. Net downstream gain was −0.0019 K² (95% crossed city–interval bootstrap interval, −0.0879 to +0.0802 K²), indicating no clear downstream benefit.",
+    "reason": "Avoid repeating the variance/covariance interpretation immediately after the complete numerical budget.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-027",
+    "doc": "manuscript",
+    "p": 176,
+    "before": "The deterministic stress test showed that downstream transfer is structured by the correlation regime and by the component scale and bias terms (Figure 4a). Among 9,216 correlation cells, 4,063 were uniformly beneficial across every bounded nuisance configuration, 93 were uniformly detrimental within the bounded grid, and 5,060 were parameter dependent. When raw and harmonized residual correlations were similar, a larger fraction of the enumerated nuisance configurations yielded GD > 0. As harmonized residual correlation decreased relative to raw residual correlation, positive downstream gain increasingly depended on favorable component-variance and differential-bias terms.",
+    "after": "Among 9,216 deterministic correlation cells, 4,063 were beneficial across every bounded nuisance configuration, 93 were uniformly detrimental and 5,060 were parameter dependent (Figure 4a). Similar raw/corrected correlations favored downstream gain; as corrected correlation fell relative to raw correlation, improvement depended more on component-variance and differential-bias gains.",
+    "reason": "Condense the deterministic stress-test interpretation; retain bounded nature and all exhaustive-grid counts.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-028",
+    "doc": "manuscript",
+    "p": 177,
+    "before": "All five empirical cohorts fell inside the declared parameter bounds. Plotting gross variance-plus-bias gain against covariance-loss penalty placed the 2021 external and 2025 original cohorts below the exact GD = 0 boundary and the 2022–2024 expansion, 2025 expansion, and 2026 temporal evaluation above it (Figure 4b). This reconstruction matched every observed sign of downstream MSE change.",
+    "after": "All five empirical cohorts lay within the parameter bounds. Their positions relative to the exact GD = 0 boundary reproduced every observed gain sign: 2021 and 2025 original below the covariance-loss boundary; 2022–2024 expansion, 2025 expansion and 2026 above it (Figure 4b).",
+    "reason": "Remove repeated gross-gain/covariance definitions while preserving every empirical cohort position and sign reconstruction.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-029",
+    "doc": "manuscript",
+    "p": 181,
+    "before": "The 2025 calibration selected geometry ridge for hourly core LST and hour offsets for hourly ring LST, while selecting raw observations for the direct hourly contrast and transition (Table 2). In the corrected 2026 temporal evaluation, core and ring RMSE fell by 59.7% and 56.1%. The contrast derived from those component corrections had a −0.14% RMSE-reduction estimate (95% crossed city–interval bootstrap interval, −6.75% to +6.48%). Component-harmonized transition MSE gain was +0.88% (95% interval, −1.43% to +2.86%). Both downstream intervals included zero. The direct measurand actions remained raw under the decisions from 2025 calibration.",
+    "after": "The 2025 calibration selected core geometry ridge, ring hour offsets and raw direct contrast/transition (Table 2). In corrected 2026 evaluation, core and ring RMSE fell by 59.7% and 56.1%, respectively, while component-derived contrast RMSE reduction was −0.14% (95% crossed city–interval bootstrap interval, −6.75% to +6.48%) and transition MSE gain was +0.88% (95% interval, −1.43% to +2.86%). Both downstream intervals included zero; direct actions remained raw under the 2025 decisions.",
+    "reason": "Combine repeated selected-action and downstream-uncertainty statements; preserve model identities, metrics, intervals and calibration-only decisions.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-030",
+    "doc": "manuscript",
+    "p": 182,
+    "before": "The workflow consequently produced separate actions within one processing chain: correct the two component products, retain the raw contrast and transition, and use residual uncertainty to decide whether a transition direction could be stated. Raw retention preserved the calibration-selected action instead of forcing a correction from improved upstream components.",
+    "after": "The processing chain thus corrects components, retains raw contrast and transition, and uses residual uncertainty to support a transition direction or abstain. Improved components do not override the calibration-selected downstream actions.",
+    "reason": "Remove repeated rationale for retaining raw, already stated in Methods and the preceding Results paragraph.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-031",
+    "doc": "manuscript",
+    "p": 183,
+    "before": "Across 583 evaluated 2026 transitions, the residual interval covered 524 reference values (89.9%) and excluded zero in 186 cases (31.9%). Supported signs agreed with GOES-18 in 176 of 186 cases (94.6%; Figure 5d), meeting both pooled uncertainty criteria. Subgroup performance differed: original-cohort coverage was 97.4%, above the 85–95% band, with 100/100 supported signs agreeing; expansion coverage was 79.0% and supported-sign agreement was 76/86 (88.4%), below both criteria. The interval excluded zero in 29.0% of original and 36.1% of expansion transitions. These subgroup diagnostics show limited transport of a single residual width and sign rule, despite the pooled result. Table S3 gives cohort counts and criteria; complete interval summaries are retained in the repository.",
+    "after": "Across 583 transitions, coverage was 524/583 (89.9%), and 186/583 (31.9%) received sign support. Of those, 176/186 (94.6%) agreed with GOES-18, meeting both pooled criteria (Figure 5d). Original-cohort coverage was 97.4%, above the 85–95% band, with 100/100 supported signs agreeing. Expansion coverage was 79.0% and agreement 76/86 (88.4%), failing both criteria. Support was 29.0% and 36.1% in the original and expansion groups. These differences limit transport of a single calibrated rule. Table S3 gives cohort counts/criteria; complete interval summaries are in the repository.",
+    "reason": "Tighten the directional Results while retaining all denominators, support percentages, both expansion failures and original overcoverage.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-032",
+    "doc": "manuscript",
+    "p": 223,
+    "before": "The historical evaluation extended the measurement pattern to an earlier GOES-West/GOES-East pairing (Figure 5a, b). In 2021, core and ring RMSE reductions were 55.1% and 55.6%, with 95% crossed city–interval bootstrap intervals of 48.1–61.6% and 50.0–60.9%, respectively. Contrast RMSE improved by 2.9% (95% interval, −4.3% to +9.8%).",
+    "after": "The 2021 GOES-17/16 evaluation reproduced strong component gains: 55.1% for core and 55.6% for ring (95% crossed city–interval bootstrap intervals, 48.1–61.6% and 50.0–60.9%; Figure 5a,b). Contrast RMSE improved 2.9% (95% interval, −4.3% to +9.8%).",
+    "reason": "Remove repetition of the historical design motivation; retain component/contrast point estimates and intervals.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-033",
+    "doc": "manuscript",
+    "p": 225,
+    "before": "The differential core-minus-ring offset was 0.5884 K at h = −3, compared with 0.0932–0.1179 K at h = +4 to +6 (archived historical offsets). This time dependence changes the derived contrast directly. Within each of the ten fixed-hour strata, contrast RMSE decreased slightly, while centered covariance and correlation were unchanged. The pooled covariance-loss term and the within-hour improvements are compatible because the pooled decomposition also contains variation between hourly mean discrepancies. In 2026, the core used geometry ridge and the ring used hour offsets; that correction is not constant within hour, so the 2021 invariance argument does not apply to the entire 2026 correction.",
+    "after": "The core-minus-ring offset was 0.5884 K at h = −3 versus 0.0932–0.1179 K at h = +4 to +6, directly changing the contrast. In each of ten fixed-hour strata, contrast RMSE decreased slightly and centered covariance/correlation were unchanged. Pooled covariance loss also reflects variation between hourly mean discrepancies, so it is compatible with within-hour improvements. The 2026 geometry-ridge core/hour-offset ring correction varies within hour; the historical invariance argument does not apply to that entire correction. Table S5 reports hour-specific and view-angle budgets.",
+    "reason": "Remove repeated explanation of hour-dependent mean shifts while preserving the differential-offset numbers, within-hour result and model-specific invariance boundary.",
+    "reviewers": [
+      "R2-M3",
+      "R2-M6"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-034",
+    "doc": "manuscript",
+    "p": 226,
+    "before": "All four evaluation intervals showed component improvement and positive covariance loss. Interval-specific component RMSE reductions ranged from 53.0% to 58.8%, while contrast improvements ranged from 1.4% to 4.5%; leave-one-interval-out results retained the same pattern. For transitions, core and ring RMSE fell by 65.6% and 67.2%, while the component-derived contrast transition showed −1.26% RMSE reduction (95% crossed city–interval bootstrap interval, −12.2% to +6.6%).",
+    "after": "All four intervals showed component improvement and covariance loss: component RMSE reductions were 53.0–58.8% and contrast improvements 1.4–4.5%, with the same pattern after leaving out each interval. Transition core and ring RMSE fell by 65.6% and 67.2%, respectively, but contrast-transition RMSE reduction was −1.26% (95% crossed city–interval bootstrap interval, −12.2% to +6.6%).",
+    "reason": "Shorten interval influence/transition reporting without deleting the uncertain unfavorable transition result.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-035",
+    "doc": "manuscript",
+    "p": 228,
+    "before": "Figure 5. Historical replication and corrected temporal evaluation. (a) Observed 2021 hourly RMSE reductions with 95% crossed city–interval bootstrap intervals from 5,000 draws, using 2,602 rows from 69 cities and four intervals. (b) Interval-specific point estimates; labels give local start dates and retained counts. (c) Corrected 2026 hourly MSE-budget terms and 95% crossed city–interval bootstrap intervals, using 5,716 rows from 75 cities and eight intervals. The covariance penalty subtracts from net gain and is plotted below zero. (d) Residual-interval coverage, fraction of transitions with supported sign, and agreement of supported signs with GOES-18. Counts are shown explicitly. The combined evaluation contains 583 transitions and meets both criteria; subgroup rows are transport diagnostics. Expansion coverage is 79.0% and supported-sign agreement is 88.4%, below their criteria. The 2026 analysis corrects the original temporal evaluation after its results had been inspected. Bootstrap intervals condition on fitted models and sampled city–interval support.",
+    "after": "Figure 5. Historical replication and corrected temporal evaluation. (a) 2021 hourly RMSE reductions and 95% crossed city–interval bootstrap intervals (5,000 draws; 2,602 rows, 69 cities, four intervals). (b) Interval-specific estimates, local start dates and counts. (c) 2026 hourly MSE budgets and corresponding intervals (5,716 rows, 75 cities, eight intervals); covariance loss is plotted below zero. (d) Transition coverage, sign support and conditional agreement with GOES-18. The pooled 583 transitions meet both criteria; expansion coverage 79.0% and agreement 88.4% fail, while original coverage 97.4% exceeds the band. Subgroups are transport diagnostics. The 2026 analysis is post hoc corrected temporal evaluation after inspection of the original results. Intervals condition on fitted models and sampled city–interval support.",
+    "reason": "Condense caption and make original-cohort overcoverage explicit beside both expansion failures; preserve supports, resampling and post hoc limits.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-036",
+    "doc": "manuscript",
+    "p": 230,
+    "before": "Strict-DQF-0 screening retained only three cities (Tucson, South Valley and Albuquerque), yielding 215 hourly observations and 21 transitions compared with 5,716 and 583 under recommended screening. On common daily support, recommended contrast RMSE changed from 1.015 to 0.949 K and strict-screened RMSE from 0.915 to 0.904 K. The paired strict-minus-recommended corrected RMSE difference was −0.045 K (95% crossed city–interval bootstrap interval, −0.182 to +0.111 K). These three cities are geographically clustered, and quality selection covaries with viewing geometry and retrieval conditions. The conditional comparison cannot establish robustness across all 75 cities. Native clear-mask and one- and two-pixel cloud-buffer screens retained 588, 573 and 547 scan-level pairs, compared with 676 under recommended screening. Contrast RMSE under the two-pixel screen changed from 0.962 to 0.946 K; recommended-screen RMSE on those same 547 keys changed from 0.907 to 0.917 K. These descriptive scan-level results show that screening and sample support both affect the contrast comparison (Table S2).",
+    "after": "Strict-DQF-0 screening retained only three cities (Tucson, South Valley and Albuquerque), yielding 215 hourly observations and 21 transitions compared with 5,716 and 583 under recommended screening. On common daily support, recommended contrast RMSE changed from 1.015 to 0.949 K and strict-screened RMSE from 0.915 to 0.904 K. On the same restricted support, component correction increased transition-contrast RMSE from 0.961 to 0.992 K under recommended screening and from 0.816 to 0.840 K under strict DQF-0 screening. The paired strict-minus-recommended corrected hourly RMSE difference was −0.045 K (95% crossed city–interval bootstrap interval, −0.182 to +0.111 K). These three cities are geographically clustered, and quality selection covaries with viewing geometry and retrieval conditions. The conditional comparison cannot establish robustness across all 75 cities. Native clear-mask and one- and two-pixel cloud-buffer screens retained 588, 573 and 547 scan-level pairs, compared with 676 under recommended screening. Contrast RMSE under the two-pixel screen changed from 0.962 to 0.946 K; recommended-screen RMSE on those same 547 keys changed from 0.907 to 0.917 K. These descriptive scan-level results show that screening and sample support both affect the contrast comparison (Table S2).",
+    "reason": "Make both unfavorable common-support transition results explicit; retain21-transition/three-city conditional scope and distinguish hourly comparison.",
+    "reviewers": [
+      "R2-M6"
+    ],
+    "proposal_source": "Author Change1; independently reconstructed source values"
+  },
+  {
+    "id": "CONC-M-037",
+    "doc": "manuscript",
+    "p": 238,
+    "before": "Component agreement and downstream agreement are separate consistency targets. Correction reduced component RMSE across all five evaluation cohorts, while the core–ring contrast improved in two and deteriorated in three. In the pooled residual budget, the covariance-loss penalty offset most or all of the component-variance and differential-bias gains. The historical hour-specific correction demonstrates one statistical route to this outcome: it removes correlated variation in hourly mean discrepancies while preserving within-hour centered covariance. Other correction families can also alter within-hour residual structure. The temporal transition adds pre-to-post differencing to spatial subtraction, so its MSE budget must be evaluated separately.",
+    "after": "Component and downstream agreement are separate targets. Across five cohorts, contrast point estimates improved in two and deteriorated in three despite component gains. Covariance loss offset most or all variance-plus-bias gains. Historical hour offsets removed shared between-hour discrepancy variation while preserving centered within-hour covariance; other corrections can alter both. The transition combines spatial and temporal differencing and requires its own MSE budget.",
+    "reason": "Remove repeated full interpretation of the already reported MSE/covariance decomposition while retaining model-specific statistical mechanism and separate transition accounting.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-038",
+    "doc": "manuscript",
+    "p": 241,
+    "before": "The contribution is the combined use of established covariance propagation [8,9,10] and model selection to evaluate harmonization at each measurement level. The MSE identity explains how changes in marginal discrepancy and joint residual structure affect the derived quantity. Cross-validation and the one-standard-error rule provide the selection procedure, with raw observations included as an identity candidate. The application then tests whether component correction, downstream raw retention, and residual-based directional abstention can coexist across GOES platform replacements. This builds on continuity studies that already assess derived indices [5,6] and remote-sensing studies of error covariance [14,15].",
+    "after": "The contribution combines established covariance propagation [8,9,10] and model selection to assess each measurand. MSE accounting describes how marginal and joint discrepancies affect derived quantities; cross-validation with a one-standard-error rule selects correction or raw retention. The GOES application evaluates these actions with directional abstention across platform replacements, building on derived-index continuity [5,6] and error-covariance studies [14,15].",
+    "reason": "Consolidate novelty positioning and remove repeated definitions while preserving all citations and established-method attribution.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-039",
+    "doc": "manuscript",
+    "p": 242,
+    "before": "The preferred processing action can differ across measurands. In 2025 calibration, raw observations were within one standard error of the best direct candidate for both the hourly contrast and transition. Repeating that protocol after preprocessing repair retained the same actions with newly fitted component parameters. The corrected 2026 evaluation showed strong component improvements, whereas the component-derived contrast estimate was −0.14% and its interval spanned improvement and deterioration. This supports evaluating processing actions separately at each measurand.",
+    "after": "The repaired 2025 calibration retained raw contrast and transition under the one-standard-error rule. Strong component gains and uncertain contrast change in 2026 support evaluating actions separately at each measurand, rather than requiring one corrected product to serve every analysis level.",
+    "reason": "Remove numerical repetition already present in Results/Table2; preserve calibration decision, temporal evidence and practical inference.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-040",
+    "doc": "manuscript",
+    "p": 243,
+    "before": "When the prespecified selection rule retains the identity candidate, the downstream measurand remains raw even when its constituent components are corrected. The action can coexist with corrected component products because each is attached to a different measurand. This structure avoids forcing one harmonized data set to serve every level of an analysis and turns unsupported downstream improvement into an explicit quality-control decision.",
+    "after": "Raw downstream quantities can therefore coexist with corrected component products. Each action serves a different measurand, making unsupported downstream improvement an explicit quality-control decision.",
+    "reason": "Condense repeated identity-candidate/raw-retention rationale into its practical implication.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-041",
+    "doc": "manuscript",
+    "p": 244,
+    "before": "Directional abstention links inference to the empirical cross-platform residual width [16,27]. In 2026, the interval excluded zero for 31.9% of transitions, and 94.6% of supported signs agreed with GOES-18. Pooled performance met both criteria, but the expansion cohort fell below the coverage and sign-agreement thresholds and the original cohort exceeded the coverage band. These differences limit transfer of a single calibrated interval and argue for subgroup assessment alongside pooled reporting.",
+    "after": "Residual-based abstention links directional inference to empirical uncertainty [16,27]. Although pooled 2026 criteria passed, expansion coverage and agreement failed and original coverage exceeded the band. These subgroup differences limit transfer of one calibrated interval and require reporting alongside pooled performance.",
+    "reason": "Remove duplicated31.9%/94.6% values retained in Abstract/Results/Table2/SI and preserve citation support and every subgroup failure.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-042",
+    "doc": "manuscript",
+    "p": 246,
+    "before": "The evaluation designs address different transfer questions. The 2022–2024 expansion tested the initial GOES-18/16 correction on cities excluded from derivation while sharing interval dates. The 2025 cohorts tested that correction under GOES-18/19 and then supplied calibration for the final selector. The corrected 2026 evaluation assessed those selected actions at the same cities in a later year; it supplies post hoc corrected temporal evidence for the final workflow. The 2021 replication tested another period and platform pair at overlapping cities. Across these settings, strong component gains coexisted with small or inconsistent downstream gains. Spatial generalization of the final 2025-selected workflow to unseen cities remains untested.",
+    "after": "The designs test distinct transfers. The 2022–2024 expansion evaluated excluded cities on shared dates; the 2025 cohorts tested the changed GOES-18/19 pair before calibrating the final selector. Corrected 2026 observations provide post hoc temporal evaluation at the same cities. The 2021 replication tests another period/platform pair at overlapping cities. Across these designs, component gains coexisted with inconsistent downstream gains. Final-selector performance at unseen cities remains untested.",
+    "reason": "State each transfer regime once; retain same-city/post hoc and unseen-city limits without repeating design chronology in full.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-043",
+    "doc": "manuscript",
+    "p": 247,
+    "before": "The broader implication is that cross-platform continuity depends on the joint residual structure of the measurements entering the scientific quantity, not only on their marginal agreement with the designated reference. During a sensor transition, separate corrections can improve each constituent product while altering cross-component covariance enough to remove that improvement after subtraction. A useful extension is joint multivariate correction of the component vector, evaluated by out-of-sample loss of the target measurand; the objective would be to optimize full downstream loss instead of preserving residual covariance unconditionally.",
+    "after": "Cross-platform continuity therefore depends on joint residual structure as well as marginal agreement. A future joint multivariate correction could optimize out-of-sample target-measurand loss; preserving covariance alone would not ensure lower downstream error.",
+    "reason": "Remove duplicated subtraction/covariance explanation and keep a clearly prospective, untested extension.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-044",
+    "doc": "manuscript",
+    "p": 250,
+    "before": "Ratios and normalized indices require their own propagation or direct empirical loss, as continuity studies of vegetation indices already illustrate [5,6]. For nonlinear measurands, the same decision principle could be implemented through direct out-of-sample downstream loss, although the exact linear covariance decomposition used here would no longer apply. Accordingly, validation should target the measurand used in the downstream analysis.",
+    "after": "Ratios and normalized indices require their own propagation or direct downstream loss [5,6]. The decision principle can extend to nonlinear measurands, but the exact linear decomposition does not apply.",
+    "reason": "Remove repeated general conclusion; retain nonlinear boundary, citation and prospective nature.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-045",
+    "doc": "manuscript",
+    "p": 256,
+    "before": "Cross-platform LST harmonization was measurand dependent across the evaluated GOES ABI platform pairings. The workflow combines established MSE accounting and model selection to assess correction or raw retention at the measurement level used for inference. Across three platform pairings and five evaluation cohorts, component corrections reduced RMSE by 29.3–59.7%, whereas the derived core–ring contrast ranged from a 13.1% deterioration to an 11.5% improvement. Residual-covariance loss offset 94.6–114.0% of gross variance-plus-bias gains. The 2021 replication and corrected 2026 temporal evaluation show that large component gains can coexist with limited downstream transfer. The station benchmark adds independent raw-product evidence, while full urban-workflow ground validation remains open.",
+    "after": "Across three GOES ABI pairings and five evaluation cohorts, component corrections reduced RMSE 29.3–59.7%, while core–ring contrast ranged from 13.1% deterioration to 11.5% improvement. Covariance loss offset 94.6–114.0% of gross variance-plus-bias gains. Established MSE accounting and model selection distinguish correction from raw retention at each measurand. Historical and corrected temporal evaluations show limited downstream transfer despite component gains. Independent station benchmarks assess raw products; full urban-workflow ground validation remains incomplete.",
+    "reason": "Condense conclusion by removing repeated workflow framing; preserve headline ranges, covariance finding and incomplete ground validation.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-046",
+    "doc": "manuscript",
+    "p": 257,
+    "before": "The practical implication is to evaluate processing at the target measurand. Calibration can support corrected component products while retaining raw contrasts or transitions, and residual intervals can withhold directional statements when the signal is unresolved. The pooled directional criteria passed in 2026, but expansion-cohort coverage and supported-sign agreement failed, limiting transport of one calibrated rule. The same covariance accounting applies to linear differences and weighted aggregates; the empirical evidence here covers the urban core–ring contrast and its sunset transition. Future applications require their own downstream evaluation and independent reference support.",
+    "after": "Processing should be assessed at the target measurand: component correction can coexist with raw contrasts/transitions and abstention from unresolved directions. Pooled 2026 directional criteria passed, but both expansion criteria failed. Linear covariance accounting applies more broadly; these empirical results concern core–ring contrast and its sunset transition. Future applications require their own downstream assessment and independent reference support.",
+    "reason": "Remove duplicated operational explanation while retaining negative directional outcome, empirical bounds and future-validation requirement.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "narrative.json"
+  },
+  {
+    "id": "CONC-M-047",
+    "doc": "manuscript",
+    "p": 258,
+    "before": "Supplementary Materials: Tables S1–S4 provide exact MSE budgets, quality/cloud-screening summaries, directional cohort diagnostics and independent station-product comparisons. Detailed model scores, bootstrap outputs, hour/geometry diagnostics, source manifests, cohort provenance and radiometric sensitivities are retained in the versioned reproducibility package.",
+    "after": "Supplementary Materials: Tables S1–S5 report exact MSE budgets, quality/cloud sensitivities, directional cohorts, station benchmarks and hour/view-angle diagnostics. Full model scores, bootstrap outputs, source manifests, cohort provenance and radiometric sensitivities are in the versioned reproducibility package.",
+    "reason": "Update compact five-table SI map; supporting evidence remains in the indexed versioned package.",
+    "reviewers": [
+      "R2-M3",
+      "R2-M6"
+    ],
+    "proposal_source": "Author Change3"
+  },
+  {
+    "id": "CONC-M-048",
+    "doc": "manuscript",
+    "p": 261,
+    "before": "Data Availability Statement: The project repository is https://github.com/arieqwer/downstream-measurand-aware-lst-harmonization. The corrected R1 code, processed inputs, fitted models, figures, cohort provenance and source manifests have been prepared for version v2.1.0-r1; public release is pending. ERA5-Land inputs are available through the Copernicus Climate Data Store (https://doi.org/10.24381/cds.e2161bac) and Google Earth Engine collections ECMWF/ERA5_LAND/HOURLY and ECMWF/ERA5_LAND/DAILY_AGGR. Raw GOES LST and cloud-mask files are available from NOAA cloud archives under ABI-L2-LSTC and ABI-L2-ACMC; SURFRAD radiation data are available from NOAA Global Monitoring Laboratory [32]. GHS-UCDB R2024A is available at https://doi.org/10.2905/JRC.05RDPR0, and NOAA LST metadata at https://doi.org/10.7289/V52R3PZ8.",
+    "after": "Data Availability Statement: The project repository is https://github.com/arieqwer/downstream-measurand-aware-lst-harmonization. The corrected R1 code, processed inputs, fitted models, figures, cohort provenance and source manifests have been prepared for version v2.1.1-r1; public release is pending. ERA5-Land inputs are available through the Copernicus Climate Data Store (https://doi.org/10.24381/cds.e2161bac) and Google Earth Engine collections ECMWF/ERA5_LAND/HOURLY and ECMWF/ERA5_LAND/DAILY_AGGR. Raw GOES LST and cloud-mask files are available from NOAA cloud archives under ABI-L2-LSTC and ABI-L2-ACMC; SURFRAD radiation data are available from NOAA Global Monitoring Laboratory [32]. GHS-UCDB R2024A is available at https://doi.org/10.2905/JRC.05RDPR0, and NOAA LST metadata at https://doi.org/10.7289/V52R3PZ8.",
+    "reason": "Bind revised documents to a new local release candidate; publication remains pending.",
+    "reviewers": [
+      "R2-M3"
+    ],
+    "proposal_source": "Release consistency"
+  },
+  {
+    "id": "CONC-M-FORMAT",
+    "doc": "manuscript",
+    "p": 184,
+    "before": "Caption may break from its table",
+    "after": "Keep caption with first table row",
+    "reason": "Repair the orphaned Table2caption found in full rendered-page QA; native paragraph-format change remains unaccepted.",
+    "reviewers": [
+      "R2-M3"
+    ]
+  },
+  {
+    "id": "CONC-SI-001",
+    "doc": "si",
+    "before": "This Supplementary Information contains four tables: exact MSE budgets, screening sensitivities, directional cohort diagnostics and independent raw-product station comparisons. Procedures are described in the manuscript Methods. Complete processed data, model scores, diagnostic strata, source inventories and reproducibility evidence are retained in the versioned repository package.",
+    "after": "Tables S1–S5 report MSE budgets, screening sensitivities, directional diagnostics, station benchmarks and hour/view-angle diagnostics. Procedures are in the manuscript Methods; complete processed data, model scores, source inventories and reproducibility evidence are in the indexed versioned repository package.",
+    "reason": "Update concise inventory for one compact principal-diagnostics table.",
+    "reviewers": [
+      "R2-M6",
+      "R2-M3"
+    ]
+  },
+  {
+    "id": "CONC-SI-002",
+    "doc": "si",
+    "before": "",
+    "after": {
+      "caption": "Table S5. Hourly contrast diagnostics on unchanged paired support. n counts city–interval–hour means; the next count is cities. The 2021 pool and ten hours use four intervals and fixed hour offsets; the ten 2026 hours and two VZA groups use eight intervals and unchanged component models. G18 VZA is the GOES-18 reference view-zenith angle; bins are lower-inclusive and upper-exclusive. Gross gain = component-variance + differential-bias gain; net gain = gross gain − covariance-loss penalty (K²); positive net gain favors correction. Rounding can affect closure. Fixed 2021 hour offsets preserve centered within-hour covariance; pooled covariance also includes between-hour variation. VZA groups contain different cities and do not isolate angular causes.",
+      "headers": [
+        "Stratum",
+        "n / cities",
+        "Contrast RMSE, raw / corrected (K)",
+        "Gross gain (K²)",
+        "Covariance penalty (K²)",
+        "Net gain (K²)"
+      ],
+      "rows": [
+        [
+          "2021 pooled",
+          "2,602 / 69",
+          "0.638 / 0.620",
+          "2.4671",
+          "2.4437",
+          "0.0234"
+        ],
+        [
+          "2021 h=−3",
+          "252 / 69",
+          "1.051 / 1.020",
+          "0.0638",
+          "0.0000",
+          "0.0638"
+        ],
+        [
+          "2021 h=−2",
+          "254 / 69",
+          "0.916 / 0.899",
+          "0.0321",
+          "0.0000",
+          "0.0321"
+        ],
+        [
+          "2021 h=−1",
+          "256 / 69",
+          "0.623 / 0.602",
+          "0.0255",
+          "0.0000",
+          "0.0255"
+        ],
+        [
+          "2021 h=0",
+          "261 / 69",
+          "0.554 / 0.536",
+          "0.0192",
+          "0.0000",
+          "0.0192"
+        ],
+        [
+          "2021 h=+1",
+          "259 / 69",
+          "0.469 / 0.450",
+          "0.0181",
+          "0.0000",
+          "0.0181"
+        ],
+        [
+          "2021 h=+2",
+          "262 / 69",
+          "0.503 / 0.489",
+          "0.0137",
+          "0.0000",
+          "0.0137"
+        ],
+        [
+          "2021 h=+3",
+          "265 / 69",
+          "0.478 / 0.460",
+          "0.0167",
+          "0.0000",
+          "0.0167"
+        ],
+        [
+          "2021 h=+4",
+          "266 / 69",
+          "0.500 / 0.482",
+          "0.0175",
+          "0.0000",
+          "0.0175"
+        ],
+        [
+          "2021 h=+5",
+          "269 / 69",
+          "0.497 / 0.482",
+          "0.0146",
+          "0.0000",
+          "0.0146"
+        ],
+        [
+          "2021 h=+6",
+          "258 / 69",
+          "0.531 / 0.517",
+          "0.0152",
+          "0.0000",
+          "0.0152"
+        ],
+        [
+          "2026 h=−3",
+          "589 / 75",
+          "1.173 / 1.073",
+          "0.5604",
+          "0.3365",
+          "0.2239"
+        ],
+        [
+          "2026 h=−2",
+          "550 / 75",
+          "1.085 / 1.051",
+          "0.4414",
+          "0.3702",
+          "0.0712"
+        ],
+        [
+          "2026 h=−1",
+          "548 / 75",
+          "1.007 / 1.025",
+          "0.2399",
+          "0.2775",
+          "−0.0376"
+        ],
+        [
+          "2026 h=0",
+          "473 / 75",
+          "1.114 / 1.155",
+          "0.2492",
+          "0.3424",
+          "−0.0932"
+        ],
+        [
+          "2026 h=+1",
+          "591 / 75",
+          "0.616 / 0.626",
+          "0.2630",
+          "0.2754",
+          "−0.0124"
+        ],
+        [
+          "2026 h=+2",
+          "594 / 75",
+          "0.598 / 0.614",
+          "0.2150",
+          "0.2350",
+          "−0.0200"
+        ],
+        [
+          "2026 h=+3",
+          "593 / 75",
+          "0.488 / 0.545",
+          "0.1668",
+          "0.2265",
+          "−0.0597"
+        ],
+        [
+          "2026 h=+4",
+          "595 / 75",
+          "0.518 / 0.530",
+          "0.1969",
+          "0.2100",
+          "−0.0131"
+        ],
+        [
+          "2026 h=+5",
+          "591 / 75",
+          "0.553 / 0.592",
+          "0.1370",
+          "0.1824",
+          "−0.0453"
+        ],
+        [
+          "2026 h=+6",
+          "592 / 75",
+          "0.550 / 0.591",
+          "0.1337",
+          "0.1807",
+          "−0.0470"
+        ],
+        [
+          "2026 G18 VZA [40, 50)°",
+          "3,619 / 47",
+          "0.701 / 0.633",
+          "1.8647",
+          "1.7737",
+          "0.0911"
+        ],
+        [
+          "2026 G18 VZA [50, 60)°",
+          "2,097 / 28",
+          "0.956 / 1.037",
+          "1.3715",
+          "1.5337",
+          "−0.1622"
+        ]
+      ],
+      "widths": [
+        2350,
+        1050,
+        2200,
+        1100,
+        1200,
+        1738
+      ]
+    },
+    "reason": "Expose principal hour and VZA evidence with sample sizes and signed MSE budgets in one table.",
+    "reviewers": [
+      "R2-M6"
+    ],
+    "sources": [
+      {
+        "release_path": "02_EVIDENCE/diagnostics/repaired_hour_diagnostics.csv",
+        "bytes": 5971,
+        "sha256": "44360c1b93c01f7cd52fe6f851b760043bff0e6aa6b4a93787e9882406409266"
+      },
+      {
+        "release_path": "02_EVIDENCE/diagnostics/repaired_diagnostics_summary.json",
+        "bytes": 2225,
+        "sha256": "39b27b85820a27740733f575206f1a48b1bf34977078c7dc855b6b56bff81e88"
+      },
+      {
+        "release_path": "02_EVIDENCE/si_tables/external_hour_offsets_2019_2020.csv",
+        "bytes": 622,
+        "sha256": "f95a9af959eeaced7cc20917f56b6f7c42bd0ff5e3fa45c7b43a95ffc5f267bb"
+      },
+      {
+        "release_path": "02_EVIDENCE/diagnostics/repaired_VZA_diagnostics.csv",
+        "bytes": 899,
+        "sha256": "36a4baec475813a93c701c4040b369bd1bf6e9e9e8ae6e81739c526f858b7f5f"
+      },
+      {
+        "release_path": "02_EVIDENCE/diagnostics/SI_S14_all_geometry_strata.csv",
+        "bytes": 2000,
+        "sha256": "0cda6f87f4d794e0b7c781eef9e01f7cf79a3bab227e7632b34a4c9a719c5128"
+      },
+      {
+        "release_path": "02_EVIDENCE/quality/support_summary.csv",
+        "bytes": 406,
+        "sha256": "25ccb2b7a82af440184b66419b6d8c7446bc278a9695e207801df925b63c31aa"
+      },
+      {
+        "release_path": "02_EVIDENCE/quality/component_and_contrast_metrics.csv",
+        "bytes": 6397,
+        "sha256": "0cfe88267ec9a9ecac1d39933bb44fc88d3b40523b38d6ecfd735d333fc85525"
+      },
+      {
+        "release_path": "02_EVIDENCE/quality/full_mse_decompositions.csv",
+        "bytes": 5783,
+        "sha256": "abba73bbb68c3e9186f81166c8f08a4ae91d440d23e6c11f46328c37bb8dc687"
+      },
+      {
+        "release_path": "02_EVIDENCE/quality/paired_crossed_bootstrap_comparison_summary.csv",
+        "bytes": 13672,
+        "sha256": "67b4447362cd365395c83322faf9aa32e072206b07d8afddcd494c8dcc4903c5"
+      },
+      {
+        "release_path": "02_EVIDENCE/native/native_cloud_sensitivity.csv",
+        "bytes": 3364,
+        "sha256": "057a8c8b51b5bf8fe7ca4a73de08475c0dafc5f1f9336600e67d0a2ae3f2e328"
+      },
+      {
+        "release_path": "02_EVIDENCE/native/native_cloud_paired_rows.csv",
+        "bytes": 2714876,
+        "sha256": "0c2fd47b83f534ad294fe771d0492947401fdf3de4c0ed9f6d2ee97dda5ab8ce"
+      },
+      {
+        "release_path": "02_EVIDENCE/native/cloud_scene_status.json",
+        "bytes": 4130,
+        "sha256": "1b7a53d7d7f0a0d30258effc0f5eabf9016446882fdef5f83d11195c4a7fda91"
+      },
+      {
+        "release_path": "02_EVIDENCE/native/native_PQI_reasons_aggregated.csv",
+        "bytes": 5727,
+        "sha256": "7919e79a12a9a476287ec4b7997f66e66a72cfa6c1a0093d514b31e308003e38"
+      },
+      {
+        "release_path": "02_EVIDENCE/native/historical_and_modern_metadata_catalog.csv",
+        "bytes": 8760,
+        "sha256": "90f072dcd6e132edf7c62a4ad422d5b518778cd4ad867f9d16a74cfaa66f2d06"
+      },
+      {
+        "release_path": "02_EVIDENCE/native/historical_and_modern_metadata_audit.json",
+        "bytes": 206070,
+        "sha256": "e2090b31e412693d866952f5229db7dba92adf1b60301c26ff6cdc8c7624c4ef"
+      },
+      {
+        "release_path": "02_EVIDENCE/surface/radiometry_sensitivity_scenarios.csv",
+        "bytes": 9220,
+        "sha256": "ff88794212a5fd5c2130d86000796fe34bd4d8f7a76b74f411e1a6d0dffb8b17"
+      },
+      {
+        "release_path": "02_EVIDENCE/surface/modern/modern_ground_sensitivity.csv",
+        "bytes": 4708,
+        "sha256": "ac4ee67d81f80457d9dfba520279d2dcbefd9c9eb7359369cc868a8692db3889"
+      },
+      {
+        "release_path": "02_EVIDENCE/surface/neighborhood_matched_sensitivity.csv",
+        "bytes": 1354,
+        "sha256": "33fec265b08a30026f63ca6f08ee2ad0135217c1bd5b59dc60e2db00691932c0"
+      },
+      {
+        "release_path": "02_EVIDENCE/surface/modern/modern_neighborhood_sensitivity.csv",
+        "bytes": 544,
+        "sha256": "6041aee00a6a5b7c12c31d4fbf683b984138122fa9987eca5d3f99c9bf14f4e5"
+      },
+      {
+        "release_path": "02_EVIDENCE/diagnostics/repaired_G17_June_sensitivity.csv",
+        "bytes": 883,
+        "sha256": "21a975e834a56583f5db4a7ac14db1fc71ba9d479533e2dd160f1f3caab3d39e"
+      },
+      {
+        "release_path": "02_EVIDENCE/diagnostics/repaired_observed_contrast_scale.csv",
+        "bytes": 225,
+        "sha256": "7b20d8387ebe8b4244f891223d26ed084f9c7045c3cc99c36ade370ff8c194ab"
+      }
+    ]
+  }
+]

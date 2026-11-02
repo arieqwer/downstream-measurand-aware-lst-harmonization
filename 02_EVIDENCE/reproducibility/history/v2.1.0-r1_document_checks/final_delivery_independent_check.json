@@ -1,0 +1,259 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-10-29T18:51:58.157097+00:00",
+  "documents": {
+    "/Users/apple/Downloads/RS revision 1/Manuscript v1_suggestions.docx": "e334d60d35b167f9d063d01c22f2f4bca9284751b3a8e3d6060840cfcbba24da",
+    "/Users/apple/Downloads/RS revision 1/supplementary_suggestions.docx": "632f4c7d103cd5cb92bd80c2e4f09d68ffad44dc116ae74520c408f68d125077"
+  },
+  "checks": [
+    {
+      "check": "Manuscript v1_suggestions.docx comment commentRangeStart",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Manuscript v1_suggestions.docx comment commentRangeEnd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Manuscript v1_suggestions.docx comment commentReference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Scientific Word audit PASS",
+      "passed": true,
+      "details": {
+        "checks": 256,
+        "cells": 156
+      }
+    },
+    {
+      "check": "Manuscript v1_suggestions.docx matches independently audited bytes",
+      "passed": true,
+      "details": "e334d60d35b167f9d063d01c22f2f4bca9284751b3a8e3d6060840cfcbba24da"
+    },
+    {
+      "check": "manuscript final accepted text matches current Word",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary_suggestions.docx matches independently audited bytes",
+      "passed": true,
+      "details": "632f4c7d103cd5cb92bd80c2e4f09d68ffad44dc116ae74520c408f68d125077"
+    },
+    {
+      "check": "si final accepted text matches current Word",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Main citation first appearance exactly1to34",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "check": "34numbered reference entries",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Exactly four accepted SI tables",
+      "passed": true,
+      "details": 4
+    },
+    {
+      "check": "SI caption sequence S1toS4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SI data rows10/9/3/12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All SI tables referenced and no out-of-range references",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        2,
+        4,
+        4,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "check": "No old numbered Notes or Data references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "One remaining publication comment only",
+      "passed": true,
+      "details": [
+        {
+          "id": "0",
+          "text": "Release authorization pending: the corrected local v2.1.0-r1 package must be approved and publicly released before submission. Replace the pending-release wording with its actual accessible release link after publication. No new DOI or release URL is asserted here."
+        }
+      ]
+    },
+    {
+      "check": "No new inaccessible releaseURL or DOI claimed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern strict0no common pair",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All modern paired G19mediumquality",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Different eras not ranked",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern first-day rather than full period",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No urbantrained station corrections",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Urban fullchain groundvalidation still incomplete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "LHPcalendar doesnotisolatecause",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Ground scenarios not ABI input perturbations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Same75cities",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Posthoc corrected temporal scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Final unseen-city performance untested",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Expansionbothfail",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Originalovercoverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Conditional31.9support94.6agreement",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Uncertain2026contrast",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Higher empirical quantile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Sparse strictgeography",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Conditional strictpopulation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Yearly methods seed distinction",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern station bootstrapseed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No prospective label in current body",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "limitations": [
+    "No final response-letter cross-check: reviewer response letters are deliberately deferred.",
+    "Public release still requires explicit authorization and actual accessible publication.",
+    "Visual QA is separately recorded by the coordinator; this is a content/citation/byte-binding audit."
+  ]
+}

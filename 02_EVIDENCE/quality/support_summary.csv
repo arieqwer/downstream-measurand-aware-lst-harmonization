@@ -1,0 +1,6 @@
+scenario,paired_daily_rows,hourly_rows,cities,intervals,transitions,transition_cities,max_daily_scan_gap_min
+recommended_full,30839,5716,75,8,583,75,0.9833333333333333
+strict_full,883,215,3,8,21,3,0.9833333333333333
+recommended_common_daily,883,215,3,8,21,3,0.9833333333333333
+strict_common_daily,883,215,3,8,21,3,0.9833333333333333
+recommended_eligible_city_full_dates,967,220,3,8,22,3,0.9833333333333333

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "version": "v2.1.1-r1",
+  "documents": {
+    "Manuscript v1_suggestions.docx": "ed22a9998b2e2f1e8a8233aa10639fef7e1b23a32e6697db230f57281a9efbf2",
+    "supplementary_suggestions.docx": "0411ee0a5d1136c3f6f4e907e41d73ca4a34c726aac342de2393867f89ccd159"
+  },
+  "checks": {
+    "document_validation.json": "8b4069d87a7bbaa26d26ce84c55976f0dcb7fb73618c287ac86bd05fcee4db7f",
+    "methods_semantic_check.json": "35a84ccff423249d4b5769f416b998c8c17d98453c689531bc428a2bda9f26f3",
+    "final_document_science_check.json": "2d90e207f2f21b14d19b9a0dfd524d57accef1d5ee3aeb719a5402f4c4744373",
+    "final_visual_QA.json": "abbb6b2d69ed14a52a5a801842bd07f6924262b2f5e7e9785aec00eb21972433"
+  },
+  "word_counts": {
+    "method": "Whitespace-delimited w:t text in accepted top-level body paragraphs, including references/front matter/captions; excluding table cells and native equation tokens. Same method for all three versions.",
+    "original_paragraph_words": 8762,
+    "preceding_paragraph_words": 10202,
+    "current_paragraph_words": 8518,
+    "removed_from_preceding": 1684,
+    "below_original": 244,
+    "original_table_inclusive_words": 9105,
+    "preceding_table_inclusive_words": 10556,
+    "current_table_inclusive_words": 8872,
+    "below_original_table_inclusive": 233,
+    "by_section": [
+      {
+        "section": "Introduction",
+        "paragraph_edits": 4,
+        "net_words_removed": 189
+      },
+      {
+        "section": "Methods",
+        "paragraph_edits": 17,
+        "net_words_removed": 826
+      },
+      {
+        "section": "Results and captions",
+        "paragraph_edits": 15,
+        "net_words_removed": 301
+      },
+      {
+        "section": "Discussion and Conclusions",
+        "paragraph_edits": 10,
+        "net_words_removed": 365
+      },
+      {
+        "section": "Back matter",
+        "paragraph_edits": 2,
+        "net_words_removed": 3
+      }
+    ]
+  },
+  "external_actions_executed": false,
+  "response_letters_drafted": false,
+  "submission_ready": false
+}

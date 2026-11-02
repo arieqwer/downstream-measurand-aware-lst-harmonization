@@ -8,7 +8,7 @@ budget table.
 Run from the manuscript-package root:
 
 ```bash
-python3 04_CODE/scripts/build_covariance_regime_stress_test.py
+python3 05_CODE/scripts/build_covariance_regime_stress_test.py
 ```
 
 The script generates:
@@ -23,7 +23,6 @@ The script generates:
 - `simulation_artifact_hashes.json`: SHA-256 hashes for the script, frozen input
   table and generated artifacts.
 
-The Figure 4 PNG and caption are written to `06_SUBMISSION/figures/`.
-The archived submission PNG retains the final publication typography; the
-builder regenerates the same deterministic values and graphical relationships.
-No random sampling, model fitting or new satellite observation is used.
+The corresponding PNG, PDF and SVG figure and caption are written to
+`03_FIGURES/`. No random sampling, model fitting or new satellite observation is
+used.

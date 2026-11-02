@@ -1,0 +1,20 @@
+{
+  "dataset": "goes18_2026_metric_holdout",
+  "bucket": "noaa-goes18",
+  "candidate_cities": 94,
+  "geometric_eligible_cities": 88,
+  "affected_city_ids": [
+    "2007"
+  ],
+  "requested_rows": 60160,
+  "archive_missing_rows": 191,
+  "available_eligible_rows": 56129,
+  "reusable_rows": 54622,
+  "native_reextract_rows": 1507,
+  "native_reextract_objects": 639,
+  "original_input_sha256": "5b2dc709d1d82d3f19de55ef54d17ad810bf83d265a6940d8a15f75ddaec656b",
+  "prototype_grid_signature": "06002d2fd8095e917c3f8f10592f57af89796466589132be0f27142996d3041f",
+  "calendar": "Astral intended local-sunset date; longitude-based fixed solar offset, UTC conversion",
+  "spatial": "complete saved polygons, boundary vertices densified0.005degree,2nativepixelpaddingverifiedagainst8pixelpadding",
+  "arithmetic": "Originalfloat32LSTdecodeandmean;float64nativecoordinates;originalquality0and<=1andthresholdsunchanged"
+}

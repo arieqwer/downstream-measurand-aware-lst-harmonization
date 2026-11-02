@@ -1,0 +1,1288 @@
+{
+  "status": "PASS",
+  "command": [
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean_environment/bin/python",
+    "/Users/apple/Downloads/RS revision 1/concision_20261030/proposals/verify_diagnostic_access.py"
+  ],
+  "acceptance_tolerance": 1e-10,
+  "checks": [
+    {
+      "check": "Budget closure",
+      "value": 0.02342638269145736,
+      "expected": 0.023426382691456915,
+      "absolute_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled n",
+      "value": 2602.0,
+      "expected": 2602.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled variance_gain_K2",
+      "value": 2.441612903530062,
+      "expected": 2.441612903530062,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled bias_gain_K2",
+      "value": 0.025526235839444304,
+      "expected": 0.0255262358394443,
+      "absolute_error": 3.469446951953614e-18,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled covariance_penalty_K2",
+      "value": 2.4437127566780488,
+      "expected": 2.4437127566780488,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled net_MSE_gain_K2",
+      "value": 0.023426382691456915,
+      "expected": 0.0234263826914569,
+      "absolute_error": 1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled raw_contrast_rmse_K",
+      "value": 0.6384703767148606,
+      "expected": 0.6384703767148606,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 pooled corrected_contrast_rmse_K",
+      "value": 0.6198532400907162,
+      "expected": 0.6198532400907162,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.06381292382269854,
+      "expected": 0.06381292382269854,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 n",
+      "value": 252.0,
+      "expected": 252.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 raw_contrast_rmse_K",
+      "value": 1.0505273659961794,
+      "expected": 1.0505273659961794,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 corrected_contrast_rmse_K",
+      "value": 1.0197033013990746,
+      "expected": 1.0197033013990746,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 variance_gain_K2",
+      "value": -2.220446049250313e-16,
+      "expected": 2.220446049250313e-16,
+      "absolute_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 bias_gain_K2",
+      "value": 0.06381292382269854,
+      "expected": 0.0638129238226985,
+      "absolute_error": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 covariance_penalty_K2",
+      "value": -2.220446049250313e-16,
+      "expected": -2.220446049250313e-16,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 net_MSE_gain_K2",
+      "value": 0.06381292382269854,
+      "expected": 0.0638129238226985,
+      "absolute_error": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 raw_covariance_K2",
+      "value": 0.6471219033729004,
+      "expected": 0.6471219033729003,
+      "absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-3 corrected_covariance_K2",
+      "value": 0.6471219033729005,
+      "expected": 0.6471219033729004,
+      "absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance -3",
+      "value": -2.220446049250313e-16,
+      "expected": 0.0,
+      "absolute_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance -3",
+      "value": -2.220446049250313e-16,
+      "expected": 0.0,
+      "absolute_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.03205605821596718,
+      "expected": 0.03205605821596702,
+      "absolute_error": 1.5959455978986625e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 n",
+      "value": 254.0,
+      "expected": 254.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 raw_contrast_rmse_K",
+      "value": 0.9162355030814319,
+      "expected": 0.916235503081432,
+      "absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 corrected_contrast_rmse_K",
+      "value": 0.8985718885492232,
+      "expected": 0.8985718885492232,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 variance_gain_K2",
+      "value": 1.1102230246251565e-16,
+      "expected": 1.1102230246251563e-16,
+      "absolute_error": 2.465190328815662e-32,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 bias_gain_K2",
+      "value": 0.03205605821596707,
+      "expected": 0.032056058215967,
+      "absolute_error": 6.938893903907228e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 net_MSE_gain_K2",
+      "value": 0.03205605821596702,
+      "expected": 0.032056058215967,
+      "absolute_error": 2.0816681711721685e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 raw_covariance_K2",
+      "value": 0.5255104347577525,
+      "expected": 0.5255104347577524,
+      "absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-2 corrected_covariance_K2",
+      "value": 0.5255104347577525,
+      "expected": 0.5255104347577524,
+      "absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance -2",
+      "value": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance -2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.025528706489793593,
+      "expected": 0.025528706489793662,
+      "absolute_error": 6.938893903907228e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 n",
+      "value": 256.0,
+      "expected": 256.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 raw_contrast_rmse_K",
+      "value": 0.6232775125934943,
+      "expected": 0.6232775125934943,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 corrected_contrast_rmse_K",
+      "value": 0.602450123425118,
+      "expected": 0.602450123425118,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 variance_gain_K2",
+      "value": -5.551115123125783e-17,
+      "expected": -1.1102230246251563e-16,
+      "absolute_error": 5.55111512312578e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 bias_gain_K2",
+      "value": 0.02552870648979365,
+      "expected": 0.0255287064897936,
+      "absolute_error": 4.85722573273506e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 net_MSE_gain_K2",
+      "value": 0.025528706489793662,
+      "expected": 0.0255287064897936,
+      "absolute_error": 6.245004513516506e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 raw_covariance_K2",
+      "value": 0.35089367715107384,
+      "expected": 0.3508936771510739,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=-1 corrected_covariance_K2",
+      "value": 0.35089367715107384,
+      "expected": 0.3508936771510739,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance -1",
+      "value": -5.551115123125783e-17,
+      "expected": 0.0,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance -1",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.01917201483171033,
+      "expected": 0.019172014831710438,
+      "absolute_error": 1.0755285551056204e-16,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 n",
+      "value": 261.0,
+      "expected": 261.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 raw_contrast_rmse_K",
+      "value": 0.5537774185543489,
+      "expected": 0.5537774185543489,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 corrected_contrast_rmse_K",
+      "value": 0.536187853712678,
+      "expected": 0.536187853712678,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 variance_gain_K2",
+      "value": -5.551115123125783e-17,
+      "expected": -1.1102230246251563e-16,
+      "absolute_error": 5.55111512312578e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 bias_gain_K2",
+      "value": 0.019172014831710386,
+      "expected": 0.0191720148317103,
+      "absolute_error": 8.673617379884035e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 net_MSE_gain_K2",
+      "value": 0.019172014831710438,
+      "expected": 0.0191720148317104,
+      "absolute_error": 3.8163916471489756e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 raw_covariance_K2",
+      "value": 0.18797661555189782,
+      "expected": 0.1879766155518978,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=0 corrected_covariance_K2",
+      "value": 0.18797661555189782,
+      "expected": 0.1879766155518978,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance 0",
+      "value": -5.551115123125783e-17,
+      "expected": 0.0,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance 0",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.018070860439670624,
+      "expected": 0.018070860439670627,
+      "absolute_error": 3.469446951953614e-18,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 n",
+      "value": 259.0,
+      "expected": 259.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 raw_contrast_rmse_K",
+      "value": 0.46940749241219154,
+      "expected": 0.4694074924121915,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 corrected_contrast_rmse_K",
+      "value": 0.4497471884214853,
+      "expected": 0.4497471884214853,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 variance_gain_K2",
+      "value": -2.7755575615628914e-17,
+      "expected": -2.7755575615628914e-17,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 bias_gain_K2",
+      "value": 0.01807086043967065,
+      "expected": 0.0180708604396706,
+      "absolute_error": 5.204170427930421e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 5.551115123125783e-17,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 net_MSE_gain_K2",
+      "value": 0.018070860439670627,
+      "expected": 0.0180708604396706,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 raw_covariance_K2",
+      "value": 0.12583531029449577,
+      "expected": 0.1258353102944958,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=1 corrected_covariance_K2",
+      "value": 0.12583531029449577,
+      "expected": 0.1258353102944957,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance 1",
+      "value": -2.7755575615628914e-17,
+      "expected": 0.0,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance 1",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.01373671966932558,
+      "expected": 0.013736719669325603,
+      "absolute_error": 2.2551405187698492e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 n",
+      "value": 262.0,
+      "expected": 262.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 raw_contrast_rmse_K",
+      "value": 0.5030799803953222,
+      "expected": 0.5030799803953222,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 corrected_contrast_rmse_K",
+      "value": 0.4892369027426612,
+      "expected": 0.4892369027426612,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 variance_gain_K2",
+      "value": -2.7755575615628914e-17,
+      "expected": 2.7755575615628914e-17,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 bias_gain_K2",
+      "value": 0.013736719669325608,
+      "expected": 0.0137367196693256,
+      "absolute_error": 8.673617379884035e-18,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 net_MSE_gain_K2",
+      "value": 0.013736719669325603,
+      "expected": 0.0137367196693256,
+      "absolute_error": 3.469446951953614e-18,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 raw_covariance_K2",
+      "value": 0.11940843612657144,
+      "expected": 0.1194084361265714,
+      "absolute_error": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=2 corrected_covariance_K2",
+      "value": 0.11940843612657144,
+      "expected": 0.1194084361265714,
+      "absolute_error": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance 2",
+      "value": -2.7755575615628914e-17,
+      "expected": 0.0,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance 2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.016719143709296207,
+      "expected": 0.01671914370929617,
+      "absolute_error": 3.8163916471489756e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 n",
+      "value": 265.0,
+      "expected": 265.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 raw_contrast_rmse_K",
+      "value": 0.478198079094423,
+      "expected": 0.478198079094423,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 corrected_contrast_rmse_K",
+      "value": 0.4603849032497698,
+      "expected": 0.4603849032497698,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 variance_gain_K2",
+      "value": 2.7755575615628914e-17,
+      "expected": 2.7755575615628914e-17,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 bias_gain_K2",
+      "value": 0.01671914370929618,
+      "expected": 0.0167191437092961,
+      "absolute_error": 7.979727989493313e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 net_MSE_gain_K2",
+      "value": 0.01671914370929617,
+      "expected": 0.0167191437092961,
+      "absolute_error": 6.938893903907228e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 raw_covariance_K2",
+      "value": 0.0617588003984446,
+      "expected": 0.0617588003984446,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=3 corrected_covariance_K2",
+      "value": 0.0617588003984446,
+      "expected": 0.0617588003984446,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance 3",
+      "value": 2.7755575615628914e-17,
+      "expected": 0.0,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance 3",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.017517724943199555,
+      "expected": 0.01751772494319953,
+      "absolute_error": 2.42861286636753e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 n",
+      "value": 266.0,
+      "expected": 266.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 raw_contrast_rmse_K",
+      "value": 0.5001724674539602,
+      "expected": 0.5001724674539602,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 corrected_contrast_rmse_K",
+      "value": 0.4823430027022091,
+      "expected": 0.4823430027022091,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 variance_gain_K2",
+      "value": 2.7755575615628914e-17,
+      "expected": -1.3877787807814457e-17,
+      "absolute_error": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 bias_gain_K2",
+      "value": 0.017517724943199527,
+      "expected": 0.0175177249431995,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 net_MSE_gain_K2",
+      "value": 0.01751772494319953,
+      "expected": 0.0175177249431995,
+      "absolute_error": 3.122502256758253e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 raw_covariance_K2",
+      "value": 0.034152912989810255,
+      "expected": 0.0341529129898102,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=4 corrected_covariance_K2",
+      "value": 0.034152912989810255,
+      "expected": 0.0341529129898102,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance 4",
+      "value": 2.7755575615628914e-17,
+      "expected": 0.0,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance 4",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.014551171623613694,
+      "expected": 0.01455117162361369,
+      "absolute_error": 3.469446951953614e-18,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 n",
+      "value": 269.0,
+      "expected": 269.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 raw_contrast_rmse_K",
+      "value": 0.49720972912442957,
+      "expected": 0.4972097291244295,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 corrected_contrast_rmse_K",
+      "value": 0.48235499698082834,
+      "expected": 0.4823549969808283,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 variance_gain_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 bias_gain_K2",
+      "value": 0.014551171623613694,
+      "expected": 0.0145511716236136,
+      "absolute_error": 9.367506770274758e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 covariance_penalty_K2",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 net_MSE_gain_K2",
+      "value": 0.01455117162361369,
+      "expected": 0.0145511716236136,
+      "absolute_error": 9.020562075079397e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 raw_covariance_K2",
+      "value": 0.04505625085742677,
+      "expected": 0.0450562508574267,
+      "absolute_error": 6.938893903907228e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=5 corrected_covariance_K2",
+      "value": 0.04505625085742677,
+      "expected": 0.0450562508574267,
+      "absolute_error": 6.938893903907228e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance 5",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance 5",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.01515186414219857,
+      "expected": 0.015151864142198546,
+      "absolute_error": 2.42861286636753e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 n",
+      "value": 258.0,
+      "expected": 258.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 cities",
+      "value": 69.0,
+      "expected": 69.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 intervals",
+      "value": 4.0,
+      "expected": 4.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 raw_contrast_rmse_K",
+      "value": 0.5313333311484081,
+      "expected": 0.5313333311484081,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 corrected_contrast_rmse_K",
+      "value": 0.5168783654275592,
+      "expected": 0.5168783654275592,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 variance_gain_K2",
+      "value": 0.0,
+      "expected": 2.7755575615628914e-17,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 bias_gain_K2",
+      "value": 0.015151864142198584,
+      "expected": 0.0151518641421985,
+      "absolute_error": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 covariance_penalty_K2",
+      "value": 1.3877787807814457e-17,
+      "expected": 6.938893903907228e-18,
+      "absolute_error": 6.938893903907228e-18,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 net_MSE_gain_K2",
+      "value": 0.015151864142198546,
+      "expected": 0.0151518641421985,
+      "absolute_error": 4.5102810375396984e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 raw_covariance_K2",
+      "value": 0.022011610135525727,
+      "expected": 0.0220116101355257,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 h=6 corrected_covariance_K2",
+      "value": 0.02201161013552572,
+      "expected": 0.0220116101355257,
+      "absolute_error": 2.0816681711721685e-17,
+      "passed": true
+    },
+    {
+      "check": "2021 hour variance invariance 6",
+      "value": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2021 hour covariance invariance 6",
+      "value": 1.3877787807814457e-17,
+      "expected": 0.0,
+      "absolute_error": 1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": 0.09105198861141228,
+      "expected": 0.09105198861141245,
+      "absolute_error": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 n",
+      "value": 3619.0,
+      "expected": 3619.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 cities",
+      "value": 47.0,
+      "expected": 47.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 intervals",
+      "value": 8.0,
+      "expected": 8.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 raw_contrast_rmse_K",
+      "value": 0.7011390598044613,
+      "expected": 0.7011390598044613,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 corrected_contrast_rmse_K",
+      "value": 0.6328854498027835,
+      "expected": 0.6328854498027835,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 variance_gain_K2",
+      "value": 1.817426505095554,
+      "expected": 1.817426505095554,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 bias_gain_K2",
+      "value": 0.04730818840438614,
+      "expected": 0.0473081884043861,
+      "absolute_error": 3.469446951953614e-17,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 covariance_penalty_K2",
+      "value": 1.773682704888528,
+      "expected": 1.773682704888528,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 40 net_MSE_gain_K2",
+      "value": 0.09105198861141245,
+      "expected": 0.0910519886114124,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": -0.1622412992929927,
+      "expected": -0.1622412992929928,
+      "absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 n",
+      "value": 2097.0,
+      "expected": 2097.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 cities",
+      "value": 28.0,
+      "expected": 28.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 intervals",
+      "value": 8.0,
+      "expected": 8.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 raw_contrast_rmse_K",
+      "value": 0.9560421277956784,
+      "expected": 0.9560421277956784,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 corrected_contrast_rmse_K",
+      "value": 1.0374284791796884,
+      "expected": 1.0374284791796884,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 variance_gain_K2",
+      "value": 1.462521948406287,
+      "expected": 1.462521948406287,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 bias_gain_K2",
+      "value": -0.09102762618005643,
+      "expected": -0.0910276261800564,
+      "absolute_error": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 covariance_penalty_K2",
+      "value": 1.5337356215192233,
+      "expected": 1.5337356215192233,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "2026 VZA 50 net_MSE_gain_K2",
+      "value": -0.1622412992929928,
+      "expected": -0.1622412992929928,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": -0.05925700467237782,
+      "expected": -0.059257004672378044,
+      "absolute_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "check": "21-transition recommended_common_daily n",
+      "value": 21.0,
+      "expected": 21.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "21-transition recommended_common_daily cities",
+      "value": 3.0,
+      "expected": 3.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "21-transition recommended_common_daily raw_contrast_rmse_K",
+      "value": 0.9611786586958649,
+      "expected": 0.9611786586958676,
+      "absolute_error": 2.6645352591003757e-15,
+      "passed": true
+    },
+    {
+      "check": "21-transition recommended_common_daily corrected_contrast_rmse_K",
+      "value": 0.9915247947503683,
+      "expected": 0.9915247947503748,
+      "absolute_error": 6.5503158452884236e-15,
+      "passed": true
+    },
+    {
+      "check": "Budget closure",
+      "value": -0.0396590483705363,
+      "expected": -0.03965904837053669,
+      "absolute_error": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "check": "21-transition strict_common_daily n",
+      "value": 21.0,
+      "expected": 21.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "21-transition strict_common_daily cities",
+      "value": 3.0,
+      "expected": 3.0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "check": "21-transition strict_common_daily raw_contrast_rmse_K",
+      "value": 0.8159860343363887,
+      "expected": 0.8159860343363704,
+      "absolute_error": 1.8318679906315083e-14,
+      "passed": true
+    },
+    {
+      "check": "21-transition strict_common_daily corrected_contrast_rmse_K",
+      "value": 0.8399358645769108,
+      "expected": 0.8399358645768968,
+      "absolute_error": 1.3988810110276972e-14,
+      "passed": true
+    }
+  ],
+  "check_count": 180,
+  "max_absolute_difference": 1.8318679906315083e-14,
+  "sources": {
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/analysis_outputs/goes17_goes16_external_metric/validation_2021_hourly_predictions.parquet": "a10f4d1895ba7ddbec62ae0cc65e4b5fdd0111d3f998feb4d08c2f81ccf0b457",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/analysis_outputs/goes18_goes19_metric_harmonization/validation_2026_hourly_predictions.parquet": "7dfec3e907bd85d545a2c5243d99f819ab10fd2bcb2e8ab250ed53ad2cb502a9",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/diagnostics/repaired_hour_diagnostics.csv": "44360c1b93c01f7cd52fe6f851b760043bff0e6aa6b4a93787e9882406409266",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/diagnostics/SI_S14_all_geometry_strata.csv": "0cda6f87f4d794e0b7c781eef9e01f7cf79a3bab227e7632b34a4c9a719c5128",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/tables/exact_mse_budgets_with_external.csv": "ad0b71bc58cf48374e4c415ae17b31c51fe3d1a40bc928715d3cabf67c3df631",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/quality/full_mse_decompositions.csv": "abba73bbb68c3e9186f81166c8f08a4ae91d440d23e6c11f46328c37bb8dc687",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/quality/recommended_common_daily_hourly.parquet": "3f78a232a10163bba4715fb545e0d0994b751ecdde13b9a96bd92b31f354779c",
+    "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/quality/strict_common_daily_hourly.parquet": "d1fd0644d49dd7daff2fc98662a7a2635efb3726b0abfc308ebd190454759e7b"
+  },
+  "limitations": [
+    "No source retrieval, model fitting or new uncertainty run.",
+    "Values independently reconstructed from retained corrected prediction/common-support rows.",
+    "Proposed13rowtable includes all10historicalhourbins and both populated referenceVZA bins, not all modernhour/sourceVZA diagnostics.",
+    "Strata share source cities/intervals; they are not independent experiments or physical interventions."
+  ]
+}

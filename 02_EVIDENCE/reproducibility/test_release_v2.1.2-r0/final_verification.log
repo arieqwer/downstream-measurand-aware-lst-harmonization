@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": 1110,
+  "numerical_cells_compared": 4137623,
+  "failed": [],
+  "scope": [
+    "Full processed-input fit/selection/evaluation/bootstrap/budget recomputation under unchanged protocol.",
+    "Figures 2\u20135 use regenerated numerical outputs; Figure1 uses archived fixed metadata/basemaps; Figure6 uses archived decoded native arrays.",
+    "Provider raw re-extraction, new cloud/radiometry source downloads and complete urban ground validation are not asserted by this check."
+  ]
+}

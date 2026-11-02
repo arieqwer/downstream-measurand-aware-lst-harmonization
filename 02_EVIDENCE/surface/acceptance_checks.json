@@ -1,0 +1,9 @@
+{
+  "greybody_recovery_max_k": 0.0,
+  "blackbody_control_k": 300.0,
+  "projection_roundtrip_max_m": 9.789967928840145e-09,
+  "netcdf4_independent_cf_decode_errors_k": [
+    8.262693881988525e-06,
+    -4.83635812997818e-06
+  ]
+}

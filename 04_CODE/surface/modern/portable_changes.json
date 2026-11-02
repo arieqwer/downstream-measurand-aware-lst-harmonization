@@ -1,0 +1,16 @@
+[
+  {
+    "source_name": "run_modern_surface.py",
+    "original_sha256": "be1a72e22474caad31106f7a3e25e779152964313c168adc34310e2045618433",
+    "portable_sha256": "59515feae9d268a1ada3ee6ce1b9f6d56ec3910bf141597784196cfa99a1ae1c",
+    "changes": "I/O roots and optional cache locations only; no threshold, radiometry, selection or aggregation rule changed.",
+    "test_scope": "Syntax compiled; fresh native download/decoding in the clean venv not run. Executed original native audit is retained in modern evidence."
+  },
+  {
+    "source_name": "run_modern_recommended.py",
+    "original_sha256": "50b9f19f9aaffc0b09b296f97cfe126e2ba5c96e8da63857039e4d67cfcde30e",
+    "portable_sha256": "acdc3d072594fdc09ebdb4c0e21971cdea9fde0626f413c75a9486c32731ba68",
+    "changes": "I/O roots and optional cache locations only; no threshold, radiometry, selection or aggregation rule changed.",
+    "test_scope": "Syntax compiled; fresh native download/decoding in the clean venv not run. Executed original native audit is retained in modern evidence."
+  }
+]

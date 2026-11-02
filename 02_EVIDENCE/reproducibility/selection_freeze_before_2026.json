@@ -1,0 +1,6 @@
+{
+  "model_sha256_before_holdout": "db6cfc91c55edf840cd857361b5f1c93b6cddcd01474504e5049cb0a82b566bc",
+  "manifest_sha256_before_holdout": "6610f0a9a4fb0cd632a083dde50f69b0848ddf2a5f4eeea8f65133393825ffac",
+  "note": "Repaired evaluation uses the unchanged prespecified algorithm and candidates; posthoc correction, not a newly untouched prospective test. Selection code uses2025only.",
+  "time_UTC": "2026-11-02T10:10:36Z"
+}

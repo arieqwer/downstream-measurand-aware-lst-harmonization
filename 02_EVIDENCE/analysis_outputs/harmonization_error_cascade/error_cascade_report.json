@@ -1,0 +1,95 @@
+{
+  "finding": "component calibration reduces absolute LST error but loses common-mode cancellation in the derived spatial difference",
+  "n_hourly": 5716,
+  "n_cities": 75,
+  "n_events": 8,
+  "core_rmse_reduction_fraction": 0.5968090928518317,
+  "ring_rmse_reduction_fraction": 0.5605222311217513,
+  "component_derived_anomaly_rmse_reduction_fraction": -0.0014469373732919344,
+  "raw_error_correlation": 0.7791128098316489,
+  "corrected_error_correlation": 0.3078436749931411,
+  "raw_common_mode_cancellation_fraction": 0.771255890442843,
+  "corrected_common_mode_cancellation_fraction": 0.30727177392651056,
+  "bootstrap": [
+    {
+      "metric": "core_rmse_reduction_fraction",
+      "estimate": 0.5977968422798904,
+      "ci95_low": 0.5383149167683101,
+      "ci95_high": 0.6524868199272138,
+      "probability_gt_zero": 1.0
+    },
+    {
+      "metric": "ring_rmse_reduction_fraction",
+      "estimate": 0.5604612125596415,
+      "ci95_low": 0.4987369101116935,
+      "ci95_high": 0.6180992114088664,
+      "probability_gt_zero": 1.0
+    },
+    {
+      "metric": "anomaly_rmse_reduction_fraction",
+      "estimate": -0.0013945409859422546,
+      "ci95_low": -0.06752133682812768,
+      "ci95_high": 0.06477654485079824,
+      "probability_gt_zero": 0.4844
+    },
+    {
+      "metric": "error_correlation_change",
+      "estimate": -0.4699479295712984,
+      "ci95_low": -0.5546824425862619,
+      "ci95_high": -0.3921698508317004,
+      "probability_gt_zero": 0.0
+    },
+    {
+      "metric": "common_mode_cancellation_change",
+      "estimate": -0.46281107491160617,
+      "ci95_low": -0.5474596793905581,
+      "ci95_high": -0.3845767490219452,
+      "probability_gt_zero": 0.0
+    },
+    {
+      "metric": "anomaly_variance_change",
+      "estimate": 0.030870689974900393,
+      "ci95_low": -0.04427836661958343,
+      "ci95_high": 0.10919683894324098,
+      "probability_gt_zero": 0.791
+    }
+  ],
+  "uncertainty": [
+    {
+      "cohort": "combined",
+      "n": 583,
+      "coverage": 0.8987993138936535,
+      "coverage_ci95_low": 0.8714031313058497,
+      "coverage_ci95_high": 0.9220660356395713,
+      "n_certified": 186,
+      "certified_fraction": 0.3190394511149228,
+      "certified_sign_accuracy": 0.946236559139785,
+      "sign_accuracy_ci95_low": 0.9033515630455127,
+      "sign_accuracy_ci95_high": 0.9739204748242257
+    },
+    {
+      "cohort": "expansion",
+      "n": 238,
+      "coverage": 0.7899159663865546,
+      "coverage_ci95_low": 0.7325897201151335,
+      "coverage_ci95_high": 0.8398659904017514,
+      "n_certified": 86,
+      "certified_fraction": 0.36134453781512604,
+      "certified_sign_accuracy": 0.8837209302325582,
+      "sign_accuracy_ci95_low": 0.7965375500762619,
+      "sign_accuracy_ci95_high": 0.9428088826017758
+    },
+    {
+      "cohort": "original",
+      "n": 345,
+      "coverage": 0.9739130434782609,
+      "coverage_ci95_low": 0.9510580352933684,
+      "coverage_ci95_high": 0.9880035074594932,
+      "n_certified": 100,
+      "certified_fraction": 0.2898550724637681,
+      "certified_sign_accuracy": 1.0,
+      "sign_accuracy_ci95_low": 0.9637833073548235,
+      "sign_accuracy_ci95_high": 1.0
+    }
+  ]
+}

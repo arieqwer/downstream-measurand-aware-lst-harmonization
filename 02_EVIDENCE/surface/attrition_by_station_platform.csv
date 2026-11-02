@@ -1,0 +1,9 @@
+station,bucket,requested,native_present,native_missing,point_dqf0_physical,ground_qc0,common_matchups
+all,noaa-goes16,960,960,0,481,960,413
+all,noaa-goes17,960,906,54,468,906,413
+dra,noaa-goes16,320,320,0,174,320,157
+dra,noaa-goes17,320,302,18,188,302,157
+fpk,noaa-goes16,320,320,0,172,320,145
+fpk,noaa-goes17,320,302,18,160,302,145
+tbl,noaa-goes16,320,320,0,135,320,111
+tbl,noaa-goes17,320,302,18,120,302,111

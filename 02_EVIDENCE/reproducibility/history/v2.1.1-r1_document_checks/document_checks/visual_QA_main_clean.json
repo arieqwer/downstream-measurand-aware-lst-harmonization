@@ -1,0 +1,141 @@
+{
+  "status": "NEEDS_LAYOUT_FIX",
+  "review_date": "2026-10-31",
+  "scope": "Direct readable full-page visual inspection of every proposed accepted-view page; no document edits.",
+  "document": "/Users/apple/Downloads/RS revision 1/Manuscript v1_suggestions.docx",
+  "current_word_sha256": "ce8f15976f9e10a48349a062f3aadb38c5694d198f8b8c482e737cbcc84178e1",
+  "render_folder": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/manuscript_accepted_render",
+  "page_count": 22,
+  "pages": [
+    {
+      "page": 1,
+      "sha256": "86833cf3fa3687f67af8d23ccb7e0cd1f64691a4f8b043ba7c057b636abb31d1",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 2,
+      "sha256": "a69ba7cbe768d2189072bd6287f7e2da86f70e57ec096b83edba88b0f6e318df",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 3,
+      "sha256": "fc99a7648bff8393050d553ffc171fa90e4be1f151e114834bd2647c9d4cf085",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 4,
+      "sha256": "fe4b2619bb87fa048b0de45d01c35bdd099a0482c357d198a9d148c0a3620c2d",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 5,
+      "sha256": "6fbca55993adc751b382a37dfd008874e7bd6c2cf31b0b6c8c44daf13a9c0575",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 6,
+      "sha256": "a9e10ce02a85fe85a5e895e536037438b979a37241651550fbef1b58c314dce8",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 7,
+      "sha256": "642dd337b4644a53251b4b0f238c759d00452e96b0bc7e68710cfcac55baa972",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 8,
+      "sha256": "fc1a17dee598b3bd379d34e34260097290458535d43ed5c583c952b506f2674f",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 9,
+      "sha256": "c2fc21df75647746a53b4aee1cab567216d018f4332befa6a9d63748aeeb8475",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 10,
+      "sha256": "31be5208dd2fb9ec3a5cd0b8533bbbb003b1d5d6b10f1a871e1da36891921bf8",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 11,
+      "sha256": "4f6f6412142d375e1c9aad0445fb635d8d93335c2dfe95c1b21a1a097f079e55",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 12,
+      "sha256": "aa15d448f4edf98254b15e981cc31d143e7f6ef5d11e5edf3b80e89a16633344",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 13,
+      "sha256": "ea01564182b7c47def13a97f3c16db9f6e6338ec1b7fe073a0672d6785482c7a",
+      "visual_review": "Table2 caption orphan; fix required"
+    },
+    {
+      "page": 14,
+      "sha256": "7af5468bed0f3a07913484910b6ce226c965f9f7b0d35bdef814c57ac361daad",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 15,
+      "sha256": "51e9d419a10f588e1deff409072e185577de42d6c20d324bf66d53da8d698271",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 16,
+      "sha256": "309a94abc2c77ae6c7a3b1b1f0ce902ad6192edf60d131433dad39dfbc185f5e",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 17,
+      "sha256": "236356e879a8bd87074bdf93fd8e9beb37686efcc3ffdd56140e40dde199027d",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 18,
+      "sha256": "d19a3ba09fb69a14612b07a357d16c9ba482e3f5d09177bb88435d24d875835b",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 19,
+      "sha256": "9541d94b9bcad473dcf3a2cf0063571adfaf825fef42caeae2217347c9ee46dc",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 20,
+      "sha256": "bf52945eb213b4ecd16bfad254d9504fa876f96fb993b37c2884eb7cc0c76bd8",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 21,
+      "sha256": "dd80835f7099f021ccd473a1c2dc99de22688a4b7698b48fc6046433a3ee66ed",
+      "visual_review": "PASS"
+    },
+    {
+      "page": 22,
+      "sha256": "6ac2f24e6b73aa6526c1976ad0b0052b88068ab2fd467d5316d4237bbcf976c7",
+      "visual_review": "PASS"
+    }
+  ],
+  "issues": [
+    {
+      "page": 13,
+      "severity": "layout",
+      "location": "Table2caption at line457",
+      "issue": "Caption is alone at bottom of page13; table begins page14.",
+      "recommendation": "Track paragraph keep-with-next for Table2caption; rerender and inspect affected pages."
+    }
+  ],
+  "observations": [
+    "Pages1\u201322 directly visually inspected in full-page images.",
+    "No clipping, overlap, missing glyphs, broken table boundaries or illegible numerical text found.",
+    "Celsius symbol and adjacent T at page3 line127 render correctly.",
+    "Both square-root factors \u221a15 and \u221a25 render correctly onpage7.",
+    "All numbered display equations1\u201312 and Figure4inline OMML render correctly.",
+    "Changed Figure3/5captions retain template title/body font hierarchy.",
+    "Table1narrowTransitionsheading wraps withinword onpage5; inherited, readable cosmetic wrap, not clipping.",
+    "Tables/figure images remain legible; no unrequested layout edits made."
+  ],
+  "acceptance_gate": "FAIL until Table2caption/table relationship is corrected and affected final render is verified."
+}

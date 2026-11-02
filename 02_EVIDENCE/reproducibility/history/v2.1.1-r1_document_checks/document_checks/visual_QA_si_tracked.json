@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-30T16:20:23.141215+00:00",
+  "source_word": "/Users/apple/Downloads/RS revision 1/supplementary_suggestions.docx",
+  "source_word_sha256": "0411ee0a5d1136c3f6f4e907e41d73ca4a34c726aac342de2393867f89ccd159",
+  "render_folder": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final",
+  "rendered_pdf_sha256": "43941b83af17a8ca10676b506e5be49ccc62fcad68aa577677f53fed66f99f40",
+  "page_count": 17,
+  "all_pages_directly_inspected": true,
+  "pages": [
+    {
+      "page": 1,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-1.png",
+      "sha256": "c3f14bd903dacfb4e59d7b050529d367f6d052db1118ec9deaca5ec407464855",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Tracked title, introductory replacement and S1 fit within margins."
+    },
+    {
+      "page": 2,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-2.png",
+      "sha256": "4267d684c578ace766a01881cf6ea40e6a161fb828f8980668de84183c6882cd",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "S2 and S3 fit with clear numerical rows and complete captions."
+    },
+    {
+      "page": 3,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-3.png",
+      "sha256": "94b1a306679cbac101a7438d0fe0460be8a74419920b42ab27101b65ccf36741",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "S4 historical and modern site rows fit on one page."
+    },
+    {
+      "page": 4,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-4.png",
+      "sha256": "613431fbbd0e2f631ca489a3b8cd9523daacebabc885996f29f1a7daff88cffe",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "New23row S5 and full caption fit on one portrait page; header wraps legibly; all columns and negative signs visible."
+    },
+    {
+      "page": 5,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-5.png",
+      "sha256": "7ffdbf995f63238a673a93a99e525fe757f422966f6f06c7444089efe8cc00f7",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Deleted original attrition table and Note retained for unaccepted review."
+    },
+    {
+      "page": 6,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-6.png",
+      "sha256": "3f92ad42aee1838540627268957300e39d01073cd95a60ef7bf8ff692b8513bb",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Deleted original RMSE table and Note retained; displayed changes legible."
+    },
+    {
+      "page": 7,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-7.png",
+      "sha256": "ba6c5fb5415fa6635c0700c90b56e0a718eac6e6c5b9274e09134d20f74d4835",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Landscape original model-selection table and Note remain legible in tracked view."
+    },
+    {
+      "page": 8,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-8.png",
+      "sha256": "bfe87ccd1cfff06c6e8b2b7d80bc3f942f73fae01a21c0e8a94f3fbf5e342e74",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Landscape original decomposition table and Note remain within margins."
+    },
+    {
+      "page": 9,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-9.png",
+      "sha256": "d31649c7fea2d5c484401d9be37b7e32f7772fffdce69f9990d49e084d5c49ef",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Original bootstrap table and equation/Note display without clipping."
+    },
+    {
+      "page": 10,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-10.png",
+      "sha256": "082fe4811f91f025ce8d8b2599e4079f8e3aeb2d1ba690f88b46dc2f5a2855e5",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Original historical bootstrap table and Note display without clipping."
+    },
+    {
+      "page": 11,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-11.png",
+      "sha256": "878567051c173703076fd9df19cdd4ae08a6614f3ab0232d894f995387fedb79",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Landscape original interval table and Note remain readable."
+    },
+    {
+      "page": 12,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-12.png",
+      "sha256": "bacd71a2b7cbb1a7c589c7f605cf42393490e40b347096586cd5822ff88484e1",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Original hour-offset table and Note remain readable."
+    },
+    {
+      "page": 13,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-13.png",
+      "sha256": "7f5bad36fdee9e0f12c979ce408392940132c5147dc4f9ec3a253c11abcac26c",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Landscape original directional table and Note remain readable."
+    },
+    {
+      "page": 14,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-14.png",
+      "sha256": "ca433f414e6f820a2b0b7b9bfc18479c89a6b825f301c9c62f4200253776f260",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Original long dictionary begins with complete rows and clear header."
+    },
+    {
+      "page": 15,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-15.png",
+      "sha256": "61210d3c6290aed2a0d21b7efe05109645bae3d0957ecda03f46caa7d1f3354b",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Continued dictionary repeats header; no broken rows or page overflow."
+    },
+    {
+      "page": 16,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-16.png",
+      "sha256": "ab2f981518d118c7d48922917c65f0647c39c32dbcfde8bb63148598bd47a459",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Original chronology dictionary and Note fit within margins."
+    },
+    {
+      "page": 17,
+      "path": "/Users/apple/Downloads/RS revision 1/concision_20261030/qa/si_tracked_final/page-17.png",
+      "sha256": "a75fc83778ecbbdf2a712cbe1283696513979fb8bfc9dc8e37095ba3acab9878",
+      "method": "Direct visual inspection via view_image at original resolution",
+      "status": "PASS",
+      "observation": "Original inventory and Note fit; footer is clear."
+    }
+  ],
+  "scope": "SI tracked view only. Root separately reviews the four-page proposed clean SI view.",
+  "conclusions": [
+    "No clipping, overlapping text, missing glyphs or broken table boundaries observed.",
+    "New S5 occupies one portrait page and retains all23data rows with legible negative results.",
+    "Deleted original material accounts for tracked pages5–17; these are unaccepted deletions rather than extra proposed SI content."
+  ],
+  "word_edited": false
+}

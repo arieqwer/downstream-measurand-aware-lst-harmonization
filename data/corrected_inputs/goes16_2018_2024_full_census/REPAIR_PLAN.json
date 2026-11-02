@@ -1,0 +1,18 @@
+{
+  "dataset": "goes16_2018_2024_full_census",
+  "bucket": "noaa-goes16",
+  "candidate_cities": 51,
+  "geometric_eligible_cities": 44,
+  "affected_city_ids": [],
+  "requested_rows": 126480,
+  "archive_missing_rows": 44,
+  "available_eligible_rows": 109076,
+  "reusable_rows": 107443,
+  "native_reextract_rows": 1633,
+  "native_reextract_objects": 44,
+  "original_input_sha256": "d786371bb0612d6491a09a8e1310d015ed0a9de6770b42dc578a35eee227b4ff",
+  "prototype_grid_signature": "260a2ef50b6f3e0d93716df3f5ff0bcded0c738f3b05e6be04429ecd276ae9a7",
+  "calendar": "Astral intended local-sunset date; longitude-based fixed solar offset, UTC conversion",
+  "spatial": "complete saved polygons, boundary vertices densified0.005degree,2nativepixelpaddingverifiedagainst8pixelpadding",
+  "arithmetic": "Originalfloat32LSTdecodeandmean;float64nativecoordinates;originalquality0and<=1andthresholdsunchanged"
+}

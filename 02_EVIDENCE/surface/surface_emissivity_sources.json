@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-28",
+  "emissivity_source": {
+    "title": "Artificial Neural Networks to Retrieve Land and Sea Skin Temperature from IASI",
+    "authors": "Safieddine et al.",
+    "journal": "Remote Sensing 2020 12 2777",
+    "doi": "10.3390/rs12172777",
+    "primary_article_copy": "https://www.vliz.be/imisdocs/publications/ocrd/361105.pdf",
+    "publisher_url": "https://www.mdpi.com/2072-4292/12/17/2777",
+    "verified_location": "Table2 PDFpage11; flux balance in section2.4.4 PDFpage10",
+    "values": {"DRA":0.966,"TBL":0.973,"FPK":0.979},
+    "interpretation": "Published site constants used as assumptions for sensitivity; not contemporaneous2021 measured emissivity. Root verified original paper text. No reliance on the paper's nearby broad emissivity-error claim."
+  },
+  "radiometry_caveat": {
+    "title": "Ten Years of VIIRS Land Surface Temperature Product Validation",
+    "publisher_url": "https://www.mdpi.com/2072-4292/14/12/2863",
+    "NOAA_primary_article_copy": "https://repository.library.noaa.gov/view/noaa/48106/noaa_48106_DS1.pdf",
+    "claim": "Article reports increased Desert Rock upwelling and downwelling IR since2018, especiallysummer, without similar airtemperature change; site/elevation representativeness also matters. This is a source-reported caveat, not a diagnosed cause in the new benchmark."
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "status": "PASS",
+  "datasets_complete": 12,
+  "datasets_expected": 12,
+  "dataset_checks": [
+    {
+      "dataset": "goes16_2018_2024_full_census",
+      "masks": 102,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 126480,
+      "available_eligible": 109076,
+      "output_rows": 109076,
+      "reused_rows": 107443,
+      "reextracted_rows": 1633,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes18_2022_2024_same_sensor",
+      "masks": 102,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 126480,
+      "available_eligible": 124202,
+      "output_rows": 124202,
+      "reused_rows": 120395,
+      "reextracted_rows": 3807,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes16_2018_2024_low_green",
+      "masks": 86,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 106640,
+      "available_eligible": 96681,
+      "output_rows": 96681,
+      "reused_rows": 95511,
+      "reextracted_rows": 1170,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes18_2022_2024_expansion",
+      "masks": 86,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 106640,
+      "available_eligible": 90120,
+      "output_rows": 90120,
+      "reused_rows": 89119,
+      "reextracted_rows": 1001,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes18_2025_western_replication",
+      "masks": 102,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 40800,
+      "available_eligible": 40800,
+      "output_rows": 40800,
+      "reused_rows": 39500,
+      "reextracted_rows": 1300,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes19_2025_holdout",
+      "masks": 102,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 40800,
+      "available_eligible": 34713,
+      "output_rows": 34713,
+      "reused_rows": 34273,
+      "reextracted_rows": 440,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes18_2025_expansion",
+      "masks": 86,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 34400,
+      "available_eligible": 29600,
+      "output_rows": 29600,
+      "reused_rows": 29230,
+      "reextracted_rows": 370,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes19_2025_low_green",
+      "masks": 86,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 34400,
+      "available_eligible": 30757,
+      "output_rows": 30757,
+      "reused_rows": 30367,
+      "reextracted_rows": 390,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes16_2019_2021_external_metric",
+      "masks": 150,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 48000,
+      "available_eligible": 47853,
+      "output_rows": 47853,
+      "reused_rows": 41853,
+      "reextracted_rows": 6000,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes17_2019_2021_external_metric",
+      "masks": 150,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 48000,
+      "available_eligible": 46480,
+      "output_rows": 46480,
+      "reused_rows": 39940,
+      "reextracted_rows": 6540,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes18_2026_metric_holdout",
+      "masks": 188,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 60160,
+      "available_eligible": 56129,
+      "output_rows": 56129,
+      "reused_rows": 54622,
+      "reextracted_rows": 1507,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    },
+    {
+      "dataset": "goes19_2026_metric_holdout",
+      "masks": 188,
+      "full_masks_match_independent_complete_grid": true,
+      "requests": 60160,
+      "available_eligible": 51324,
+      "output_rows": 51324,
+      "reused_rows": 50494,
+      "reextracted_rows": 830,
+      "exact_interval_membership": true,
+      "civil_sunset_max_error_seconds": 0.0,
+      "native_key_requested_hour_exact": true,
+      "source_means_unchanged_on_reused_rows": true,
+      "original_input_hash_unchanged": true
+    }
+  ],
+  "changed_masks": [
+    {
+      "dataset": "goes18_2022_2024_same_sensor",
+      "uc_id": "2007",
+      "unit": "ring",
+      "old_count": 655,
+      "complete_count": 766
+    },
+    {
+      "dataset": "goes18_2025_western_replication",
+      "uc_id": "2007",
+      "unit": "ring",
+      "old_count": 655,
+      "complete_count": 766
+    },
+    {
+      "dataset": "goes17_2019_2021_external_metric",
+      "uc_id": "2007",
+      "unit": "ring",
+      "old_count": 655,
+      "complete_count": 766
+    },
+    {
+      "dataset": "goes18_2026_metric_holdout",
+      "uc_id": "2007",
+      "unit": "ring",
+      "old_count": 655,
+      "complete_count": 766
+    }
+  ],
+  "native_CF_check_rows": 204,
+  "max_native_CF_mean_error_K": 0,
+  "DST_year_boundary_controls": [
+    {
+      "day": "2019-03-10",
+      "lat": 34.05,
+      "lon": -118.25,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2019-03-10",
+      "lat": 33.45,
+      "lon": -112.07,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2019-03-10",
+      "lat": 49.28,
+      "lon": -123.12,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2019-03-10",
+      "lat": 39.74,
+      "lon": -104.99,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2019-11-03",
+      "lat": 34.05,
+      "lon": -118.25,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2019-11-03",
+      "lat": 33.45,
+      "lon": -112.07,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2019-11-03",
+      "lat": 49.28,
+      "lon": -123.12,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2019-11-03",
+      "lat": 39.74,
+      "lon": -104.99,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2020-12-31",
+      "lat": 34.05,
+      "lon": -118.25,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2020-12-31",
+      "lat": 33.45,
+      "lon": -112.07,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2020-12-31",
+      "lat": 49.28,
+      "lon": -123.12,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2020-12-31",
+      "lat": 39.74,
+      "lon": -104.99,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2021-01-01",
+      "lat": 34.05,
+      "lon": -118.25,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2021-01-01",
+      "lat": 33.45,
+      "lon": -112.07,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2021-01-01",
+      "lat": 49.28,
+      "lon": -123.12,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2021-01-01",
+      "lat": 39.74,
+      "lon": -104.99,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-03-08",
+      "lat": 34.05,
+      "lon": -118.25,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-03-08",
+      "lat": 33.45,
+      "lon": -112.07,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-03-08",
+      "lat": 49.28,
+      "lon": -123.12,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-03-08",
+      "lat": 39.74,
+      "lon": -104.99,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-11-01",
+      "lat": 34.05,
+      "lon": -118.25,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-11-01",
+      "lat": 33.45,
+      "lon": -112.07,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-11-01",
+      "lat": 49.28,
+      "lon": -123.12,
+      "error_seconds": 0.0
+    },
+    {
+      "day": "2026-11-01",
+      "lat": 39.74,
+      "lon": -104.99,
+      "error_seconds": 0.0
+    }
+  ],
+  "script_sha256": "32ec9d6c4ec49c9b27d336931ed5955f1223e8adccc4cc2ad665074bd85b553c"
+}

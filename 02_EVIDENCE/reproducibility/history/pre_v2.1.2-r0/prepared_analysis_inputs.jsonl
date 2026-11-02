@@ -1,0 +1,8 @@
+{"dataset": "goes18_2022_2024_same_sensor", "rows": 248244, "cities": 51, "intervals": 31, "input_sha256": "4312794e2eba55a8b0118b43b877cdd21ea7053ebc22bc896c559fc598c3e0a8"}
+{"dataset": "goes16_2018_2024_full_census", "rows": 218152, "cities": 44, "intervals": 31, "input_sha256": "6988e7711c764585302d2639cf69d9014d68e7c4e9a5d8bba89424532e72d594"}
+{"dataset": "goes18_2025_western_replication", "rows": 81600, "cities": 51, "intervals": 10, "input_sha256": "329580822a4c9ffda9438b098d175fc664bc3ec7813ff23a2c4685354392e356"}
+{"dataset": "goes19_2025_holdout", "rows": 69426, "cities": 44, "intervals": 10, "input_sha256": "6ecbe39eadfeb2a54d57aee8c1d898fa54bdf2f9f258a325946342c5070e3321"}
+{"dataset": "goes18_2022_2024_expansion", "rows": 180082, "cities": 37, "intervals": 31, "input_sha256": "ad6843da5aefd6b31f77c34b0b0d9c582f12026cd3b5a7ae22cbd0d7a0d703af"}
+{"dataset": "goes16_2018_2024_low_green", "rows": 193042, "cities": 39, "intervals": 31, "input_sha256": "b121a7aa01a7f0cc4e9d0f3a3d5c1c023ed73401177147a84fbb19ce7d545b9d"}
+{"dataset": "goes18_2025_expansion", "rows": 59200, "cities": 37, "intervals": 10, "input_sha256": "da16d990f77bdcd949f255f4e1d410d365e1f83c5964c925516b134556d7e5ae"}
+{"dataset": "goes19_2025_low_green", "rows": 61040, "cities": 39, "intervals": 10, "input_sha256": "1263c8a52f3f7740b030587bdd044b213a9b4cfe1181624ee9056278cf70b00b"}

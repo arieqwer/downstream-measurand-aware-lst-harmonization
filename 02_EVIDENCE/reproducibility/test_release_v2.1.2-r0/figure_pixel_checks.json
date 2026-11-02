@@ -1,0 +1,62 @@
+[
+  {
+    "figure": "Figure_1_corrected_workflow_domain_chronology",
+    "pixel_identical": true,
+    "baseline_sha256": "3defbe6f96096ad11ba095714abd6f8247b520f0cdd227e4b264b2a8b276ceff",
+    "regenerated_sha256": "3defbe6f96096ad11ba095714abd6f8247b520f0cdd227e4b264b2a8b276ceff",
+    "shape": [
+      4479,
+      6240
+    ]
+  },
+  {
+    "figure": "Figure_2_repaired_model_selection",
+    "pixel_identical": true,
+    "baseline_sha256": "88efa1524c21592e4f8d47af257391958cfbed4ce51264e9fcc23a724b5d7cbe",
+    "regenerated_sha256": "88efa1524c21592e4f8d47af257391958cfbed4ce51264e9fcc23a724b5d7cbe",
+    "shape": [
+      3692,
+      2837
+    ]
+  },
+  {
+    "figure": "Figure_3_repaired_cross_platform_budget",
+    "pixel_identical": true,
+    "baseline_sha256": "fb997cd9fd4c106980ed725a502ccfd58739ac738b2583ee5c61704d4cf00f68",
+    "regenerated_sha256": "4131069846e229004a32ecac12e1c55120a3c019174dc0e7416cb7ba975943d6",
+    "shape": [
+      4800,
+      2100
+    ]
+  },
+  {
+    "figure": "Figure_4_repaired_covariance_regimes",
+    "pixel_identical": true,
+    "baseline_sha256": "b94c1938b8ce37acfb539575d1e91278fa57c61bf7d08eb0e47cd8c81d4baec0",
+    "regenerated_sha256": "4646ed7a1fcb8c49c385cf9dad809440ac1cf8f062bf1651eddae481a47f6bc9",
+    "shape": [
+      4920,
+      2280
+    ]
+  },
+  {
+    "figure": "Figure_5_repaired_replication_and_temporal_evaluation",
+    "pixel_identical": true,
+    "baseline_sha256": "9ceba6ffc24978f6a12becc71f87a3a1ea3d688b4c97d373560ede7e60608ada",
+    "regenerated_sha256": "9ceba6ffc24978f6a12becc71f87a3a1ea3d688b4c97d373560ede7e60608ada",
+    "shape": [
+      6944,
+      5682
+    ]
+  },
+  {
+    "figure": "Phoenix_LST_corrected_local_date",
+    "pixel_identical": true,
+    "baseline_sha256": "cb3f290c26ae45d102592f60efdd49cc34c89e40d620db69da2ba7eabd8f847e",
+    "regenerated_sha256": "cb3f290c26ae45d102592f60efdd49cc34c89e40d620db69da2ba7eabd8f847e",
+    "shape": [
+      4800,
+      4200
+    ]
+  }
+]

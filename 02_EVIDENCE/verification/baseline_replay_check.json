@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "table_count": 57,
+  "models": [
+    {
+      "path": "goes18_goes19_metric_harmonization/frozen_metric_aware_model.joblib",
+      "kind": "model",
+      "byte_identical": true,
+      "new_sha256": "a3f4bf8f4d3e94099b5166746f2a383dfe04a9b3eec5ac9042cf386dab545e05",
+      "original_sha256": "a3f4bf8f4d3e94099b5166746f2a383dfe04a9b3eec5ac9042cf386dab545e05"
+    },
+    {
+      "path": "multiplatform_harmonization/frozen_harmonization_model.joblib",
+      "kind": "model",
+      "byte_identical": true,
+      "new_sha256": "907a4b22d863b314c3253740493b8135d23883b4a7a93fa83d6a0ca585163792",
+      "original_sha256": "907a4b22d863b314c3253740493b8135d23883b4a7a93fa83d6a0ca585163792"
+    }
+  ],
+  "failures": [],
+  "script_sha256": "e393ad3154bf09bde6441317e9f0c2e6e74d36b11ad93a070d72e2fb8761287c"
+}

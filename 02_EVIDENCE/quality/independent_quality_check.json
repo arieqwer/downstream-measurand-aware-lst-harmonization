@@ -1,0 +1,69 @@
+{
+  "independent_checks": [
+    {
+      "scenario": "recommended_full",
+      "level": "hourly",
+      "n": 5716,
+      "independent_budget_max_error_K2": 1.0976679634677744e-14
+    },
+    {
+      "scenario": "recommended_full",
+      "level": "transition",
+      "n": 583,
+      "independent_budget_max_error_K2": 4.28129753871076e-15
+    },
+    {
+      "scenario": "strict_full",
+      "level": "hourly",
+      "n": 215,
+      "independent_budget_max_error_K2": 1.4710455076283324e-15
+    },
+    {
+      "scenario": "strict_full",
+      "level": "transition",
+      "n": 21,
+      "independent_budget_max_error_K2": 1.3322676295501878e-15
+    },
+    {
+      "scenario": "recommended_common_daily",
+      "level": "hourly",
+      "n": 215,
+      "independent_budget_max_error_K2": 1.1102230246251565e-15
+    },
+    {
+      "scenario": "recommended_common_daily",
+      "level": "transition",
+      "n": 21,
+      "independent_budget_max_error_K2": 1.061650767297806e-15
+    },
+    {
+      "scenario": "strict_common_daily",
+      "level": "hourly",
+      "n": 215,
+      "independent_budget_max_error_K2": 1.4710455076283324e-15
+    },
+    {
+      "scenario": "strict_common_daily",
+      "level": "transition",
+      "n": 21,
+      "independent_budget_max_error_K2": 1.3322676295501878e-15
+    },
+    {
+      "scenario": "recommended_eligible_city_full_dates",
+      "level": "hourly",
+      "n": 220,
+      "independent_budget_max_error_K2": 8.881784197001252e-16
+    },
+    {
+      "scenario": "recommended_eligible_city_full_dates",
+      "level": "transition",
+      "n": 22,
+      "independent_budget_max_error_K2": 5.9119376061289586e-15
+    }
+  ],
+  "common_strict_daily_reaggregation_pass": true,
+  "paired_bootstrap_draw_counts_and_quantiles_pass": true,
+  "source_input_hashes_unchanged": true,
+  "script_sha256": "ea23e1e3d094b13881bf09a265dc6cc52ccf8468cf8c56a1ddfeaddeb852245e",
+  "note": "Independent implementation uses direct error vectors and numpy.cov rather than candidate sufficient-statistic functions; no models fitted or Word edits."
+}

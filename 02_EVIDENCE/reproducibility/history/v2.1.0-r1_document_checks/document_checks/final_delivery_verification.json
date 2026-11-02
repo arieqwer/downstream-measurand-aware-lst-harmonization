@@ -1,0 +1,263 @@
+{
+  "status": "PASS",
+  "date": "2026-10-30",
+  "checks": [
+    {
+      "check": "Immutable baseline snapshot Manuscript v1.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Immutable baseline snapshot supplementary.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Immutable baseline snapshot R1 Reviewer comments.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Immutable baseline snapshot Manuscript v1_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Immutable baseline snapshot supplementary_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original protected file Manuscript v1.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original protected file supplementary.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original protected file R1 Reviewer comments.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Final Word scientific audit hash Manuscript v1_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Staged Word matches delivery Manuscript v1_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Final Word scientific audit hash supplementary_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Staged Word matches delivery supplementary_suggestions.docx",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Word science audit successful executed evidence",
+      "passed": true,
+      "details": {
+        "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/claims_audit/final_word_audit.json",
+        "sha256": "eb14439854122cc01f2dfce9891df3dce4be1b877b89138647c1b19c7f830d6c"
+      }
+    },
+    {
+      "check": "Independent final check successful executed evidence",
+      "passed": true,
+      "details": {
+        "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/science/claims_audit/final_delivery_independent_check.json",
+        "sha256": "ffe8edfcefaf17fd59c106df65a57d32bf211029fb9c0ae60a4eafc02e3f6748"
+      }
+    },
+    {
+      "check": "Clean numerical reproduction successful executed evidence",
+      "passed": true,
+      "details": {
+        "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/reproducibility/reproduction_verification.json",
+        "sha256": "230ea613bac21c64045c6cf7c1b1831489026e218e821164b9c8c4943376f0b5"
+      }
+    },
+    {
+      "check": "Clean quality reproduction successful executed evidence",
+      "passed": true,
+      "details": {
+        "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/reproducibility/quality_reproduction_verification.json",
+        "sha256": "d8d4a62f5e32f0beafbad3a4c1a0c25b13ce83c55ddf706c2a3c005f58db65b3"
+      }
+    },
+    {
+      "check": "Clean modern reproduction successful executed evidence",
+      "passed": true,
+      "details": {
+        "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/reproducibility/modern_offline_reproduction.json",
+        "sha256": "f0f2606cd0a10f03fe13445b93791644b07fa9ec50bed14252a692a6a4275ef9"
+      }
+    },
+    {
+      "check": "Native modern verification successful executed evidence",
+      "passed": true,
+      "details": {
+        "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/release/downstream-measurand-aware-lst-harmonization-2.1.0-r1/02_EVIDENCE/surface/modern/modern_verification_summary.json",
+        "sha256": "58ba2761fd5de47e4813cb756b4817162762b4df81f3334d8e15a8a46d63bfc0"
+      }
+    },
+    {
+      "check": "Visual review successful executed evidence",
+      "passed": true,
+      "details": {
+        "path": "/Users/apple/Downloads/RS revision 1/continuation_20261029/records/final_visual_QA.json",
+        "sha256": "e508782207a847c8246a0b6739c57b56343833de14ba1feb3aa3bd2c1b3c5f41"
+      }
+    },
+    {
+      "check": "Independent final check all assertions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Modern benchmark explicitly zero strict pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Clean environment isolated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current run_multiplatform_replication_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current run_multiplatform_harmonization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current run_expanded_harmonization_validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current train_goes18_goes19_metric_harmonization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current validate_goes18_goes19_metric_harmonization_2026",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current run_goes17_goes16_external_metric_replication",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current analyze_harmonization_error_cascade",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current analyze_downstream_metric_framework",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Executed code SHA remains current synthesize_downstream_metric_framework",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Exactly four SI plans",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Publication CSV matches Word plan S1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Publication CSV matches Word plan S2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Publication CSV matches Word plan S3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Publication CSV matches Word plan S4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Public top-level folder names preserved",
+      "passed": true,
+      "details": [
+        "02_EVIDENCE",
+        "03_PROTOCOLS",
+        "04_CODE",
+        "05_CODE",
+        "06_SUBMISSION",
+        "data",
+        "outputs",
+        "scripts"
+      ]
+    },
+    {
+      "check": "All 16 reviewer concerns recorded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All 7 author comments disposition recorded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Exactly one comment remains open",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Tracked XML validation manuscript",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Tracked XML validation si",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "check_count": 42,
+  "current_word_hashes": {
+    "Manuscript v1_suggestions.docx": "e334d60d35b167f9d063d01c22f2f4bca9284751b3a8e3d6060840cfcbba24da",
+    "supplementary_suggestions.docx": "632f4c7d103cd5cb92bd80c2e4f09d68ffad44dc116ae74520c408f68d125077"
+  },
+  "audited_numerical_cells": 156,
+  "independent_final_checks": 38,
+  "external_actions_executed": false,
+  "reviewer_letters_drafted": false,
+  "submission_ready": false,
+  "remaining": [
+    "Author manuscript/SI review",
+    "Explicit public update authorization, publication and accessible version check",
+    "Actual-version Data Availability update and regenerated hashes",
+    "Two reviewer letters and final section/line/response cross-checks after author review",
+    "Explicit submission authorization"
+  ]
+}

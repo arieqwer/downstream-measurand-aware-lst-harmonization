@@ -1,0 +1,56 @@
+[
+  {
+    "module": "run_multiplatform_replication_audit",
+    "executed_sha256": "342fa007f4a8a0f8446427ceb33db8fdcf541899fe020c6fdc883a95e7f1b974",
+    "release_sha256": "342fa007f4a8a0f8446427ceb33db8fdcf541899fe020c6fdc883a95e7f1b974",
+    "match": true
+  },
+  {
+    "module": "run_multiplatform_harmonization",
+    "executed_sha256": "1dde7cee230a08a3ca88f4eb30e2cdfdcac88ec918cb04d3b0f3888843768d01",
+    "release_sha256": "1dde7cee230a08a3ca88f4eb30e2cdfdcac88ec918cb04d3b0f3888843768d01",
+    "match": true
+  },
+  {
+    "module": "run_expanded_harmonization_validation",
+    "executed_sha256": "07387f870e956bb40ecfd464b9c51fd62efc480a4fbeb909047058349582ef8a",
+    "release_sha256": "07387f870e956bb40ecfd464b9c51fd62efc480a4fbeb909047058349582ef8a",
+    "match": true
+  },
+  {
+    "module": "train_goes18_goes19_metric_harmonization",
+    "executed_sha256": "d69334e9bcaf5dd43bc189d0da20e7de8a46d70785a466a3435ef282fb111d15",
+    "release_sha256": "d69334e9bcaf5dd43bc189d0da20e7de8a46d70785a466a3435ef282fb111d15",
+    "match": true
+  },
+  {
+    "module": "validate_goes18_goes19_metric_harmonization_2026",
+    "executed_sha256": "fb17eacced38fe2ade9925a9bcc963853d73d3fc1f18fb9d70d1a2a3518ab260",
+    "release_sha256": "fb17eacced38fe2ade9925a9bcc963853d73d3fc1f18fb9d70d1a2a3518ab260",
+    "match": true
+  },
+  {
+    "module": "run_goes17_goes16_external_metric_replication",
+    "executed_sha256": "9344c411b454a3f579f801ac1e40c876bc572251d9ae70f4eb9d10df012a775d",
+    "release_sha256": "9344c411b454a3f579f801ac1e40c876bc572251d9ae70f4eb9d10df012a775d",
+    "match": true
+  },
+  {
+    "module": "analyze_harmonization_error_cascade",
+    "executed_sha256": "b2404cf9d9b4a9147d4de1db1d79868654d7f3a4b330056da0d4a87b8e3a23fe",
+    "release_sha256": "b2404cf9d9b4a9147d4de1db1d79868654d7f3a4b330056da0d4a87b8e3a23fe",
+    "match": true
+  },
+  {
+    "module": "analyze_downstream_metric_framework",
+    "executed_sha256": "4d270031ddd93d67de766a039aa22184f6e8c21778a1d523d1ad5bcdd402cc50",
+    "release_sha256": "4d270031ddd93d67de766a039aa22184f6e8c21778a1d523d1ad5bcdd402cc50",
+    "match": true
+  },
+  {
+    "module": "synthesize_downstream_metric_framework",
+    "executed_sha256": "9679b26c0cdd7d225c0234f171f525a60ecf8d8632b1c9fa921922302e0de7e2",
+    "release_sha256": "9679b26c0cdd7d225c0234f171f525a60ecf8d8632b1c9fa921922302e0de7e2",
+    "match": true
+  }
+]
