@@ -1,7 +1,6 @@
 # Measurand-aware GOES land surface temperature harmonization
 
-release v2.1.2-r1 — 3 November 2026 
-```bash The study assesses inter-platform consistency at the downstream scientific quantity. This package contains the analysis code, processed inputs and fitted models for the study. 
+(release v2.1.2-r1 — 3 November 2026) The study assesses inter-platform consistency at the downstream scientific quantity. This package contains the analysis code, processed inputs and fitted models for the study. 
 
 ## Repository organization
 - `02_EVIDENCE/`: current numerical results, exact MSE budgets, bootstrap outputs, fitted models/predictions, provenance, native/quality/cloud diagnostics and station benchmarks.
