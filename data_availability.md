@@ -1,0 +1,5 @@
+# Data and code availability
+
+ERA5-Land inputs are available from the Copernicus Climate Data Store (https://doi.org/10.24381/cds.e2161bac) and Google Earth Engine collections `ECMWF/ERA5_LAND/HOURLY` and `ECMWF/ERA5_LAND/DAILY_AGGR`. NOAA cloud archives supply raw GOES products under `ABI-L2-LSTC` and `ABI-L2-ACMC`; exact source-object identifiers and hashes are retained in the request/native manifests. SURFRAD radiation data are supplied by NOAA Global Monitoring Laboratory; source URLs, station/date support and matching rules are retained with the station evidence. GHS-UCDB R2024A and NOAA LST metadata are identified by https://doi.org/10.2905/JRC.05RDPR0 and https://doi.org/10.7289/V52R3PZ8. Basemap source/license metadata accompany the cartographic inputs.
+
+The package does not redistribute all bulk raw-provider files. Processed-data reproducibility and station-scale evidence do not establish independent ground validation of the full urban workflow. See `data_licenses.md` for upstream rights and attribution.

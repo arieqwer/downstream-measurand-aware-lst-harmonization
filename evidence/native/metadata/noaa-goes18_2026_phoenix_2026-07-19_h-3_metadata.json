@@ -1,0 +1,296 @@
+{
+  "label": "noaa-goes18_2026_phoenix_2026-07-19_h-3",
+  "bucket": "noaa-goes18",
+  "key": "ABI-L2-LSTC/2026/201/00/OR_ABI-L2-LSTC-M6_G18_s20262010001202_e20262010003575_c20262010005458.nc",
+  "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
+  "source_summary": "/Users/apple/Downloads/RS revision 1/repair_20261029/extraction/corrected_data/goes18_2026_metric_holdout/goes_sunset_hourly.parquet",
+  "uc_id": "4699",
+  "local_date": "2026-07-19",
+  "target_hour": -3,
+  "sunset_utc": "2026-07-20T02:37:07.038564+00:00",
+  "scan_time_utc": "2026-07-20T00:01:20.200000+00:00",
+  "event_time_id": 2007,
+  "path": "/Users/apple/Downloads/RS revision 1/repair_20261029/extraction/raw/noaa-goes18/OR_ABI-L2-LSTC-M6_G18_s20262010001202_e20262010003575_c20262010005458.nc",
+  "sha256": "8fa9067aab13d2e2dd64c6366154c4ac14d92497bd82a5e79e0c5bbfd4c7ea99",
+  "bytes": 1380240,
+  "global": {
+    "naming_authority": "gov.nesdis.noaa",
+    "Conventions": "CF-1.7",
+    "Metadata_Conventions": "Unidata Dataset Discovery v1.0",
+    "standard_name_vocabulary": "CF Standard Name Table (v35, 20 July 2016)",
+    "institution": "DOC/NOAA/NESDIS > U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Environmental Satellite, Data, and Information Services",
+    "project": "GOES",
+    "production_site": "GCCS",
+    "production_environment": "OE",
+    "production_cluster": "L2 Blue",
+    "spatial_resolution": "2.0km at nadir",
+    "orbital_slot": "GOES-West",
+    "platform_ID": "G18",
+    "instrument_type": "GOES-R Series Advanced Baseline Imager (ABI)",
+    "scene_id": "CONUS",
+    "instrument_ID": "FM3",
+    "dataset_name": "OR_ABI-L2-LSTC-M6_G18_s20262010001202_e20262010003575_c20262010005458.nc",
+    "iso_series_metadata_id": "f22c3310-b00a-11e1-afa6-0800200c9a66",
+    "title": "ABI L2 Land Surface (Skin) Temperature",
+    "summary": "The Land Surface (Skin) Temperature product consists of pixels containing the skin temperatures for each 'clear' or 'probably clear' land surface pixel. This product is generated from a regression algorithm that linearly combines ABI surface emissivity data, brightness temperature, and brightness temperature differences derived from top of atmosphere radiances from ABI bands with wavelengths 11.19 and 12.27 um. Product data is generated both day and night.",
+    "keywords": "LAND SURFACE > LAND TEMPERATURE > LAND SURFACE TEMPERATURE",
+    "keywords_vocabulary": "NASA Global Change Master Directory (GCMD) Earth Science Keywords, Version 7.0.0.0.0",
+    "license": "Unclassified data.  Access is restricted to approved users only.",
+    "processing_level": "National Aeronautics and Space Administration (NASA) L2",
+    "date_created": "2026-07-20T00:05:45.8Z",
+    "cdm_data_type": "Image",
+    "time_coverage_start": "2026-07-20T00:01:20.2Z",
+    "time_coverage_end": "2026-07-20T00:03:57.5Z",
+    "timeline_id": "ABI Mode 6",
+    "production_data_source": "Realtime",
+    "id": "2af3cea6-4024-4291-a2bb-176582002697"
+  },
+  "variables": {
+    "LST": {
+      "shape": [
+        1500,
+        2500
+      ],
+      "dtype": "uint16",
+      "attrs": {
+        "_FillValue": 65535,
+        "valid_range": [
+          9200,
+          61200
+        ],
+        "scale_factor": 0.0024999999441206455,
+        "add_offset": 190.0,
+        "long_name": "ABI L2+ Land Surface (Skin) Temperature",
+        "standard_name": "surface_temperature",
+        "units": "K",
+        "resolution": "y: 0.000056 rad x: 0.000056 rad",
+        "coordinates": "retrieval_local_zenith_angle quantitative_local_zenith_angle solar_zenith_angle t y x",
+        "grid_mapping": "goes_imager_projection",
+        "cell_methods": "retrieval_local_zenith_angle: point (good or degraded quality pixel produced) quantitative_local_zenith_angle: point (good quality pixel produced) solar_zenith_angle: point (good quality pixel produced) t: point area: point where land",
+        "ancillary_variables": "DQF"
+      }
+    },
+    "DQF": {
+      "shape": [
+        1500,
+        2500
+      ],
+      "dtype": "uint16",
+      "attrs": {
+        "_FillValue": 65535,
+        "valid_range": [
+          0,
+          3
+        ],
+        "flag_masks": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "flag_values": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "number_of_qf_values": 4,
+        "percent_high_quality_retrieval_data_qf": 0.3405882716178894,
+        "percent_medium_quality_retrieval_data_qf": 0.4610406160354614,
+        "percent_low_quality_retrieval_data_qf": 0.19837111234664917,
+        "long_name": "ABI L2+ Land Surface (Skin) Temperature data quality flags",
+        "standard_name": "status_flag",
+        "units": "1",
+        "coordinates": "retrieval_local_zenith_angle quantitative_local_zenith_angle solar_zenith_angle t y x",
+        "grid_mapping": "goes_imager_projection",
+        "cell_methods": "retrieval_local_zenith_angle: point quantitative_local_zenith_angle: point solar_zenith_angle: point t: point area: point",
+        "flag_meanings": "high_quality_retrieval_qf medium_quality_retrieval_qf low_quality_retrieval_qf no_retrieval_qf"
+      }
+    },
+    "PQI": {
+      "shape": [
+        1500,
+        2500
+      ],
+      "dtype": "uint16",
+      "attrs": {
+        "_FillValue": 65535,
+        "flag_masks": [
+          3,
+          3,
+          3,
+          3,
+          12,
+          12,
+          12,
+          12,
+          16,
+          16,
+          32,
+          32,
+          192,
+          192,
+          192,
+          192,
+          768,
+          768,
+          768,
+          768,
+          1024,
+          1024,
+          2048,
+          2048,
+          4096,
+          4096
+        ],
+        "flag_values": [
+          0,
+          1,
+          2,
+          3,
+          0,
+          4,
+          8,
+          12,
+          0,
+          16,
+          0,
+          32,
+          0,
+          64,
+          128,
+          192,
+          0,
+          256,
+          512,
+          768,
+          0,
+          1024,
+          0,
+          2048,
+          0,
+          4096
+        ],
+        "number_of_qf_values": 26,
+        "long_name": "Product quality indicators",
+        "grid_mapping": "goes_imager_projection",
+        "coordinates": "y x",
+        "flag_meanings": "lst_quality_high_qf lst_quality_medium_qf lst_quality_low_qf lst_quality_no_retrieval_qf cloud_condition_clear_qf cloud_condition_probably_clear_qf cloud_condition_probably_cloudy_qf cloud_condition_cloudy_qf input_data_normal_qf input_data_out_of_space_bad_missing_qf aod_within_range_qf aod_out_of_range_missing_qf surface_type_land_qf surface_type_snow_ice_qf surface_type_inland_water_qf surface_type_coastal_qf water_vapor_condition_very_dry_qf water_vapor_condition_dry_qf water_vapor_condition_moist_qf water_vapor_condition_very_moist_qf awg_emissivity_qf other_emissivity_qf view_angle_normal_qf view_angle_large_qf night_qf day_qf"
+      }
+    },
+    "x": {
+      "shape": [
+        2500
+      ],
+      "dtype": "int16",
+      "attrs": {
+        "scale_factor": 5.6000000768108293e-05,
+        "add_offset": -0.06997200101613998,
+        "units": "rad",
+        "axis": "X",
+        "long_name": "GOES fixed grid projection x-coordinate",
+        "standard_name": "projection_x_coordinate"
+      }
+    },
+    "y": {
+      "shape": [
+        1500
+      ],
+      "dtype": "int16",
+      "attrs": {
+        "scale_factor": -5.6000000768108293e-05,
+        "add_offset": 0.12821200489997864,
+        "units": "rad",
+        "axis": "Y",
+        "long_name": "GOES fixed grid projection y-coordinate",
+        "standard_name": "projection_y_coordinate"
+      }
+    },
+    "goes_imager_projection": {
+      "shape": [],
+      "dtype": "int32",
+      "attrs": {
+        "perspective_point_height": 35786023.0,
+        "semi_major_axis": 6378137.0,
+        "semi_minor_axis": 6356752.31414,
+        "inverse_flattening": 298.2572221,
+        "latitude_of_projection_origin": 0.0,
+        "longitude_of_projection_origin": -137.0,
+        "long_name": "GOES-R ABI fixed grid projection",
+        "grid_mapping_name": "geostationary",
+        "sweep_angle_axis": "x"
+      },
+      "value": 0
+    },
+    "FPT_mitigation_flag": {
+      "shape": [],
+      "dtype": "uint8",
+      "attrs": {
+        "_FillValue": 255,
+        "flag_values": [
+          0,
+          1
+        ],
+        "long_name": "FPT mitigation flag",
+        "units": "1",
+        "flag_meanings": "unmitigated mitigated"
+      },
+      "value": 0
+    },
+    "algorithm_dynamic_input_data_container": {
+      "shape": [],
+      "dtype": "int32",
+      "attrs": {
+        "long_name": "container for filenames of dynamic algorithm input data",
+        "input_ABI_L1b_FPT_from_focal_plane_2": "OR_ABI-L1b-RadC-M6C07_G18_s20262010001202_e20262010003*_c*.nc",
+        "input_ABI_L1b_FPT_from_focal_plane_3": "OR_ABI-L1b-RadC-M6C12_G18_s20262010001202_e20262010003*_c*.nc",
+        "input_ABI_L2_brightness_temperature_band_13_2km_data": "OR_ABI-L2-CMIPC-M6C13_G18_s20262010001202_e20262010003*_c*.nc",
+        "input_ABI_L2_brightness_temperature_band_14_2km_data": "OR_ABI-L2-CMIPC-M6C14_G18_s20262010001202_e20262010003*_c*.nc",
+        "input_ABI_L2_brightness_temperature_band_15_2km_data": "OR_ABI-L2-CMIPC-M6C15_G18_s20262010001202_e20262010003*_c*.nc",
+        "input_ABI_L2_brightness_temperature_band_7_2km_data": "OR_ABI-L2-CMIPC-M6C07_G18_s20262010001202_e20262010003*_c*.nc",
+        "input_dynamic_ancillary_global_snow_mask_data": "OR_I_ANC-GlobalSnowMask_s*_e*_c*.nc",
+        "input_dynamic_ancillary_NWP_total_precipitable_water_data": "OR_I_ANC-TPW-TI_s*_e*_c*.nc",
+        "input_ABI_L2_auxiliary_solar_zenith_angle_data": "OR_I_ABI-L2-AUXC-M6_G18_s20262010001202_e20262010003*_c*.nc",
+        "input_ABI_L2_intermediate_product_cloud_mask_data_information_flag_data": "OR_I_ABI-L2-ACMDIFC-M6_G18_s20262010001202_e20262010003575_c*.nc",
+        "input_ABI_L2_4_level_cloud_mask_data": "OR_ABI-L2-ACMC-M6_G18_s20262010001202_e20262010003575_c*.nc",
+        "input_ABI_L2_aerosol_optical_depth_550nm_data": "OR_ABI-L2-AODC-M6_G18_s20262010001202_e20262010003575_c*.nc",
+        "input_ABI_L2_total_precipitable_water_data": "OR_ABI-L2-TPWC-M6_G18_s20262010001202_e20262010003575_c*.nc"
+      },
+      "value": 0
+    },
+    "processing_parm_version_container": {
+      "shape": [],
+      "dtype": "int32",
+      "attrs": {
+        "long_name": "container for processing parameter filenames",
+        "L2_processing_parm_version": "OR_ABI-L2-PARM-LST_v02r00.zip, OR_ANC-L2-PARM-SEMISTATIC_v01r00.zip, OR_ANC-L2-PARM-ANCILLARY_v01r00.zip, OR_ABI-L2-PARM-AUXILIARY_v01r00.zip"
+      },
+      "value": 0
+    },
+    "algorithm_product_version_container": {
+      "shape": [],
+      "dtype": "int32",
+      "attrs": {
+        "long_name": "container for algorithm package filename and product version",
+        "algorithm_version": "OR_ABI-L2-ALG-LST_v02r00.zip",
+        "product_version": "v02r00"
+      },
+      "value": 0
+    }
+  },
+  "summary": {
+    "dqf_counts": {
+      "0": 98148,
+      "1": 132859,
+      "2": 57165,
+      "3": 3461828
+    },
+    "pixels": 3750000,
+    "nonfill_LST_pixels": 288172,
+    "dqf0_nonfill": 98148,
+    "dqf01_nonfill": 231007,
+    "LST_nonfill_min": 235.28499898780137,
+    "LST_nonfill_max": 335.2974967523478,
+    "independent_CF_decode_max_abs_K": 2.2760126739740372e-05
+  }
+}

@@ -22,7 +22,7 @@ from run_multiplatform_replication_audit import (
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs/grl_deepening_2026/multiplatform_harmonization"
-PROTOCOL = ROOT / "MULTIPLATFORM_HARMONIZATION_PROTOCOL.md"
+PROTOCOL = ROOT / "multiplatform_harmonization_protocol.md"
 MODEL_PATH = OUT / "frozen_harmonization_model.joblib"
 MANIFEST_PATH = OUT / "frozen_harmonization_manifest.json"
 MODEL_ORDER = ["raw", "hour_offset", "hour_spline", "geometry_ridge"]

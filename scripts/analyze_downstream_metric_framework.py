@@ -345,7 +345,7 @@ def main() -> None:
     )
     report = {
         "status": "complete",
-        "protocol": str(ROOT / "DOWNSTREAM_METRIC_AWARE_HARMONIZATION_PROTOCOL.md"),
+        "protocol": str(ROOT / "downstream_metric_aware_harmonization_protocol.md"),
         "n_samples": int(points["sample"].nunique()),
         "scopes": sorted(points["scope"].unique().tolist()),
         "max_point_budget_closure_residual_k2": max_closure,

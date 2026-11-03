@@ -22,7 +22,7 @@ SOURCE = (
     / "outputs/grl_deepening_2026/multiplatform_expanded_validation/combined_2025_common_domain_predictions.parquet"
 )
 OUT = ROOT / "outputs/grl_deepening_2026/goes18_goes19_metric_harmonization"
-PROTOCOL = ROOT / "GOES18_GOES19_METRIC_AWARE_HARMONIZATION_PROTOCOL.md"
+PROTOCOL = ROOT / "goes18_goes19_metric_aware_harmonization_protocol.md"
 MODEL_PATH = OUT / "frozen_metric_aware_model.joblib"
 HOURLY_ORDER = ["raw", "hour_offset", "geometry_ridge", "scene_gbdt"]
 TRANSITION_ORDER = ["raw", "mean_offset", "transition_ridge", "transition_gbdt"]

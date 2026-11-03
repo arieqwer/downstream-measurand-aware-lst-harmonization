@@ -10,7 +10,7 @@ from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
 CASE=Path(os.environ.get('LST_REPRODUCTION_OUTPUT',str(ROOT/'outputs/reproduced'))).resolve()/'repaired'
-NEW=CASE/'outputs/grl_deepening_2026';BASE=ROOT/'02_EVIDENCE/analysis_outputs'
+NEW=CASE/'outputs/grl_deepening_2026';BASE=ROOT/'evidence/analysis_outputs'
 checks=[];numcells=0
 def check(name,ok,**kw):checks.append(dict(check=name,passed=bool(ok),**kw))
 def compare(a,b,label):
@@ -41,7 +41,7 @@ for old in BASE.rglob('*.parquet'):
     compare(pd.read_parquet(new),pd.read_parquet(old),'PARQUET '+str(old.relative_to(BASE)))
     predictions.append(str(old.relative_to(BASE)))
 for name in ['model_selection_summary.csv','uncertainty_gate_2026_by_cohort_event.csv','cohort_attrition_summary.csv','cohort_event_analysis_counts.csv']:
-    compare(pd.read_csv(CASE/'si_tables'/name),pd.read_csv(ROOT/'02_EVIDENCE/si_tables'/name),'TABLE '+name)
+    compare(pd.read_csv(CASE/'si_tables'/name),pd.read_csv(ROOT/'evidence/si_tables'/name),'TABLE '+name)
 
 # Independently reconstruct the population covariance identity and hour partition.
 p=NEW/'goes17_goes16_external_metric/validation_2021_hourly_predictions.parquet'
@@ -74,7 +74,7 @@ for scope in ['hourly','transition']:
     check('All '+scope+' budget identities',np.max(np.abs(g.component_variance_gain_k2+g.differential_bias_gain_k2-g.covariance_loss_penalty_k2-g.net_downstream_mse_gain_k2))<1e-10)
 
 figures=[]
-for name in ['Figure_1_corrected_workflow_domain_chronology','Figure_2_repaired_model_selection','Figure_3_repaired_cross_platform_budget','Figure_4_repaired_covariance_regimes','Figure_5_repaired_replication_and_temporal_evaluation','Phoenix_LST_corrected_local_date']:
+for name in ['figure_1_corrected_workflow_domain_chronology','figure_2_repaired_model_selection','figure_3_repaired_cross_platform_budget','figure_4_repaired_covariance_regimes','figure_5_repaired_replication_and_temporal_evaluation','phoenix_lst_corrected_local_date']:
     new=CASE/'figures'/(name+'.png');old=ROOT/'outputs/figures'/(name+'.png')
     x=np.asarray(Image.open(new).convert('RGB'));y=np.asarray(Image.open(old).convert('RGB'))
     exact=x.shape==y.shape and np.array_equal(x,y)

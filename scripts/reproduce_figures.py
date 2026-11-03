@@ -13,7 +13,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT/'05_CODE'))
+sys.path.insert(0,str(ROOT/'figure_builders'))
 import traced_figure1_corrected_labels as design
 import traced_figure_builder as fig
 import traced_stress_figure_builder as stress
@@ -29,9 +29,9 @@ def record(p):sources[str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else st
 design.OUT=OUT
 design.FIXED_EXPORT_TIME=datetime(2026,11,2,tzinfo=timezone.utc)
 design.BASEMAP={k:ROOT/'data/basemap'/v.name for k,v in design.BASEMAP.items()}
-city=ROOT/'02_EVIDENCE/si_tables/fixed_city_candidate_metadata.csv'
-time=ROOT/'02_EVIDENCE/si_tables/fixed_interval_chronology.csv'
-design.export_figure(design.build_figure1(pd.read_csv(city),pd.read_csv(time)),'Figure_1_corrected_workflow_domain_chronology')
+city=ROOT/'evidence/si_tables/fixed_city_candidate_metadata.csv'
+time=ROOT/'evidence/si_tables/fixed_interval_chronology.csv'
+design.export_figure(design.build_figure1(pd.read_csv(city),pd.read_csv(time)),'figure_1_corrected_workflow_domain_chronology')
 record(city);record(time)
 for p in design.BASEMAP.values():record(p)
 
@@ -42,9 +42,9 @@ fig.SOURCES.update(model_selection=CASE/'si_tables/model_selection_summary.csv',
 selection=pd.read_csv(fig.SOURCES['model_selection']);rmse,mse=fig.load_figure3_sources()
 assert mse.budget_closure_residual_k2.abs().max()<1e-10
 f2=fig.build_figure2(selection)
-fig.export_figure(f2,'Figure_2_repaired_model_selection');plt.close(f2)
+fig.export_figure(f2,'figure_2_repaired_model_selection');plt.close(f2)
 f3=fig.build_figure3(rmse,mse)
-export_fixed(f3,OUT,'Figure_3_repaired_cross_platform_budget');plt.close(f3)
+export_fixed(f3,OUT,'figure_3_repaired_cross_platform_budget');plt.close(f3)
 for p in fig.SOURCES.values():
     if p.exists():record(p)
 
@@ -76,7 +76,7 @@ data=dict(external_point=points[points.scope.eq('hourly')],
           single_events=single,mse_point=mp,mse_ci=mc,gate_cohorts=gate)
 f=rep.build_figure4(data);baseline=rep.build_figure4(data)
 style_wide_replication(f,baseline,gate,rep)
-export_fixed(f,OUT,'Figure_5_repaired_replication_and_temporal_evaluation',900)
+export_fixed(f,OUT,'figure_5_repaired_replication_and_temporal_evaluation',900)
 plt.close(f);plt.close(baseline)
 
 # Native spatial-map arrays retain the precise grids and screening of the study.
@@ -92,7 +92,7 @@ plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.titlesize':
                      'pdf.fonttype':42,'ps.fonttype':42,'svg.fonttype':'none','svg.hashsalt':'lst-figure6-nov2'})
 f,axs=plt.subplots(2,2,figsize=(8,7),sharex=True,sharey=True,layout='constrained');scale=Normalize(240,330)
 for ax,s,letter in zip(axs.flat,scenes,'abcd'):
-    p=M/(s['label']+'_map_arrays.npz');a=np.load(p);record(p)
+    p=M/(s['label']+'_map_arrays.npz').lower();a=np.load(p);record(p)
     lo,la,v=a['lon'],a['lat'],a['lst']
     valid=np.isfinite(v)&(lo>=-113)&(lo<=-111.4)&(la>=32.9)&(la<=34.3)
     assert valid.any() and v[valid].min()>=240 and v[valid].max()<=330
@@ -112,7 +112,7 @@ for ax,s,letter in zip(axs.flat,scenes,'abcd'):
     ax.text(-.26,1.16,letter,transform=ax.transAxes,ha='left',va='top',fontsize=12,fontweight='bold',color='black',clip_on=False)
 f.colorbar(mesh,ax=axs,label='Native recommended-quality land surface temperature (K)',shrink=.85)
 f.suptitle('Phoenix: urban core and surrounding 10–20 km ring\nLocal sunset date: 1 June 2026',fontsize=11)
-export_fixed(f,OUT,'Phoenix_LST_corrected_local_date',600)
+export_fixed(f,OUT,'phoenix_lst_corrected_local_date',600)
 plt.close(f)
 (OUT/'reproduction_sources.json').write_text(json.dumps(dict(sources=sources,stress_checks=checks,scope='Figs2–5 use recomputed results; Fig1 fixed-design sources; Fig6 retained decoded native arrays'),indent=2))
 print('ALL_SIX_FIGURES_REGENERATED',OUT)

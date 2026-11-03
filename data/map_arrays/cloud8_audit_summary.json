@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-01_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-06-01_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/153/00/OR_ABI-L2-LSTC-M6_G18_s20261530001187_e20261530003561_c20261530007227.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -296,7 +296,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-01_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-06-01_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/153/07/OR_ABI-L2-LSTC-M6_G18_s20261530701188_e20261530703561_c20261530707038.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -591,7 +591,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-09_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-06-09_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/161/00/OR_ABI-L2-LSTC-M6_G18_s20261610001174_e20261610003547_c20261610006279.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -886,7 +886,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-09_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-06-09_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/161/07/OR_ABI-L2-LSTC-M6_G18_s20261610701175_e20261610703548_c20261610706466.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -1181,7 +1181,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-17_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-06-17_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/169/00/OR_ABI-L2-LSTC-M6_G18_s20261690001197_e20261690003570_c20261690007119.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -1476,7 +1476,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-17_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-06-17_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/169/07/OR_ABI-L2-LSTC-M6_G18_s20261690701198_e20261690703571_c20261690706299.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -1771,7 +1771,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-25_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-06-25_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/177/00/OR_ABI-L2-LSTC-M6_G18_s20261770001221_e20261770003594_c20261770007495.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -2066,7 +2066,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-06-25_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-06-25_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/177/07/OR_ABI-L2-LSTC-M6_G18_s20261770701222_e20261770703595_c20261770706427.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -2361,7 +2361,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-03_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-07-03_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/185/00/OR_ABI-L2-LSTC-M6_G18_s20261850001244_e20261850004017_c20261850006597.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -2656,7 +2656,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-03_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-07-03_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/185/07/OR_ABI-L2-LSTC-M6_G18_s20261850701245_e20261850704018_c20261850706474.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -2951,7 +2951,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-11_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-07-11_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/193/00/OR_ABI-L2-LSTC-M6_G18_s20261930001183_e20261930003557_c20261930005412.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -3247,7 +3247,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-11_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-07-11_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/193/07/OR_ABI-L2-LSTC-M6_G18_s20261930701184_e20261930703558_c20261930705289.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -3543,7 +3543,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-19_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-07-19_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/201/00/OR_ABI-L2-LSTC-M6_G18_s20262010001202_e20262010003575_c20262010005458.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -3839,7 +3839,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-19_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-07-19_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/201/07/OR_ABI-L2-LSTC-M6_G18_s20262010701203_e20262010703576_c20262010705568.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -4135,7 +4135,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-27_h-3",
+      "label": "noaa-goes18_2026_phoenix_2026-07-27_h-3",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/209/00/OR_ABI-L2-LSTC-M6_G18_s20262090001185_e20262090003558_c20262090005253.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -4431,7 +4431,7 @@
       }
     },
     {
-      "label": "noaa-goes18_2026_Phoenix_2026-07-27_h+4",
+      "label": "noaa-goes18_2026_phoenix_2026-07-27_h+4",
       "bucket": "noaa-goes18",
       "key": "ABI-L2-LSTC/2026/209/07/OR_ABI-L2-LSTC-M6_G18_s20262090701185_e20262090703558_c20262090705378.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -4727,7 +4727,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-01_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-06-01_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/153/00/OR_ABI-L2-LSTC-M6_G19_s20261530001177_e20261530003550_c20261530006420.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -5023,7 +5023,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-01_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-06-01_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/153/07/OR_ABI-L2-LSTC-M6_G19_s20261530701177_e20261530703550_c20261530706500.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -5319,7 +5319,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-09_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-06-09_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/161/00/OR_ABI-L2-LSTC-M6_G19_s20261610001185_e20261610003558_c20261610006472.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -5615,7 +5615,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-09_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-06-09_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/161/07/OR_ABI-L2-LSTC-M6_G19_s20261610701185_e20261610703558_c20261610707102.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -5911,7 +5911,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-17_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-06-17_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/169/00/OR_ABI-L2-LSTC-M6_G19_s20261690001193_e20261690003566_c20261690006526.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -6207,7 +6207,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-17_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-06-17_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/169/07/OR_ABI-L2-LSTC-M6_G19_s20261690701193_e20261690703566_c20261690707109.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -6503,7 +6503,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-25_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-06-25_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/177/00/OR_ABI-L2-LSTC-M6_G19_s20261770001173_e20261770003546_c20261770007025.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -6799,7 +6799,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-06-25_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-06-25_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/177/07/OR_ABI-L2-LSTC-M6_G19_s20261770701173_e20261770703546_c20261770706424.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -7095,7 +7095,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-03_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-07-03_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/185/00/OR_ABI-L2-LSTC-M6_G19_s20261850001181_e20261850003554_c20261850007071.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -7391,7 +7391,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-03_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-07-03_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/185/07/OR_ABI-L2-LSTC-M6_G19_s20261850701181_e20261850703554_c20261850706354.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -7687,7 +7687,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-11_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-07-11_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/193/00/OR_ABI-L2-LSTC-M6_G19_s20261930001175_e20261930003552_c20261930005518.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -7984,7 +7984,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-11_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-07-11_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/193/07/OR_ABI-L2-LSTC-M6_G19_s20261930701175_e20261930703550_c20261930705568.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -8281,7 +8281,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-19_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-07-19_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/201/00/OR_ABI-L2-LSTC-M6_G19_s20262010001159_e20262010003532_c20262010005425.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -8578,7 +8578,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-19_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-07-19_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/201/07/OR_ABI-L2-LSTC-M6_G19_s20262010701159_e20262010703532_c20262010705474.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -8875,7 +8875,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-27_h-3",
+      "label": "noaa-goes19_2026_phoenix_2026-07-27_h-3",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/209/00/OR_ABI-L2-LSTC-M6_G19_s20262090001177_e20262090003550_c20262090005472.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",
@@ -9172,7 +9172,7 @@
       }
     },
     {
-      "label": "noaa-goes19_2026_Phoenix_2026-07-27_h+4",
+      "label": "noaa-goes19_2026_phoenix_2026-07-27_h+4",
       "bucket": "noaa-goes19",
       "key": "ABI-L2-LSTC/2026/209/07/OR_ABI-L2-LSTC-M6_G19_s20262090701177_e20262090703551_c20262090705388.nc",
       "selection": "systematicfirstdesign-dayofeachofeightintervals;Phoenixcity4699hminus3plus4;nofilechosenbyerrororcloud",

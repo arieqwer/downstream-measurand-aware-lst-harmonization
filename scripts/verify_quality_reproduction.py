@@ -4,7 +4,7 @@ import os,json
 import numpy as np,pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
 WORK=Path(os.environ.get('LST_NATIVE_WORKSPACE',str(ROOT/'data/native_workspace')))
-NEW=WORK/'auxiliary/quality/results';BASE=ROOT/'02_EVIDENCE/quality'
+NEW=WORK/'auxiliary/quality/results';BASE=ROOT/'evidence/quality'
 checks=[];cells=0
 for old in BASE.glob('*.csv'):
     new=NEW/old.name

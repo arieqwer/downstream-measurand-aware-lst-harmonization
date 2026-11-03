@@ -38,7 +38,7 @@ def sha(p):
         for q in iter(lambda:f.read(1024*1024),b''):z.update(q)
     return z.hexdigest()
 
-def protocol(name):return SCI/'03_PROTOCOLS'/name
+def protocol(name):return SCI/'protocols'/name
 
 def configure(mode):
     case=B/mode;out=case/'outputs/grl_deepening_2026';data=SCI/'data' if mode=='baseline' else E/'corrected_inputs'
@@ -55,13 +55,13 @@ def configure(mode):
             if k in d:d[k]=mapped(d[k])
     ra.OUT=out/'multiplatform_replication_audit';ra.PAIR_DEFINITIONS=defs
     h.ROOT=case;h.OUT=out/'multiplatform_harmonization';h.PAIR_DEFINITIONS=defs
-    h.PROTOCOL=protocol('MULTIPLATFORM_HARMONIZATION_PROTOCOL.md')
+    h.PROTOCOL=protocol('multiplatform_harmonization_protocol.md')
     h.MODEL_PATH=h.OUT/'frozen_harmonization_model.joblib';h.MANIFEST_PATH=h.OUT/'frozen_harmonization_manifest.json'
     ex.ROOT=case;ex.OUT=out/'multiplatform_expanded_validation';ex.BASE_OUT=h.OUT;ex.MODEL_PATH=h.MODEL_PATH;ex.DEFINITIONS=expanded
     tr.ROOT=case;tr.OUT=out/'goes18_goes19_metric_harmonization';tr.SOURCE=ex.OUT/'combined_2025_common_domain_predictions.parquet'
-    tr.PROTOCOL=protocol('GOES18_GOES19_METRIC_AWARE_HARMONIZATION_PROTOCOL.md');tr.MODEL_PATH=tr.OUT/'frozen_metric_aware_model.joblib'
+    tr.PROTOCOL=protocol('goes18_goes19_metric_aware_harmonization_protocol.md');tr.MODEL_PATH=tr.OUT/'frozen_metric_aware_model.joblib'
     va.ROOT=case;va.OUT=tr.OUT;va.MODEL_PATH=tr.MODEL_PATH;va.DATA18=data/'goes18_2026_metric_holdout';va.DATA19=data/'goes19_2026_metric_holdout'
-    ext.ROOT=case;ext.OUT=out/'goes17_goes16_external_metric';ext.DATA16=data/'goes16_2019_2021_external_metric';ext.DATA17=data/'goes17_2019_2021_external_metric';ext.PROTOCOL=protocol('GOES17_GOES16_EXTERNAL_METRIC_REPLICATION_PROTOCOL.md')
+    ext.ROOT=case;ext.OUT=out/'goes17_goes16_external_metric';ext.DATA16=data/'goes16_2019_2021_external_metric';ext.DATA17=data/'goes17_2019_2021_external_metric';ext.PROTOCOL=protocol('goes17_goes16_external_metric_replication_protocol.md')
     cas.ROOT=case;cas.OUT=out/'harmonization_error_cascade';cas.METRIC_OUT=tr.OUT;cas.EXP_OUT=ex.OUT;cas.FIRST_OUT=h.OUT
     bud.ROOT=case;bud.BASE=out;bud.OUT=out/'downstream_metric_framework';bud.FIRST=h.OUT;bud.EXPANDED=ex.OUT;bud.METRIC=tr.OUT;bud.CASCADE=cas.OUT
     syn.ROOT=case;syn.BASE=out;syn.OUT=bud.OUT;syn.EXTERNAL=ext.OUT;syn.CASCADE=cas.OUT
@@ -98,7 +98,7 @@ def collect_input_manifest(mode,data):
     out=[]
     paths=[]
     for d in [*DATASETS,'goes18_2026_metric_holdout','goes19_2026_metric_holdout','goes16_2019_2021_external_metric','goes17_2019_2021_external_metric']:
-        for name in ['goes_sunset_hourly.parquet','goes_sunset_city_events.csv','goes_sunset_cities.csv','FROZEN_SELECTION.json']:
+        for name in ['goes_sunset_hourly.parquet','goes_sunset_city_events.csv','goes_sunset_cities.csv','frozen_selection.json']:
             p=data/d/name
             if p.exists():paths.append(p)
     for p in paths:out.append({'path':str(p),'bytes':p.stat().st_size,'sha256':sha(p)})

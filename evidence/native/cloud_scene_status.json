@@ -1,0 +1,162 @@
+[
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-01_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-09_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-17_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-25_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-03_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-11_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-19_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-27_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-01_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-09_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-17_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-25_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-03_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-11_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-19_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-27_h-3",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-01_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-09_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-17_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-06-25_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-03_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-11_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-19_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes18_2026_phoenix_2026-07-27_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-01_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-09_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-17_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-06-25_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-03_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-11_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-19_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  },
+  {
+    "label": "noaa-goes19_2026_phoenix_2026-07-27_h+4",
+    "ACM_available": true,
+    "clear_pqi_acm_disagreements": 0
+  }
+]

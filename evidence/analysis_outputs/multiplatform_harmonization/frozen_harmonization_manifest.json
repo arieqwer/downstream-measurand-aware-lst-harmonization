@@ -1,0 +1,53 @@
+{
+  "stage": "derivation_complete_validation_not_opened_by_this_stage",
+  "protocol": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/multiplatform_harmonization_protocol.md",
+  "protocol_sha256": "33b370d6a4862dff74e159e67830032f05cbbb6bebbb9970fa93e54f5274c6d7",
+  "selected_model": "hour_offset",
+  "n_hourly": 13441,
+  "n_cities": 44,
+  "n_intervals": 31,
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "model_sha256": "865db036d7b70762b3528dd26100cfb64947f0d3602a7c2c789256645eee9f5d",
+  "selection": [
+    {
+      "model": "hour_spline",
+      "mean_composite": 0.5635869104383215,
+      "sd_composite": 0.16283691036596,
+      "se_composite": 0.042044309466348864,
+      "n_folds": 15,
+      "one_se_threshold": 0.6056312199046704,
+      "selected": false
+    },
+    {
+      "model": "hour_offset",
+      "mean_composite": 0.563637056093654,
+      "sd_composite": 0.16277003464396755,
+      "se_composite": 0.04202704222917937,
+      "n_folds": 15,
+      "one_se_threshold": 0.6056312199046704,
+      "selected": true
+    },
+    {
+      "model": "geometry_ridge",
+      "mean_composite": 0.8581847550219734,
+      "sd_composite": 0.6878931602061562,
+      "se_composite": 0.17761325022989558,
+      "n_folds": 15,
+      "one_se_threshold": 0.6056312199046704,
+      "selected": false
+    },
+    {
+      "model": "raw",
+      "mean_composite": 1.0,
+      "sd_composite": 0.0,
+      "se_composite": 0.0,
+      "n_folds": 15,
+      "one_se_threshold": 0.6056312199046704,
+      "selected": false
+    }
+  ]
+}

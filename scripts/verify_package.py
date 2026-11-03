@@ -20,7 +20,7 @@ def main():
  for line in (ROOT/'SHA256SUMS.txt').read_text().splitlines():
   digest,name=line.split('  ',1);p=ROOT/name
   if not p.is_file()or sha(p)!=digest:errors.append('Checksum mismatch: '+name)
- for name in ['README.md','DATA_DIAGNOSTICS_INDEX.md','requirements-lock.txt','06_SUBMISSION/Manuscript.docx','06_SUBMISSION/Supplementary_Information.docx']:
+ for name in ['readme.md','data_diagnostics_index.md','requirements-lock.txt','manuscript_file_map.md']:
   if not(ROOT/name).is_file():errors.append('Required package file absent: '+name)
  result={'status':'PASS'if not errors else'FAIL','version':version,'files_verified':len(manifest['files']),'manifest_sha256':sha(ROOT/'MANIFEST.json'),'errors':errors}
  print(json.dumps(result,indent=2))

@@ -57,16 +57,16 @@ def selection(root,out):
 def plotting_sources(case,root):
     out=case/'tables';out.mkdir(exist_ok=True)
     rmse=pd.read_csv(root/'downstream_metric_framework/cross_sample_rmse_with_external.csv')
-    cols=pd.read_csv(ARC/'02_EVIDENCE/tables/downstream_metric_framework_figure_rmse_source.csv',nrows=0).columns.tolist()
+    cols=pd.read_csv(ARC/'evidence/tables/downstream_metric_framework_figure_rmse_source.csv',nrows=0).columns.tolist()
     rmse[cols].sort_values(['sample','component']).to_csv(out/'downstream_metric_framework_figure_rmse_source.csv',index=False)
     budget=pd.read_csv(root/'downstream_metric_framework/exact_mse_budgets_with_external.csv')
-    cols=pd.read_csv(ARC/'02_EVIDENCE/tables/downstream_metric_framework_figure_budget_source.csv',nrows=0).columns.tolist()
+    cols=pd.read_csv(ARC/'evidence/tables/downstream_metric_framework_figure_budget_source.csv',nrows=0).columns.tolist()
     budget.loc[budget.scope.eq('hourly'),cols].sort_values('sample').to_csv(out/'downstream_metric_framework_figure_budget_source.csv',index=False)
     shutil.copyfile(root/'downstream_metric_framework/exact_mse_budgets_with_external.csv',out/'exact_mse_budgets_with_external.csv')
 if __name__=='__main__':
  out=CASE/'si_tables';out.mkdir(parents=True,exist_ok=True)
  root=CASE/'outputs/grl_deepening_2026'
  stage_tables(CASE,out);selection(root,out);plotting_sources(CASE,root)
- chronology=pd.read_csv(ROOT/'02_EVIDENCE/si_tables/fixed_interval_chronology.csv')
+ chronology=pd.read_csv(ROOT/'evidence/si_tables/fixed_interval_chronology.csv')
  si.build_uncertainty_gate(CASE,chronology).to_csv(out/'uncertainty_gate_2026_by_cohort_event.csv',index=False)
  print('REPRODUCED_CURRENT_NUMERICAL_TABLES',out)

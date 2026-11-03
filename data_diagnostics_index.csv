@@ -1,0 +1,30 @@
+section,path,description,bytes,sha256
+Main Table 1; Methods 2.1,evidence/si_tables/fixed_interval_chronology.csv,"Exact calendar windows, platform roles and design identifiers",14612,f7ff56c319b01b2fcff78b8701a59a5af893977700184d2e14f350c9af1d1c7b
+Main Table 1; Methods 2.1,evidence/si_tables/fixed_city_candidate_metadata.csv,Candidate city/support metadata,25987,a326b15d279edd704c2c122d7cbb3db7532cad8d1e4fd9c086af07c705b64b9d
+Methods 2.1; cohort provenance,evidence/cohort_provenance/index.csv,"Upstream source hashes and roles; parent inventory, grouping and pilot exclusions",2423,648b0a9fbf6b905073d412e888ab5c37f338dce3215a1a2f7417cc4b3db5e41b
+Methods 2.1; cohort provenance,evidence/cohort_provenance/parent_city_base/panel_city_base_corrected.csv,5541-city parent inventory; mean support and grouping labels,176038,f75e50a3010c5be0a171c5491742d319ee32532f549cc45bb9a88de5e9d98c04
+Methods 2.1; cohort provenance,evidence/cohort_provenance/select_confirmation/prepare_goes_sunset_confirmation.py,Higher-support complete-covariate/pilot exclusion rules,6028,57e315328123a74ea2cc400e6f98df9c06ae3b0ea6bdeb3efcef02f7eb0eeaa7
+Methods 2.1; cohort provenance,evidence/cohort_provenance/select_lower/prepare_goes19_2025_low_green_validation.py,Lower-support/geographic candidate rules,5119,02d9b50fd2bef04fd7a7a99e01cc474fea597b64eecedf9c82ed64d035835e3e
+Methods 2.3; Figure 2,evidence/si_tables/model_selection_summary.csv,Complete candidate scores and one-standard-error selection,4195,902d2ae798345089ee65f4461e8b913178bab6acd6d6c371e1b9fe6793268ad6
+Methods 2.3; historical offsets,evidence/si_tables/external_hour_offsets_2019_2020.csv,Fitted core/ring hour offsets and calibration support,622,f95a9af959eeaced7cc20917f56b6f7c42bd0ff5e3fa45c7b43a95ffc5f267bb
+Methods 2.3; fitted models,evidence/analysis_outputs/multiplatform_harmonization/frozen_harmonization_model.joblib,Initial serialized harmonization model; calibration data only,343,865db036d7b70762b3528dd26100cfb64947f0d3602a7c2c789256645eee9f5d
+Methods 2.3; fitted models,evidence/analysis_outputs/goes18_goes19_metric_harmonization/frozen_metric_aware_model.joblib,2025-calibrated final selector and fitted component models,2653,db6cfc91c55edf840cd857361b5f1c93b6cddcd01474504e5049cb0a82b566bc
+Results 3.1; Figure 3,evidence/tables/cross_sample_rmse_with_external.csv,All five cohort RMSE comparisons,1385,a138af0819125353c9cda3e7c7995b8384c786e096a6bd351ddc4a442a1880ee
+Results 3.2; SI S1,evidence/tables/exact_mse_budgets_with_external.csv,Hourly and transition MSE components and exact identity closure,6277,ad0b71bc58cf48374e4c415ae17b31c51fe3d1a40bc928715d3cabf67c3df631
+Methods 2.6; Figures 3–5,evidence/bootstrap/mse_budget_2026_crossed_bootstrap.parquet,5000 crossed city–interval resamples of fixed final models,2034433,6c19bf7fe087e7546048752f405c6d3fe48dabfed016e95f89699e4e55a9686d
+Methods 2.6; Figure 5,evidence/external_replication/validation_2021_bootstrap_summary.csv,Historical 2021 uncertainty summaries,1806,c425bf99f5069ad373a17ef0107a92006089cb595cfb02650cc3588a56318a0f
+Methods 2.6; Results 3.4; SI S5,REVIEWER_DIAGNOSTICS.md,Direct index to every physical diagnostic dimension and supporting source,6640,b0cde8c81944246d13e69a9aa210cb1535b18be0724756c29c2485c559fe5e8f
+Methods 2.7; Results 3.5; SI S2,evidence/quality/component_and_contrast_metrics.csv,"Recommended/strict-quality metrics, including restricted three-city comparisons",6397,0cfe88267ec9a9ecac1d39933bb44fc88d3b40523b38d6ecfd735d333fc85525
+Methods 2.7; Results 3.5; SI S2,evidence/native/native_cloud_sensitivity.csv,Eight selected-date cloud-mask/buffer comparisons; scan support,3364,057a8c8b51b5bf8fe7ca4a73de08475c0dafc5f1f9336600e67d0a2ae3f2e328
+Methods 2.7; SI S4,evidence/surface/full_metrics.csv,Historical raw-product station metrics,5339,c6a9f7ae9f979a683e1e9a1b9e1a544c7d7249c9bf6e34b8a71c6a65d3d7eaa3
+Methods 2.7; SI S4,evidence/surface/modern/compact_station_metrics.csv,2025/2026 raw GOES-18/19 station benchmark metrics,1394,e54e5f0b2c4aacd950044b5585cafc1a092e4ac9bccbe3e8c380261ab631de63
+Methods 2.7; SI S4,evidence/surface/modern/native_source_manifest.csv,Exact modern satellite source-object names and support,164636,966ecdbf322efaa09416d957b66a07baca807e3f657ab1018d5d813786f517f6
+Methods 2.7; SI S4,evidence/surface/modern/ground_source_manifest.csv,Ground data provenance and source files,32998,21ce4f0c947aee3751bcc6410a3da75d48d5f92e882ec3cba9f6c23cb9bb49f9
+Ground sensitivity; emissivity scope,evidence/surface/modern/modern_ground_sensitivity.csv,Ground radiometry/emissivity scenarios; no ABI retrieval-input perturbation,4708,ac4ee67d81f80457d9dfba520279d2dcbefd9c9eb7359369cc868a8692db3889
+SI S1–S5,evidence/si_tables/table_s1_publication.csv,Compact publication S1; S2–S5 are in the same directory,763,af1008df0e30177072bf79d7ca2fb3ab82591a6472df8050df3bec0ba1e81ef2
+Offline scientific reproduction,scripts/reproduce.py,Portable processed-data fitting/evaluation and bootstrap pipeline,9070,33a74b6268343c28e939a35ea56701100a4cb6dbad609ff3ec1cc7d4d4952a7b
+Modern station reproduction,scripts/reproduce_modern_surface.py,Modern benchmark recomputation; random seed20261029 is explicit here,5205,c6179dffc03e7d72a6808597d59f82812c44527953fd0da6a4de2172f0e22913
+Model/software configuration,requirements.txt,Pinned direct dependencies,246,10c9d3aaa46ac061d2fd89f11be77373a770e656d7eab81ffa7753782823c2ef
+Model/software configuration,requirements-lock.txt,Full tested offline environment,763,5d180bc371c63d5bf139c6e43d197233dba3673c7f1a60cacc5cee67aeefcf12
+Model/software configuration,environment.yml,Conda-style Python and dependency specification,123,20f4f9d1d820e8a0b98624b6ad6e699dbb45b4b43338f973f7b803a2d0d956e7
+Source manifests; reproducibility,evidence/reproducibility/input_manifest.json,Input identities and scientific reproduction evidence,12596,a91def1ced745d0d12f67a31959129963eeef38b4008f8cf5e126400bd8c3751

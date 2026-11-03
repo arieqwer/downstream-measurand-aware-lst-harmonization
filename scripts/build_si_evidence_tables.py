@@ -3,8 +3,8 @@
 
 The script reads only frozen inputs and completed analysis outputs from the
 original research workspace.  It never modifies that workspace.  All derived
-tables are written to ``02_EVIDENCE/si_tables`` and byte-for-byte copies of the
-relevant frozen manifests are written to ``04_PROTOCOLS/frozen_inputs``.
+tables are written to ``evidence/si_tables`` and byte-for-byte copies of the
+relevant frozen manifests are written to ``protocols/frozen_inputs``.
 """
 
 from __future__ import annotations
@@ -24,8 +24,8 @@ import pandas as pd
 MANUSCRIPT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_SOURCE_ROOT = MANUSCRIPT_ROOT.parent / "thermal_hysteresis_research"
 DEFAULT_NAME_LOOKUP = MANUSCRIPT_ROOT.parent.parent / "ucdb_city_lookup_for_event_anatomy.csv"
-DEFAULT_OUTPUT_DIR = MANUSCRIPT_ROOT / "02_EVIDENCE/si_tables"
-DEFAULT_FROZEN_INPUT_DIR = MANUSCRIPT_ROOT / "04_PROTOCOLS/frozen_inputs"
+DEFAULT_OUTPUT_DIR = MANUSCRIPT_ROOT / "evidence/si_tables"
+DEFAULT_FROZEN_INPUT_DIR = MANUSCRIPT_ROOT / "protocols/frozen_inputs"
 
 MIN_CORE_PIXELS = 3
 MIN_RING_PIXELS = 10
@@ -136,23 +136,23 @@ STAGES = (
 
 
 FROZEN_COPIES = {
-    "GOES18_2022_2024_ORIGINAL_FROZEN_SELECTION.json": (
-        "data/goes18_2022_2024_same_sensor/FROZEN_SELECTION.json"
+    "GOES18_2022_2024_ORIGINAL_frozen_selection.json": (
+        "data/goes18_2022_2024_same_sensor/frozen_selection.json"
     ),
-    "GOES18_2022_2024_EXPANSION_FROZEN_SELECTION.json": (
-        "data/goes18_2022_2024_expansion/FROZEN_SELECTION.json"
+    "GOES18_2022_2024_EXPANSION_frozen_selection.json": (
+        "data/goes18_2022_2024_expansion/frozen_selection.json"
     ),
-    "GOES18_2025_ORIGINAL_FROZEN_SELECTION.json": (
-        "data/goes18_2025_western_replication/FROZEN_SELECTION.json"
+    "GOES18_2025_ORIGINAL_frozen_selection.json": (
+        "data/goes18_2025_western_replication/frozen_selection.json"
     ),
-    "GOES18_2025_EXPANSION_FROZEN_SELECTION.json": (
-        "data/goes18_2025_expansion/FROZEN_SELECTION.json"
+    "GOES18_2025_EXPANSION_frozen_selection.json": (
+        "data/goes18_2025_expansion/frozen_selection.json"
     ),
-    "GOES18_2026_FROZEN_SELECTION.json": (
-        "data/goes18_2026_metric_holdout/FROZEN_SELECTION.json"
+    "GOES18_2026_frozen_selection.json": (
+        "data/goes18_2026_metric_holdout/frozen_selection.json"
     ),
-    "GOES19_2026_FROZEN_SELECTION.json": (
-        "data/goes19_2026_metric_holdout/FROZEN_SELECTION.json"
+    "GOES19_2026_frozen_selection.json": (
+        "data/goes19_2026_metric_holdout/frozen_selection.json"
     ),
     "INITIAL_HARMONIZATION_FROZEN_MANIFEST.json": (
         "outputs/grl_deepening_2026/multiplatform_harmonization/frozen_harmonization_manifest.json"
@@ -458,7 +458,7 @@ def build_interval_chronology(source_root: Path) -> pd.DataFrame:
             "GOES18",
             "GOES16",
             "model_derivation_original_and_spatial_evaluation_expansion",
-            "MULTIPLATFORM_HARMONIZATION_PROTOCOL.md; MULTIPLATFORM_EXPANDED_VALIDATION_PROTOCOL.md",
+            "multiplatform_harmonization_protocol.md; multiplatform_expanded_validation_protocol.md",
         ),
         canonical_intervals(
             source_root,
@@ -467,7 +467,7 @@ def build_interval_chronology(source_root: Path) -> pd.DataFrame:
             "GOES18",
             "GOES19",
             "initial_model_evaluation_and_metric_aware_calibration",
-            "GOES19_2025_TEMPORAL_SENSOR_HOLDOUT_PROTOCOL.md; GOES18_GOES19_METRIC_AWARE_HARMONIZATION_PROTOCOL.md",
+            "goes19_2025_temporal_sensor_holdout_protocol.md; goes18_goes19_metric_aware_harmonization_protocol.md",
         ),
         canonical_intervals(
             source_root,
@@ -476,7 +476,7 @@ def build_interval_chronology(source_root: Path) -> pd.DataFrame:
             "GOES18",
             "GOES19",
             "prospective_temporal_holdout",
-            "GOES18_GOES19_METRIC_AWARE_HARMONIZATION_PROTOCOL.md",
+            "goes18_goes19_metric_aware_harmonization_protocol.md",
         ),
         canonical_intervals(
             source_root,
@@ -485,7 +485,7 @@ def build_interval_chronology(source_root: Path) -> pd.DataFrame:
             "GOES17",
             "GOES16",
             "external_calibration_or_validation",
-            "GOES17_GOES16_EXTERNAL_METRIC_REPLICATION_PROTOCOL.md",
+            "goes17_goes16_external_metric_replication_protocol.md",
         ),
     ]
     result = pd.concat(frames, ignore_index=True)
@@ -801,42 +801,42 @@ def build_uncertainty_gate(source_root: Path, chronology: pd.DataFrame) -> pd.Da
 def validate_frozen_hashes(source_root: Path) -> dict[str, bool]:
     checks = {
         "original_city_hash": (
-            "data/goes18_2022_2024_same_sensor/FROZEN_SELECTION.json",
+            "data/goes18_2022_2024_same_sensor/frozen_selection.json",
             "cities",
             "data/goes18_2022_2024_same_sensor/goes_sunset_cities.csv",
         ),
         "expansion_city_hash": (
-            "data/goes18_2022_2024_expansion/FROZEN_SELECTION.json",
+            "data/goes18_2022_2024_expansion/frozen_selection.json",
             "cities",
             "data/goes18_2022_2024_expansion/goes_sunset_cities.csv",
         ),
         "combined_2026_city_hash": (
-            "data/goes18_2026_metric_holdout/FROZEN_SELECTION.json",
+            "data/goes18_2026_metric_holdout/frozen_selection.json",
             "cities",
             "data/goes18_2026_metric_holdout/goes_sunset_cities.csv",
         ),
         "historical_interval_hash": (
-            "data/goes18_2022_2024_same_sensor/FROZEN_SELECTION.json",
+            "data/goes18_2022_2024_same_sensor/frozen_selection.json",
             "intervals",
             "data/goes18_2022_2024_same_sensor/goes18_2022_2024_intervals.csv",
         ),
         "2025_interval_hash": (
-            "data/goes18_2025_western_replication/FROZEN_SELECTION.json",
+            "data/goes18_2025_western_replication/frozen_selection.json",
             "intervals",
             "data/goes18_2025_western_replication/goes18_2025_intervals.csv",
         ),
         "2026_interval_hash": (
-            "data/goes18_2026_metric_holdout/FROZEN_SELECTION.json",
+            "data/goes18_2026_metric_holdout/frozen_selection.json",
             "intervals",
             "data/goes18_2026_metric_holdout/goes_sunset_intervals.csv",
         ),
         "external_city_hash": (
-            "data/goes17_2019_2021_external_metric/FROZEN_SELECTION.json",
+            "data/goes17_2019_2021_external_metric/frozen_selection.json",
             "cities",
             "data/goes17_2019_2021_external_metric/goes_sunset_cities.csv",
         ),
         "external_interval_hash": (
-            "data/goes17_2019_2021_external_metric/FROZEN_SELECTION.json",
+            "data/goes17_2019_2021_external_metric/frozen_selection.json",
             "intervals",
             "data/goes17_2019_2021_external_metric/goes_sunset_intervals.csv",
         ),

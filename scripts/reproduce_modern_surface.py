@@ -8,7 +8,7 @@ import argparse,json
 import numpy as np,pandas as pd
 
 parser=argparse.ArgumentParser()
-parser.add_argument('--data-dir',type=Path,default=Path(__file__).resolve().parents[1]/'02_EVIDENCE/surface/modern')
+parser.add_argument('--data-dir',type=Path,default=Path(__file__).resolve().parents[1]/'evidence/surface/modern')
 parser.add_argument('--output-dir',type=Path,required=True)
 parser.add_argument('--verify-against',type=Path)
 args=parser.parse_args();D=args.data_dir;O=args.output_dir;O.mkdir(parents=True,exist_ok=True)

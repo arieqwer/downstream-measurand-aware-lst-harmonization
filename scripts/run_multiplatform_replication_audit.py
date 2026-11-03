@@ -728,7 +728,7 @@ def main() -> None:
     agreement.to_csv(OUT / "paired_agreement_summary.csv", index=False)
 
     report = {
-        "protocol": str(ROOT / "MULTIPLATFORM_REPLICATION_AUDIT_PROTOCOL.md"),
+        "protocol": str(ROOT / "multiplatform_replication_audit_protocol.md"),
         "agreements": agreements,
         "wild_tests": wild.to_dict(orient="records"),
     }

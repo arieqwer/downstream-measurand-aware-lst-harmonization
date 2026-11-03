@@ -11,7 +11,7 @@ from analyze_downstream_metric_framework import mse_budget
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PROTOCOL = ROOT / "GOES17_GOES16_EXTERNAL_METRIC_REPLICATION_PROTOCOL.md"
+PROTOCOL = ROOT / "goes17_goes16_external_metric_replication_protocol.md"
 DATA16 = ROOT / "data/goes16_2019_2021_external_metric"
 DATA17 = ROOT / "data/goes17_2019_2021_external_metric"
 OUT = ROOT / "outputs/grl_deepening_2026/goes17_goes16_external_metric"
@@ -400,8 +400,8 @@ def main() -> None:
             "protocol": sha256(PROTOCOL),
             "goes16": sha256(DATA16 / "goes_sunset_hourly.parquet"),
             "goes17": sha256(DATA17 / "goes_sunset_hourly.parquet"),
-            "goes16_manifest": sha256(DATA16 / "FROZEN_SELECTION.json"),
-            "goes17_manifest": sha256(DATA17 / "FROZEN_SELECTION.json"),
+            "goes16_manifest": sha256(DATA16 / "frozen_selection.json"),
+            "goes17_manifest": sha256(DATA17 / "frozen_selection.json"),
         },
         "calibration": {
             "years": [2019, 2020],
