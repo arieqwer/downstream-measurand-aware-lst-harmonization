@@ -1,1 +1,0 @@
-Historical 29 October author integration record, retained for original reviewer wording and repair history. Its old SI numbering, provisional line numbers and workspace-relative links are dated provenance and are superseded by the current four-table SI and06_SUBMISSION/REVISION_CHANGE_RECORD.md. Use the current package file map and MANIFEST.json for portable evidence locations.
