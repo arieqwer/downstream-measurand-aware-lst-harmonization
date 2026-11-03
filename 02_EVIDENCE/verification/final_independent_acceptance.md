@@ -1,8 +1,6 @@
-# Independent repair acceptance — 29 October 2026
+# Independent repair acceptance
 
 **Both newly discovered preprocessing issues pass independent acceptance within the manuscript's affected scientific pipeline.** Local sunset dates are now allocated to their intended intervals, and the fixed polygons are represented by their complete native-grid pixel-centre support. All twelve affected extraction datasets and the downstream calibration/evaluation stages were checked. This statement concerns the two repairs; it does not imply that every scientific validation criterion is satisfied.
-
-No original file, raw provider file, prior fitted model or Word document was changed by this verification. All verifier code and evidence are confined to this directory. A final hash check confirms **299 protected files unchanged, including all five Word files**.
 
 ## Independent baseline and negative controls
 
