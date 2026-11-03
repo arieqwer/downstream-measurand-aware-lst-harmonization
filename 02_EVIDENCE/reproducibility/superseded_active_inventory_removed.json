@@ -1,6 +1,0 @@
-[
-  "02_EVIDENCE/si_tables/source_provenance_manifest.csv",
-  "02_EVIDENCE/si_tables/validation_report.json",
-  "02_EVIDENCE/verification/repaired_native_CF_checks_partial.csv",
-  "02_EVIDENCE/verification/repaired_extraction_check_partial.json"
-]
