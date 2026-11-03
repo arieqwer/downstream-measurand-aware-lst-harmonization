@@ -1,6 +1,0 @@
-Collecting pyshp==2.3.1
-  Downloading pyshp-2.3.1-py2.py3-none-any.whl (46 kB)
-Installing collected packages: pyshp
-Successfully installed pyshp-2.3.1
-WARNING: You are using pip version 21.2.4; however, version 26.0.1 is available.
-You should consider upgrading via the '/Users/apple/Downloads/RS revision 1/continuation_20261029/release/clean_environment/bin/python -m pip install --upgrade pip' command.
