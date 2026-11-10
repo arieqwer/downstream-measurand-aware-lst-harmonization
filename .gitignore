@@ -1,7 +1,6 @@
 .venv/
 __pycache__/
 *.pyc
-outputs/reproduced/
-outputs/native_checks/
-data/native_workspace/
+outputs/
+reproducibility/
 .DS_Store

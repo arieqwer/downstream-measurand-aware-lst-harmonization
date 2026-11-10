@@ -1,9 +1,0 @@
-stage_id,analysis_role,reference_platform,source_platform,candidate_cities,analyzed_cities,excluded_cities,city_retention_fraction,fixed_intervals,hourly_city_event_rows,eligible_transition_city_events
-initial_model_derivation_original_2022_2024,model_derivation,GOES18,GOES16,51,44,7,0.8627450980392157,31,13441,1351.0
-initial_model_evaluation_expansion_2022_2024,spatial_transfer_evaluation,GOES18,GOES16,43,31,12,0.7209302325581395,31,9216,892.0
-initial_model_evaluation_original_2025,temporal_sensor_evaluation,GOES18,GOES19,51,44,7,0.8627450980392157,10,4191,437.0
-initial_model_evaluation_expansion_2025,spatiotemporal_sensor_evaluation,GOES18,GOES19,43,31,12,0.7209302325581395,10,2948,300.0
-metric_aware_calibration_combined_2025,metric_specific_model_calibration,GOES18,GOES19,94,75,19,0.7978723404255319,10,7139,737.0
-metric_aware_validation_combined_2026,prospective_temporal_holdout,GOES18,GOES19,94,75,19,0.7978723404255319,8,5716,583.0
-external_calibration_combined_2019_2020,external_hour_offset_calibration,GOES17,GOES16,75,69,6,0.92,4,2559,
-external_validation_combined_2021,external_platform_replication,GOES17,GOES16,75,69,6,0.92,4,2602,253.0

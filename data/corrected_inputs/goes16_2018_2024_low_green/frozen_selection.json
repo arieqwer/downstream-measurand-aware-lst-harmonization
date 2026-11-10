@@ -1,7 +1,0 @@
-{
-  "protocol": "/Users/apple/Downloads/nbs/thermal_hysteresis_research/goes16_2018_2024_low_green_specificity_protocol.md",
-  "n_cities": 113,
-  "n_intervals": 73,
-  "n_city_events": 8033,
-  "selection_uses_goes_outcomes": false
-}

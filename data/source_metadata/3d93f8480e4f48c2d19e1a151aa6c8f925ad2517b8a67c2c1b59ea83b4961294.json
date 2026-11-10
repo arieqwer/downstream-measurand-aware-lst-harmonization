@@ -1,9 +1,0 @@
-{
-  "source_key": "ABI-L2-LSTC/2026/160/23/OR_ABI-L2-LSTC-M6_G19_s20261602301185_e20261602303558_c20261602307289.nc",
-  "source_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-LSTC/2026/160/23/OR_ABI-L2-LSTC-M6_G19_s20261602301185_e20261602303558_c20261602307289.nc",
-  "nominal_subpoint_lon": -75.19999694824219,
-  "nominal_subpoint_lat": 0.0,
-  "nominal_height_km": 35786.0234375,
-  "native_path": "/Users/apple/Downloads/RS revision 1/repair_20261029/pipeline/repaired/outputs/grl_deepening_2026/multiplatform_replication_audit/raw_metadata/noaa-goes19/OR_ABI-L2-LSTC-M6_G19_s20261602301185_e20261602303558_c20261602307289.nc",
-  "native_sha256": "563fc90287fb7e679ffe1b8dbb9d647cb4a3f884b633a08c6f0b1b49b3e2fcff"
-}

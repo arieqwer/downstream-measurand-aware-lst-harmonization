@@ -1,4 +1,0 @@
-Cohort,n,Coverage count; %,Sign support count; %,Sign agreement count; %,Coverage / sign criteria
-Combined,583,524/583; 89.9%,186/583; 31.9%,176/186; 94.6%,Pass / Pass
-Original,345,336/345; 97.4%,100/345; 29.0%,100/100; 100.0%,Fail / Pass
-Expansion,238,188/238; 79.0%,86/238; 36.1%,76/86; 88.4%,Fail / Fail
