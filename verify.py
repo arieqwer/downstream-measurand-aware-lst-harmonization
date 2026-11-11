@@ -1,4 +1,3 @@
-"""Verify the small public results package using the Python standard library."""
 from pathlib import Path
 import csv,hashlib,json,math,sys
 ROOT=Path(__file__).resolve().parent
